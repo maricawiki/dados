@@ -1,0 +1,66 @@
+{
+  "id": "EDU-001",
+  "titulo": "Matrículas no ensino fundamental — redes públicas e privadas",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "social",
+  "ods_referencia": "ODS 4 — Educação de qualidade",
+  "universo": "matrículas de ensino fundamental nos estabelecimentos das redes públicas e privadas localizados no município",
+  "etapas": [
+    "anos iniciais (1º ao 5º)",
+    "anos finais (6º ao 9º)"
+  ],
+  "referencias": [
+    2015,
+    2024,
+    2025
+  ],
+  "periodicidade_origem": "Censo Escolar anual; apenas três referências verificadas no relatório consultado",
+  "unidade": "matrículas (não pessoas únicas)",
+  "natureza": "dados oficiais documentais observados, sem interpolação",
+  "fonte": {
+    "instituicao": "Prefeitura Municipal de Maricá — Secretaria de Educação",
+    "titulo": "3º Relatório de Avaliação e Monitoramento do Plano Municipal de Educação 2015–2025",
+    "parte": "Meta 2, página impressa 20: Medindo o progresso",
+    "origem_citada_pelo_relatorio": "InepData — Censo Escolar",
+    "url": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776706775-relatorio-pme-2015-2025-1.pdf"
+  },
+  "fonte_primaria": {
+    "instituicao": "INEP",
+    "titulo": "Sinopses Estatísticas da Educação Básica 2015, 2024 e 2025",
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+    "status": "série utilizada é a compilação documental do PME; reextração direta da Sinopse para Maricá permanece pendente"
+  },
+  "series": [
+    {
+      "ano": 2015,
+      "total": 19811,
+      "anos_iniciais": 11748,
+      "anos_finais": 8063,
+      "escolas": 83
+    },
+    {
+      "ano": 2024,
+      "total": 26957,
+      "anos_iniciais": 14452,
+      "anos_finais": 12505,
+      "escolas": 82
+    },
+    {
+      "ano": 2025,
+      "total": 27703,
+      "anos_iniciais": 14772,
+      "anos_finais": 12931,
+      "escolas": 117
+    }
+  ],
+  "limites": [
+    "O gráfico contém exclusivamente as referências 2015, 2024 e 2025 encontradas no quadro da Meta 2. Não representa observações anuais entre essas datas.",
+    "O universo contempla redes públicas e privadas. Não confundir com matrículas exclusivamente da rede municipal, nem com o conjunto de toda a educação básica.",
+    "A contagem de matrículas não deve ser interpretada automaticamente como número de alunos únicos, nem como taxa de escolarização.",
+    "Comparações de unidades escolares ao longo de 2015–2025 dependem da mesma cobertura e definição censitária.",
+    "No Censo Escolar, a matrícula é referência do ano; não é previsão futura."
+  ],
+  "conferencia": "2026-11-15",
+  "arquivo": "EDU-001.csv"
+}

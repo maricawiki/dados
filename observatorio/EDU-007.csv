@@ -1,0 +1,11 @@
+ano,total_percentual,municipal_percentual,estadual_percentual,federal_percentual,privada_percentual,fonte_ano
+2016,9.3,11.7,,,3.4,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2016/TDI_2016_MUNICIPIOS.zip
+2017,8.3,9.8,,,3.5,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2017/TDI_2017_MUNICIPIOS.zip
+2018,7.6,8.9,,,3.9,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2018/TDI_2018_MUNICIPIOS.zip
+2019,6.2,7.2,,,3.1,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2019/TDI_2019_MUNICIPIOS.zip
+2020,4.7,5.6,,,1.6,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2020/TDI_2020_MUNICIPIOS.zip
+2021,4.3,4.9,,,2.1,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2021/TDI_2021_MUNICIPIOS.zip
+2022,4.8,5,,,3.8,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2022/TDI_2022_MUNICIPIOS.zip
+2023,5.5,5.7,,,4.9,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/TDI_2023_MUNICIPIOS.zip
+2024,5.2,5.1,,,5.5,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2024/TDI_2024_MUNICIPIOS.zip
+2025,3.8,4.5,,,0.9,https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_MUNICIPIOS.zip

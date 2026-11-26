@@ -1,0 +1,51 @@
+{
+  "id": "SAU-006",
+  "titulo": "Taxa bruta de natalidade — anos censitários",
+  "municipio": "Maricá, Rio de Janeiro",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "social",
+  "funcao_governo_tematica": "10 — Saúde",
+  "tipo": "indicador calculado exclusivamente com observações oficiais",
+  "unidade": "nascidos vivos por mil habitantes (‰)",
+  "periodicidade": "censitária para esta publicação",
+  "periodos": [
+    2010,
+    2022
+  ],
+  "formula": "(nascidos_vivos_de_maes_residentes / populacao_residente_censitaria) * 1000",
+  "fontes": [
+    {
+      "id": "SAU-004",
+      "arquivo": "SAU-004.csv",
+      "instituicao": "SES-RJ / SINASC",
+      "url": "https://www.saude.rj.gov.br/informacao-sus/dados-sus/2020/10/estatisticas-vitais-obitos-e-nascimentos-sim-e-sinasc"
+    },
+    {
+      "id": "DEM-001",
+      "arquivo": "DEM-001.csv",
+      "instituicao": "IBGE / Censos 2010 e 2022",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    }
+  ],
+  "ressalvas": [
+    "Valores de 2010 e 2022 utilizam a população recenseada do respectivo ano; não constituem série anual contínua.",
+    "Não utilizar estimativas populacionais não censitárias nem interpolar anos ausentes.",
+    "O SINASC pode passar por revisões retroativas; a base mantém os registros estaduais conferidos em 14/11/2026.",
+    "A taxa pode sofrer efeitos de mudanças na composição etária; não é equivalente à taxa de fecundidade."
+  ],
+  "conferencia": "2026-11-15",
+  "serie": [
+    {
+      "ano": 2010,
+      "nascidos_vivos": 1427,
+      "populacao_residente": 127461,
+      "taxa_por_mil": 11.195581
+    },
+    {
+      "ano": 2022,
+      "nascidos_vivos": 2143,
+      "populacao_residente": 197277,
+      "taxa_por_mil": 10.862898
+    }
+  ]
+}

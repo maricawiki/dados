@@ -1,0 +1,159 @@
+{
+  "id": "EDU-002",
+  "titulo": "Matrículas na educação infantil — creche e pré-escola",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "social",
+  "ods": "ODS 4 — Educação de qualidade",
+  "periodicidade": "anual",
+  "referencia": [
+    2014,
+    2025
+  ],
+  "total_anos": 12,
+  "etapas": [
+    {
+      "codigo": "creche",
+      "faixa_etaria": "0 a 3 anos"
+    },
+    {
+      "codigo": "pre-escola",
+      "faixa_etaria": "4 a 5 anos"
+    }
+  ],
+  "unidade": "matrículas",
+  "redes": "pública e privada, conforme o relatório do PME e sua fonte InepData/Censo Escolar",
+  "fonte": {
+    "instituicao": "Prefeitura Municipal de Maricá, Secretaria de Educação",
+    "documento": "3º Relatório de Avaliação e Monitoramento do PME 2015–2025",
+    "tabelas": "Meta 1, página impressa 8: tabelas 1 e 2 (2014–2024). Página impressa 6: quadro 'Medindo o Progresso' (totais 2015, 2024, 2025).",
+    "fonte_citada": "InepData — Censo Escolar",
+    "consulta_mencionada": "27/06/2025 para tabelas 2014–2024",
+    "url": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776706775-relatorio-pme-2015-2025-1.pdf"
+  },
+  "fonte_primaria": {
+    "instituicao": "INEP",
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+    "observacao": "Valores compilados no relatório municipal; reextração direta dos microdados para todas as referências está pendente."
+  },
+  "serie": [
+    {
+      "ano": 2014,
+      "creche_total": 1437,
+      "creche_publica": 846,
+      "creche_privada": 591,
+      "pre_escola_total": 3096,
+      "pre_escola_publica": 2098,
+      "pre_escola_privada": 998
+    },
+    {
+      "ano": 2015,
+      "creche_total": 1330,
+      "creche_publica": 739,
+      "creche_privada": 591,
+      "pre_escola_total": 3228,
+      "pre_escola_publica": 2360,
+      "pre_escola_privada": 868
+    },
+    {
+      "ano": 2016,
+      "creche_total": 1119,
+      "creche_publica": 578,
+      "creche_privada": 541,
+      "pre_escola_total": 3533,
+      "pre_escola_publica": 2570,
+      "pre_escola_privada": 963
+    },
+    {
+      "ano": 2017,
+      "creche_total": 1173,
+      "creche_publica": 697,
+      "creche_privada": 476,
+      "pre_escola_total": 3472,
+      "pre_escola_publica": 2657,
+      "pre_escola_privada": 815
+    },
+    {
+      "ano": 2018,
+      "creche_total": 1336,
+      "creche_publica": 835,
+      "creche_privada": 501,
+      "pre_escola_total": 3885,
+      "pre_escola_publica": 2933,
+      "pre_escola_privada": 952
+    },
+    {
+      "ano": 2019,
+      "creche_total": 1648,
+      "creche_publica": 1215,
+      "creche_privada": 433,
+      "pre_escola_total": 3704,
+      "pre_escola_publica": 2847,
+      "pre_escola_privada": 857
+    },
+    {
+      "ano": 2020,
+      "creche_total": 2605,
+      "creche_publica": 2186,
+      "creche_privada": 419,
+      "pre_escola_total": 3447,
+      "pre_escola_publica": 2651,
+      "pre_escola_privada": 796
+    },
+    {
+      "ano": 2021,
+      "creche_total": 2992,
+      "creche_publica": 2668,
+      "creche_privada": 324,
+      "pre_escola_total": 4074,
+      "pre_escola_publica": 3388,
+      "pre_escola_privada": 686
+    },
+    {
+      "ano": 2022,
+      "creche_total": 3284,
+      "creche_publica": 2789,
+      "creche_privada": 495,
+      "pre_escola_total": 4718,
+      "pre_escola_publica": 3947,
+      "pre_escola_privada": 771
+    },
+    {
+      "ano": 2023,
+      "creche_total": 3589,
+      "creche_publica": 2847,
+      "creche_privada": 742,
+      "pre_escola_total": 5113,
+      "pre_escola_publica": 4171,
+      "pre_escola_privada": 942
+    },
+    {
+      "ano": 2024,
+      "creche_total": 3751,
+      "creche_publica": 3024,
+      "creche_privada": 727,
+      "pre_escola_total": 5349,
+      "pre_escola_publica": 4332,
+      "pre_escola_privada": 1017
+    },
+    {
+      "ano": 2025,
+      "creche_total": 3695,
+      "creche_publica": null,
+      "creche_privada": null,
+      "pre_escola_total": 5367,
+      "pre_escola_publica": null,
+      "pre_escola_privada": null
+    }
+  ],
+  "limites": [
+    "Em 2025, o relatório publica os totais 3.695 (creche) e 5.367 (pré-escola), sem discriminá-los entre redes pública e privada. Os campos estão nulos, não zero.",
+    "As matrículas são contagens administrativas e podem não corresponder ao número de estudantes únicos.",
+    "O indicador não mede cobertura da população de 0 a 5 anos, taxa de atendimento ou quantidade de vagas em lista de espera.",
+    "Somente dados observados: não há projeções para 2026 ou intervalos interpolados.",
+    "A matrícula em rede pública não equivale necessariamente à matrícula exclusivamente na rede administrada pela Prefeitura, em virtude das diferentes classificações educacionais."
+  ],
+  "data_conferencia": "2026-11-15",
+  "status": "publicacao_documental_rede_pública_privada",
+  "arquivo_csv": "EDU-002.csv"
+}

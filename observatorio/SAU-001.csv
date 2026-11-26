@@ -1,0 +1,22 @@
+data_consulta,codigo_ibge,tipo_unidade_cnes,tipo_unidade_descricao,estabelecimentos_ativos,participacao_percentual
+2026-11-14,330270,22,"Consultório isolado",57,26.51
+2026-11-14,330270,36,"Clínica / centro de especialidade",51,23.72
+2026-11-14,330270,02,"Centro de saúde / unidade básica",28,13.02
+2026-11-14,330270,39,"Unidade de apoio a diagnóstico e terapia (SADT isolado)",22,10.23
+2026-11-14,330270,43,"Farmácia",16,7.44
+2026-11-14,330270,04,"Policlínica",7,3.26
+2026-11-14,330270,42,"Unidade móvel pré-hospitalar de urgência",7,3.26
+2026-11-14,330270,70,"Centro de atenção psicossocial (CAPS)",3,1.40
+2026-11-14,330270,85,"Centro de imunização",3,1.40
+2026-11-14,330270,05,"Hospital geral",2,0.93
+2026-11-14,330270,50,"Unidade de vigilância em saúde",2,0.93
+2026-11-14,330270,68,"Central de gestão em saúde",2,0.93
+2026-11-14,330270,73,"Pronto atendimento",2,0.93
+2026-11-14,330270,74,"Polo Academia da Saúde",2,0.93
+2026-11-14,330270,77,"Serviço de atenção domiciliar isolado",2,0.93
+2026-11-14,330270,81,"Central de regulação do acesso",2,0.93
+2026-11-14,330270,83,"Polo de prevenção e promoção da saúde",2,0.93
+2026-11-14,330270,84,"Central de abastecimento",2,0.93
+2026-11-14,330270,40,"Unidade móvel terrestre",1,0.47
+2026-11-14,330270,62,"Hospital-dia isolado",1,0.47
+2026-11-14,330270,67,"Laboratório central de saúde pública (LACEN)",1,0.47

@@ -1,0 +1,116 @@
+{
+  "id": "EDU-005",
+  "titulo": "IDEB — anos finais do ensino fundamental",
+  "tema": "Educação",
+  "dimensao_sustentavel": "social",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "rede": "Municipal",
+  "etapa": "6º ao 9º ano",
+  "unidade": "pontos (escala 0 a 10)",
+  "inicio": 2005,
+  "fim": 2023,
+  "anos": [
+    2005,
+    2007,
+    2009,
+    2011,
+    2013,
+    2015,
+    2017,
+    2019,
+    2021,
+    2023
+  ],
+  "periodicidade": "bienal",
+  "indicador": "Índice de Desenvolvimento da Educação Básica (IDEB), anos do ensino fundamental",
+  "fontes": [
+    {
+      "instituicao": "Prefeitura Municipal de Maricá — Secretaria de Educação",
+      "titulo": "3º Relatório de Avaliação e Monitoramento do Plano Municipal de Educação (2015–2025)",
+      "descricao": "Tabela IDEB da Rede Municipal (6º ao 9º ano), página 78, compilada da plataforma QEdu.org.br com base em dados INEP",
+      "url": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776706775-relatorio-pme-2015-2025-1.pdf"
+    },
+    {
+      "instituicao": "INEP/MEC",
+      "titulo": "Resultados IDEB 2005–2025 — municípios, ensino fundamental",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados/2005-2025"
+    }
+  ],
+  "revisao": "2026-11-14",
+  "status": "validacao_documental_municipal_ate_2023",
+  "metodologia": [
+    "O Ideb combina a taxa de aprovação com resultados padronizados da avaliação Saeb, calculado e divulgado pelo Inep.",
+    "A escala é de 0 a 10; não é porcentagem nem média aritmética simples dos resultados das escolas.",
+    "O recorte adotado é a rede municipal de Maricá, distinto das redes pública, estadual, federal ou privada.",
+    "Os registros 2005–2023 foram recuperados do documento oficial municipal, que cita QEdu como fonte dos dados originais do Inep.",
+    "O Inep já divulgou a edição de 2025, mas as planilhas dessa edição não puderam ser baixadas para confrontar a série; o valor de 2025 não foi incorporado.",
+    "Revisões e alterações do instrumento de avaliação devem ser documentadas. Valores ausentes não podem ser substituídos por zero."
+  ],
+  "ultima_referencia_serie": 2023,
+  "metas_inep": {
+    "tipo": "metas_intermediarias_inep_rede_municipal",
+    "periodo": [
+      2007,
+      2021
+    ],
+    "periodicidade": "bienal",
+    "escala": "pontos de Ideb (0 a 10)",
+    "valores": [
+      {
+        "ano": 2007,
+        "meta": 4.2
+      },
+      {
+        "ano": 2009,
+        "meta": 4.3
+      },
+      {
+        "ano": 2011,
+        "meta": 4.6
+      },
+      {
+        "ano": 2013,
+        "meta": 5
+      },
+      {
+        "ano": 2015,
+        "meta": 5.3
+      },
+      {
+        "ano": 2017,
+        "meta": 5.6
+      },
+      {
+        "ano": 2019,
+        "meta": 5.8
+      },
+      {
+        "ano": 2021,
+        "meta": 6.1
+      }
+    ],
+    "meta_2005": null,
+    "meta_2023": null,
+    "meta_2025": null,
+    "fonte_metodologica": {
+      "instituicao": "INEP",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/metas"
+    },
+    "referencias_municipais": [
+      {
+        "descricao": "Prefeitura de Maricá, edital de 2023, tabela Evolução do IDEB, folha 300",
+        "url": "https://www.marica.rj.gov.br/wp-content/uploads/2023/05/PP_09-2023_SRP.pdf"
+      },
+      {
+        "descricao": "3º Relatório PME 2015–2025, tabelas páginas 76 e 78",
+        "url": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776706775-relatorio-pme-2015-2025-1.pdf"
+      }
+    ],
+    "ressalvas": [
+      "As metas são metas históricas intermediárias fixadas para as edições 2007–2021, não previsões inventadas pelo Maricá Wiki.",
+      "A edição 2005 é linha de base e 2023 não possui meta intermediária nessa série; não considerar ausência como descumprimento.",
+      "Os valores de metas referem-se à rede municipal de Maricá e à respectiva etapa, não à meta nacional do PNE."
+    ]
+  }
+}

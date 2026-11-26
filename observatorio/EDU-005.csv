@@ -1,0 +1,11 @@
+ano,ideb_observado,rede,etapa,municipio,fonte_documental,status_validacao_2025,meta_projetada_inep,diferenca_pontos,situacao_meta,fonte_meta
+2005,4.1,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,,,sem_meta_intermediaria,
+2007,3.9,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,4.2,-0.3,nao_atingida,pme_marica_meta_rede_municipal
+2009,4.1,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,4.3,-0.2,nao_atingida,pme_marica_meta_rede_municipal
+2011,4.0,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,4.6,-0.6,nao_atingida,pme_marica_meta_rede_municipal
+2013,3.6,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,5.0,-1.4,nao_atingida,pme_marica_meta_rede_municipal
+2015,3.9,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,5.3,-1.4,nao_atingida,pme_marica_meta_rede_municipal
+2017,4.5,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,5.6,-1.1,nao_atingida,pme_marica_meta_rede_municipal
+2019,5.1,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,5.8,-0.7,nao_atingida,pme_marica_meta_rede_municipal
+2021,5.4,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,6.1,-0.7,nao_atingida,pme_marica_meta_rede_municipal
+2023,4.6,Municipal,"6º ao 9º ano",3302700,"PME_Marica_2015_2025",aguarda_2025_INEP,,,sem_meta_intermediaria,
