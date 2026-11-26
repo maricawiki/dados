@@ -1,0 +1,13 @@
+ano,populacao_habitantes,tipo,fonte
+2014,143111,estimativa_oficial_ibge_01_julho,https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json
+2015,146549,estimativa_oficial_ibge_01_julho,https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json
+2016,149876,estimativa_oficial_ibge_01_julho,https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json
+2017,153008,estimativa_oficial_ibge_01_julho,https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json
+2018,157789,estimativa_oficial_ibge_01_julho,https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json
+2019,161207,estimativa_oficial_ibge_01_julho,https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf
+2020,164504,estimativa_oficial_ibge_01_julho,https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf
+2021,167668,estimativa_oficial_ibge_01_julho,https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf
+2022,197277,censo_demografico_2022,https://www.ibge.gov.br/cidades-e-estados/rj/marica.html
+2023,,sem_estimativa_municipal_ibge_para_2023,https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios
+2024,211986,estimativa_oficial_ibge_01_julho,https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf
+2025,212470,estimativa_oficial_ibge_01_julho,https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf

@@ -1,0 +1,71 @@
+{
+  "id": "DEM-001-HIST",
+  "indicator_id": "DEM-001",
+  "label": "Histórico dos recenseamentos de Maricá — 1872–2022",
+  "cod_municipio_atual": "3302700",
+  "count": 13,
+  "periods": [
+    {
+      "from": 1872,
+      "to": 1920,
+      "years": [
+        1872,
+        1890,
+        1900,
+        1920
+      ],
+      "concept": "populacao_presente",
+      "observation": "No padrão histórico, população presente; não misturar à série residente em taxa intercensitária."
+    },
+    {
+      "from": 1940,
+      "to": 2022,
+      "years": [
+        1940,
+        1950,
+        1960,
+        1970,
+        1980,
+        1991,
+        2000,
+        2010,
+        2022
+      ],
+      "concept": "populacao_residente",
+      "observation": "Série principal do DEM-001; em 2010 utilizar o resultado censitário 127.461 em vez de 127.519 da publicação territorial."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ibge_evolucao_1872_2010",
+      "name": "IBGE — Evolução da população segundo os municípios, 1872–2010",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/evolucao_da_divisao_territorial_do_brasil/evolucao_da_divisao_territorial_do_brasil_1872_2010/evolucao_da_populacao_segundo_os_municipios.pdf"
+    },
+    {
+      "id": "artigo_historico_1890",
+      "name": "Pesquisa histórica — censos de 1890, tabela 10, página 74",
+      "url": "https://www.rbgdr.net/revista/index.php/rbgdr/article/download/152/125"
+    },
+    {
+      "id": "ibge_censo_2010",
+      "name": "IBGE — Censo 2010, população dos municípios do Rio de Janeiro",
+      "url": "https://educa.ibge.gov.br/images/vamoscontar/recursos/mediana/Populacao_municipiosRJ_2010.pdf"
+    },
+    {
+      "id": "ibge_censo_2022",
+      "name": "IBGE — Censo 2022, Maricá",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    }
+  ],
+  "notas": [
+    "Recuperado do levantamento histórico já consolidado para o projeto Maricá Wiki em 12/11/2026.",
+    "1890: pesquisa histórica secundária, valor 10.373; permanece identificado distintamente da publicação primária do IBGE.",
+    "1872: 16.218 conforme a série do IBGE; a fonte secundária de 1890 aponta 16.308 para o ano de 1872, divergência preservada sem substituição.",
+    "2010: compilação histórica IBGE 127.519, resultado censitário adotado no Observatório 127.461; não eliminar a rastreabilidade desta diferença.",
+    "População de municípios deve ser compreendida de acordo com os limites territoriais de cada época, que não são necessariamente os atuais.",
+    "Nenhum valor foi interpolado para anos sem censo."
+  ],
+  "last_verified": "2026-11-14",
+  "status": "historical_compilation_labeled",
+  "canonical_resident_series": "DEM-001.csv"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "DEM-006",
+  "titulo": "Média de moradores por domicílio particular ocupado",
+  "codigo_ibge": "3302700",
+  "unidade": "moradores/domicílio",
+  "serie": [
+    1991,
+    2000,
+    2010,
+    2022
+  ],
+  "formula": "moradores em domicílios / domicílios ocupados da mesma classificação",
+  "fontes": [
+    {
+      "periodos": [
+        1991,
+        2000,
+        2010
+      ],
+      "url": "https://www.marica.rj.gov.br/wp-content/uploads/2022/08/plhis.pdf",
+      "descricao": "PLHIS de Maricá, tabela 8, com dados do Censo IBGE"
+    },
+    {
+      "periodos": [
+        2022
+      ],
+      "url": "https://apisidra.ibge.gov.br/values/t/9922/n6/3302700/v/381,382,5930/p/2022/c1/6795",
+      "descricao": "IBGE SIDRA 9922, variáveis 381,382,5930 — Censo 2022"
+    }
+  ],
+  "notas": [
+    "Em 1991–2010, a fonte tabula domicílios particulares ocupados (inclui improvisados); em 2022, a série disponível tabula domicílios particulares permanentes ocupados. Há diferença de universo e comparações exigem ressalva.",
+    "O resultado de 2022 é 2,68, razão de 196.864 moradores por 73.454 domicílios particulares permanentes ocupados.",
+    "Não usar população municipal total como numerador, pois moradores de domicílios coletivos ou improvisados poderiam distorcer o índice."
+  ],
+  "status": "validado_com_ressalva_de_comparabilidade"
+}

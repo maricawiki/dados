@@ -1,0 +1,34 @@
+{
+  "id": "DEM-005",
+  "titulo": "Domicílios particulares permanentes ocupados",
+  "codigo_ibge": "3302700",
+  "unidade": "domicílios",
+  "serie": [
+    2000,
+    2010,
+    2022
+  ],
+  "fontes": [
+    {
+      "periodos": [
+        2000,
+        2010
+      ],
+      "url": "https://www.marica.rj.gov.br/wp-content/uploads/2022/08/plhis.pdf",
+      "descricao": "Plano Local de Habitação de Interesse Social de Maricá, tabela 9, com dados do Censo IBGE"
+    },
+    {
+      "periodos": [
+        2022
+      ],
+      "url": "https://apisidra.ibge.gov.br/values/t/9922/n6/3302700/v/381,382,5930/p/2022/c1/6795",
+      "descricao": "IBGE SIDRA 9922, variável 381, situação total, consulta 14/11/2026"
+    }
+  ],
+  "notas": [
+    "A série considera domicílios particulares permanentes ocupados, não o total de unidades existentes nem os domicílios vagos ou de uso ocasional.",
+    "O valor 73.454 foi consultado diretamente à API SIDRA em 14/11/2026; publicação municipal preliminar anterior indicava 73.460.",
+    "A série não inclui anos sem Censo."
+  ],
+  "status": "validado_documentalmente"
+}
