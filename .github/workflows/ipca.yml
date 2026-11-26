@@ -1,0 +1,57 @@
+name: Validar e atualizar IPCA IBGE
+on:
+  pull_request:
+    paths:
+      - 'observatorio/IPCA-IBGE-1737.json'
+      - 'scripts/observatorio_ipca_atualizar.py'
+      - '.github/workflows/ipca.yml'
+  schedule:
+    - cron: '17 12 10,15,20 * *'
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: 'Atualizar a base pública (somente main)'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: ipca-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/observatorio_ipca_atualizar.py --validar
+  atualizar:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.publicar))
+    needs: validar
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python scripts/observatorio_ipca_atualizar.py --atualizar
+          python scripts/observatorio_ipca_atualizar.py --validar
+      - name: Registrar versão somente se mudou
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add observatorio/IPCA-IBGE-1737.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Observatório: atualizar IPCA oficial IBGE'
+          git push origin HEAD:main
