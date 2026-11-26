@@ -1,0 +1,175 @@
+{
+  "id": "EDU-014",
+  "titulo": "Taxa de distorção idade-série — 9º ano do ensino fundamental",
+  "dimensao_sustentavel": "social",
+  "funcao_governo_tematica": "12 — Educação",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2016–2025",
+  "variavel_inep": "FUN_09_CAT_0",
+  "unidade": "%",
+  "definicao": "Proporção percentual de matrículas com idade dois anos ou mais acima da idade recomendada para o ano ou série, em estabelecimentos escolares localizados em Maricá.",
+  "metodologia": "Taxas transcritas das planilhas oficiais anuais Inep TDI_MUNICIPIOS, recorte localização Total e dependência Total para o município 3302700. O quadro permite comparar Municipal, Estadual, Federal e Privada quando observadas; não combina percentuais entre redes por média simples.",
+  "limitacoes": "A residência do aluno pode ser diferente da localização da escola. Valor não publicado é nulo, não zero. Os exercícios de 2006 a 2015 ainda não foram incorporados à série disponível; não se projetam taxas.",
+  "fonte": {
+    "orgao": "Inep / Censo Escolar",
+    "pagina": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+    "extracao_auditada": "https://github.com/viniciusmoro79/leis/actions/runs/43749635808",
+    "arquivo_mestre": "planejamento/observatorio/fontes/inep-distorcao-marica-2016-2025.json",
+    "arquivos": [
+      {
+        "ano": 2016,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2016/TDI_2016_MUNICIPIOS.zip",
+        "sha256_zip": "1194e2e823d728be6b27e5e97951e31202952e4e17b2748810af2f25bed5f6f6"
+      },
+      {
+        "ano": 2017,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2017/TDI_2017_MUNICIPIOS.zip",
+        "sha256_zip": "e5c22963d0e04279bdb5580788e25f694b2ea819bd4c5359548cfab84340a13f"
+      },
+      {
+        "ano": 2018,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2018/TDI_2018_MUNICIPIOS.zip",
+        "sha256_zip": "8a5c613babdbd921abb08d400446348d7e007b222472b267b7ece634475deadf"
+      },
+      {
+        "ano": 2019,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2019/TDI_2019_MUNICIPIOS.zip",
+        "sha256_zip": "1f43859ed2143e2f95b0561b8e0076ad8188ba5872d4107648cadfaa402ac043"
+      },
+      {
+        "ano": 2020,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2020/TDI_2020_MUNICIPIOS.zip",
+        "sha256_zip": "7669b1e33368d25d87431c9f07fe1b31362cfd574754c6867d5d70c61e73bc82"
+      },
+      {
+        "ano": 2021,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2021/TDI_2021_MUNICIPIOS.zip",
+        "sha256_zip": "d42183db9b66dd45f30268560305bf94bfe08fc757be496678a89e9e5055b797"
+      },
+      {
+        "ano": 2022,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2022/TDI_2022_MUNICIPIOS.zip",
+        "sha256_zip": "30ca963d8accdcd7a3715e996e00720e872731d1e08491253d48304c6f263f0b"
+      },
+      {
+        "ano": 2023,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/TDI_2023_MUNICIPIOS.zip",
+        "sha256_zip": "5e32e9d6dabac1a16f10c20e75c696f953c8da4a26d284930c254bc729f4aa73"
+      },
+      {
+        "ano": 2024,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2024/TDI_2024_MUNICIPIOS.zip",
+        "sha256_zip": "921bf32207949cdc29e40554fdb68b65e914daf019ce5358054deb60401d5bdf"
+      },
+      {
+        "ano": 2025,
+        "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_MUNICIPIOS.zip",
+        "sha256_zip": "91f8f4c9f3609c7c3c9d4af9318371d6ab9c91c13e8dadeaef3e56e7a5c38a9b"
+      }
+    ]
+  },
+  "serie": [
+    {
+      "ano": 2016,
+      "total": 30.9,
+      "municipal": 35.8,
+      "estadual": 41.9,
+      "federal": null,
+      "privada": 9.8,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2016/TDI_2016_MUNICIPIOS.zip",
+      "sha256_zip": "1194e2e823d728be6b27e5e97951e31202952e4e17b2748810af2f25bed5f6f6"
+    },
+    {
+      "ano": 2017,
+      "total": 33.6,
+      "municipal": 37.9,
+      "estadual": 48.6,
+      "federal": null,
+      "privada": 9,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2017/TDI_2017_MUNICIPIOS.zip",
+      "sha256_zip": "e5c22963d0e04279bdb5580788e25f694b2ea819bd4c5359548cfab84340a13f"
+    },
+    {
+      "ano": 2018,
+      "total": 31.6,
+      "municipal": 35.8,
+      "estadual": 48.1,
+      "federal": null,
+      "privada": 9.7,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2018/TDI_2018_MUNICIPIOS.zip",
+      "sha256_zip": "8a5c613babdbd921abb08d400446348d7e007b222472b267b7ece634475deadf"
+    },
+    {
+      "ano": 2019,
+      "total": 23.9,
+      "municipal": 23.1,
+      "estadual": 39.7,
+      "federal": null,
+      "privada": 12.1,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2019/TDI_2019_MUNICIPIOS.zip",
+      "sha256_zip": "1f43859ed2143e2f95b0561b8e0076ad8188ba5872d4107648cadfaa402ac043"
+    },
+    {
+      "ano": 2020,
+      "total": 17.1,
+      "municipal": 20.8,
+      "estadual": null,
+      "federal": null,
+      "privada": 6,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2020/TDI_2020_MUNICIPIOS.zip",
+      "sha256_zip": "7669b1e33368d25d87431c9f07fe1b31362cfd574754c6867d5d70c61e73bc82"
+    },
+    {
+      "ano": 2021,
+      "total": 15.9,
+      "municipal": 18.8,
+      "estadual": null,
+      "federal": null,
+      "privada": 4.9,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2021/TDI_2021_MUNICIPIOS.zip",
+      "sha256_zip": "d42183db9b66dd45f30268560305bf94bfe08fc757be496678a89e9e5055b797"
+    },
+    {
+      "ano": 2022,
+      "total": 17.4,
+      "municipal": 20.1,
+      "estadual": null,
+      "federal": null,
+      "privada": 6,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2022/TDI_2022_MUNICIPIOS.zip",
+      "sha256_zip": "30ca963d8accdcd7a3715e996e00720e872731d1e08491253d48304c6f263f0b"
+    },
+    {
+      "ano": 2023,
+      "total": 15.2,
+      "municipal": 17.4,
+      "estadual": null,
+      "federal": null,
+      "privada": 6.1,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/TDI_2023_MUNICIPIOS.zip",
+      "sha256_zip": "5e32e9d6dabac1a16f10c20e75c696f953c8da4a26d284930c254bc729f4aa73"
+    },
+    {
+      "ano": 2024,
+      "total": 10.9,
+      "municipal": 12.2,
+      "estadual": null,
+      "federal": null,
+      "privada": 5,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2024/TDI_2024_MUNICIPIOS.zip",
+      "sha256_zip": "921bf32207949cdc29e40554fdb68b65e914daf019ce5358054deb60401d5bdf"
+    },
+    {
+      "ano": 2025,
+      "total": 11.2,
+      "municipal": 12.3,
+      "estadual": 11.1,
+      "federal": null,
+      "privada": 6.8,
+      "fonte": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_MUNICIPIOS.zip",
+      "sha256_zip": "91f8f4c9f3609c7c3c9d4af9318371d6ab9c91c13e8dadeaef3e56e7a5c38a9b"
+    }
+  ]
+}

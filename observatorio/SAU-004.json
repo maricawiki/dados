@@ -1,0 +1,204 @@
+{
+  "municipio": "Maricá, Rio de Janeiro",
+  "codigo_ibge": "330270",
+  "tema": "Saúde",
+  "dimensao_sustentavel": "social",
+  "ods_referencia": "ODS 3 — Saúde e bem-estar",
+  "periodicidade": "anual",
+  "periodo": [
+    2010,
+    2024
+  ],
+  "observacoes": 15,
+  "fonte": "Secretaria de Estado de Saúde do Rio de Janeiro — SINASC e SIM",
+  "portal_fonte": "https://www.saude.rj.gov.br/informacao-sus/dados-sus/2020/10/estatisticas-vitais-obitos-e-nascimentos-sim-e-sinasc",
+  "arquivos_origem": [
+    {
+      "ano": 2010,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2010.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2010.zip"
+    },
+    {
+      "ano": 2011,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2011.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2011.zip"
+    },
+    {
+      "ano": 2012,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2012.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2012.zip"
+    },
+    {
+      "ano": 2013,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2013.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2013.zip"
+    },
+    {
+      "ano": 2014,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2014.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2014.zip"
+    },
+    {
+      "ano": 2015,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2015.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2015.zip"
+    },
+    {
+      "ano": 2016,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2016.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2016.zip"
+    },
+    {
+      "ano": 2017,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2017.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2017.zip"
+    },
+    {
+      "ano": 2018,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2018.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2018.zip"
+    },
+    {
+      "ano": 2019,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2019.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2019.zip"
+    },
+    {
+      "ano": 2020,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2020.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2020.zip"
+    },
+    {
+      "ano": 2021,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2021.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2021.zip"
+    },
+    {
+      "ano": 2022,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2022.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2022.zip"
+    },
+    {
+      "ano": 2023,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2023.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2023.zip"
+    },
+    {
+      "ano": 2024,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2024.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2024.zip"
+    }
+  ],
+  "conferencia": "2026-11-14",
+  "tipo": "dados oficiais observados, sem interpolação",
+  "origem_referencia": [
+    "Arquivos anuais originais da SES-RJ, registros pelo município de residência",
+    "Plano Municipal de Saúde de Maricá 2026–2029, Tabela 5, página impressa 23, apenas para confronto de versões"
+  ],
+  "referencia_municipal": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776086362-pms-2026-2029-marica-1.pdf",
+  "revisoes_divergentes_entre_fontes": [
+    {
+      "ano": 2014,
+      "arquivo_estadual_atual": 1831,
+      "plano_municipal": 1823,
+      "diferenca": 8
+    },
+    {
+      "ano": 2021,
+      "arquivo_estadual_atual": 2055,
+      "plano_municipal": 2031,
+      "diferenca": 24
+    },
+    {
+      "ano": 2022,
+      "arquivo_estadual_atual": 2143,
+      "plano_municipal": 2133,
+      "diferenca": 10
+    },
+    {
+      "ano": 2023,
+      "arquivo_estadual_atual": 2193,
+      "plano_municipal": 2191,
+      "diferenca": 2
+    },
+    {
+      "ano": 2024,
+      "arquivo_estadual_atual": 2122,
+      "plano_municipal": 2120,
+      "diferenca": 2
+    }
+  ],
+  "limites": [
+    "Os números refletem a situação dos arquivos estaduais na data da consulta. Bases podem sofrer retificações posteriores.",
+    "Não incorporar anos preliminares 2025 ou 2026 à série consolidada.",
+    "Não expor registros individualizados, endereços ou identificadores pessoais."
+  ],
+  "id": "SAU-004",
+  "titulo": "Nascidos vivos",
+  "definicao": "Nascidos vivos de mães residentes em Maricá, independentemente do município de ocorrência do parto.",
+  "unidade": "nascidos vivos (pessoas)",
+  "criterio": "Contagem dos registros SINASC do arquivo anual filtrados por Parturiente - Município de residência - código = 330270.",
+  "serie": [
+    {
+      "ano": 2010,
+      "nascidos_vivos": 1427
+    },
+    {
+      "ano": 2011,
+      "nascidos_vivos": 1443
+    },
+    {
+      "ano": 2012,
+      "nascidos_vivos": 1604
+    },
+    {
+      "ano": 2013,
+      "nascidos_vivos": 1622
+    },
+    {
+      "ano": 2014,
+      "nascidos_vivos": 1831
+    },
+    {
+      "ano": 2015,
+      "nascidos_vivos": 1884
+    },
+    {
+      "ano": 2016,
+      "nascidos_vivos": 1764
+    },
+    {
+      "ano": 2017,
+      "nascidos_vivos": 1878
+    },
+    {
+      "ano": 2018,
+      "nascidos_vivos": 1971
+    },
+    {
+      "ano": 2019,
+      "nascidos_vivos": 2026
+    },
+    {
+      "ano": 2020,
+      "nascidos_vivos": 2017
+    },
+    {
+      "ano": 2021,
+      "nascidos_vivos": 2055
+    },
+    {
+      "ano": 2022,
+      "nascidos_vivos": 2143
+    },
+    {
+      "ano": 2023,
+      "nascidos_vivos": 2193
+    },
+    {
+      "ano": 2024,
+      "nascidos_vivos": 2122
+    }
+  ],
+  "arquivo": "SAU-004.csv"
+}

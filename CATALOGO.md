@@ -35,3 +35,12 @@ A cobertura registrada corresponde à versão inicial do piloto, não a uma cons
 | TRB (incluindo séries complementares ONMT) | 72 | MTE/Novo Caged, RAIS, IDR e SINE/Observatório do Trabalho/DIEESE |
 
 [Notas e ressalvas](observatorio/LOTE-03.md) · [Manifesto](observatorio/lote-03.manifest.json). Somente agregados estatísticos já existentes no portal; nenhuma transferência de microdados, documentos ou espelhos brutos de terceiros. Não houve nova coleta.
+
+## Lote 04 — Educação e Saúde
+
+| Base | Arquivos | Fonte |
+|---|---:|---|
+| EDU-001, 002, 004–017 | 32 | INEP/Censo Escolar, IDEB, relatório municipal do PME |
+| SAU-001, 002, 004–006 | 11 | Ministério da Saúde/CNES, SES-RJ/SINASC/SIM, IBGE |
+
+[Notas e ressalvas](observatorio/LOTE-04.md) · [Manifesto](observatorio/lote-04.manifest.json). Agregados municipais; sem microdados de alunos, pacientes ou profissionais. Nenhuma nova coleta.

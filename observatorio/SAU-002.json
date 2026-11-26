@@ -1,0 +1,128 @@
+{
+  "id": "SAU-002",
+  "titulo": "Leitos hospitalares de internação e UTI",
+  "tema": "Saúde",
+  "dimensao_sustentavel": "social",
+  "ods_referencia": "ODS 3 — Saúde e Bem-estar",
+  "codigo_municipio": "330270",
+  "municipio": "Maricá (RJ)",
+  "serie": {
+    "inicio": 2007,
+    "fim": 2025,
+    "observacoes": 19,
+    "periodicidade": "anual; instantâneo de dezembro",
+    "unidade": "leitos cadastrados",
+    "colunas": [
+      "leitos_internacao_existentes",
+      "leitos_internacao_sus",
+      "leitos_uti_existentes",
+      "leitos_uti_sus"
+    ],
+    "filtro": "competência YYYY12, municípios identificados pelo código IBGE 330270 ou nome Maricá + UF RJ",
+    "criterio_unidade": "contagem por CNES em cada competência, sem registros duplicados"
+  },
+  "fonte": {
+    "instituicao": "Ministério da Saúde — CNES/DATASUS",
+    "conjunto": "Hospitais e Leitos",
+    "pagina": "https://dadosabertos.saude.gov.br/dataset/hospitais-e-leitos",
+    "arquivos": [
+      {
+        "ano": 2007,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2007.csv"
+      },
+      {
+        "ano": 2008,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2008.csv"
+      },
+      {
+        "ano": 2009,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2009.csv"
+      },
+      {
+        "ano": 2010,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2010.csv"
+      },
+      {
+        "ano": 2011,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2011.csv"
+      },
+      {
+        "ano": 2012,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2012.csv"
+      },
+      {
+        "ano": 2013,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2013.csv"
+      },
+      {
+        "ano": 2014,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2014.csv"
+      },
+      {
+        "ano": 2015,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2015.csv"
+      },
+      {
+        "ano": 2016,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2016.csv"
+      },
+      {
+        "ano": 2017,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2017.csv"
+      },
+      {
+        "ano": 2018,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2018.csv"
+      },
+      {
+        "ano": 2019,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2019.csv"
+      },
+      {
+        "ano": 2020,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2020.csv"
+      },
+      {
+        "ano": 2021,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2021.csv"
+      },
+      {
+        "ano": 2022,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2022.csv"
+      },
+      {
+        "ano": 2023,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2023.csv"
+      },
+      {
+        "ano": 2024,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_2024.csv"
+      },
+      {
+        "ano": 2025,
+        "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/Leitos_SUS/Leitos_csv_2025.zip"
+      }
+    ],
+    "referencia_conceitual": "https://wiki.saude.gov.br/cnes/index.php/Principais_Conceitos"
+  },
+  "metodologia": [
+    "Soma de LEITOS_EXISTENTES de todos os estabelecimentos hospitalares de Maricá no arquivo oficial do mês de dezembro de cada ano.",
+    "Soma separada de LEITOS_SUS, que representa os leitos de internação destinados ao SUS e compõe um subconjunto do total de leitos existentes.",
+    "UTI_TOTAL_EXIST e UTI_TOTAL_SUS são informações separadas de leitos de terapia intensiva; NÃO somar automaticamente à série de leitos de internação.",
+    "Os valores representam capacidade instalada registrada no CNES, não ocupação, produtividade, atendimento, ou garantia de acesso a um leito.",
+    "Os arquivos possuem cabeçalhos e formatos alterados entre anos; o script identifica os campos pelo nome normalizado e restringe a competência de dezembro.",
+    "Nenhuma observação de um ano sem competência consolidada é projetada ou interpolada.",
+    "A pandemia de Covid-19 teve impacto na oferta e no cadastramento de leitos; movimentos de 2020 e 2021 não devem ser interpretados sem este contexto.",
+    "Não há leitos UTI registrados no subconjunto analisado até 2021; trata-se do resultado cadastral da fonte, não de prova de inexistência de capacidade assistencial fora do escopo.",
+    "Para UTI, UTI_TOTAL_SUS corresponde aos leitos complementares habilitados pelo Ministério da Saúde, conforme a Wiki CNES; sua quantidade não representa necessariamente todos os leitos complementares usados pelo SUS."
+  ],
+  "restricoes": [
+    "A série cobre estabelecimentos hospitalares com leitos incluídos neste conjunto, não todos os estabelecimentos do CNES.",
+    "O cadastro pode sofrer revisões e reclassificações, que precisam ser registradas editorialmente antes de substituir a série.",
+    "A data efetiva de consulta aos arquivos é 14/11/2026.",
+    "Leitos UTI SUS refletem habilitação federal e podem não incluir leitos complementares utilizados pelo SUS sem habilitação."
+  ],
+  "verificado_em": "2026-11-14",
+  "tipo_fonte": "dados_oficiais_observados",
+  "arquivo": "SAU-002.csv"
+}

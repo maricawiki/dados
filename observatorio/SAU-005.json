@@ -1,0 +1,239 @@
+{
+  "municipio": "Maricá, Rio de Janeiro",
+  "codigo_ibge": "330270",
+  "tema": "Saúde",
+  "dimensao_sustentavel": "social",
+  "ods_referencia": "ODS 3 — Saúde e bem-estar",
+  "periodicidade": "anual",
+  "periodo": [
+    2010,
+    2024
+  ],
+  "observacoes": 15,
+  "fonte": "Secretaria de Estado de Saúde do Rio de Janeiro — SINASC e SIM",
+  "portal_fonte": "https://www.saude.rj.gov.br/informacao-sus/dados-sus/2020/10/estatisticas-vitais-obitos-e-nascimentos-sim-e-sinasc",
+  "arquivos_origem": [
+    {
+      "ano": 2010,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2010.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2010.zip"
+    },
+    {
+      "ano": 2011,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2011.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2011.zip"
+    },
+    {
+      "ano": 2012,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2012.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2012.zip"
+    },
+    {
+      "ano": 2013,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2013.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2013.zip"
+    },
+    {
+      "ano": 2014,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2014.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2014.zip"
+    },
+    {
+      "ano": 2015,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2015.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2015.zip"
+    },
+    {
+      "ano": 2016,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2016.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2016.zip"
+    },
+    {
+      "ano": 2017,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2017.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2017.zip"
+    },
+    {
+      "ano": 2018,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2018.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2018.zip"
+    },
+    {
+      "ano": 2019,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2019.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2019.zip"
+    },
+    {
+      "ano": 2020,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2020.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2020.zip"
+    },
+    {
+      "ano": 2021,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2021.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2021.zip"
+    },
+    {
+      "ano": 2022,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2022.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2022.zip"
+    },
+    {
+      "ano": 2023,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2023.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2023.zip"
+    },
+    {
+      "ano": 2024,
+      "sinasc": "https://sistemas.saude.rj.gov.br/tabnetbd/sinasc/dadoscsv/dnrj2024.zip",
+      "sim": "https://sistemas.saude.rj.gov.br/tabnetbd/sim/DadosCSV/doerj2024.zip"
+    }
+  ],
+  "conferencia": "2026-11-14",
+  "tipo": "dados oficiais observados, sem interpolação",
+  "origem_referencia": [
+    "Arquivos anuais originais da SES-RJ, registros pelo município de residência",
+    "Plano Municipal de Saúde de Maricá 2026–2029, Tabela 5, página impressa 23, apenas para confronto de versões"
+  ],
+  "referencia_municipal": "https://transparencia.marica.rj.gov.br/storage/files/subcategory-attachment/1776086362-pms-2026-2029-marica-1.pdf",
+  "revisoes_divergentes_entre_fontes": [
+    {
+      "ano": 2014,
+      "arquivo_estadual_atual": 1831,
+      "plano_municipal": 1823,
+      "diferenca": 8
+    },
+    {
+      "ano": 2021,
+      "arquivo_estadual_atual": 2055,
+      "plano_municipal": 2031,
+      "diferenca": 24
+    },
+    {
+      "ano": 2022,
+      "arquivo_estadual_atual": 2143,
+      "plano_municipal": 2133,
+      "diferenca": 10
+    },
+    {
+      "ano": 2023,
+      "arquivo_estadual_atual": 2193,
+      "plano_municipal": 2191,
+      "diferenca": 2
+    },
+    {
+      "ano": 2024,
+      "arquivo_estadual_atual": 2122,
+      "plano_municipal": 2120,
+      "diferenca": 2
+    }
+  ],
+  "limites": [
+    "Os números refletem a situação dos arquivos estaduais na data da consulta. Bases podem sofrer retificações posteriores.",
+    "Não incorporar anos preliminares 2025 ou 2026 à série consolidada.",
+    "Não expor registros individualizados, endereços ou identificadores pessoais."
+  ],
+  "id": "SAU-005",
+  "titulo": "Taxa de mortalidade infantil",
+  "definicao": "Óbitos de crianças residentes menores de 1 ano, para cada 1.000 nascidos vivos de mães residentes, no mesmo ano.",
+  "unidade": "óbitos por mil nascidos vivos",
+  "criterio": "Numerador: arquivo SIM anual, Município de residência - código = 330270, Óbito infantil = Sim e Óbito fetal = Não; denominador: SINASC anual, Parturiente - Município de residência - código = 330270.",
+  "formula": "(obitos_infantis_residentes / nascidos_vivos_maes_residentes) * 1000",
+  "serie": [
+    {
+      "ano": 2010,
+      "obitos_infantis": 20,
+      "nascidos_vivos": 1427,
+      "taxa": 14.01541695865452
+    },
+    {
+      "ano": 2011,
+      "obitos_infantis": 19,
+      "nascidos_vivos": 1443,
+      "taxa": 13.167013167013167
+    },
+    {
+      "ano": 2012,
+      "obitos_infantis": 25,
+      "nascidos_vivos": 1604,
+      "taxa": 15.586034912718205
+    },
+    {
+      "ano": 2013,
+      "obitos_infantis": 26,
+      "nascidos_vivos": 1622,
+      "taxa": 16.029593094944513
+    },
+    {
+      "ano": 2014,
+      "obitos_infantis": 17,
+      "nascidos_vivos": 1831,
+      "taxa": 9.284543965046423
+    },
+    {
+      "ano": 2015,
+      "obitos_infantis": 22,
+      "nascidos_vivos": 1884,
+      "taxa": 11.677282377919319
+    },
+    {
+      "ano": 2016,
+      "obitos_infantis": 16,
+      "nascidos_vivos": 1764,
+      "taxa": 9.070294784580499
+    },
+    {
+      "ano": 2017,
+      "obitos_infantis": 26,
+      "nascidos_vivos": 1878,
+      "taxa": 13.844515441959532
+    },
+    {
+      "ano": 2018,
+      "obitos_infantis": 18,
+      "nascidos_vivos": 1971,
+      "taxa": 9.1324200913242
+    },
+    {
+      "ano": 2019,
+      "obitos_infantis": 19,
+      "nascidos_vivos": 2026,
+      "taxa": 9.378084896347483
+    },
+    {
+      "ano": 2020,
+      "obitos_infantis": 17,
+      "nascidos_vivos": 2017,
+      "taxa": 8.42835894893406
+    },
+    {
+      "ano": 2021,
+      "obitos_infantis": 24,
+      "nascidos_vivos": 2055,
+      "taxa": 11.678832116788321
+    },
+    {
+      "ano": 2022,
+      "obitos_infantis": 21,
+      "nascidos_vivos": 2143,
+      "taxa": 9.79934671021932
+    },
+    {
+      "ano": 2023,
+      "obitos_infantis": 27,
+      "nascidos_vivos": 2193,
+      "taxa": 12.311901504787961
+    },
+    {
+      "ano": 2024,
+      "obitos_infantis": 24,
+      "nascidos_vivos": 2122,
+      "taxa": 11.310084825636192
+    }
+  ],
+  "arquivo": "SAU-005.csv",
+  "notas": [
+    "Um óbito infantil ocorrido no ano pode ser de criança nascida no ano anterior; a fórmula utiliza eventos do mesmo ano conforme convenção epidemiológica.",
+    "Pequenas contagens fazem a taxa variar entre anos. Não confundir com mortalidade de menores de cinco anos."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "SAU-001",
+  "titulo": "Estabelecimentos de saúde por tipo",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "330270",
+  "dimensao_sustentavel": "social",
+  "ods_referencia": "ODS 3 — Saúde e bem-estar",
+  "tipo_observacao": "retrato cadastral, sem série temporal",
+  "data_captura": "2026-11-14",
+  "unidade": "estabelecimentos de saúde ativos cadastrados no CNES",
+  "fonte": "Ministério da Saúde — CNES, Dados Abertos",
+  "api_estabelecimentos": "https://apidadosabertos.saude.gov.br/cnes/estabelecimentos",
+  "api_tipo_unidade": "https://apidadosabertos.saude.gov.br/cnes/tipounidades",
+  "criterio": "Parâmetros codigo_municipio=330270, status=1, limit=20, offset=índice da página; verificar continuidade da paginação, CNES distintos e município por registro.",
+  "dados": {
+    "total": 215,
+    "com_atendimento_ambulatorial_sus": 58,
+    "sem_atendimento_ambulatorial_sus": 157,
+    "total_tipos": 21,
+    "com_atendimento_ambulatorial_sus_nota": "Indicador de atendimento ambulatorial ao SUS, não equivale à rede SUS total."
+  },
+  "tipos": [
+    {
+      "codigo": "22",
+      "descricao": "Consultório isolado",
+      "quantidade": 57
+    },
+    {
+      "codigo": "36",
+      "descricao": "Clínica / centro de especialidade",
+      "quantidade": 51
+    },
+    {
+      "codigo": "02",
+      "descricao": "Centro de saúde / unidade básica",
+      "quantidade": 28
+    },
+    {
+      "codigo": "39",
+      "descricao": "Unidade de apoio a diagnóstico e terapia (SADT isolado)",
+      "quantidade": 22
+    },
+    {
+      "codigo": "43",
+      "descricao": "Farmácia",
+      "quantidade": 16
+    },
+    {
+      "codigo": "04",
+      "descricao": "Policlínica",
+      "quantidade": 7
+    },
+    {
+      "codigo": "42",
+      "descricao": "Unidade móvel pré-hospitalar de urgência",
+      "quantidade": 7
+    },
+    {
+      "codigo": "70",
+      "descricao": "Centro de atenção psicossocial (CAPS)",
+      "quantidade": 3
+    },
+    {
+      "codigo": "85",
+      "descricao": "Centro de imunização",
+      "quantidade": 3
+    },
+    {
+      "codigo": "05",
+      "descricao": "Hospital geral",
+      "quantidade": 2
+    },
+    {
+      "codigo": "50",
+      "descricao": "Unidade de vigilância em saúde",
+      "quantidade": 2
+    },
+    {
+      "codigo": "68",
+      "descricao": "Central de gestão em saúde",
+      "quantidade": 2
+    },
+    {
+      "codigo": "73",
+      "descricao": "Pronto atendimento",
+      "quantidade": 2
+    },
+    {
+      "codigo": "74",
+      "descricao": "Polo Academia da Saúde",
+      "quantidade": 2
+    },
+    {
+      "codigo": "77",
+      "descricao": "Serviço de atenção domiciliar isolado",
+      "quantidade": 2
+    },
+    {
+      "codigo": "81",
+      "descricao": "Central de regulação do acesso",
+      "quantidade": 2
+    },
+    {
+      "codigo": "83",
+      "descricao": "Polo de prevenção e promoção da saúde",
+      "quantidade": 2
+    },
+    {
+      "codigo": "84",
+      "descricao": "Central de abastecimento",
+      "quantidade": 2
+    },
+    {
+      "codigo": "40",
+      "descricao": "Unidade móvel terrestre",
+      "quantidade": 1
+    },
+    {
+      "codigo": "62",
+      "descricao": "Hospital-dia isolado",
+      "quantidade": 1
+    },
+    {
+      "codigo": "67",
+      "descricao": "Laboratório central de saúde pública (LACEN)",
+      "quantidade": 1
+    }
+  ],
+  "natureza_juridica_agrupada": [
+    {
+      "grupo": "1",
+      "descricao": "Administração pública",
+      "quantidade": 68
+    },
+    {
+      "grupo": "2",
+      "descricao": "Entidades empresariais",
+      "quantidade": 125
+    },
+    {
+      "grupo": "3",
+      "descricao": "Entidades sem fins lucrativos",
+      "quantidade": 2
+    },
+    {
+      "grupo": "4",
+      "descricao": "Pessoas físicas",
+      "quantidade": 20
+    }
+  ],
+  "nota_natureza": "A natureza jurídica classifica a entidade mantenedora; não corresponde automaticamente à propriedade municipal ou ao atendimento SUS. O grupo 1 equivale à administração pública, os grupos 2 e 3 a entidades privadas empresariais e sem fins lucrativos, e o 4 a pessoas físicas.",
+  "limites": [
+    "É um instantâneo de 14/11/2026, não uma observação anual de 2026 nem uma série histórica.",
+    "Estabelecimento ativo no CNES não garante funcionamento em um dia específico nem serviço disponível ao público.",
+    "O código de gestão M no CNES não prova propriedade municipal: também aparece em entidades privadas, e não foi usado como separador público/privado.",
+    "O campo atendimento ambulatorial SUS não contempla todas as formas de vínculo ao SUS. Não equivale ao número de unidades públicas, privadas conveniadas ou efetivamente em funcionamento.",
+    "O cadastro é atualizado continuamente; revisões posteriores exigem novo retrato e identificação da nova data, sem sobrescrita silenciosa."
+  ],
+  "arquivos": [
+    "SAU-001.csv",
+    "SAU-001-natureza.csv"
+  ]
+}
