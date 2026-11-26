@@ -26,3 +26,12 @@ A cobertura registrada corresponde à versão inicial do piloto, não a uma cons
 | PREV-005 (série agregada) | 2 | MPS/CADPREV DAIR, 2017-01 a 2026-07 |
 
 [Notas de migração](observatorio/LOTE-02.md) · [Manifesto](observatorio/lote-02.manifest.json). Os dez detalhamentos anuais da carteira estão pendentes de revisão de identificadores de contas bancárias. A série agregada PREV-005 permanece um espelho até o corte conjunto. Não houve nova coleta.
+
+## Lote 03 — Economia e Trabalho
+
+| Base | Arquivos | Fonte |
+|---|---:|---|
+| ECO-001 a ECO-010 | 20 | IBGE/SIDRA, CEMPRE, MTE/RAIS/ONMT e Receita Federal/SINAC/SIMEI |
+| TRB (incluindo séries complementares ONMT) | 72 | MTE/Novo Caged, RAIS, IDR e SINE/Observatório do Trabalho/DIEESE |
+
+[Notas e ressalvas](observatorio/LOTE-03.md) · [Manifesto](observatorio/lote-03.manifest.json). Somente agregados estatísticos já existentes no portal; nenhuma transferência de microdados, documentos ou espelhos brutos de terceiros. Não houve nova coleta.

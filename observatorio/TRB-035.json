@@ -1,0 +1,269 @@
+{
+  "id": "TRB-035",
+  "titulo": "Empregos formais por horas contratuais",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte. Faixas de horas trabalhadas/contratuais do painel MTE; verificar compatibilidade com as faixas de jornada semanal da versão original do relatório.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1333
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 2744
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 13508
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1432
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 3395
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 13008
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1397
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 1017
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 12597
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 2104
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 3891
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 13770
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 2108
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 4604
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 14878
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 3227
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 5371
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 14916
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 2862
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 4938
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 15692
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 2917
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 6288
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 18148
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 4598
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 7371
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 16712
+        },
+        {
+          "categoria": "45 ou mais",
+          "vinculos": 3443
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1089
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 12458
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 15667
+        },
+        {
+          "categoria": "45 ou mais",
+          "vinculos": 4318
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1371
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 13078
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 14630
+        },
+        {
+          "categoria": "45 ou mais",
+          "vinculos": 6305
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "30 horas ou menos",
+          "vinculos": 1485
+        },
+        {
+          "categoria": "31 a 40 horas",
+          "vinculos": 14320
+        },
+        {
+          "categoria": "41 a 44 horas",
+          "vinculos": 15817
+        },
+        {
+          "categoria": "45 ou mais",
+          "vinculos": 5871
+        }
+      ]
+    }
+  ],
+  "correspondencia_metodologica": {
+    "situacao": "parcial",
+    "motivo": "Faixas de horas trabalhadas/contratuais do painel MTE; verificar compatibilidade com as faixas de jornada semanal da versão original do relatório.",
+    "tipo_corte_painel": "horas"
+  }
+}

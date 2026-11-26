@@ -1,0 +1,572 @@
+{
+  "id": "TRB-013",
+  "titulo": "Empregos formais por grande grupo ocupacional",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 27
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 622
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 2858
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 2617
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 2643
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 4980
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 132
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 3012
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 428
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 266
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 31
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 656
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 2958
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 3181
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 2551
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 4903
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 111
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 2773
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 386
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 285
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 21
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 554
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 2599
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 1022
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 2401
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 4732
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 102
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 2891
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 402
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 287
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 11
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 686
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 3394
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 3643
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 2640
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 5163
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 159
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 3325
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 447
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 297
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 23
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 636
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 3454
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 3974
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 3005
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 6009
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 76
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 3505
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 474
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 434
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 0
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 874
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 3846
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 4179
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 3150
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 6053
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 65
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 4458
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 440
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 449
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 1
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 722
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 3600
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 3890
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 3473
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 6021
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 71
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 4859
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 448
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 407
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 2
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 984
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 3826
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 3928
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 4276
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 7725
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 102
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 5694
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 483
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 333
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "0 — Forças Armadas, policiais e bombeiros militares",
+          "vinculos": 0
+        },
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 1214
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 4933
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 4410
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 4763
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 8453
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 270
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 6875
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 646
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 560
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 1310
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 5194
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 5271
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 4951
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 9414
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 303
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 6057
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 588
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 444
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 1302
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 5629
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 5623
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 5345
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 9631
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 335
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 6363
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 628
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 528
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "1 — Dirigentes do poder público, organizações e empresas",
+          "vinculos": 2812
+        },
+        {
+          "categoria": "2 — Profissionais das ciências e das artes",
+          "vinculos": 5874
+        },
+        {
+          "categoria": "3 — Técnicos de nível médio",
+          "vinculos": 4593
+        },
+        {
+          "categoria": "4 — Trabalhadores de serviços administrativos",
+          "vinculos": 5633
+        },
+        {
+          "categoria": "5 — Trabalhadores dos serviços e vendedores do comércio",
+          "vinculos": 10633
+        },
+        {
+          "categoria": "6 — Trabalhadores agropecuários, florestais e da pesca",
+          "vinculos": 336
+        },
+        {
+          "categoria": "7 — Produção industrial: trabalhadores de processos artesanais",
+          "vinculos": 5897
+        },
+        {
+          "categoria": "8 — Produção industrial: operadores de máquinas e sistemas",
+          "vinculos": 667
+        },
+        {
+          "categoria": "9 — Trabalhadores de manutenção e reparação",
+          "vinculos": 1048
+        }
+      ]
+    }
+  ]
+}

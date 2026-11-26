@@ -1,0 +1,200 @@
+{
+  "id": "TRB-009",
+  "titulo": "Empregos formais por sexo",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 7737
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 9848
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 7930
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 9905
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 6406
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 8605
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 8427
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 11338
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 9171
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 12419
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 9698
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 13816
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 9243
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 14249
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 10909
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 16444
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 13296
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 18828
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 14864
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 18668
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 15800
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 19584
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "Feminino",
+          "vinculos": 16969
+        },
+        {
+          "categoria": "Masculino",
+          "vinculos": 20524
+        }
+      ]
+    }
+  ]
+}

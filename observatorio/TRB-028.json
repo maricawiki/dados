@@ -1,0 +1,60 @@
+{
+  "id": "TRB-028",
+  "titulo": "Trabalhadores colocados no SINE municipal por cor ou raça",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2017 (ano único)",
+  "tipo_registro": "retrato_historico_2017",
+  "unidade": "registros de trabalhadores",
+  "etapa_sine": "colocados",
+  "total_do_quadro": 47,
+  "total_geral_da_etapa": 47,
+  "fonte": {
+    "orgao": "Ministério do Trabalho (MTb)",
+    "elaboracao": "DIEESE",
+    "base": "Observatório do Trabalho do Município de Maricá",
+    "url": "https://marica.dieese.org.br/ws2/tabela/marica/numero-de-trabalhadores-colocados-por-cor-ou-raca",
+    "ano": 2017
+  },
+  "notas_metodologicas": [
+    "Retrato exclusivamente de 2017; não é série histórica 2017–2026 nem dado atual.",
+    "Fonte: Ministério do Trabalho (MTb), elaboração DIEESE; município de Maricá.",
+    "O traço da fonte significa ausência de registro dos casos e é preservado como valor nulo, nunca zero declarado.",
+    "As desagregações da mesma etapa não devem ser somadas entre si; descrevem o mesmo conjunto."
+  ],
+  "serie": [
+    {
+      "ano": 2017,
+      "total_publicado": 47,
+      "categorias": [
+        {
+          "categoria": "Amarela",
+          "quantidade": null
+        },
+        {
+          "categoria": "Branca",
+          "quantidade": 27
+        },
+        {
+          "categoria": "Indígena",
+          "quantidade": 1
+        },
+        {
+          "categoria": "Negra",
+          "quantidade": 4
+        },
+        {
+          "categoria": "Parda",
+          "quantidade": 15
+        },
+        {
+          "categoria": "Não declarada",
+          "quantidade": null
+        }
+      ]
+    }
+  ]
+}

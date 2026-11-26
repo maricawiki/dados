@@ -1,0 +1,40 @@
+{
+  "id": "TRB-006",
+  "titulo": "Número de empregos formais",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2023–2025",
+  "conceito": "O indicador apresenta o estoque de vínculos empregatícios formais contabilizados pela RAIS no município do estabelecimento. A contagem refere-se a vínculos, não necessariamente a pessoas distintas; um trabalhador pode ter mais de um vínculo formal. Não confundir com saldo de admissões menos desligamentos do Caged.",
+  "metodologia": "Consulta direta da TABELA 4 da planilha oficial RAIS 2025, linha de Maricá (código 330270), colunas AD, AE e AF, exercícios 2023, 2024 e 2025; sem interpolação ou projeção.",
+  "limites": "A série disponível abrange 2023 a 2025, conforme a tabela oficial revisada da RAIS 2025. Não há valores de exercícios anteriores integrados nesta versão.",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego",
+    "base": "Relação Anual de Informações Sociais (RAIS), ano-base 2025",
+    "arquivo": "RAIS 2025 - Tabelas.xlsx",
+    "planilha": "TABELA 4",
+    "linha_municipal": 3231,
+    "codigo_municipal": "330270",
+    "nome_municipio": "Maricá",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "conferencia": "2026-11-15",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "criterio": "Estoque anual de vínculos formais RAIS; valores oficiais por setor, incluindo o agregado total, em 31 de dezembro de cada ano"
+  },
+  "serie": [
+    {
+      "ano": 2023,
+      "vinculos_formais_ativos_31_12": 33532
+    },
+    {
+      "ano": 2024,
+      "vinculos_formais_ativos_31_12": 35384
+    },
+    {
+      "ano": 2025,
+      "vinculos_formais_ativos_31_12": 37493
+    }
+  ]
+}

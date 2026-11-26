@@ -1,0 +1,41 @@
+{
+  "id": "TRB-020",
+  "titulo": "Trabalhadores encaminhados no SINE municipal",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2017 (ano único)",
+  "tipo_registro": "retrato_historico_2017",
+  "unidade": "registros de trabalhadores",
+  "etapa_sine": "encaminhados",
+  "total_do_quadro": 239,
+  "total_geral_da_etapa": 239,
+  "fonte": {
+    "orgao": "Ministério do Trabalho (MTb)",
+    "elaboracao": "DIEESE",
+    "base": "Observatório do Trabalho do Município de Maricá",
+    "url": "https://marica.dieese.org.br/ws2/tabela/marica/numero-de-trabalhadores-encaminhados-por-sexo",
+    "ano": 2017
+  },
+  "notas_metodologicas": [
+    "Retrato exclusivamente de 2017; não é série histórica 2017–2026 nem dado atual.",
+    "Fonte: Ministério do Trabalho (MTb), elaboração DIEESE; município de Maricá.",
+    "O traço da fonte significa ausência de registro dos casos e é preservado como valor nulo, nunca zero declarado.",
+    "As desagregações da mesma etapa não devem ser somadas entre si; descrevem o mesmo conjunto.",
+    "A fonte registra a etapa de encaminhados do SINE. Encaminhamentos não devem ser confundidos com indicações, colocações ou contratações; a equivalência entre essas etapas requer verificação da definição de cada base."
+  ],
+  "serie": [
+    {
+      "ano": 2017,
+      "total_publicado": 239,
+      "categorias": [
+        {
+          "categoria": "Total",
+          "quantidade": 239
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+competencia,faixa_salarial,admissoes,desligamentos,saldo,referencia_salario_minimo,fonte
+2026-09,ate_1_sm,165,129,36,1621.00,MTE_NOVO_CAGED_MOV
+2026-09,mais_1_ate_2_sm,935,903,32,1621.00,MTE_NOVO_CAGED_MOV
+2026-09,mais_2_ate_3_sm,48,57,-9,1621.00,MTE_NOVO_CAGED_MOV
+2026-09,mais_3_ate_5_sm,52,11,41,1621.00,MTE_NOVO_CAGED_MOV
+2026-09,mais_5_sm,23,7,16,1621.00,MTE_NOVO_CAGED_MOV
+2026-09,sem_salario_valido,5,4,1,1621.00,MTE_NOVO_CAGED_MOV

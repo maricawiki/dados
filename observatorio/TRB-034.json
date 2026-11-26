@@ -1,0 +1,301 @@
+{
+  "id": "TRB-034",
+  "titulo": "Empregos formais por faixa de renda",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte. O painel utiliza quatro faixas em salários mínimos; sua correspondência com outras classificações não foi verificada.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 10825
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3170
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 657
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 2933
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 11104
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3061
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 668
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 3002
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 9491
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 2678
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 608
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 2234
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 11553
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3806
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 622
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 3784
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 12152
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3890
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 694
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 4854
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 12317
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3911
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 1849
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 5437
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 12944
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 3461
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 2357
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 4730
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 15364
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 4588
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 2223
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 5178
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 16425
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 5098
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 3189
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 7412
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 17350
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 5040
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 3420
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 7722
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 18607
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 5087
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 3599
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 8091
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "1 a menos de 2 Salários Mínimos (SMs)",
+          "vinculos": 20085
+        },
+        {
+          "categoria": "2 a menos de 3 Salários Mínimos (SMs)",
+          "vinculos": 5139
+        },
+        {
+          "categoria": "Até 1 Salário Mínimo (SM)",
+          "vinculos": 4607
+        },
+        {
+          "categoria": "Mais de 3 Salários Mínimos (SMs)",
+          "vinculos": 7662
+        }
+      ]
+    }
+  ],
+  "correspondencia_metodologica": {
+    "situacao": "parcial",
+    "motivo": "O painel utiliza quatro faixas em salários mínimos; sua correspondência com outras classificações não foi verificada.",
+    "tipo_corte_painel": "renda"
+  }
+}

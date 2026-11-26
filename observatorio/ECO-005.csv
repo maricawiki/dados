@@ -1,0 +1,379 @@
+ano;regime;tabela_sidra;secao;codigo_categoria;nome;valor;participacao_total_pct;status;total_empresas_tabela;nao_distribuido;fonte
+2007;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;7;0.399315;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;B;116880;B Indústrias extrativas;7;0.399315;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;C;116910;C Indústrias de transformação;105;5.989732;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;3;0.171135;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;F;117329;F Construção;69;3.936110;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";860;49.058756;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;15;0.855676;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;I;117543;I Alojamento e alimentação;111;6.332002;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;J;117555;J Informação e comunicação;39;2.224758;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;13;0.741586;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;L;117666;L Atividades imobiliárias;13;0.741586;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;41;2.338848;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;184;10.496292;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;4;0.228180;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;P;117788;P Educação;58;3.308614;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;32;1.825442;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;32;1.825442;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;S;117861;S Outras atividades de serviços;160;9.127210;informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2007;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;1753;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;8;0.428725;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;B;116880;B Indústrias extrativas;12;0.643087;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;C;116910;C Indústrias de transformação;119;6.377278;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;3;0.160772;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;F;117329;F Construção;66;3.536977;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";898;48.124330;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;24;1.286174;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;I;117543;I Alojamento e alimentação;122;6.538049;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;J;117555;J Informação e comunicação;42;2.250804;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;12;0.643087;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;L;117666;L Atividades imobiliárias;15;0.803859;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;53;2.840300;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;179;9.592712;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;3;0.160772;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;P;117788;P Educação;57;3.054662;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;29;1.554126;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;31;1.661308;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;S;117861;S Outras atividades de serviços;193;10.342980;informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2008;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;1866;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;7;0.367261;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;B;116880;B Indústrias extrativas;9;0.472193;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;C;116910;C Indústrias de transformação;119;6.243442;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;2;0.104932;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;F;117329;F Construção;72;3.777545;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";932;48.898216;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;26;1.364113;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;I;117543;I Alojamento e alimentação;133;6.977964;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;J;117555;J Informação e comunicação;29;1.521511;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;10;0.524659;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;L;117666;L Atividades imobiliárias;25;1.311647;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;60;3.147954;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;173;9.076600;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;3;0.157398;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;P;117788;P Educação;68;3.567681;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;33;1.731375;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;35;1.836306;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;S;117861;S Outras atividades de serviços;170;8.919203;informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2009;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;1906;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;8;0.372613;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;B;116880;B Indústrias extrativas;12;0.558919;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;C;116910;C Indústrias de transformação;124;5.775501;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;3;0.139730;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;F;117329;F Construção;98;4.564509;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1007;46.902655;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;30;1.397299;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;I;117543;I Alojamento e alimentação;148;6.893340;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;J;117555;J Informação e comunicação;41;1.909641;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;15;0.698649;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;L;117666;L Atividades imobiliárias;30;1.397299;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;58;2.701444;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;203;9.455054;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;2;0.093153;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;P;117788;P Educação;81;3.772706;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;33;1.537028;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;32;1.490452;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;S;117861;S Outras atividades de serviços;222;10.340009;informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2010;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2147;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;9;0.406321;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;B;116880;B Indústrias extrativas;13;0.586907;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;C;116910;C Indústrias de transformação;127;5.733634;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;D;117296;D Eletricidade e gás;1;0.045147;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;6;0.270880;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;F;117329;F Construção;103;4.650113;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1053;47.539503;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;27;1.218962;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;I;117543;I Alojamento e alimentação;149;6.726862;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;J;117555;J Informação e comunicação;44;1.986456;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;11;0.496614;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;L;117666;L Atividades imobiliárias;33;1.489842;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;74;3.340858;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;196;8.848758;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;5;0.225734;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;P;117788;P Educação;77;3.476298;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;39;1.760722;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;35;1.580135;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;S;117861;S Outras atividades de serviços;213;9.616253;informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2011;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2215;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;9;0.433109;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;B;116880;B Indústrias extrativas;13;0.625602;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;C;116910;C Indústrias de transformação;107;5.149182;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;5;0.240616;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;F;117329;F Construção;93;4.475457;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";974;46.871992;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;26;1.251203;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;I;117543;I Alojamento e alimentação;125;6.015399;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;J;117555;J Informação e comunicação;38;1.828681;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;15;0.721848;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;L;117666;L Atividades imobiliárias;37;1.780558;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;69;3.320500;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;185;8.902791;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;5;0.240616;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;P;117788;P Educação;84;4.042348;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;37;1.780558;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;27;1.299326;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;S;117861;S Outras atividades de serviços;229;11.020212;informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2012;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2078;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;8;0.345722;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;B;116880;B Indústrias extrativas;11;0.475367;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;C;116910;C Indústrias de transformação;116;5.012965;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;6;0.259291;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;F;117329;F Construção;117;5.056180;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1085;46.888505;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;31;1.339672;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;I;117543;I Alojamento e alimentação;161;6.957649;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;J;117555;J Informação e comunicação;38;1.642178;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;15;0.648228;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;L;117666;L Atividades imobiliárias;48;2.074330;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;69;2.981850;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;209;9.031979;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;5;0.216076;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;P;117788;P Educação;90;3.889369;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;38;1.642178;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;27;1.166811;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;S;117861;S Outras atividades de serviços;240;10.371651;informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2013;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2314;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;6;0.282752;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;B;116880;B Indústrias extrativas;10;0.471254;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;C;116910;C Indústrias de transformação;114;5.372290;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;5;0.235627;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;F;117329;F Construção;119;5.607917;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";983;46.324222;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;29;1.366635;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;I;117543;I Alojamento e alimentação;142;6.691800;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;J;117555;J Informação e comunicação;31;1.460886;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;14;0.659755;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;L;117666;L Atividades imobiliárias;43;2.026390;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;51;2.403393;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;210;9.896324;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;6;0.282752;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;P;117788;P Educação;93;4.382658;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;40;1.885014;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;26;1.225259;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;S;117861;S Outras atividades de serviços;200;9.425071;informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2014;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2122;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;6;0.259403;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;B;116880;B Indústrias extrativas;11;0.475573;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;C;116910;C Indústrias de transformação;120;5.188067;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;6;0.259403;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;F;117329;F Construção;131;5.663640;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1027;44.401211;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;32;1.383485;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;I;117543;I Alojamento e alimentação;165;7.133593;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;J;117555;J Informação e comunicação;39;1.686122;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;15;0.648508;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;L;117666;L Atividades imobiliárias;46;1.988759;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;67;2.896671;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;227;9.814094;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;6;0.259403;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;P;117788;P Educação;130;5.620406;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;50;2.161695;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;31;1.340251;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;S;117861;S Outras atividades de serviços;204;8.819715;informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2015;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2313;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;9;0.395778;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;B;116880;B Indústrias extrativas;11;0.483729;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;C;116910;C Indústrias de transformação;115;5.057168;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;6;0.263852;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;F;117329;F Construção;133;5.848725;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";988;43.447669;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;34;1.495163;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;I;117543;I Alojamento e alimentação;157;6.904134;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;J;117555;J Informação e comunicação;40;1.759015;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;15;0.659631;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;L;117666;L Atividades imobiliárias;46;2.022867;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;71;3.122252;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;232;10.202287;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;6;0.263852;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;P;117788;P Educação;129;5.672823;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;48;2.110818;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;31;1.363237;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;S;117861;S Outras atividades de serviços;203;8.927001;informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2016;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2274;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;8;0.360848;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;B;116880;B Indústrias extrativas;8;0.360848;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;C;116910;C Indústrias de transformação;119;5.367614;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;6;0.270636;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;F;117329;F Construção;122;5.502932;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";976;44.023455;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;39;1.759134;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;I;117543;I Alojamento e alimentação;151;6.811006;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;J;117555;J Informação e comunicação;33;1.488498;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;17;0.766802;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;L;117666;L Atividades imobiliárias;44;1.984664;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;71;3.202526;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;243;10.960758;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;6;0.270636;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;P;117788;P Educação;130;5.863780;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;60;2.706360;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;31;1.398286;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;S;117861;S Outras atividades de serviços;153;6.901218;informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2017;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2217;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;6;0.273723;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;B;116880;B Indústrias extrativas;8;0.364964;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;C;116910;C Indústrias de transformação;102;4.653285;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;D;117296;D Eletricidade e gás;;;nao_informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;7;0.319343;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;F;117329;F Construção;121;5.520073;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";970;44.251825;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;32;1.459854;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;I;117543;I Alojamento e alimentação;145;6.614964;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;J;117555;J Informação e comunicação;36;1.642336;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;17;0.775547;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;L;117666;L Atividades imobiliárias;47;2.144161;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;79;3.604015;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;237;10.812044;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;7;0.319343;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;P;117788;P Educação;127;5.793796;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;76;3.467153;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;35;1.596715;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;S;117861;S Outras atividades de serviços;140;6.386861;informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2018;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2192;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;5;0.217675;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;B;116880;B Indústrias extrativas;7;0.304745;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;C;116910;C Indústrias de transformação;93;4.048759;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;D;117296;D Eletricidade e gás;1;0.043535;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;5;0.217675;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;F;117329;F Construção;143;6.225512;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";969;42.185459;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;33;1.436657;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;I;117543;I Alojamento e alimentação;153;6.660862;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;J;117555;J Informação e comunicação;35;1.523727;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;24;1.044841;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;L;117666;L Atividades imobiliárias;57;2.481498;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;107;4.658250;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;250;10.883761;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;9;0.391815;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;P;117788;P Educação;140;6.094906;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;84;3.656944;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;37;1.610797;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;S;117861;S Outras atividades de serviços;145;6.312582;informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2019;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2297;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;3;0.118343;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;B;116880;B Indústrias extrativas;6;0.236686;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;C;116910;C Indústrias de transformação;98;3.865878;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;D;117296;D Eletricidade e gás;1;0.039448;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;8;0.315582;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;F;117329;F Construção;153;6.035503;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1048;41.341223;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;37;1.459566;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;I;117543;I Alojamento e alimentação;180;7.100592;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;J;117555;J Informação e comunicação;48;1.893491;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;26;1.025641;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;L;117666;L Atividades imobiliárias;67;2.642998;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;135;5.325444;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;273;10.769231;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;9;0.355030;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;P;117788;P Educação;150;5.917160;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;101;3.984221;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;44;1.735700;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;S;117861;S Outras atividades de serviços;148;5.838264;informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2020;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2535;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;5;0.173010;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;B;116880;B Indústrias extrativas;7;0.242215;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;C;116910;C Indústrias de transformação;108;3.737024;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;D;117296;D Eletricidade e gás;2;0.069204;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;8;0.276817;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;F;117329;F Construção;164;5.674740;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1160;40.138408;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;H;117484;H Transporte, armazenagem e correio;41;1.418685;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;I;117543;I Alojamento e alimentação;222;7.681661;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;J;117555;J Informação e comunicação;60;2.076125;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;K;117608;K Atividades financeiras, de seguros e serviços relacionados;32;1.107266;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;L;117666;L Atividades imobiliárias;90;3.114187;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;M;117673;M Atividades profissionais, científicas e técnicas;175;6.055363;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;N;117714;N Atividades administrativas e serviços complementares;292;10.103806;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;O;117774;O Administração pública, defesa e seguridade social;8;0.276817;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;P;117788;P Educação;165;5.709343;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;Q;117810;Q Saúde humana e serviços sociais;112;3.875433;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;R;117838;R Artes, cultura, esporte e recreação;52;1.799308;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;S;117861;S Outras atividades de serviços;187;6.470588;informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;T;117888;T Serviços domésticos;;;nao_informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2021;historica_2007_2021;993;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;2890;0;https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all
+2022;nova_2022_2024;9582;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;16;0.327600;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;B;116880;B Indústrias extrativas;12;0.245700;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;C;116910;C Indústrias de transformação;178;3.644554;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;D;117296;D Eletricidade e gás;3;0.061425;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;12;0.245700;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;F;117329;F Construção;323;6.613432;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1690;34.602785;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;H;117484;H Transporte, armazenagem e correio;67;1.371826;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;I;117543;I Alojamento e alimentação;369;7.555283;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;J;117555;J Informação e comunicação;119;2.436527;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;K;117608;K Atividades financeiras, de seguros e serviços relacionados;58;1.187551;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;L;117666;L Atividades imobiliárias;125;2.559378;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;M;117673;M Atividades profissionais, científicas e técnicas;334;6.838657;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;N;117714;N Atividades administrativas e serviços complementares;543;11.117936;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;O;117774;O Administração pública, defesa e seguridade social;17;0.348075;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;P;117788;P Educação;232;4.750205;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;Q;117810;Q Saúde humana e serviços sociais;201;4.115479;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;R;117838;R Artes, cultura, esporte e recreação;119;2.436527;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;S;117861;S Outras atividades de serviços;466;9.541360;informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;T;117888;T Serviços domésticos;;;nao_informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2022;nova_2022_2024;9582;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;4884;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;15;0.282752;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;B;116880;B Indústrias extrativas;14;0.263902;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;C;116910;C Indústrias de transformação;188;3.543827;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;D;117296;D Eletricidade e gás;2;0.037700;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;11;0.207352;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;F;117329;F Construção;383;7.219604;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1793;33.798303;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;H;117484;H Transporte, armazenagem e correio;71;1.338360;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;I;117543;I Alojamento e alimentação;398;7.502356;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;J;117555;J Informação e comunicação;137;2.582469;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;K;117608;K Atividades financeiras, de seguros e serviços relacionados;62;1.168709;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;L;117666;L Atividades imobiliárias;154;2.902922;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;M;117673;M Atividades profissionais, científicas e técnicas;393;7.408106;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;N;117714;N Atividades administrativas e serviços complementares;572;10.782281;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;O;117774;O Administração pública, defesa e seguridade social;16;0.301602;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;P;117788;P Educação;240;4.524034;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;Q;117810;Q Saúde humana e serviços sociais;226;4.260132;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;R;117838;R Artes, cultura, esporte e recreação;120;2.262017;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;S;117861;S Outras atividades de serviços;510;9.613572;informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;T;117888;T Serviços domésticos;;;nao_informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2023;nova_2022_2024;9582;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;5305;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;A;116830;A Agricultura, pecuária, produção florestal, pesca e aquicultura;18;0.313808;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;B;116880;B Indústrias extrativas;13;0.226639;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;C;116910;C Indústrias de transformação;195;3.399582;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;D;117296;D Eletricidade e gás;2;0.034868;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;E;117307;E Água, esgoto, atividades de gestão de resíduos e descontaminação;12;0.209205;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;F;117329;F Construção;419;7.304742;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;G;117363;"G Comércio; reparação de veículos automotores e motocicletas";1880;32.775453;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;H;117484;H Transporte, armazenagem e correio;75;1.307531;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;I;117543;I Alojamento e alimentação;417;7.269874;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;J;117555;J Informação e comunicação;150;2.615063;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;K;117608;K Atividades financeiras, de seguros e serviços relacionados;75;1.307531;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;L;117666;L Atividades imobiliárias;169;2.946304;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;M;117673;M Atividades profissionais, científicas e técnicas;462;8.054393;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;N;117714;N Atividades administrativas e serviços complementares;603;10.512552;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;O;117774;O Administração pública, defesa e seguridade social;17;0.296374;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;P;117788;P Educação;257;4.480474;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;Q;117810;Q Saúde humana e serviços sociais;284;4.951185;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;R;117838;R Artes, cultura, esporte e recreação;130;2.266388;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;S;117861;S Outras atividades de serviços;558;9.728033;informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;T;117888;T Serviços domésticos;;;nao_informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all
+2024;nova_2022_2024;9582;U;117892;U Organismos internacionais e outras instituições extraterritoriais;;;nao_informado;5736;0;https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all

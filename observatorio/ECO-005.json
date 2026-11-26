@@ -1,0 +1,3415 @@
+{
+  "id": "ECO-005",
+  "titulo": "Empresas por setor de atividade econômica (CNAE)",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "inicio": 2007,
+  "fim": 2024,
+  "unidade": "número de empresas e outras organizações",
+  "fonte": {
+    "instituicao": "IBGE / Cadastro Central de Empresas (CEMPRE)",
+    "tabela_classificacao": "CNAE 2.0 — Seções A a U, código 12762",
+    "variavel": "2585 — Número de empresas e outras organizações",
+    "serie_historica": {
+      "tabela": "993",
+      "variavel": "2585",
+      "anos": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "url": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all"
+    },
+    "serie_nova": {
+      "tabela": "9582",
+      "variavel": "2585",
+      "anos": [
+        2022,
+        2023,
+        2024
+      ],
+      "url": "https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all"
+    },
+    "nota_tecnica_ruptura": "https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html",
+    "workflow_integracao": "https://github.com/viniciusmoro79/leis/actions/runs/43854861972"
+  },
+  "metodologia": "Tabulação por seção de atividade principal CNAE 2.0. Participação de cada seção = valor informado / total da própria tabela e ano. Não converter traços da fonte em zero e não combinar metodologia anterior e posterior a 2022.",
+  "regra_conciliacao": "Soma dos valores numéricos das 21 seções comparada apenas ao total da mesma tabela. Um resíduo, se existente, é identificado sem atribuição artificial a seções ausentes.",
+  "comparabilidade": "A série 993 encerra em 2021; a tabela 9582 inicia em 2022, com mudança CEMPRE. A tabela 9509 do ECO-003 mede empresas e organizações atuantes associadas a unidades locais e NÃO deve ser usada como denominador da 9582. Em 2024, 9582 registra 5.736 e 9509 registra 6.108: conceitos e recortes diferentes.",
+  "notas": [
+    "Os exercícios de 2000 a 2006 não foram incorporados a esta série.",
+    "T e U apresentaram '-' nas consultas auditadas; registros permanecem nulos, não zeros.",
+    "Não usar evolução entre 2021 e 2022 para estimar crescimento empresarial.",
+    "Série apenas até 2024, sem estimativas futuras."
+  ],
+  "secoes": [
+    {
+      "secao": "A",
+      "codigo_categoria": "116830",
+      "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura"
+    },
+    {
+      "secao": "B",
+      "codigo_categoria": "116880",
+      "nome": "B Indústrias extrativas"
+    },
+    {
+      "secao": "C",
+      "codigo_categoria": "116910",
+      "nome": "C Indústrias de transformação"
+    },
+    {
+      "secao": "D",
+      "codigo_categoria": "117296",
+      "nome": "D Eletricidade e gás"
+    },
+    {
+      "secao": "E",
+      "codigo_categoria": "117307",
+      "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação"
+    },
+    {
+      "secao": "F",
+      "codigo_categoria": "117329",
+      "nome": "F Construção"
+    },
+    {
+      "secao": "G",
+      "codigo_categoria": "117363",
+      "nome": "G Comércio; reparação de veículos automotores e motocicletas"
+    },
+    {
+      "secao": "H",
+      "codigo_categoria": "117484",
+      "nome": "H Transporte, armazenagem e correio"
+    },
+    {
+      "secao": "I",
+      "codigo_categoria": "117543",
+      "nome": "I Alojamento e alimentação"
+    },
+    {
+      "secao": "J",
+      "codigo_categoria": "117555",
+      "nome": "J Informação e comunicação"
+    },
+    {
+      "secao": "K",
+      "codigo_categoria": "117608",
+      "nome": "K Atividades financeiras, de seguros e serviços relacionados"
+    },
+    {
+      "secao": "L",
+      "codigo_categoria": "117666",
+      "nome": "L Atividades imobiliárias"
+    },
+    {
+      "secao": "M",
+      "codigo_categoria": "117673",
+      "nome": "M Atividades profissionais, científicas e técnicas"
+    },
+    {
+      "secao": "N",
+      "codigo_categoria": "117714",
+      "nome": "N Atividades administrativas e serviços complementares"
+    },
+    {
+      "secao": "O",
+      "codigo_categoria": "117774",
+      "nome": "O Administração pública, defesa e seguridade social"
+    },
+    {
+      "secao": "P",
+      "codigo_categoria": "117788",
+      "nome": "P Educação"
+    },
+    {
+      "secao": "Q",
+      "codigo_categoria": "117810",
+      "nome": "Q Saúde humana e serviços sociais"
+    },
+    {
+      "secao": "R",
+      "codigo_categoria": "117838",
+      "nome": "R Artes, cultura, esporte e recreação"
+    },
+    {
+      "secao": "S",
+      "codigo_categoria": "117861",
+      "nome": "S Outras atividades de serviços"
+    },
+    {
+      "secao": "T",
+      "codigo_categoria": "117888",
+      "nome": "T Serviços domésticos"
+    },
+    {
+      "secao": "U",
+      "codigo_categoria": "117892",
+      "nome": "U Organismos internacionais e outras instituições extraterritoriais"
+    }
+  ],
+  "serie": [
+    {
+      "ano": 2007,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 1753,
+      "soma_setores_informados": 1753,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 7,
+          "participacao_total_pct": "0.399315",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 7,
+          "participacao_total_pct": "0.399315",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 105,
+          "participacao_total_pct": "5.989732",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 3,
+          "participacao_total_pct": "0.171135",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 69,
+          "participacao_total_pct": "3.936110",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 860,
+          "participacao_total_pct": "49.058756",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 15,
+          "participacao_total_pct": "0.855676",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 111,
+          "participacao_total_pct": "6.332002",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 39,
+          "participacao_total_pct": "2.224758",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 13,
+          "participacao_total_pct": "0.741586",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 13,
+          "participacao_total_pct": "0.741586",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 41,
+          "participacao_total_pct": "2.338848",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 184,
+          "participacao_total_pct": "10.496292",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 4,
+          "participacao_total_pct": "0.228180",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 58,
+          "participacao_total_pct": "3.308614",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 32,
+          "participacao_total_pct": "1.825442",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 32,
+          "participacao_total_pct": "1.825442",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 160,
+          "participacao_total_pct": "9.127210",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2008,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 1866,
+      "soma_setores_informados": 1866,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 8,
+          "participacao_total_pct": "0.428725",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 12,
+          "participacao_total_pct": "0.643087",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 119,
+          "participacao_total_pct": "6.377278",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 3,
+          "participacao_total_pct": "0.160772",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 66,
+          "participacao_total_pct": "3.536977",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 898,
+          "participacao_total_pct": "48.124330",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 24,
+          "participacao_total_pct": "1.286174",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 122,
+          "participacao_total_pct": "6.538049",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 42,
+          "participacao_total_pct": "2.250804",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 12,
+          "participacao_total_pct": "0.643087",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 15,
+          "participacao_total_pct": "0.803859",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 53,
+          "participacao_total_pct": "2.840300",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 179,
+          "participacao_total_pct": "9.592712",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 3,
+          "participacao_total_pct": "0.160772",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 57,
+          "participacao_total_pct": "3.054662",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 29,
+          "participacao_total_pct": "1.554126",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 31,
+          "participacao_total_pct": "1.661308",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 193,
+          "participacao_total_pct": "10.342980",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2009,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 1906,
+      "soma_setores_informados": 1906,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 7,
+          "participacao_total_pct": "0.367261",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 9,
+          "participacao_total_pct": "0.472193",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 119,
+          "participacao_total_pct": "6.243442",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 2,
+          "participacao_total_pct": "0.104932",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 72,
+          "participacao_total_pct": "3.777545",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 932,
+          "participacao_total_pct": "48.898216",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 26,
+          "participacao_total_pct": "1.364113",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 133,
+          "participacao_total_pct": "6.977964",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 29,
+          "participacao_total_pct": "1.521511",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 10,
+          "participacao_total_pct": "0.524659",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 25,
+          "participacao_total_pct": "1.311647",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 60,
+          "participacao_total_pct": "3.147954",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 173,
+          "participacao_total_pct": "9.076600",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 3,
+          "participacao_total_pct": "0.157398",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 68,
+          "participacao_total_pct": "3.567681",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 33,
+          "participacao_total_pct": "1.731375",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 35,
+          "participacao_total_pct": "1.836306",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 170,
+          "participacao_total_pct": "8.919203",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2010,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2147,
+      "soma_setores_informados": 2147,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 8,
+          "participacao_total_pct": "0.372613",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 12,
+          "participacao_total_pct": "0.558919",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 124,
+          "participacao_total_pct": "5.775501",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 3,
+          "participacao_total_pct": "0.139730",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 98,
+          "participacao_total_pct": "4.564509",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1007,
+          "participacao_total_pct": "46.902655",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 30,
+          "participacao_total_pct": "1.397299",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 148,
+          "participacao_total_pct": "6.893340",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 41,
+          "participacao_total_pct": "1.909641",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 15,
+          "participacao_total_pct": "0.698649",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 30,
+          "participacao_total_pct": "1.397299",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 58,
+          "participacao_total_pct": "2.701444",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 203,
+          "participacao_total_pct": "9.455054",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 2,
+          "participacao_total_pct": "0.093153",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 81,
+          "participacao_total_pct": "3.772706",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 33,
+          "participacao_total_pct": "1.537028",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 32,
+          "participacao_total_pct": "1.490452",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 222,
+          "participacao_total_pct": "10.340009",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2011,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2215,
+      "soma_setores_informados": 2215,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 9,
+          "participacao_total_pct": "0.406321",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 13,
+          "participacao_total_pct": "0.586907",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 127,
+          "participacao_total_pct": "5.733634",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 1,
+          "participacao_total_pct": "0.045147",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 6,
+          "participacao_total_pct": "0.270880",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 103,
+          "participacao_total_pct": "4.650113",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1053,
+          "participacao_total_pct": "47.539503",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 27,
+          "participacao_total_pct": "1.218962",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 149,
+          "participacao_total_pct": "6.726862",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 44,
+          "participacao_total_pct": "1.986456",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 11,
+          "participacao_total_pct": "0.496614",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 33,
+          "participacao_total_pct": "1.489842",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 74,
+          "participacao_total_pct": "3.340858",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 196,
+          "participacao_total_pct": "8.848758",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 5,
+          "participacao_total_pct": "0.225734",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 77,
+          "participacao_total_pct": "3.476298",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 39,
+          "participacao_total_pct": "1.760722",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 35,
+          "participacao_total_pct": "1.580135",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 213,
+          "participacao_total_pct": "9.616253",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2012,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2078,
+      "soma_setores_informados": 2078,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 9,
+          "participacao_total_pct": "0.433109",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 13,
+          "participacao_total_pct": "0.625602",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 107,
+          "participacao_total_pct": "5.149182",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 5,
+          "participacao_total_pct": "0.240616",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 93,
+          "participacao_total_pct": "4.475457",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 974,
+          "participacao_total_pct": "46.871992",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 26,
+          "participacao_total_pct": "1.251203",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 125,
+          "participacao_total_pct": "6.015399",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 38,
+          "participacao_total_pct": "1.828681",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 15,
+          "participacao_total_pct": "0.721848",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 37,
+          "participacao_total_pct": "1.780558",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 69,
+          "participacao_total_pct": "3.320500",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 185,
+          "participacao_total_pct": "8.902791",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 5,
+          "participacao_total_pct": "0.240616",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 84,
+          "participacao_total_pct": "4.042348",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 37,
+          "participacao_total_pct": "1.780558",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 27,
+          "participacao_total_pct": "1.299326",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 229,
+          "participacao_total_pct": "11.020212",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2013,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2314,
+      "soma_setores_informados": 2314,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 8,
+          "participacao_total_pct": "0.345722",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 11,
+          "participacao_total_pct": "0.475367",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 116,
+          "participacao_total_pct": "5.012965",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 6,
+          "participacao_total_pct": "0.259291",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 117,
+          "participacao_total_pct": "5.056180",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1085,
+          "participacao_total_pct": "46.888505",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 31,
+          "participacao_total_pct": "1.339672",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 161,
+          "participacao_total_pct": "6.957649",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 38,
+          "participacao_total_pct": "1.642178",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 15,
+          "participacao_total_pct": "0.648228",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 48,
+          "participacao_total_pct": "2.074330",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 69,
+          "participacao_total_pct": "2.981850",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 209,
+          "participacao_total_pct": "9.031979",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 5,
+          "participacao_total_pct": "0.216076",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 90,
+          "participacao_total_pct": "3.889369",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 38,
+          "participacao_total_pct": "1.642178",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 27,
+          "participacao_total_pct": "1.166811",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 240,
+          "participacao_total_pct": "10.371651",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2014,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2122,
+      "soma_setores_informados": 2122,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 6,
+          "participacao_total_pct": "0.282752",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 10,
+          "participacao_total_pct": "0.471254",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 114,
+          "participacao_total_pct": "5.372290",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 5,
+          "participacao_total_pct": "0.235627",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 119,
+          "participacao_total_pct": "5.607917",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 983,
+          "participacao_total_pct": "46.324222",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 29,
+          "participacao_total_pct": "1.366635",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 142,
+          "participacao_total_pct": "6.691800",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 31,
+          "participacao_total_pct": "1.460886",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 14,
+          "participacao_total_pct": "0.659755",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 43,
+          "participacao_total_pct": "2.026390",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 51,
+          "participacao_total_pct": "2.403393",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 210,
+          "participacao_total_pct": "9.896324",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 6,
+          "participacao_total_pct": "0.282752",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 93,
+          "participacao_total_pct": "4.382658",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 40,
+          "participacao_total_pct": "1.885014",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 26,
+          "participacao_total_pct": "1.225259",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 200,
+          "participacao_total_pct": "9.425071",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2313,
+      "soma_setores_informados": 2313,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 6,
+          "participacao_total_pct": "0.259403",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 11,
+          "participacao_total_pct": "0.475573",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 120,
+          "participacao_total_pct": "5.188067",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 6,
+          "participacao_total_pct": "0.259403",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 131,
+          "participacao_total_pct": "5.663640",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1027,
+          "participacao_total_pct": "44.401211",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 32,
+          "participacao_total_pct": "1.383485",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 165,
+          "participacao_total_pct": "7.133593",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 39,
+          "participacao_total_pct": "1.686122",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 15,
+          "participacao_total_pct": "0.648508",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 46,
+          "participacao_total_pct": "1.988759",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 67,
+          "participacao_total_pct": "2.896671",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 227,
+          "participacao_total_pct": "9.814094",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 6,
+          "participacao_total_pct": "0.259403",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 130,
+          "participacao_total_pct": "5.620406",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 50,
+          "participacao_total_pct": "2.161695",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 31,
+          "participacao_total_pct": "1.340251",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 204,
+          "participacao_total_pct": "8.819715",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2274,
+      "soma_setores_informados": 2274,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 9,
+          "participacao_total_pct": "0.395778",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 11,
+          "participacao_total_pct": "0.483729",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 115,
+          "participacao_total_pct": "5.057168",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 6,
+          "participacao_total_pct": "0.263852",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 133,
+          "participacao_total_pct": "5.848725",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 988,
+          "participacao_total_pct": "43.447669",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 34,
+          "participacao_total_pct": "1.495163",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 157,
+          "participacao_total_pct": "6.904134",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 40,
+          "participacao_total_pct": "1.759015",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 15,
+          "participacao_total_pct": "0.659631",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 46,
+          "participacao_total_pct": "2.022867",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 71,
+          "participacao_total_pct": "3.122252",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 232,
+          "participacao_total_pct": "10.202287",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 6,
+          "participacao_total_pct": "0.263852",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 129,
+          "participacao_total_pct": "5.672823",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 48,
+          "participacao_total_pct": "2.110818",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 31,
+          "participacao_total_pct": "1.363237",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 203,
+          "participacao_total_pct": "8.927001",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2217,
+      "soma_setores_informados": 2217,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 8,
+          "participacao_total_pct": "0.360848",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 8,
+          "participacao_total_pct": "0.360848",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 119,
+          "participacao_total_pct": "5.367614",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 6,
+          "participacao_total_pct": "0.270636",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 122,
+          "participacao_total_pct": "5.502932",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 976,
+          "participacao_total_pct": "44.023455",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 39,
+          "participacao_total_pct": "1.759134",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 151,
+          "participacao_total_pct": "6.811006",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 33,
+          "participacao_total_pct": "1.488498",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 17,
+          "participacao_total_pct": "0.766802",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 44,
+          "participacao_total_pct": "1.984664",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 71,
+          "participacao_total_pct": "3.202526",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 243,
+          "participacao_total_pct": "10.960758",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 6,
+          "participacao_total_pct": "0.270636",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 130,
+          "participacao_total_pct": "5.863780",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 60,
+          "participacao_total_pct": "2.706360",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 31,
+          "participacao_total_pct": "1.398286",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 153,
+          "participacao_total_pct": "6.901218",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2192,
+      "soma_setores_informados": 2192,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 6,
+          "participacao_total_pct": "0.273723",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 8,
+          "participacao_total_pct": "0.364964",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 102,
+          "participacao_total_pct": "4.653285",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 7,
+          "participacao_total_pct": "0.319343",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 121,
+          "participacao_total_pct": "5.520073",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 970,
+          "participacao_total_pct": "44.251825",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 32,
+          "participacao_total_pct": "1.459854",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 145,
+          "participacao_total_pct": "6.614964",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 36,
+          "participacao_total_pct": "1.642336",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 17,
+          "participacao_total_pct": "0.775547",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 47,
+          "participacao_total_pct": "2.144161",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 79,
+          "participacao_total_pct": "3.604015",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 237,
+          "participacao_total_pct": "10.812044",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 7,
+          "participacao_total_pct": "0.319343",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 127,
+          "participacao_total_pct": "5.793796",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 76,
+          "participacao_total_pct": "3.467153",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 35,
+          "participacao_total_pct": "1.596715",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 140,
+          "participacao_total_pct": "6.386861",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2297,
+      "soma_setores_informados": 2297,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 5,
+          "participacao_total_pct": "0.217675",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 7,
+          "participacao_total_pct": "0.304745",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 93,
+          "participacao_total_pct": "4.048759",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 1,
+          "participacao_total_pct": "0.043535",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 5,
+          "participacao_total_pct": "0.217675",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 143,
+          "participacao_total_pct": "6.225512",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 969,
+          "participacao_total_pct": "42.185459",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 33,
+          "participacao_total_pct": "1.436657",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 153,
+          "participacao_total_pct": "6.660862",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 35,
+          "participacao_total_pct": "1.523727",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 24,
+          "participacao_total_pct": "1.044841",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 57,
+          "participacao_total_pct": "2.481498",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 107,
+          "participacao_total_pct": "4.658250",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 250,
+          "participacao_total_pct": "10.883761",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 9,
+          "participacao_total_pct": "0.391815",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 140,
+          "participacao_total_pct": "6.094906",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 84,
+          "participacao_total_pct": "3.656944",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 37,
+          "participacao_total_pct": "1.610797",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 145,
+          "participacao_total_pct": "6.312582",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2535,
+      "soma_setores_informados": 2535,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 3,
+          "participacao_total_pct": "0.118343",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 6,
+          "participacao_total_pct": "0.236686",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 98,
+          "participacao_total_pct": "3.865878",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 1,
+          "participacao_total_pct": "0.039448",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 8,
+          "participacao_total_pct": "0.315582",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 153,
+          "participacao_total_pct": "6.035503",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1048,
+          "participacao_total_pct": "41.341223",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 37,
+          "participacao_total_pct": "1.459566",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 180,
+          "participacao_total_pct": "7.100592",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 48,
+          "participacao_total_pct": "1.893491",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 26,
+          "participacao_total_pct": "1.025641",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 67,
+          "participacao_total_pct": "2.642998",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 135,
+          "participacao_total_pct": "5.325444",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 273,
+          "participacao_total_pct": "10.769231",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 9,
+          "participacao_total_pct": "0.355030",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 150,
+          "participacao_total_pct": "5.917160",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 101,
+          "participacao_total_pct": "3.984221",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 44,
+          "participacao_total_pct": "1.735700",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 148,
+          "participacao_total_pct": "5.838264",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585/c12762/all",
+      "total_empresas": 2890,
+      "soma_setores_informados": 2890,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 5,
+          "participacao_total_pct": "0.173010",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 7,
+          "participacao_total_pct": "0.242215",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 108,
+          "participacao_total_pct": "3.737024",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 2,
+          "participacao_total_pct": "0.069204",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 8,
+          "participacao_total_pct": "0.276817",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 164,
+          "participacao_total_pct": "5.674740",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1160,
+          "participacao_total_pct": "40.138408",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 41,
+          "participacao_total_pct": "1.418685",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 222,
+          "participacao_total_pct": "7.681661",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 60,
+          "participacao_total_pct": "2.076125",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 32,
+          "participacao_total_pct": "1.107266",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 90,
+          "participacao_total_pct": "3.114187",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 175,
+          "participacao_total_pct": "6.055363",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 292,
+          "participacao_total_pct": "10.103806",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 8,
+          "participacao_total_pct": "0.276817",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 165,
+          "participacao_total_pct": "5.709343",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 112,
+          "participacao_total_pct": "3.875433",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 52,
+          "participacao_total_pct": "1.799308",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 187,
+          "participacao_total_pct": "6.470588",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9582",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all",
+      "total_empresas": 4884,
+      "soma_setores_informados": 4884,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 16,
+          "participacao_total_pct": "0.327600",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 12,
+          "participacao_total_pct": "0.245700",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 178,
+          "participacao_total_pct": "3.644554",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 3,
+          "participacao_total_pct": "0.061425",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 12,
+          "participacao_total_pct": "0.245700",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 323,
+          "participacao_total_pct": "6.613432",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1690,
+          "participacao_total_pct": "34.602785",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 67,
+          "participacao_total_pct": "1.371826",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 369,
+          "participacao_total_pct": "7.555283",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 119,
+          "participacao_total_pct": "2.436527",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 58,
+          "participacao_total_pct": "1.187551",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 125,
+          "participacao_total_pct": "2.559378",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 334,
+          "participacao_total_pct": "6.838657",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 543,
+          "participacao_total_pct": "11.117936",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 17,
+          "participacao_total_pct": "0.348075",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 232,
+          "participacao_total_pct": "4.750205",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 201,
+          "participacao_total_pct": "4.115479",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 119,
+          "participacao_total_pct": "2.436527",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 466,
+          "participacao_total_pct": "9.541360",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ],
+      "total_eco003_9509": 5179,
+      "diferenca_9509_menos_9582": 295
+    },
+    {
+      "ano": 2023,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9582",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all",
+      "total_empresas": 5305,
+      "soma_setores_informados": 5305,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 15,
+          "participacao_total_pct": "0.282752",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 14,
+          "participacao_total_pct": "0.263902",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 188,
+          "participacao_total_pct": "3.543827",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 2,
+          "participacao_total_pct": "0.037700",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 11,
+          "participacao_total_pct": "0.207352",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 383,
+          "participacao_total_pct": "7.219604",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1793,
+          "participacao_total_pct": "33.798303",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 71,
+          "participacao_total_pct": "1.338360",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 398,
+          "participacao_total_pct": "7.502356",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 137,
+          "participacao_total_pct": "2.582469",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 62,
+          "participacao_total_pct": "1.168709",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 154,
+          "participacao_total_pct": "2.902922",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 393,
+          "participacao_total_pct": "7.408106",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 572,
+          "participacao_total_pct": "10.782281",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 16,
+          "participacao_total_pct": "0.301602",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 240,
+          "participacao_total_pct": "4.524034",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 226,
+          "participacao_total_pct": "4.260132",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 120,
+          "participacao_total_pct": "2.262017",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 510,
+          "participacao_total_pct": "9.613572",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ],
+      "total_eco003_9509": 5647,
+      "diferenca_9509_menos_9582": 342
+    },
+    {
+      "ano": 2024,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9582",
+      "variavel_sidra": "2585",
+      "url_fonte": "https://apisidra.ibge.gov.br/values/t/9582/n6/3302700/p/2022-2024/v/2585/c12762/all",
+      "total_empresas": 5736,
+      "soma_setores_informados": 5736,
+      "nao_distribuido": 0,
+      "setores": [
+        {
+          "secao": "A",
+          "codigo_categoria": "116830",
+          "nome": "A Agricultura, pecuária, produção florestal, pesca e aquicultura",
+          "valor": 18,
+          "participacao_total_pct": "0.313808",
+          "status": "informado"
+        },
+        {
+          "secao": "B",
+          "codigo_categoria": "116880",
+          "nome": "B Indústrias extrativas",
+          "valor": 13,
+          "participacao_total_pct": "0.226639",
+          "status": "informado"
+        },
+        {
+          "secao": "C",
+          "codigo_categoria": "116910",
+          "nome": "C Indústrias de transformação",
+          "valor": 195,
+          "participacao_total_pct": "3.399582",
+          "status": "informado"
+        },
+        {
+          "secao": "D",
+          "codigo_categoria": "117296",
+          "nome": "D Eletricidade e gás",
+          "valor": 2,
+          "participacao_total_pct": "0.034868",
+          "status": "informado"
+        },
+        {
+          "secao": "E",
+          "codigo_categoria": "117307",
+          "nome": "E Água, esgoto, atividades de gestão de resíduos e descontaminação",
+          "valor": 12,
+          "participacao_total_pct": "0.209205",
+          "status": "informado"
+        },
+        {
+          "secao": "F",
+          "codigo_categoria": "117329",
+          "nome": "F Construção",
+          "valor": 419,
+          "participacao_total_pct": "7.304742",
+          "status": "informado"
+        },
+        {
+          "secao": "G",
+          "codigo_categoria": "117363",
+          "nome": "G Comércio; reparação de veículos automotores e motocicletas",
+          "valor": 1880,
+          "participacao_total_pct": "32.775453",
+          "status": "informado"
+        },
+        {
+          "secao": "H",
+          "codigo_categoria": "117484",
+          "nome": "H Transporte, armazenagem e correio",
+          "valor": 75,
+          "participacao_total_pct": "1.307531",
+          "status": "informado"
+        },
+        {
+          "secao": "I",
+          "codigo_categoria": "117543",
+          "nome": "I Alojamento e alimentação",
+          "valor": 417,
+          "participacao_total_pct": "7.269874",
+          "status": "informado"
+        },
+        {
+          "secao": "J",
+          "codigo_categoria": "117555",
+          "nome": "J Informação e comunicação",
+          "valor": 150,
+          "participacao_total_pct": "2.615063",
+          "status": "informado"
+        },
+        {
+          "secao": "K",
+          "codigo_categoria": "117608",
+          "nome": "K Atividades financeiras, de seguros e serviços relacionados",
+          "valor": 75,
+          "participacao_total_pct": "1.307531",
+          "status": "informado"
+        },
+        {
+          "secao": "L",
+          "codigo_categoria": "117666",
+          "nome": "L Atividades imobiliárias",
+          "valor": 169,
+          "participacao_total_pct": "2.946304",
+          "status": "informado"
+        },
+        {
+          "secao": "M",
+          "codigo_categoria": "117673",
+          "nome": "M Atividades profissionais, científicas e técnicas",
+          "valor": 462,
+          "participacao_total_pct": "8.054393",
+          "status": "informado"
+        },
+        {
+          "secao": "N",
+          "codigo_categoria": "117714",
+          "nome": "N Atividades administrativas e serviços complementares",
+          "valor": 603,
+          "participacao_total_pct": "10.512552",
+          "status": "informado"
+        },
+        {
+          "secao": "O",
+          "codigo_categoria": "117774",
+          "nome": "O Administração pública, defesa e seguridade social",
+          "valor": 17,
+          "participacao_total_pct": "0.296374",
+          "status": "informado"
+        },
+        {
+          "secao": "P",
+          "codigo_categoria": "117788",
+          "nome": "P Educação",
+          "valor": 257,
+          "participacao_total_pct": "4.480474",
+          "status": "informado"
+        },
+        {
+          "secao": "Q",
+          "codigo_categoria": "117810",
+          "nome": "Q Saúde humana e serviços sociais",
+          "valor": 284,
+          "participacao_total_pct": "4.951185",
+          "status": "informado"
+        },
+        {
+          "secao": "R",
+          "codigo_categoria": "117838",
+          "nome": "R Artes, cultura, esporte e recreação",
+          "valor": 130,
+          "participacao_total_pct": "2.266388",
+          "status": "informado"
+        },
+        {
+          "secao": "S",
+          "codigo_categoria": "117861",
+          "nome": "S Outras atividades de serviços",
+          "valor": 558,
+          "participacao_total_pct": "9.728033",
+          "status": "informado"
+        },
+        {
+          "secao": "T",
+          "codigo_categoria": "117888",
+          "nome": "T Serviços domésticos",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        },
+        {
+          "secao": "U",
+          "codigo_categoria": "117892",
+          "nome": "U Organismos internacionais e outras instituições extraterritoriais",
+          "valor": null,
+          "participacao_total_pct": null,
+          "status": "nao_informado"
+        }
+      ],
+      "total_eco003_9509": 6108,
+      "diferenca_9509_menos_9582": 372
+    }
+  ]
+}

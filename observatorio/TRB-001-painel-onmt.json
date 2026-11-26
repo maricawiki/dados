@@ -1,0 +1,934 @@
+{
+  "id": "TRB-001",
+  "titulo": "Novo Caged — consulta histórica adicional do painel MTE",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "periodicidade": "mensal",
+  "periodo_disponivel": "2020-01 a 2026-07",
+  "regime": "indices_consolidados_do_painel_mte_espelho_independente",
+  "nao_somar_com": "CAGEDMOV sem ajustes 2024-01 a 2026-09",
+  "ajuste_FOR_EXC_comprovado": false,
+  "nota": "Série do painel de indicadores do MTE obtida em espelho não oficial. Não declarar equivalência com MOV bruto nem atribuir diferenças especificamente a FOR e EXC sem conciliação.",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego",
+    "painel_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/painel-de-indicadores-da-rede-de-observatorios-do-trabalho",
+    "transporte": "Repositório não oficial, espelho dos índices do painel MTE",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/caged.parquet",
+    "sha256_parquet": "1244aa23d20fb29f3c0f2f65a17a8748fed3257924f3644ff116706b62715874",
+    "ultima_atualizacao_painel_declarada": "2026-09-02",
+    "extracao_espelho": "2026-09-12",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43776713872"
+  },
+  "comparacao_com_MOV_bruto": [
+    {
+      "competencia": "2024-01",
+      "MOV_bruto": {
+        "admissoes": 958,
+        "desligamentos": 951,
+        "saldo": 7
+      },
+      "painel": {
+        "admissoes": 974,
+        "desligamentos": 985,
+        "saldo": -11
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-02",
+      "MOV_bruto": {
+        "admissoes": 1123,
+        "desligamentos": 1104,
+        "saldo": 19
+      },
+      "painel": {
+        "admissoes": 1133,
+        "desligamentos": 1110,
+        "saldo": 23
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-03",
+      "MOV_bruto": {
+        "admissoes": 1298,
+        "desligamentos": 1018,
+        "saldo": 280
+      },
+      "painel": {
+        "admissoes": 1312,
+        "desligamentos": 1027,
+        "saldo": 285
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-04",
+      "MOV_bruto": {
+        "admissoes": 1246,
+        "desligamentos": 942,
+        "saldo": 304
+      },
+      "painel": {
+        "admissoes": 1257,
+        "desligamentos": 950,
+        "saldo": 307
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-05",
+      "MOV_bruto": {
+        "admissoes": 1196,
+        "desligamentos": 983,
+        "saldo": 213
+      },
+      "painel": {
+        "admissoes": 1202,
+        "desligamentos": 990,
+        "saldo": 212
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-06",
+      "MOV_bruto": {
+        "admissoes": 1074,
+        "desligamentos": 909,
+        "saldo": 165
+      },
+      "painel": {
+        "admissoes": 1094,
+        "desligamentos": 916,
+        "saldo": 178
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-07",
+      "MOV_bruto": {
+        "admissoes": 1199,
+        "desligamentos": 1144,
+        "saldo": 55
+      },
+      "painel": {
+        "admissoes": 1212,
+        "desligamentos": 1153,
+        "saldo": 59
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-08",
+      "MOV_bruto": {
+        "admissoes": 1185,
+        "desligamentos": 990,
+        "saldo": 195
+      },
+      "painel": {
+        "admissoes": 1193,
+        "desligamentos": 1001,
+        "saldo": 192
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-09",
+      "MOV_bruto": {
+        "admissoes": 1122,
+        "desligamentos": 1058,
+        "saldo": 64
+      },
+      "painel": {
+        "admissoes": 1134,
+        "desligamentos": 1067,
+        "saldo": 67
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-10",
+      "MOV_bruto": {
+        "admissoes": 1059,
+        "desligamentos": 911,
+        "saldo": 148
+      },
+      "painel": {
+        "admissoes": 1077,
+        "desligamentos": 924,
+        "saldo": 153
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-11",
+      "MOV_bruto": {
+        "admissoes": 949,
+        "desligamentos": 934,
+        "saldo": 15
+      },
+      "painel": {
+        "admissoes": 1020,
+        "desligamentos": 985,
+        "saldo": 35
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2024-12",
+      "MOV_bruto": {
+        "admissoes": 984,
+        "desligamentos": 970,
+        "saldo": 14
+      },
+      "painel": {
+        "admissoes": 1009,
+        "desligamentos": 983,
+        "saldo": 26
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-01",
+      "MOV_bruto": {
+        "admissoes": 1164,
+        "desligamentos": 1712,
+        "saldo": -548
+      },
+      "painel": {
+        "admissoes": 1211,
+        "desligamentos": 1724,
+        "saldo": -513
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-02",
+      "MOV_bruto": {
+        "admissoes": 1378,
+        "desligamentos": 1295,
+        "saldo": 83
+      },
+      "painel": {
+        "admissoes": 1398,
+        "desligamentos": 1310,
+        "saldo": 88
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-03",
+      "MOV_bruto": {
+        "admissoes": 1216,
+        "desligamentos": 1387,
+        "saldo": -171
+      },
+      "painel": {
+        "admissoes": 1201,
+        "desligamentos": 1391,
+        "saldo": -190
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-04",
+      "MOV_bruto": {
+        "admissoes": 1158,
+        "desligamentos": 1042,
+        "saldo": 116
+      },
+      "painel": {
+        "admissoes": 1177,
+        "desligamentos": 1059,
+        "saldo": 118
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-05",
+      "MOV_bruto": {
+        "admissoes": 1399,
+        "desligamentos": 1130,
+        "saldo": 269
+      },
+      "painel": {
+        "admissoes": 1391,
+        "desligamentos": 1136,
+        "saldo": 255
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-06",
+      "MOV_bruto": {
+        "admissoes": 1174,
+        "desligamentos": 1044,
+        "saldo": 130
+      },
+      "painel": {
+        "admissoes": 1263,
+        "desligamentos": 1057,
+        "saldo": 206
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-07",
+      "MOV_bruto": {
+        "admissoes": 1337,
+        "desligamentos": 1190,
+        "saldo": 147
+      },
+      "painel": {
+        "admissoes": 1299,
+        "desligamentos": 1199,
+        "saldo": 100
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-08",
+      "MOV_bruto": {
+        "admissoes": 1353,
+        "desligamentos": 1117,
+        "saldo": 236
+      },
+      "painel": {
+        "admissoes": 1337,
+        "desligamentos": 1122,
+        "saldo": 215
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-09",
+      "MOV_bruto": {
+        "admissoes": 1206,
+        "desligamentos": 1143,
+        "saldo": 63
+      },
+      "painel": {
+        "admissoes": 1195,
+        "desligamentos": 1148,
+        "saldo": 47
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-10",
+      "MOV_bruto": {
+        "admissoes": 1190,
+        "desligamentos": 1077,
+        "saldo": 113
+      },
+      "painel": {
+        "admissoes": 1205,
+        "desligamentos": 1088,
+        "saldo": 117
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-11",
+      "MOV_bruto": {
+        "admissoes": 1207,
+        "desligamentos": 897,
+        "saldo": 310
+      },
+      "painel": {
+        "admissoes": 1208,
+        "desligamentos": 902,
+        "saldo": 306
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2025-12",
+      "MOV_bruto": {
+        "admissoes": 1002,
+        "desligamentos": 995,
+        "saldo": 7
+      },
+      "painel": {
+        "admissoes": 1018,
+        "desligamentos": 1009,
+        "saldo": 9
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-01",
+      "MOV_bruto": {
+        "admissoes": 1196,
+        "desligamentos": 1256,
+        "saldo": -60
+      },
+      "painel": {
+        "admissoes": 1220,
+        "desligamentos": 1269,
+        "saldo": -49
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-02",
+      "MOV_bruto": {
+        "admissoes": 1333,
+        "desligamentos": 1294,
+        "saldo": 39
+      },
+      "painel": {
+        "admissoes": 1360,
+        "desligamentos": 1305,
+        "saldo": 55
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-03",
+      "MOV_bruto": {
+        "admissoes": 1519,
+        "desligamentos": 1256,
+        "saldo": 263
+      },
+      "painel": {
+        "admissoes": 1549,
+        "desligamentos": 1269,
+        "saldo": 280
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-04",
+      "MOV_bruto": {
+        "admissoes": 1265,
+        "desligamentos": 1181,
+        "saldo": 84
+      },
+      "painel": {
+        "admissoes": 1287,
+        "desligamentos": 1197,
+        "saldo": 90
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-05",
+      "MOV_bruto": {
+        "admissoes": 1374,
+        "desligamentos": 1408,
+        "saldo": -34
+      },
+      "painel": {
+        "admissoes": 1411,
+        "desligamentos": 1419,
+        "saldo": -8
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-06",
+      "MOV_bruto": {
+        "admissoes": 1103,
+        "desligamentos": 1159,
+        "saldo": -56
+      },
+      "painel": {
+        "admissoes": 1118,
+        "desligamentos": 1166,
+        "saldo": -48
+      },
+      "saldo_divergente": true
+    },
+    {
+      "competencia": "2026-07",
+      "MOV_bruto": {
+        "admissoes": 1212,
+        "desligamentos": 1204,
+        "saldo": 8
+      },
+      "painel": {
+        "admissoes": 1212,
+        "desligamentos": 1204,
+        "saldo": 8
+      },
+      "saldo_divergente": false
+    }
+  ],
+  "serie": [
+    {
+      "competencia": "2020-01",
+      "admissoes": 562,
+      "desligamentos": 727,
+      "saldo": -165
+    },
+    {
+      "competencia": "2020-02",
+      "admissoes": 802,
+      "desligamentos": 529,
+      "saldo": 273
+    },
+    {
+      "competencia": "2020-03",
+      "admissoes": 633,
+      "desligamentos": 637,
+      "saldo": -4
+    },
+    {
+      "competencia": "2020-04",
+      "admissoes": 275,
+      "desligamentos": 547,
+      "saldo": -272
+    },
+    {
+      "competencia": "2020-05",
+      "admissoes": 320,
+      "desligamentos": 327,
+      "saldo": -7
+    },
+    {
+      "competencia": "2020-06",
+      "admissoes": 471,
+      "desligamentos": 328,
+      "saldo": 143
+    },
+    {
+      "competencia": "2020-07",
+      "admissoes": 641,
+      "desligamentos": 385,
+      "saldo": 256
+    },
+    {
+      "competencia": "2020-08",
+      "admissoes": 742,
+      "desligamentos": 529,
+      "saldo": 213
+    },
+    {
+      "competencia": "2020-09",
+      "admissoes": 607,
+      "desligamentos": 488,
+      "saldo": 119
+    },
+    {
+      "competencia": "2020-10",
+      "admissoes": 753,
+      "desligamentos": 538,
+      "saldo": 215
+    },
+    {
+      "competencia": "2020-11",
+      "admissoes": 720,
+      "desligamentos": 457,
+      "saldo": 263
+    },
+    {
+      "competencia": "2020-12",
+      "admissoes": 595,
+      "desligamentos": 655,
+      "saldo": -60
+    },
+    {
+      "competencia": "2021-01",
+      "admissoes": 715,
+      "desligamentos": 626,
+      "saldo": 89
+    },
+    {
+      "competencia": "2021-02",
+      "admissoes": 934,
+      "desligamentos": 731,
+      "saldo": 203
+    },
+    {
+      "competencia": "2021-03",
+      "admissoes": 1087,
+      "desligamentos": 959,
+      "saldo": 128
+    },
+    {
+      "competencia": "2021-04",
+      "admissoes": 675,
+      "desligamentos": 551,
+      "saldo": 124
+    },
+    {
+      "competencia": "2021-05",
+      "admissoes": 1471,
+      "desligamentos": 547,
+      "saldo": 924
+    },
+    {
+      "competencia": "2021-06",
+      "admissoes": 1044,
+      "desligamentos": 557,
+      "saldo": 487
+    },
+    {
+      "competencia": "2021-07",
+      "admissoes": 1013,
+      "desligamentos": 562,
+      "saldo": 451
+    },
+    {
+      "competencia": "2021-08",
+      "admissoes": 1086,
+      "desligamentos": 1512,
+      "saldo": -426
+    },
+    {
+      "competencia": "2021-09",
+      "admissoes": 1019,
+      "desligamentos": 735,
+      "saldo": 284
+    },
+    {
+      "competencia": "2021-10",
+      "admissoes": 837,
+      "desligamentos": 734,
+      "saldo": 103
+    },
+    {
+      "competencia": "2021-11",
+      "admissoes": 1176,
+      "desligamentos": 1399,
+      "saldo": -223
+    },
+    {
+      "competencia": "2021-12",
+      "admissoes": 771,
+      "desligamentos": 807,
+      "saldo": -36
+    },
+    {
+      "competencia": "2022-01",
+      "admissoes": 998,
+      "desligamentos": 825,
+      "saldo": 173
+    },
+    {
+      "competencia": "2022-02",
+      "admissoes": 1360,
+      "desligamentos": 945,
+      "saldo": 415
+    },
+    {
+      "competencia": "2022-03",
+      "admissoes": 1207,
+      "desligamentos": 885,
+      "saldo": 322
+    },
+    {
+      "competencia": "2022-04",
+      "admissoes": 1233,
+      "desligamentos": 865,
+      "saldo": 368
+    },
+    {
+      "competencia": "2022-05",
+      "admissoes": 1087,
+      "desligamentos": 897,
+      "saldo": 190
+    },
+    {
+      "competencia": "2022-06",
+      "admissoes": 1399,
+      "desligamentos": 924,
+      "saldo": 475
+    },
+    {
+      "competencia": "2022-07",
+      "admissoes": 1428,
+      "desligamentos": 908,
+      "saldo": 520
+    },
+    {
+      "competencia": "2022-08",
+      "admissoes": 1181,
+      "desligamentos": 870,
+      "saldo": 311
+    },
+    {
+      "competencia": "2022-09",
+      "admissoes": 1000,
+      "desligamentos": 846,
+      "saldo": 154
+    },
+    {
+      "competencia": "2022-10",
+      "admissoes": 1084,
+      "desligamentos": 861,
+      "saldo": 223
+    },
+    {
+      "competencia": "2022-11",
+      "admissoes": 1055,
+      "desligamentos": 960,
+      "saldo": 95
+    },
+    {
+      "competencia": "2022-12",
+      "admissoes": 849,
+      "desligamentos": 1156,
+      "saldo": -307
+    },
+    {
+      "competencia": "2023-01",
+      "admissoes": 931,
+      "desligamentos": 987,
+      "saldo": -56
+    },
+    {
+      "competencia": "2023-02",
+      "admissoes": 1148,
+      "desligamentos": 1032,
+      "saldo": 116
+    },
+    {
+      "competencia": "2023-03",
+      "admissoes": 1100,
+      "desligamentos": 1118,
+      "saldo": -18
+    },
+    {
+      "competencia": "2023-04",
+      "admissoes": 946,
+      "desligamentos": 819,
+      "saldo": 127
+    },
+    {
+      "competencia": "2023-05",
+      "admissoes": 1202,
+      "desligamentos": 916,
+      "saldo": 286
+    },
+    {
+      "competencia": "2023-06",
+      "admissoes": 1043,
+      "desligamentos": 817,
+      "saldo": 226
+    },
+    {
+      "competencia": "2023-07",
+      "admissoes": 1096,
+      "desligamentos": 864,
+      "saldo": 232
+    },
+    {
+      "competencia": "2023-08",
+      "admissoes": 1354,
+      "desligamentos": 967,
+      "saldo": 387
+    },
+    {
+      "competencia": "2023-09",
+      "admissoes": 1091,
+      "desligamentos": 885,
+      "saldo": 206
+    },
+    {
+      "competencia": "2023-10",
+      "admissoes": 1093,
+      "desligamentos": 1054,
+      "saldo": 39
+    },
+    {
+      "competencia": "2023-11",
+      "admissoes": 1296,
+      "desligamentos": 977,
+      "saldo": 319
+    },
+    {
+      "competencia": "2023-12",
+      "admissoes": 1104,
+      "desligamentos": 1147,
+      "saldo": -43
+    },
+    {
+      "competencia": "2024-01",
+      "admissoes": 974,
+      "desligamentos": 985,
+      "saldo": -11
+    },
+    {
+      "competencia": "2024-02",
+      "admissoes": 1133,
+      "desligamentos": 1110,
+      "saldo": 23
+    },
+    {
+      "competencia": "2024-03",
+      "admissoes": 1312,
+      "desligamentos": 1027,
+      "saldo": 285
+    },
+    {
+      "competencia": "2024-04",
+      "admissoes": 1257,
+      "desligamentos": 950,
+      "saldo": 307
+    },
+    {
+      "competencia": "2024-05",
+      "admissoes": 1202,
+      "desligamentos": 990,
+      "saldo": 212
+    },
+    {
+      "competencia": "2024-06",
+      "admissoes": 1094,
+      "desligamentos": 916,
+      "saldo": 178
+    },
+    {
+      "competencia": "2024-07",
+      "admissoes": 1212,
+      "desligamentos": 1153,
+      "saldo": 59
+    },
+    {
+      "competencia": "2024-08",
+      "admissoes": 1193,
+      "desligamentos": 1001,
+      "saldo": 192
+    },
+    {
+      "competencia": "2024-09",
+      "admissoes": 1134,
+      "desligamentos": 1067,
+      "saldo": 67
+    },
+    {
+      "competencia": "2024-10",
+      "admissoes": 1077,
+      "desligamentos": 924,
+      "saldo": 153
+    },
+    {
+      "competencia": "2024-11",
+      "admissoes": 1020,
+      "desligamentos": 985,
+      "saldo": 35
+    },
+    {
+      "competencia": "2024-12",
+      "admissoes": 1009,
+      "desligamentos": 983,
+      "saldo": 26
+    },
+    {
+      "competencia": "2025-01",
+      "admissoes": 1211,
+      "desligamentos": 1724,
+      "saldo": -513
+    },
+    {
+      "competencia": "2025-02",
+      "admissoes": 1398,
+      "desligamentos": 1310,
+      "saldo": 88
+    },
+    {
+      "competencia": "2025-03",
+      "admissoes": 1201,
+      "desligamentos": 1391,
+      "saldo": -190
+    },
+    {
+      "competencia": "2025-04",
+      "admissoes": 1177,
+      "desligamentos": 1059,
+      "saldo": 118
+    },
+    {
+      "competencia": "2025-05",
+      "admissoes": 1391,
+      "desligamentos": 1136,
+      "saldo": 255
+    },
+    {
+      "competencia": "2025-06",
+      "admissoes": 1263,
+      "desligamentos": 1057,
+      "saldo": 206
+    },
+    {
+      "competencia": "2025-07",
+      "admissoes": 1299,
+      "desligamentos": 1199,
+      "saldo": 100
+    },
+    {
+      "competencia": "2025-08",
+      "admissoes": 1337,
+      "desligamentos": 1122,
+      "saldo": 215
+    },
+    {
+      "competencia": "2025-09",
+      "admissoes": 1195,
+      "desligamentos": 1148,
+      "saldo": 47
+    },
+    {
+      "competencia": "2025-10",
+      "admissoes": 1205,
+      "desligamentos": 1088,
+      "saldo": 117
+    },
+    {
+      "competencia": "2025-11",
+      "admissoes": 1208,
+      "desligamentos": 902,
+      "saldo": 306
+    },
+    {
+      "competencia": "2025-12",
+      "admissoes": 1018,
+      "desligamentos": 1009,
+      "saldo": 9
+    },
+    {
+      "competencia": "2026-01",
+      "admissoes": 1220,
+      "desligamentos": 1269,
+      "saldo": -49
+    },
+    {
+      "competencia": "2026-02",
+      "admissoes": 1360,
+      "desligamentos": 1305,
+      "saldo": 55
+    },
+    {
+      "competencia": "2026-03",
+      "admissoes": 1549,
+      "desligamentos": 1269,
+      "saldo": 280
+    },
+    {
+      "competencia": "2026-04",
+      "admissoes": 1287,
+      "desligamentos": 1197,
+      "saldo": 90
+    },
+    {
+      "competencia": "2026-05",
+      "admissoes": 1411,
+      "desligamentos": 1419,
+      "saldo": -8
+    },
+    {
+      "competencia": "2026-06",
+      "admissoes": 1118,
+      "desligamentos": 1166,
+      "saldo": -48
+    },
+    {
+      "competencia": "2026-07",
+      "admissoes": 1212,
+      "desligamentos": 1204,
+      "saldo": 8
+    }
+  ]
+}
