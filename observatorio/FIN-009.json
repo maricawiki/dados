@@ -1,0 +1,77 @@
+{
+  "id": "FIN-009",
+  "titulo": "Transferências correntes da União e do Estado",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "unidade": "reais nominais",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "metodologia": "Soma das transferências correntes da União e de suas entidades (1.7.1) e dos Estados e do DF (1.7.2). Não inclui transferências de capital nem transferências privadas.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "consulta_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43796329192",
+    "anexo": "DCA-Anexo I-C",
+    "estagio": "Receitas Brutas Realizadas",
+    "codigos_conta": [
+      "RO1.7.1.0.00.0.0",
+      "RO1.7.2.0.00.0.0",
+      "TotalReceitas"
+    ],
+    "rotulo": "Padrão",
+    "conferencias": [
+      "FIN-001",
+      "FIN-002"
+    ]
+  },
+  "limites": "Fonte oficial anual consultada; valores sujeitos a retificação. Para funções, exclui-se intraorçamentárias; para transferências, somam-se apenas União e Estado e só transferências correntes.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "2042844527.39",
+      "uniao": "1714740920.06",
+      "estado": "328103607.33"
+    },
+    {
+      "ano": 2020,
+      "valor": "2189948844.89",
+      "uniao": "1766796034.15",
+      "estado": "423152810.74"
+    },
+    {
+      "ano": 2021,
+      "valor": "3605774141.91",
+      "uniao": "2809005609.37",
+      "estado": "796768532.54"
+    },
+    {
+      "ano": 2022,
+      "valor": "5337308937.60",
+      "uniao": "4499113785.35",
+      "estado": "838195152.25"
+    },
+    {
+      "ano": 2023,
+      "valor": "5165165229.77",
+      "uniao": "4206581432.21",
+      "estado": "958583797.56"
+    },
+    {
+      "ano": 2024,
+      "valor": "5636748674.04",
+      "uniao": "4479966132.58",
+      "estado": "1156782541.46"
+    },
+    {
+      "ano": 2025,
+      "valor": "5981511480.60",
+      "uniao": "4326176480.97",
+      "estado": "1655334999.63"
+    }
+  ]
+}

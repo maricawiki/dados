@@ -1,0 +1,64 @@
+{
+  "id": "FIN-001",
+  "titulo": "Receita orçamentária total — bruta realizada",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "unidade": "R$ bilhões",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "metodologia": "Valor da conta 'TOTAL DAS RECEITAS (III) = (I + II)', cod_conta 'TotalReceitas', no Anexo I-C da Declaração de Contas Anuais (DCA), coluna 'Receitas Brutas Realizadas', rótulo Padrão.",
+  "criterios": "É um total BRUTO de receitas arrecadadas, antes das deduções da receita. Não representa receita líquida, receita tributária própria, disponibilidade de caixa, nem receita corrigida pela inflação. Valores são os declarados no Siconfi para cada exercício.",
+  "limites": "A DCA pode ser retificada; valores desta ficha correspondem à consulta de 15/11/2026. Não comparar diretamente com receitas líquidas ou com portais que exibem versões e critérios diferentes. Não calcular crescimento real a partir de valores nominais.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "consulta": "2026-11-15",
+    "municipio": "Maricá, Rio de Janeiro",
+    "codigo_ibge": "3302700",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43710602574",
+    "regras": "an_exercicio=ano&id_ente=3302700&no_anexo=DCA-Anexo I-C ou I-D; cod_conta=TotalReceitas ou TotalDespesas; rotulo=Padrão",
+    "anexos": [
+      "DCA-Anexo I-C"
+    ],
+    "contas": [
+      "TotalReceitas"
+    ],
+    "coluna_receita": "Receitas Brutas Realizadas",
+    "coluna_despesa": null
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "receita_bruta_realizada_reais": 2482725718.53
+    },
+    {
+      "ano": 2020,
+      "receita_bruta_realizada_reais": 2673921221.02
+    },
+    {
+      "ano": 2021,
+      "receita_bruta_realizada_reais": 4405598220.04
+    },
+    {
+      "ano": 2022,
+      "receita_bruta_realizada_reais": 6555168822.28
+    },
+    {
+      "ano": 2023,
+      "receita_bruta_realizada_reais": 6540896022.18
+    },
+    {
+      "ano": 2024,
+      "receita_bruta_realizada_reais": 7106620738.93
+    },
+    {
+      "ano": 2025,
+      "receita_bruta_realizada_reais": 7680715301.35
+    }
+  ]
+}

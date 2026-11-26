@@ -1,0 +1,62 @@
+{
+  "id": "FIN-006",
+  "titulo": "Despesas com investimentos liquidadas",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "periodo": [
+    2019,
+    2025
+  ],
+  "unidade": "R$ bilhões",
+  "tipo": "valor oficial da DCA, sem estimativa",
+  "definicao": "Despesas de investimento do grupo de natureza 4, no estágio de liquidação; abrange, conforme a classificação, obras, instalações, equipamentos, material permanente e softwares.",
+  "formula": "Conta DO4.4.00.00.00.00 (4.4.00.00.00 — Investimentos) no Anexo I-D, coluna Despesas Liquidadas, rótulo Padrão.",
+  "limites": "Valores nominais e declarados; investimentos liquidados não são equivalentes aos empenhados ou pagamentos, nem representam o total de investimentos privados no município. A DCA pode sofrer retificações.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — DCA",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43711568247",
+    "conferencia": "2026-11-15",
+    "ente_ibge": "3302700",
+    "cod_conta_pessoal": "DO3.1.00.00.00.00",
+    "cod_conta_investimento": "DO4.4.00.00.00.00",
+    "cod_conta_receita": "TotalReceitas",
+    "estagio": "Despesas Liquidadas",
+    "rotulo": "Padrão"
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "despesa_liquidada_reais": 374943958.92
+    },
+    {
+      "ano": 2020,
+      "despesa_liquidada_reais": 375539255.24
+    },
+    {
+      "ano": 2021,
+      "despesa_liquidada_reais": 368408790.76
+    },
+    {
+      "ano": 2022,
+      "despesa_liquidada_reais": 649878129.76
+    },
+    {
+      "ano": 2023,
+      "despesa_liquidada_reais": 818681408.24
+    },
+    {
+      "ano": 2024,
+      "despesa_liquidada_reais": 829339040.97
+    },
+    {
+      "ano": 2025,
+      "despesa_liquidada_reais": 705651876.53
+    }
+  ]
+}

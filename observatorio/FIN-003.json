@@ -1,0 +1,80 @@
+{
+  "id": "FIN-003",
+  "titulo": "Relação entre despesa liquidada e receita realizada",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "unidade": "%",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "metodologia": "(Total Geral da Despesa, coluna 'Despesas Liquidadas', DCA Anexo I-D ÷ TOTAL DAS RECEITAS, coluna 'Receitas Brutas Realizadas', DCA Anexo I-C) × 100.",
+  "criterios": "Indicador calculado com dois valores diretamente publicados no Siconfi para o mesmo exercício. O denominador é a receita BRUTA, antes das deduções, de forma a manter o mesmo conceito da ficha FIN-001. A taxa não equivale a resultado orçamentário, superávit, déficit ou cumprimento de limite fiscal.",
+  "limites": "As despesas liquidadas são diferentes das empenhadas ou pagas. Receitas brutas não são receitas líquidas de deduções; portanto não comparar esta razão com indicadores que usem receitas líquidas ou correntes. Exercícios podem sofrer retificações.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "consulta": "2026-11-15",
+    "municipio": "Maricá, Rio de Janeiro",
+    "codigo_ibge": "3302700",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43710602574",
+    "regras": "an_exercicio=ano&id_ente=3302700&no_anexo=DCA-Anexo I-C ou I-D; cod_conta=TotalReceitas ou TotalDespesas; rotulo=Padrão",
+    "anexos": [
+      "DCA-Anexo I-C",
+      "DCA-Anexo I-D"
+    ],
+    "contas": [
+      "TotalReceitas",
+      "TotalDespesas"
+    ],
+    "coluna_receita": "Receitas Brutas Realizadas",
+    "coluna_despesa": "Despesas Liquidadas"
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "despesas_liquidadas_reais": 1715435070.1,
+      "receita_bruta_realizada_reais": 2482725718.53,
+      "percentual_despesa_sobre_receita_bruta": 69.094828
+    },
+    {
+      "ano": 2020,
+      "despesas_liquidadas_reais": 2588754357.63,
+      "receita_bruta_realizada_reais": 2673921221.02,
+      "percentual_despesa_sobre_receita_bruta": 96.814908
+    },
+    {
+      "ano": 2021,
+      "despesas_liquidadas_reais": 2926509346.61,
+      "receita_bruta_realizada_reais": 4405598220.04,
+      "percentual_despesa_sobre_receita_bruta": 66.427059
+    },
+    {
+      "ano": 2022,
+      "despesas_liquidadas_reais": 4176570361.08,
+      "receita_bruta_realizada_reais": 6555168822.28,
+      "percentual_despesa_sobre_receita_bruta": 63.714154
+    },
+    {
+      "ano": 2023,
+      "despesas_liquidadas_reais": 5439266660.74,
+      "receita_bruta_realizada_reais": 6540896022.18,
+      "percentual_despesa_sobre_receita_bruta": 83.157822
+    },
+    {
+      "ano": 2024,
+      "despesas_liquidadas_reais": 6581343175.88,
+      "receita_bruta_realizada_reais": 7106620738.93,
+      "percentual_despesa_sobre_receita_bruta": 92.608617
+    },
+    {
+      "ano": 2025,
+      "despesas_liquidadas_reais": 6241244858.75,
+      "receita_bruta_realizada_reais": 7680715301.35,
+      "percentual_despesa_sobre_receita_bruta": 81.258641
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+draa,ativos,aposentados,pensionistas,total,valor,status,url
+DRAA2015,2466,440,99,3005,99,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2015&limit=5000
+DRAA2016,2611,546,111,3268,111,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2016&limit=5000
+DRAA2017,2749,471,129,3349,129,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2017&limit=5000
+DRAA2018,2593,577,111,3281,111,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2018&limit=5000
+DRAA2019,2449,643,110,3202,110,não informado,https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2020_Aeps/1-estados-e-municipios.zip
+DRAA2020,3063,685,127,3875,127,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2020&limit=5000
+DRAA2021,3429,692,132,4253,132,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2021&limit=5000
+DRAA2022,3554,700,154,4408,154,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2022&limit=5000
+DRAA2023,4251,728,162,5141,162,OK,https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/copy_of_1.ESTADOSEMUNICPIOS.zip
+DRAA2024,4360,754,167,5281,167,OK,https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2024/1.ESTADOSEMUNICPIOS.zip
+DRAA2025,4438,792,175,5405,175,OK,https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2026/1estadosemunicipios.zip
+DRAA2026,4430,823,187,5440,187,Documentos Digitalizados,https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2026&limit=5000

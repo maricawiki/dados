@@ -1,0 +1,522 @@
+{
+  "id": "PREV-002",
+  "titulo": "Aposentados do RPPS",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "fonte": "Ministério da Previdência Social — API CADPREV/DRAA e suplementos AEPS",
+  "dimensao": "institucional",
+  "funcao_tematica": "09",
+  "unidade": "pessoas",
+  "anos_referencias": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "anos_nao_verificados": [],
+  "conferencia": "2026-11-18",
+  "nota": "Série anual 2019–2026. Ativos = Servidores + Servidores Iminentes, confirmado nos AEPS 2019/2023/2024/2025; categorias somadas por sexo, plano e órgão. Ano = exercício do DRAA, não necessariamente 31/12. Não indica situação cadastral atual. Série ampliada com dados de DRAA 2015–2018; anos 2000–2014 ainda não confirmados para Maricá pelo MPS. Nos DRAA2015/2016 não há registros separados de Servidores Iminentes; as duas linhas de pensionistas em 2017 são distintas, não cópias idênticas.",
+  "serie": [
+    {
+      "ano": 2015,
+      "draa": "DRAA2015",
+      "ativos": 2466,
+      "aposentados": 440,
+      "pensionistas": 99,
+      "total": 3005,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2015&limit=5000",
+      "dt_envio": "2016-09-01 17:03:59.280",
+      "valor": 440
+    },
+    {
+      "ano": 2016,
+      "draa": "DRAA2016",
+      "ativos": 2611,
+      "aposentados": 546,
+      "pensionistas": 111,
+      "total": 3268,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2016&limit=5000",
+      "dt_envio": "2016-09-01 16:23:06.400",
+      "valor": 546
+    },
+    {
+      "ano": 2017,
+      "draa": "DRAA2017",
+      "ativos": 2749,
+      "aposentados": 471,
+      "pensionistas": 129,
+      "total": 3349,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2017&limit=5000",
+      "dt_envio": "2018-01-12 16:38:26.783",
+      "valor": 471
+    },
+    {
+      "ano": 2018,
+      "draa": "DRAA2018",
+      "ativos": 2593,
+      "aposentados": 577,
+      "pensionistas": 111,
+      "total": 3281,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2018&limit=5000",
+      "dt_envio": "2018-07-19 15:21:32.060",
+      "valor": 577
+    },
+    {
+      "draa": "DRAA2019",
+      "ano": 2019,
+      "ativos": 2449,
+      "aposentados": 643,
+      "pensionistas": 110,
+      "total": 3202,
+      "valor": 643,
+      "status": "não informado",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2020_Aeps/1-estados-e-municipios.zip",
+      "dt_envio": "2019-05-09 18:21:16.967"
+    },
+    {
+      "draa": "DRAA2020",
+      "ano": 2020,
+      "ativos": 3063,
+      "aposentados": 685,
+      "pensionistas": 127,
+      "total": 3875,
+      "valor": 685,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2020&limit=5000",
+      "dt_envio": "2020-07-31 20:40:10.337"
+    },
+    {
+      "draa": "DRAA2021",
+      "ano": 2021,
+      "ativos": 3429,
+      "aposentados": 692,
+      "pensionistas": 132,
+      "total": 4253,
+      "valor": 692,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2021&limit=5000",
+      "dt_envio": "2021-06-09 16:41:21.437"
+    },
+    {
+      "draa": "DRAA2022",
+      "ano": 2022,
+      "ativos": 3554,
+      "aposentados": 700,
+      "pensionistas": 154,
+      "total": 4408,
+      "valor": 700,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2022&limit=5000",
+      "dt_envio": "2022-04-05 12:58:52.137"
+    },
+    {
+      "draa": "DRAA2023",
+      "ano": 2023,
+      "ativos": 4251,
+      "aposentados": 728,
+      "pensionistas": 162,
+      "total": 5141,
+      "valor": 728,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/copy_of_1.ESTADOSEMUNICPIOS.zip",
+      "dt_envio": "2023-04-27 19:12:11.347"
+    },
+    {
+      "draa": "DRAA2024",
+      "ano": 2024,
+      "ativos": 4360,
+      "aposentados": 754,
+      "pensionistas": 167,
+      "total": 5281,
+      "valor": 754,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2024/1.ESTADOSEMUNICPIOS.zip",
+      "dt_envio": "2024-05-02 00:11:33.987"
+    },
+    {
+      "draa": "DRAA2025",
+      "ano": 2025,
+      "ativos": 4438,
+      "aposentados": 792,
+      "pensionistas": 175,
+      "total": 5405,
+      "valor": 792,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2026/1estadosemunicipios.zip",
+      "dt_envio": "2025-03-28 23:07:21.793"
+    },
+    {
+      "draa": "DRAA2026",
+      "ano": 2026,
+      "ativos": 4430,
+      "aposentados": 823,
+      "pensionistas": 187,
+      "total": 5440,
+      "valor": 823,
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2026&limit=5000",
+      "dt_envio": "2026-03-12 22:08:06.160"
+    }
+  ],
+  "proveniencia": [
+    {
+      "referencia": "DRAA2019",
+      "arquivo": "AEPS 2018 (suplemento 2019/20)",
+      "aba": "Segurados Civis",
+      "linha": 1155,
+      "status": "não informado",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2020_Aeps/1-estados-e-municipios.zip"
+    },
+    {
+      "referencia": "DRAA2023",
+      "arquivo": "AEPS 2022–2023",
+      "aba": "Segurados Civis",
+      "linha": 1160,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/copy_of_1.ESTADOSEMUNICPIOS.zip"
+    },
+    {
+      "referencia": "DRAA2024",
+      "arquivo": "AEPS 2023–2024",
+      "aba": "Segurados Civis",
+      "linha": 1159,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2024/1.ESTADOSEMUNICPIOS.zip"
+    },
+    {
+      "referencia": "DRAA2025",
+      "arquivo": "AEPS 2024–2025",
+      "aba": "Segurados Civis",
+      "linha": 1157,
+      "status": "OK",
+      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2026/1estadosemunicipios.zip"
+    }
+  ],
+  "proveniencia_api": [
+    {
+      "referencia": "DRAA2015",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2015&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2016-09-01 17:03:59.280",
+      "planos": {
+        "Financeiro": {
+          "servidores": 1578,
+          "iminentes": 0,
+          "aposentados": 440,
+          "pensionistas": 99,
+          "ativos": 1578
+        },
+        "Previdenciário": {
+          "servidores": 888,
+          "iminentes": 0,
+          "aposentados": 0,
+          "pensionistas": 0,
+          "ativos": 888
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes",
+      "linhas_oficiais": 8,
+      "nota_contagem": "DRAA válido; em 2017, duas linhas distintas de pensionistas compartilham chave simplificada."
+    },
+    {
+      "referencia": "DRAA2016",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2016&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2016-09-01 16:23:06.400",
+      "planos": {
+        "Financeiro": {
+          "servidores": 1635,
+          "iminentes": 0,
+          "aposentados": 545,
+          "pensionistas": 108,
+          "ativos": 1635
+        },
+        "Previdenciário": {
+          "servidores": 976,
+          "iminentes": 0,
+          "aposentados": 1,
+          "pensionistas": 3,
+          "ativos": 976
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes",
+      "linhas_oficiais": 12,
+      "nota_contagem": "DRAA válido; em 2017, duas linhas distintas de pensionistas compartilham chave simplificada."
+    },
+    {
+      "referencia": "DRAA2017",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2017&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2018-01-12 16:38:26.783",
+      "planos": {
+        "Financeiro": {
+          "servidores": 1384,
+          "iminentes": 256,
+          "aposentados": 471,
+          "pensionistas": 129,
+          "ativos": 1640
+        },
+        "Previdenciário": {
+          "servidores": 1109,
+          "iminentes": 0,
+          "aposentados": 0,
+          "pensionistas": 0,
+          "ativos": 1109
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes",
+      "linhas_oficiais": 21,
+      "nota_contagem": "DRAA válido; em 2017, duas linhas distintas de pensionistas compartilham chave simplificada."
+    },
+    {
+      "referencia": "DRAA2018",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2018&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2018-07-19 15:21:32.060",
+      "planos": {
+        "Financeiro": {
+          "servidores": 1237,
+          "iminentes": 283,
+          "aposentados": 577,
+          "pensionistas": 111,
+          "ativos": 1520
+        },
+        "Previdenciário": {
+          "servidores": 1073,
+          "iminentes": 0,
+          "aposentados": 0,
+          "pensionistas": 0,
+          "ativos": 1073
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes",
+      "linhas_oficiais": 22,
+      "nota_contagem": "DRAA válido; em 2017, duas linhas distintas de pensionistas compartilham chave simplificada."
+    },
+    {
+      "referencia": "DRAA2019",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2019&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2019-05-09 18:21:16.967",
+      "planos": {
+        "Financeiro": {
+          "servidores": 1134,
+          "iminentes": 267,
+          "aposentados": 639,
+          "pensionistas": 110,
+          "ativos": 1401
+        },
+        "Previdenciário": {
+          "servidores": 1045,
+          "iminentes": 3,
+          "aposentados": 4,
+          "pensionistas": 0,
+          "ativos": 1048
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2020",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2020&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2020-07-31 20:40:10.337",
+      "planos": {
+        "Financeiro": {
+          "servidores": 936,
+          "iminentes": 425,
+          "aposentados": 680,
+          "pensionistas": 127,
+          "ativos": 1361
+        },
+        "Previdenciário": {
+          "servidores": 1648,
+          "iminentes": 54,
+          "aposentados": 5,
+          "pensionistas": 0,
+          "ativos": 1702
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2021",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2021&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2021-06-09 16:41:21.437",
+      "planos": {
+        "Financeiro": {
+          "servidores": 903,
+          "iminentes": 460,
+          "aposentados": 687,
+          "pensionistas": 124,
+          "ativos": 1363
+        },
+        "Previdenciário": {
+          "servidores": 2038,
+          "iminentes": 28,
+          "aposentados": 5,
+          "pensionistas": 8,
+          "ativos": 2066
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2022",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2022&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2022-04-05 12:58:52.137",
+      "planos": {
+        "Financeiro": {
+          "servidores": 905,
+          "iminentes": 411,
+          "aposentados": 692,
+          "pensionistas": 139,
+          "ativos": 1316
+        },
+        "Previdenciário": {
+          "servidores": 2180,
+          "iminentes": 58,
+          "aposentados": 8,
+          "pensionistas": 15,
+          "ativos": 2238
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2023",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2023&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2023-04-27 19:12:11.347",
+      "planos": {
+        "Financeiro": {
+          "servidores": 787,
+          "iminentes": 488,
+          "aposentados": 718,
+          "pensionistas": 149,
+          "ativos": 1275
+        },
+        "Previdenciário": {
+          "servidores": 2878,
+          "iminentes": 98,
+          "aposentados": 10,
+          "pensionistas": 13,
+          "ativos": 2976
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2024",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2024&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2024-05-02 00:11:33.987",
+      "planos": {
+        "Financeiro": {
+          "servidores": 679,
+          "iminentes": 548,
+          "aposentados": 742,
+          "pensionistas": 151,
+          "ativos": 1227
+        },
+        "Previdenciário": {
+          "servidores": 2932,
+          "iminentes": 201,
+          "aposentados": 12,
+          "pensionistas": 16,
+          "ativos": 3133
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2025",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2025&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2025-03-28 23:07:21.793",
+      "planos": {
+        "Financeiro": {
+          "servidores": 630,
+          "iminentes": 533,
+          "aposentados": 777,
+          "pensionistas": 152,
+          "ativos": 1163
+        },
+        "Previdenciário": {
+          "servidores": 3045,
+          "iminentes": 230,
+          "aposentados": 15,
+          "pensionistas": 23,
+          "ativos": 3275
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    },
+    {
+      "referencia": "DRAA2026",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2026&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2026-03-12 22:08:06.160",
+      "planos": {
+        "Financeiro": {
+          "servidores": 574,
+          "iminentes": 527,
+          "aposentados": 806,
+          "pensionistas": 158,
+          "ativos": 1101
+        },
+        "Previdenciário": {
+          "servidores": 3074,
+          "iminentes": 255,
+          "aposentados": 17,
+          "pensionistas": 29,
+          "ativos": 3329
+        }
+      },
+      "formula_ativos": "Servidores + Servidores Iminentes"
+    }
+  ],
+  "anos_anteriores_pendentes": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014
+  ]
+}

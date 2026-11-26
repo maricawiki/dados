@@ -1,0 +1,76 @@
+{
+  "id": "FIN-005",
+  "titulo": "Relação entre despesas com pessoal e receita realizada",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "periodo": [
+    2019,
+    2025
+  ],
+  "unidade": "%",
+  "tipo": "calculado a partir de duas contas oficiais da DCA",
+  "definicao": "Percentual que o grupo de natureza de despesa Pessoal e Encargos Sociais liquidado representa da receita orçamentária BRUTA realizada no mesmo exercício.",
+  "formula": "(Despesa liquidada de Pessoal e Encargos Sociais, conta DO3.1.00.00.00.00, DCA Anexo I-D ÷ Receita Bruta Realizada, conta TotalReceitas, DCA Anexo I-C) × 100.",
+  "limites": "Não é o indicador de Despesa Total com Pessoal/RCL da Lei de Responsabilidade Fiscal: o denominador aqui é receita BRUTA, e não receita corrente líquida; o numerador também segue grupo de natureza contábil, não a apuração fiscal da LRF. Não inferir cumprimento de limites legais.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — DCA",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43711568247",
+    "conferencia": "2026-11-15",
+    "ente_ibge": "3302700",
+    "cod_conta_pessoal": "DO3.1.00.00.00.00",
+    "cod_conta_investimento": "DO4.4.00.00.00.00",
+    "cod_conta_receita": "TotalReceitas",
+    "estagio": "Despesas Liquidadas",
+    "rotulo": "Padrão"
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "valor_percentual": 21.761927,
+      "despesa_liquidada_reais": 540288966.07,
+      "receita_bruta_realizada_reais": 2482725718.53
+    },
+    {
+      "ano": 2020,
+      "valor_percentual": 20.791855,
+      "despesa_liquidada_reais": 555957815.29,
+      "receita_bruta_realizada_reais": 2673921221.02
+    },
+    {
+      "ano": 2021,
+      "valor_percentual": 12.547908,
+      "despesa_liquidada_reais": 552810396.5,
+      "receita_bruta_realizada_reais": 4405598220.04
+    },
+    {
+      "ano": 2022,
+      "valor_percentual": 12.071106,
+      "despesa_liquidada_reais": 791281363.37,
+      "receita_bruta_realizada_reais": 6555168822.28
+    },
+    {
+      "ano": 2023,
+      "valor_percentual": 15.717351,
+      "despesa_liquidada_reais": 1028055600.45,
+      "receita_bruta_realizada_reais": 6540896022.18
+    },
+    {
+      "ano": 2024,
+      "valor_percentual": 18.064678,
+      "despesa_liquidada_reais": 1283788168.52,
+      "receita_bruta_realizada_reais": 7106620738.93
+    },
+    {
+      "ano": 2025,
+      "valor_percentual": 17.523287,
+      "despesa_liquidada_reais": 1345913772.51,
+      "receita_bruta_realizada_reais": 7680715301.35
+    }
+  ]
+}

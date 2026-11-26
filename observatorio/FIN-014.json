@@ -1,0 +1,73 @@
+{
+  "id": "FIN-014",
+  "titulo": "Despesas com dívida pública liquidadas",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "unidade": "R$ nominais",
+  "metodologia": "Soma dos grupos de natureza 3.2 (juros e encargos da dívida) e 4.6 (amortização da dívida), na coluna Despesas Liquidadas da DCA I-D.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "consulta_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43801588824",
+    "auditoria_previa": "https://github.com/viniciusmoro79/leis/actions/runs/43800146729",
+    "anexo": "DCA-Anexo I-D",
+    "coluna": "Despesas Liquidadas",
+    "rotulo": "Padrão",
+    "contas": [
+      "DO3.2.00.00.00.00",
+      "DO4.6.00.00.00.00"
+    ],
+    "denominador": null
+  },
+  "limites": "Outras compensações naturais genéricas e FEP não são atribuídos a petróleo; 2022 sem rubrica estadual. Período 2000–2018 pendente. Valores sujeitos a retificação.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "3470968.38",
+      "juros_encargos": "975580.72",
+      "amortizacao": "2495387.66"
+    },
+    {
+      "ano": 2020,
+      "valor": "3021181.01",
+      "juros_encargos": "1077906.61",
+      "amortizacao": "1943274.40"
+    },
+    {
+      "ano": 2021,
+      "valor": "3250748.47",
+      "juros_encargos": "1280362.65",
+      "amortizacao": "1970385.82"
+    },
+    {
+      "ano": 2022,
+      "valor": "3584579.71",
+      "juros_encargos": "1530945.36",
+      "amortizacao": "2053634.35"
+    },
+    {
+      "ano": 2023,
+      "valor": "3903431.79",
+      "juros_encargos": "1719199.59",
+      "amortizacao": "2184232.20"
+    },
+    {
+      "ano": 2024,
+      "valor": "4221979.80",
+      "juros_encargos": "1920009.39",
+      "amortizacao": "2301970.41"
+    },
+    {
+      "ano": 2025,
+      "valor": "25472840.22",
+      "juros_encargos": "1450615.73",
+      "amortizacao": "24022224.49"
+    }
+  ]
+}
