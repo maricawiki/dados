@@ -1,0 +1,9 @@
+ano_inicial,ano_final,populacao_inicial,populacao_final,variacao_total_percentual,taxa_media_anual_percentual,unidade,codigo_municipio
+1940,1950,18892,18976,0.4446,0.0444,percentual_ao_ano,3302700
+1950,1960,18976,19468,2.5927,0.2563,percentual_ao_ano,3302700
+1960,1970,19468,23664,21.5533,1.9710,percentual_ao_ano,3302700
+1970,1980,23664,32618,37.8381,3.2611,percentual_ao_ano,3302700
+1980,1991,32618,46545,42.6973,3.2851,percentual_ao_ano,3302700
+1991,2000,46545,76737,64.8663,5.7124,percentual_ao_ano,3302700
+2000,2010,76737,127461,66.1011,5.2052,percentual_ao_ano,3302700
+2010,2022,127461,197277,54.7744,3.7070,percentual_ao_ano,3302700

@@ -1,0 +1,26 @@
+{
+  "lote": "01",
+  "files": {
+    "DEM-001-historico.csv": "9d88de59545acd43ad269ea1fa80408a2a380494",
+    "DEM-001-historico.json": "fea6161f31bbf2cd27feb576438dcec27fd3124f",
+    "DEM-001.csv": "3aef7bab9e69718b4204a0ca01e3b9bdb4bbe811",
+    "DEM-001.json": "17f8b1fc77ab5f73d591e3cf2564eb484c21d44d",
+    "DEM-002.csv": "4a32f673beaadf70aac23040087e67684eceaf06",
+    "DEM-002.json": "5acf464d1848bdbf2478c97ad71b66473efc9155",
+    "DEM-003.csv": "c7e70619efea0689d246c19f38890502a15eb455",
+    "DEM-003.json": "7f8c701a96319380a05c56a481dd1f33f4491420",
+    "DEM-004-idade.csv": "fcf6b0a40f255652986bbaf1bc22ce0a17e3d869",
+    "DEM-004-sexo-idade-2022.csv": "36fa386dff40fcec287aa05d6e665dc8993bca79",
+    "DEM-004-sexo.csv": "6f0f38a73ffcc0e31def1c080a7da6e7cb17674f",
+    "DEM-004.json": "ca4b2bf80569207042e08eac18e9a03b7fdfd351",
+    "DEM-005.csv": "80f953756549c3a4527e15d3b4180375e1a74811",
+    "DEM-005.json": "971543da05156026a4043daeb8011ac8ceecbc12",
+    "DEM-006.csv": "d1d7434dd7211d0c05a4b2d41a8e6cd906279950",
+    "DEM-006.json": "c68c66ea20b5335de6d6fbbff11bc139abca377b",
+    "FIN-POP-IBGE-2019-2025.json": "6d8ec5a31bba7dbc43a2c4e61cf7a45b1ca149ad",
+    "FROTA-MARICA-ANUAL.csv": "b2934ef354776ef1d4390f1ca68d9903d0ae813d",
+    "FROTA-MARICA-ANUAL.json": "71123873e3c3978dd6bad4a4d5b8e33863ed955b",
+    "POP-IBGE-MARICA-2014-2025.csv": "68e7a000b6972c6632a30597e156a4837fc981c4",
+    "POP-IBGE-MARICA-2014-2025.json": "41f2b1f89644ab8620811d0806595b31823e5ab8"
+  }
+}

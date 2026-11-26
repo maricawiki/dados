@@ -1,0 +1,36 @@
+{
+  "id": "DEM-003",
+  "titulo": "Densidade demográfica",
+  "tema": "Demografia",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "unidade": "habitantes/km²",
+  "natureza": "resultado_censitario_oficial_por_ano",
+  "anos": [
+    2010,
+    2022
+  ],
+  "periodicidade": "censitária",
+  "formula": "população residente / área territorial do município (km²)",
+  "fontes": [
+    {
+      "ano": 2010,
+      "descricao": "Sinopse do Censo Demográfico 2010, IBGE, Tabela 2.1.19 — Maricá: densidade 351,55 hab./km²; área arredondada 362,6 km²",
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html",
+      "observacao": "A referência é a Sinopse do Censo 2010; verificar acesso ao PDF pelo título caso o endereço mude"
+    },
+    {
+      "ano": 2022,
+      "descricao": "IBGE Cidades e Estados — Maricá: Censo 2022, densidade 545,61 hab./km²",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    }
+  ],
+  "notas": [
+    "Os valores de densidade correspondem às respectivas divulgações oficiais censitárias; não foram produzidos dividindo ambas as populações pela área de 2025.",
+    "A área municipal associada aos períodos e suas versões cartográficas podem diferir; por isso, a taxa de variação da densidade não equivale exclusivamente à variação populacional.",
+    "A área 2010 é registrada com arredondamento na Sinopse do IBGE; não recalcule o valor exato da densidade usando essa área arredondada.",
+    "Não interpolar os valores em anos sem censo."
+  ],
+  "conferencia": "2026-11-14",
+  "serie": "DEM-003.csv"
+}

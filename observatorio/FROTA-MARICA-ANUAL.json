@@ -1,0 +1,107 @@
+{
+  "titulo": "Frota municipal Maricá, dezembro 2014–2025",
+  "municipio": "Maricá",
+  "uf": "RJ",
+  "codigo_ibge": "3302700",
+  "fonte": "Secretaria Nacional de Trânsito (SENATRAN)/RENAVAM",
+  "conceito": "Frota com placa por município e tipo, total de todos os tipos cadastrados",
+  "periodicidade": "anual (posição em dezembro)",
+  "serie": [
+    {
+      "ano": "2014",
+      "frota": 50147,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2014",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2014/dezembro/frota_por_municipio_e_tipo_dez_2014.xlsx/@@download/file",
+      "sha256": "20a1320dab57875ee13623883beeaca941458d4d595e5903ea9d6f0f09a3dd78",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZ/2014"
+    },
+    {
+      "ano": "2015",
+      "frota": 53514,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2015",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2015/dezembro/frota_por_municipio_e_tipo-dez_15.rar/@@download/file",
+      "sha256": "5857df2e38c692fe5ad6c4ba2408af5933d3ebe39167b04c6a6f8e49e0e90494",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZ/2015"
+    },
+    {
+      "ano": "2016",
+      "frota": 56554,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2016",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2016/dezembro/frota_por_municipio_e_tipo-dez_16.xlsx/@@download/file",
+      "sha256": "dd5e42e54a01ae59dcc132e91a02506d52d26d6eed67b33c4470df37f3a44257",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZ/2016"
+    },
+    {
+      "ano": "2017",
+      "frota": 59688,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2017",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2017/dezembro/frota_munic_dezembro_2017.xls/@@download/file",
+      "sha256": "58ffef3b7e162d7f2e0559565bac54ea64471b537d5e5bcc8bfeafccb70c3040",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação -Dezembro/2017"
+    },
+    {
+      "ano": "2018",
+      "frota": 63814,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2018",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2018/dezembro/frota_munic_dezembro_2018.xls/@@download/file",
+      "sha256": "a52bf3284ccd0a02385bd0902a361fbf885310d3e044e7cc7ea0af577d31090c",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZEMBRO/2018"
+    },
+    {
+      "ano": "2019",
+      "frota": 68528,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2019",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2019/dezembro/frota_munic_modelo_dezembro_2019.xls/@@download/file",
+      "sha256": "991db90d5b9450a543fda604c4ae59e6c3bc2ac5d8f47af16f837a496733936d",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - Dezembro/2019"
+    },
+    {
+      "ano": "2020",
+      "frota": 70777,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2020",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2020/dezembro/frota-reg-munic-tipo-modelo-07-dezembro2020.xls/@@download/file",
+      "sha256": "084fcf71e7814fdd708645da751f11e041c7c91605b57ad2b59f8c2822bca33c",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - Dezembro/2020"
+    },
+    {
+      "ano": "2021",
+      "frota": 76841,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2021",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2021/dezembro/frota-munic-modelo-dezembro-2021.xls/@@download/file",
+      "sha256": "b3ea420172aee4a42847b97f7a6ef8a8d10370602b9fb47512a27d0aa5296879",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - Dezembro/2021"
+    },
+    {
+      "ano": "2022",
+      "frota": 81230,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2022",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2022/dezembro/frota_munic_modelo_dezembro_2022.xls/@@download/file",
+      "sha256": "e1cd2bcaefc448dcf490f3a8e00442fa643d5ebbd2e20f1f52b9126eca50a1f1",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZEMBRO/2022"
+    },
+    {
+      "ano": "2023",
+      "frota": 86436,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2023",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2023/Dezembro/frota_munic_modelo_dezembro_2023.xls/@@download/file",
+      "sha256": "cc1b15439ad1871ef26e72454ae4407104022a5d2790b3b22648d4d9032c96a4",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZEMBRO/2023"
+    },
+    {
+      "ano": "2024",
+      "frota": 92984,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2024",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/FrotapormunicipioetipoDezembro2024.xlsx/@@download/file",
+      "sha256": "7c3029ca0eb3ce481942e35eedfc02b5fb7690c1b906c492165d6abf85259137",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZEMBRO/2024"
+    },
+    {
+      "ano": "2025",
+      "frota": 99333,
+      "pagina": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/frota-de-veiculos-2025",
+      "arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/arquivos-renavam-2025/FrotaporMunicipioetipoDEZEMBRO2025.xlsx/@@download/file",
+      "sha256": "bc2a01160c9f730d26a6fd37140c41d4bba399e53698d44db8a825ee12463468",
+      "cabecalho_planilha": "Frota de veículos, por tipo e com placa, segundo os Municípios da Federação - DEZEMBRO/2025"
+    }
+  ]
+}

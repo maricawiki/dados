@@ -1,0 +1,58 @@
+{
+  "id": "FIN-POP-IBGE-2019-2025",
+  "descricao": "Denominadores do IBGE para indicadores fiscais per capita de Maricá.",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "criterio": "Usar a população oficial para o ano de referência; 2023 sem estimativa municipal: não replicar Censo 2022.",
+  "notas": [
+    "2019, 2020, 2021, 2024 e 2025 são estimativas oficiais IBGE com referência em 1º de julho.",
+    "2022 é população recenseada na data de referência censitária, não estimativa.",
+    "2023: IBGE substituiu as estimativas por divulgação do Censo 2022; dados de 2022 reapresentados não caracterizam estimativa 2023.",
+    "Estimativas anteriores ao Censo 2022 e posteriores ao Censo são produtos de referência distintos: variações per capita ao redor de 2022 não devem ser interpretadas automaticamente como mudanças econômicas reais.",
+    "Não se calculam tendências estimadas ou valores 2023 com população interpolada."
+  ],
+  "serie": [
+    {
+      "ano": 2019,
+      "populacao_habitantes": 161207,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf"
+    },
+    {
+      "ano": 2020,
+      "populacao_habitantes": 164504,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf"
+    },
+    {
+      "ano": 2021,
+      "populacao_habitantes": 167668,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf"
+    },
+    {
+      "ano": 2022,
+      "populacao_habitantes": 197277,
+      "tipo": "censo_demografico_2022",
+      "fonte": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    },
+    {
+      "ano": 2023,
+      "populacao_habitantes": null,
+      "tipo": "sem_estimativa_municipal_ibge_para_2023",
+      "fonte": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios"
+    },
+    {
+      "ano": 2024,
+      "populacao_habitantes": 211986,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf"
+    },
+    {
+      "ano": 2025,
+      "populacao_habitantes": 212470,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf"
+    }
+  ]
+}

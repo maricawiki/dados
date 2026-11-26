@@ -1,0 +1,23 @@
+name: Validar lote 01 do Observatório
+on:
+  pull_request:
+    paths:
+      - 'observatorio/DEM-*'
+      - 'observatorio/POP-IBGE-*'
+      - 'observatorio/FIN-POP-*'
+      - 'observatorio/FROTA-*'
+      - 'observatorio/lote-01.manifest.json'
+      - 'scripts/validar_lote_01.py'
+      - '.github/workflows/validar-lote-01.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 scripts/validar_lote_01.py

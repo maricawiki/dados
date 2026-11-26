@@ -1,0 +1,45 @@
+{
+  "id": "DEM-004",
+  "titulo": "População por sexo e faixa etária",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "unidade": "pessoas e percentual",
+  "fontes": [
+    {
+      "periodos": [
+        1991,
+        2010
+      ],
+      "tipo": "sintese secundaria_do_ibge",
+      "nome": "Maricá em Números — Volume 1 — Instituto Darcy Ribeiro (tabelas do Censo IBGE)",
+      "url": "https://idr.marica.rj.gov.br/wp-content/uploads/2022/12/Marica-em-Numeros-Volume-1-Digital-compactado.pdf"
+    },
+    {
+      "periodos": [
+        2022
+      ],
+      "tipo": "oficial",
+      "nome": "IBGE SIDRA Tabela 9514, variável 93, sexo 4/5, idade c287, forma de declaração total c286/113635",
+      "url": "https://apisidra.ibge.gov.br/values/t/9514/n6/3302700/v/93/p/2022/c2/4,5/c287/93070,93084,93085,93086,93087,93088,93089,93090,93091,93092,93093,93094,93095,93096,93097,93098,49108,49109,60040,60041,6653/c286/113635"
+    }
+  ],
+  "totais_2022": {
+    "homens": 94835,
+    "mulheres": 102442,
+    "idade_0_14": 35313,
+    "idade_15_64": 136345,
+    "idade_65_mais": 25619
+  },
+  "series": [
+    "DEM-004-idade.csv",
+    "DEM-004-sexo.csv",
+    "DEM-004-sexo-idade-2022.csv"
+  ],
+  "notas": [
+    "1991 e 2010 são percentuais arredondados publicados pelo IDR a partir do IBGE; não inferimos contagens exatas a partir deles.",
+    "Os grupos da série histórica são faixas 0–14, 15–64 e 65+; os 21 grupos quinquenais detalhados e cruzados por sexo são do Censo 2022.",
+    "A série não possui observação anual intercensitária.",
+    "Categorias de sexo reproduzem a classificação estatística do IBGE na respectiva fonte."
+  ],
+  "conferencia": "2026-11-14"
+}

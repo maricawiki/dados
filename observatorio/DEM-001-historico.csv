@@ -1,0 +1,14 @@
+ano,populacao,conceito_populacional,fonte_id,valor_alternativo_compilacao
+1872,16218,populacao_presente,ibge_evolucao_1872_2010,
+1890,10373,populacao_presente,artigo_historico_1890,
+1900,10270,populacao_presente,ibge_evolucao_1872_2010,
+1920,18037,populacao_presente,ibge_evolucao_1872_2010,
+1940,18892,populacao_residente,ibge_evolucao_1872_2010,
+1950,18976,populacao_residente,ibge_evolucao_1872_2010,
+1960,19468,populacao_residente,ibge_evolucao_1872_2010,
+1970,23664,populacao_residente,ibge_evolucao_1872_2010,
+1980,32618,populacao_residente,ibge_evolucao_1872_2010,
+1991,46545,populacao_residente,ibge_evolucao_1872_2010,
+2000,76737,populacao_residente,ibge_evolucao_1872_2010,
+2010,127461,populacao_residente,ibge_censo_2010,127519
+2022,197277,populacao_residente,ibge_censo_2022,

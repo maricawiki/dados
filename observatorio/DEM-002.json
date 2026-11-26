@@ -1,0 +1,17 @@
+{
+  "id": "DEM-002",
+  "titulo": "Taxa média geométrica anual de crescimento populacional",
+  "tema": "Demografia",
+  "codigo_ibge": "3302700",
+  "unidade": "% ao ano",
+  "status": "calculado_com_fonte_oficial",
+  "formula": "((P_final / P_inicial) ** (1 / (ano_final - ano_inicial)) - 1) * 100",
+  "fonte_dados": "DEM-001.csv — IBGE, Censos Demográficos",
+  "periodicidade": "censitária",
+  "comparabilidade": "Intervalos entre censos têm durações distintas. Usa a diferença de anos nominais para cálculo da taxa anual aproximada.",
+  "notas": [
+    "Não confundir a taxa geométrica anual com a variação acumulada entre censos.",
+    "Não há observações anuais intermediárias. A série apresenta uma taxa para cada intervalo censitário.",
+    "Os valores foram calculados pelo Maricá Wiki a partir dos dados censitários documentados em DEM-001."
+  ]
+}

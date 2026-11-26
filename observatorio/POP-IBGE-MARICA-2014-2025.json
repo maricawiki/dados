@@ -1,0 +1,118 @@
+{
+  "id": "POP-IBGE-MARICA-2014-2025",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "titulo": "Denominadores populacionais oficiais (Censo e estimativas) — Maricá 2014–2025",
+  "fonte_inicial": "IBGE SIDRA 6579/9324 - estimativa municipal 2014–2018, validada contra 2019",
+  "fonte_historica": {
+    "url": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+    "sha256_resposta_json": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567",
+    "consulta": "2026-11-17",
+    "validacao": "2019=161207, coincide com tabela fiscal já auditada"
+  },
+  "fonte_complementar": "FIN-POP-IBGE-2019-2025.json",
+  "criterio": "Estimativa municipal oficial do IBGE nos anos não censitários e Censo 2022. Não interpolar 2023.",
+  "observacoes": [
+    "A estimativa municipal oficial do IBGE é fonte estatística oficial, mas não é recenseamento.",
+    "Em 2023 o IBGE não divulgou estimativa municipal nesta série e o Censo 2022 não substitui denominador de 2023.",
+    "Datas de referência: 1º de julho para estimativas e data censitária para 2022. Comparações interanuais ao redor do Censo têm cautelas."
+  ],
+  "serie": [
+    {
+      "ano": 2014,
+      "populacao_habitantes": 143111,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+      "origem": "IBGE/SIDRA tabela 6579, variavel 9324, API consultada 17/11/2026",
+      "fonte_sha256": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567"
+    },
+    {
+      "ano": 2015,
+      "populacao_habitantes": 146549,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+      "origem": "IBGE/SIDRA tabela 6579, variavel 9324, API consultada 17/11/2026",
+      "fonte_sha256": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567"
+    },
+    {
+      "ano": 2016,
+      "populacao_habitantes": 149876,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+      "origem": "IBGE/SIDRA tabela 6579, variavel 9324, API consultada 17/11/2026",
+      "fonte_sha256": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567"
+    },
+    {
+      "ano": 2017,
+      "populacao_habitantes": 153008,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+      "origem": "IBGE/SIDRA tabela 6579, variavel 9324, API consultada 17/11/2026",
+      "fonte_sha256": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567"
+    },
+    {
+      "ano": 2018,
+      "populacao_habitantes": 157789,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json",
+      "origem": "IBGE/SIDRA tabela 6579, variavel 9324, API consultada 17/11/2026",
+      "fonte_sha256": "34815c02959e5b624cbe28caa27a3fda8541d57e509894973eff0e40d131a567"
+    },
+    {
+      "ano": 2019,
+      "populacao_habitantes": 161207,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2020,
+      "populacao_habitantes": 164504,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2021,
+      "populacao_habitantes": 167668,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2022,
+      "populacao_habitantes": 197277,
+      "tipo": "censo_demografico_2022",
+      "fonte": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2023,
+      "populacao_habitantes": null,
+      "tipo": "sem_estimativa_municipal_ibge_para_2023",
+      "fonte": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2024,
+      "populacao_habitantes": 211986,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    },
+    {
+      "ano": 2025,
+      "populacao_habitantes": 212470,
+      "tipo": "estimativa_oficial_ibge_01_julho",
+      "fonte": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf",
+      "origem": "FIN-POP-IBGE-2019-2025.json",
+      "fonte_sha256": null
+    }
+  ]
+}

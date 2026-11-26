@@ -1,0 +1,96 @@
+{
+  "id": "DEM-001",
+  "titulo": "População residente",
+  "tema": "Demografia",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "status": "validado_para_piloto",
+  "unidade": "pessoas",
+  "serie": "censos_demograficos_populacao_residente",
+  "periodicidade": "censitária",
+  "cobertura": {
+    "inicio": 1940,
+    "fim": 2022,
+    "anos": [
+      1940,
+      1950,
+      1960,
+      1970,
+      1980,
+      1991,
+      2000,
+      2010,
+      2022
+    ]
+  },
+  "fonte": {
+    "instituicao": "IBGE",
+    "documentos": [
+      {
+        "id": "evolucao_ibge_1872_2010",
+        "titulo": "Evolução da população segundo os municípios — 1872/2010",
+        "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/evolucao_da_divisao_territorial_do_brasil/evolucao_da_divisao_territorial_do_brasil_1872_2010/evolucao_da_populacao_segundo_os_municipios.pdf"
+      },
+      {
+        "id": "censo2010",
+        "titulo": "População residente por município do RJ — Censo 2010",
+        "url": "https://educa.ibge.gov.br/images/vamoscontar/recursos/mediana/Populacao_municipiosRJ_2010.pdf"
+      },
+      {
+        "id": "censo2022",
+        "titulo": "Cidades e Estados — Maricá, Censo 2022 atualizado em 22/12/2023",
+        "url": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+      },
+      {
+        "id": "artigo_historico_1890",
+        "titulo": "Pesquisa histórica sobre o Censo 1890, tabela 10, p. 74",
+        "url": "https://www.rbgdr.net/revista/index.php/rbgdr/article/download/152/125"
+      }
+    ]
+  },
+  "notas": [
+    "Até 1920 os recenseamentos históricos utilizaram população presente; estes períodos não integram a série principal de residentes.",
+    "Publicação histórica de evolução territorial apresenta 127.519 em 2010; a série principal usa 127.461 conforme Censo 2010 publicado pelo IBGE.",
+    "Não misturar estimativas anuais de população com os totais censitários.",
+    "1872: 16.218 na compilação IBGE, distinto de 16.308 apresentado pela pesquisa histórica referida para 1890."
+  ],
+  "atualizacao": {
+    "modo": "verificacao_automatizada_com_revisao",
+    "recurso_sidra": "https://apisidra.ibge.gov.br/values/t/4714/n6/3302700/v/93/p/2022",
+    "checagem_periodica": "mensal",
+    "ultima_conferencia_documental": "2026-11-14"
+  },
+  "cobertura_historica": {
+    "inicio": 1872,
+    "fim": 2022,
+    "observacoes": 13,
+    "arquivo": "DEM-001-historico.csv",
+    "metadados": "DEM-001-historico.json",
+    "grupos": [
+      {
+        "conceito": "populacao_presente",
+        "anos": [
+          1872,
+          1890,
+          1900,
+          1920
+        ]
+      },
+      {
+        "conceito": "populacao_residente",
+        "anos": [
+          1940,
+          1950,
+          1960,
+          1970,
+          1980,
+          1991,
+          2000,
+          2010,
+          2022
+        ]
+      }
+    ],
+    "observacao": "Série histórica de recenseamentos de 1872 a 2022; conservar a série principal de residentes 1940–2022 utilizada no DEM-002."
+  }
+}
