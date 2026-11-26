@@ -1,0 +1,198 @@
+{
+  "id": "MOB-004",
+  "titulo": "Frota de veículos por tipo (dezembro de 2025)",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "natureza": "observacao_oficial_senatran",
+  "ano": 2025,
+  "competencia": "2025-12",
+  "total_veiculos": 99333,
+  "tipos": 21,
+  "fonte": "SENATRAN/RENAVAM — Frota por município e tipo, dezembro de 2025",
+  "fonte_arquivo": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/arquivos-renavam-2025/FrotaporMunicipioetipoDEZEMBRO2025.xlsx/@@download/file",
+  "fonte_sha256": "bc2a01160c9f730d26a6fd37140c41d4bba399e53698d44db8a825ee12463468",
+  "fonte_inventario": "FROTA-MARICA-ANUAL.json",
+  "metodo": "Total e categorias da linha Maricá, RJ; somatório das 21 categorias oficiais D:X corresponde ao total C. Participação=100*veiculos/99333.",
+  "serie": [
+    {
+      "ano": 2025,
+      "coluna": "D",
+      "categoria_oficial": "AUTOMOVEL",
+      "categoria": "Automóvel",
+      "veiculos": 57031,
+      "participacao_percentual": 57.414
+    },
+    {
+      "ano": 2025,
+      "coluna": "E",
+      "categoria_oficial": "BONDE",
+      "categoria": "Bonde",
+      "veiculos": 0,
+      "participacao_percentual": 0
+    },
+    {
+      "ano": 2025,
+      "coluna": "F",
+      "categoria_oficial": "CAMINHAO",
+      "categoria": "Caminhão",
+      "veiculos": 1789,
+      "participacao_percentual": 1.801
+    },
+    {
+      "ano": 2025,
+      "coluna": "G",
+      "categoria_oficial": "CAMINHAO TRATOR",
+      "categoria": "Caminhão-trator",
+      "veiculos": 92,
+      "participacao_percentual": 0.0926
+    },
+    {
+      "ano": 2025,
+      "coluna": "H",
+      "categoria_oficial": "CAMINHONETE",
+      "categoria": "Caminhonete",
+      "veiculos": 5483,
+      "participacao_percentual": 5.5198
+    },
+    {
+      "ano": 2025,
+      "coluna": "I",
+      "categoria_oficial": "CAMIONETA",
+      "categoria": "Camioneta",
+      "veiculos": 4983,
+      "participacao_percentual": 5.0165
+    },
+    {
+      "ano": 2025,
+      "coluna": "J",
+      "categoria_oficial": "CHASSI PLATAF",
+      "categoria": "Chassi-plataforma",
+      "veiculos": 0,
+      "participacao_percentual": 0
+    },
+    {
+      "ano": 2025,
+      "coluna": "K",
+      "categoria_oficial": "CICLOMOTOR",
+      "categoria": "Ciclomotor",
+      "veiculos": 417,
+      "participacao_percentual": 0.4198
+    },
+    {
+      "ano": 2025,
+      "coluna": "L",
+      "categoria_oficial": "MICRO-ONIBUS",
+      "categoria": "Micro-ônibus",
+      "veiculos": 536,
+      "participacao_percentual": 0.5396
+    },
+    {
+      "ano": 2025,
+      "coluna": "M",
+      "categoria_oficial": "MOTOCICLETA",
+      "categoria": "Motocicleta",
+      "veiculos": 19296,
+      "participacao_percentual": 19.4256
+    },
+    {
+      "ano": 2025,
+      "coluna": "N",
+      "categoria_oficial": "MOTONETA",
+      "categoria": "Motoneta",
+      "veiculos": 4813,
+      "participacao_percentual": 4.8453
+    },
+    {
+      "ano": 2025,
+      "coluna": "O",
+      "categoria_oficial": "ONIBUS",
+      "categoria": "Ônibus",
+      "veiculos": 472,
+      "participacao_percentual": 0.4752
+    },
+    {
+      "ano": 2025,
+      "coluna": "P",
+      "categoria_oficial": "QUADRICICLO",
+      "categoria": "Quadriciclo",
+      "veiculos": 0,
+      "participacao_percentual": 0
+    },
+    {
+      "ano": 2025,
+      "coluna": "Q",
+      "categoria_oficial": "REBOQUE",
+      "categoria": "Reboque",
+      "veiculos": 2596,
+      "participacao_percentual": 2.6134
+    },
+    {
+      "ano": 2025,
+      "coluna": "R",
+      "categoria_oficial": "SEMI-REBOQUE",
+      "categoria": "Semirreboque",
+      "veiculos": 113,
+      "participacao_percentual": 0.1138
+    },
+    {
+      "ano": 2025,
+      "coluna": "S",
+      "categoria_oficial": "SIDE-CAR",
+      "categoria": "Sidecar",
+      "veiculos": 6,
+      "participacao_percentual": 0.006
+    },
+    {
+      "ano": 2025,
+      "coluna": "T",
+      "categoria_oficial": "OUTROS",
+      "categoria": "Outros",
+      "veiculos": 59,
+      "participacao_percentual": 0.0594
+    },
+    {
+      "ano": 2025,
+      "coluna": "U",
+      "categoria_oficial": "TRATOR ESTEI",
+      "categoria": "Trator de esteiras",
+      "veiculos": 0,
+      "participacao_percentual": 0
+    },
+    {
+      "ano": 2025,
+      "coluna": "V",
+      "categoria_oficial": "TRATOR RODAS",
+      "categoria": "Trator de rodas",
+      "veiculos": 2,
+      "participacao_percentual": 0.002
+    },
+    {
+      "ano": 2025,
+      "coluna": "W",
+      "categoria_oficial": "TRICICLO",
+      "categoria": "Triciclo",
+      "veiculos": 81,
+      "participacao_percentual": 0.0815
+    },
+    {
+      "ano": 2025,
+      "coluna": "X",
+      "categoria_oficial": "UTILITARIO",
+      "categoria": "Utilitário",
+      "veiculos": 1564,
+      "participacao_percentual": 1.5745
+    }
+  ],
+  "conferencia": "2026-11-17",
+  "anos_nao_publicados": "Não interpolar nem estimar.",
+  "historico": {
+    "periodo": "2014-2025",
+    "mes": "dezembro",
+    "arquivo_csv": "MOB-004-historico.csv",
+    "arquivo_json": "MOB-004-historico.json",
+    "categorias_comparaveis": 21,
+    "verificado_sha256": true
+  }
+}

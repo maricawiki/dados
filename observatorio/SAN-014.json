@@ -1,0 +1,41 @@
+{
+  "id": "SAN-014",
+  "titulo": "Domicílios sujeitos a inundação",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "area": "Drenagem urbana",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "17",
+  "natureza": "observacao_operacional_sinisa_reproduzida_de_painel_secundario",
+  "ano_referencia": 2023,
+  "edicao_sinisa": 2024,
+  "unidade": "domicílios",
+  "valor": 336,
+  "detalhe": "0,3% dos domicílios de referência no painel",
+  "fonte_primaria": {
+    "instituicao": "Ministério das Cidades",
+    "sistema": "SINISA",
+    "edicao": 2024,
+    "ano_base": 2023,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa"
+  },
+  "fonte_conferencia": {
+    "instituicao": "Instituto Água e Saneamento",
+    "url": "https://www.aguaesaneamento.org.br/municipios-e-saneamento/rj/marica"
+  },
+  "fonte_recente_pendente": {
+    "edicao_sinisa": 2025,
+    "ano_base": 2024,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+    "status": "pendente_conferencia_planilha_primaria"
+  },
+  "nota_metodologica": "Contagem declarada para exposição ao risco de inundação; não representa número de domicílios efetivamente inundados durante o ano. Dados de drenagem têm cobertura e conceitos com limitações.",
+  "serie_historica": [
+    {
+      "ano": 2023,
+      "valor": 336
+    }
+  ],
+  "anos_nao_publicados": "Não interpolar nem estimar anos sem planilha oficial validada.",
+  "data_conferencia": "2026-11-17"
+}

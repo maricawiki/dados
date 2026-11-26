@@ -44,3 +44,14 @@ A cobertura registrada corresponde à versão inicial do piloto, não a uma cons
 | SAU-001, 002, 004–006 | 11 | Ministério da Saúde/CNES, SES-RJ/SINASC/SIM, IBGE |
 
 [Notas e ressalvas](observatorio/LOTE-04.md) · [Manifesto](observatorio/lote-04.manifest.json). Agregados municipais; sem microdados de alunos, pacientes ou profissionais. Nenhuma nova coleta.
+
+## Lote 05 — Saneamento, Mobilidade, Telecomunicações e Território
+
+| Base | Arquivos | Fonte |
+|---|---:|---|
+| SAN-001–015 | 33 | IBGE/Censo/SIDRA e Ministério das Cidades/SINISA |
+| MOB-001–009 | 20 | SENATRAN/RENAVAM e IBGE |
+| TEL-001–002 | 4 | Anatel |
+| TER-001 | 2 | IBGE |
+
+[Notas e ressalvas](observatorio/LOTE-05.md) · [Manifesto](observatorio/lote-05.manifest.json). Agregados municipais, sem nova coleta. TER-001 é o indicador de área territorial, não a migração das camadas cartográficas do Mapa de Maricá.

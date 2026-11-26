@@ -1,0 +1,41 @@
+{
+  "id": "SAN-004",
+  "titulo": "População atendida com abastecimento de água",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "area": "Abastecimento de água",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "17",
+  "natureza": "observacao_operacional_sinisa_reproduzida_de_painel_secundario",
+  "ano_referencia": 2023,
+  "edicao_sinisa": 2024,
+  "unidade": "%",
+  "valor": 78.3,
+  "detalhe": "165.894 habitantes atendidos; população de referência: 211.986",
+  "fonte_primaria": {
+    "instituicao": "Ministério das Cidades",
+    "sistema": "SINISA",
+    "edicao": 2024,
+    "ano_base": 2023,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa"
+  },
+  "fonte_conferencia": {
+    "instituicao": "Instituto Água e Saneamento",
+    "url": "https://www.aguaesaneamento.org.br/municipios-e-saneamento/rj/marica"
+  },
+  "fonte_recente_pendente": {
+    "edicao_sinisa": 2025,
+    "ano_base": 2024,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+    "status": "pendente_conferencia_planilha_primaria"
+  },
+  "nota_metodologica": "Atendimento populacional declarado pelo prestador; não equivale ao percentual de domicílios cujo abastecimento principal é a rede geral no Censo.",
+  "serie_historica": [
+    {
+      "ano": 2023,
+      "valor": 78.3
+    }
+  ],
+  "anos_nao_publicados": "Não interpolar nem estimar anos sem planilha oficial validada.",
+  "data_conferencia": "2026-11-17"
+}

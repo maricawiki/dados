@@ -1,0 +1,49 @@
+{
+  "id": "SAN-002",
+  "titulo": "Domicílios com esgotamento por rede geral ou pluvial",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "ambiental",
+  "ods_referencia": "ODS 6 — Água potável e saneamento",
+  "fonte_original": "IBGE — Censo Demográfico e SIDRA",
+  "anos": [
+    2010,
+    2022
+  ],
+  "natureza": "observacao_censitaria",
+  "unidade": "domicílios e percentual",
+  "formula": "100 × domicílios na categoria selecionada ÷ domicílios do universo da mesma tabela e ano",
+  "anos_nao_publicados": "Não interpolar, não estimar.",
+  "referencias": [
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/1394"
+    },
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/6805"
+    }
+  ],
+  "consulta_oficial_2022": "https://apisidra.ibge.gov.br/values/t/6805/n6/3302700/v/381/p/2022/c11558/all",
+  "revisao": "2026-11-14",
+  "notas": [
+    "A série comparável usa estritamente a categoria 'Rede geral de esgoto ou pluvial' de 2010 e 'Rede geral ou pluvial' de 2022.",
+    "Em 2022, 12.444 domicílios adicionais possuíam fossa séptica ou filtro ligada à rede. A categoria agregada 'rede geral, rede pluvial ou fossa ligada à rede' totaliza 25.458 unidades (34,66%), não sendo equivalente à série estrita aqui usada.",
+    "Ligação à rede geral ou pluvial não implica comprovação de tratamento dos efluentes.",
+    "Os dados não representam medições anuais intermediárias."
+  ],
+  "identificadores_origem": [
+    {
+      "ano": 2010,
+      "valor": 5300,
+      "total": 42810,
+      "fonte": "IBGE_SIDRA_1394_v96_c11558_92855"
+    },
+    {
+      "ano": 2022,
+      "valor": 13014,
+      "total": 73454,
+      "fonte": "IBGE_SIDRA_6805_v381_c11558_72110"
+    }
+  ],
+  "arquivo_historico": "SAN-002.csv",
+  "detalhamento_2022": "SAN-002-categorias-2022.csv"
+}

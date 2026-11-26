@@ -1,0 +1,66 @@
+{
+  "id": "MOB-001",
+  "titulo": "Frota total de veículos registrados",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "fonte_principal": "SENATRAN/RENAVAM",
+  "fonte_inventario": "FROTA-MARICA-ANUAL.json",
+  "fonte_populacao": null,
+  "natureza": "dado_oficial",
+  "unidade": "veículos registrados",
+  "formula": "Frota com placa registrada em Maricá em dezembro de cada ano.",
+  "serie": [
+    {
+      "ano": 2014,
+      "frota": 50147
+    },
+    {
+      "ano": 2015,
+      "frota": 53514
+    },
+    {
+      "ano": 2016,
+      "frota": 56554
+    },
+    {
+      "ano": 2017,
+      "frota": 59688
+    },
+    {
+      "ano": 2018,
+      "frota": 63814
+    },
+    {
+      "ano": 2019,
+      "frota": 68528
+    },
+    {
+      "ano": 2020,
+      "frota": 70777
+    },
+    {
+      "ano": 2021,
+      "frota": 76841
+    },
+    {
+      "ano": 2022,
+      "frota": 81230
+    },
+    {
+      "ano": 2023,
+      "frota": 86436
+    },
+    {
+      "ano": 2024,
+      "frota": 92984
+    },
+    {
+      "ano": 2025,
+      "frota": 99333
+    }
+  ],
+  "anos_nao_publicados": "Não interpolar nem estimar.",
+  "conferencia": "2026-11-17"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "SAN-001",
+  "titulo": "Domicílios com água da rede geral como principal abastecimento",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "ambiental",
+  "ods_referencia": "ODS 6 — Água potável e saneamento",
+  "fonte_original": "IBGE — Censo Demográfico e SIDRA",
+  "anos": [
+    2010,
+    2022
+  ],
+  "natureza": "observacao_censitaria",
+  "unidade": "domicílios e percentual",
+  "formula": "100 × domicílios na categoria selecionada ÷ domicílios do universo da mesma tabela e ano",
+  "anos_nao_publicados": "Não interpolar, não estimar.",
+  "referencias": [
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/1398"
+    },
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/6803"
+    }
+  ],
+  "consulta_oficial_2022": "https://apisidra.ibge.gov.br/values/t/6803/n6/3302700/v/381/p/2022/c1821/all",
+  "revisao": "2026-11-14",
+  "notas": [
+    "2010: categoria 'Rede geral' como forma principal; 2022: 'Possui ligação à rede geral e a utiliza como forma principal'.",
+    "Possuir ligação à rede não significa utilizá-la como fonte principal. Em 2022, outros 10.542 domicílios tinham ligação, mas utilizavam principalmente outra fonte.",
+    "Os dados não medem potabilidade da água, regularidade do abastecimento nem número de pessoas atendidas.",
+    "Não foram interpolados anos entre os censos."
+  ],
+  "identificadores_origem": [
+    {
+      "ano": 2010,
+      "valor": 8112,
+      "total": 42810,
+      "fonte": "IBGE_SIDRA_1398_v96_c61_92853"
+    },
+    {
+      "ano": 2022,
+      "valor": 25870,
+      "total": 73454,
+      "fonte": "IBGE_SIDRA_6803_v381_c1821_72144"
+    }
+  ],
+  "arquivo_historico": "SAN-001.csv",
+  "detalhamento_2022": "SAN-001-categorias-2022.csv"
+}

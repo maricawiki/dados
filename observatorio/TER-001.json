@@ -1,0 +1,25 @@
+{
+  "id": "TER-001",
+  "titulo": "Área territorial do município",
+  "municipio": "Maricá, Rio de Janeiro",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "transversal",
+  "periodo_referencia": 2025,
+  "publicacao_oficial": 2026,
+  "tipo": "retrato territorial oficial, não é série histórica",
+  "unidade": "km²",
+  "valor": 361.572,
+  "fonte": {
+    "instituicao": "IBGE",
+    "titulo": "Áreas territoriais — referência territorial 2025; divulgação em 2026",
+    "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-territoriais.html",
+    "ficha_municipal": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+  },
+  "observacoes": [
+    "Área de referência 2025, não área medida em 2026 nem estimativa futura.",
+    "Não inferir alteração física do território a partir de revisões cartográficas históricas.",
+    "A unidade adotada é km²; a conversão corresponde a 36.157,2 hectares."
+  ],
+  "conferencia": "2026-11-15"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "MOB-008",
+  "titulo": "Frota de automóveis por habitante",
+  "municipio": "Maricá/RJ",
+  "codigo_ibge": "3302700",
+  "natureza": "derivado_fontes_oficiais",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "metodo": "Automóveis RENAVAM da categoria AUTOMOVEL em dezembro / população municipal oficial IBGE do exercício.",
+  "unidade": "automóveis registrados por habitante",
+  "fonte_frota": "MOB-004-historico.json",
+  "fonte_populacao": "POP-IBGE-MARICA-2014-2025.json",
+  "limite": "Série oficial disponível entre 2014 e 2025, com 2023 sem denominador IBGE. Não extrapolar para exercícios anteriores a 2014.",
+  "serie": [
+    {
+      "ano": 2014,
+      "automoveis": 32019,
+      "populacao": 143111,
+      "automoveis_por_habitante": 0.22373542,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2015,
+      "automoveis": 34156,
+      "populacao": 146549,
+      "automoveis_por_habitante": 0.2330688,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2016,
+      "automoveis": 35968,
+      "populacao": 149876,
+      "automoveis_por_habitante": 0.23998505,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2017,
+      "automoveis": 37899,
+      "populacao": 153008,
+      "automoveis_por_habitante": 0.24769293,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2018,
+      "automoveis": 40442,
+      "populacao": 157789,
+      "automoveis_por_habitante": 0.25630431,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2019,
+      "automoveis": 43130,
+      "populacao": 161207,
+      "automoveis_por_habitante": 0.26754421,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf"
+    },
+    {
+      "ano": 2020,
+      "automoveis": 44383,
+      "populacao": 164504,
+      "automoveis_por_habitante": 0.26979891,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf"
+    },
+    {
+      "ano": 2021,
+      "automoveis": 47672,
+      "populacao": 167668,
+      "automoveis_por_habitante": 0.28432378,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf"
+    },
+    {
+      "ano": 2022,
+      "automoveis": 49622,
+      "populacao": 197277,
+      "automoveis_por_habitante": 0.25153464,
+      "tipo_populacao": "censo_demografico_2022",
+      "fonte_ibge": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    },
+    {
+      "ano": 2023,
+      "automoveis": 51793,
+      "populacao": null,
+      "automoveis_por_habitante": null,
+      "tipo_populacao": "sem_estimativa_municipal_ibge_para_2023",
+      "fonte_ibge": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios"
+    },
+    {
+      "ano": 2024,
+      "automoveis": 54372,
+      "populacao": 211986,
+      "automoveis_por_habitante": 0.25648864,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf"
+    },
+    {
+      "ano": 2025,
+      "automoveis": 57031,
+      "populacao": 212470,
+      "automoveis_por_habitante": 0.26841907,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf"
+    }
+  ],
+  "conferencia": "2026-11-17",
+  "categoria_tematica": "Infraestrutura e Urbanismo"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "TEL-002",
+  "titulo": "Acessos de banda larga fixa em serviço",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "24",
+  "tipo_servico_oficial": "Banda Larga Fixa",
+  "tipo": "SCM",
+  "unidade": "acessos em serviço",
+  "fonte_oficial": "Agência Nacional de Telecomunicações (Anatel), Meu Município",
+  "url_arquivo_oficial": "https://www.anatel.gov.br/dadosabertos/paineis_de_dados/meu_municipio/meu_municipio.zip",
+  "arquivo_interno": "Meu_Municipio_Acessos.csv",
+  "sha256_zip": "21188c1aae5d7d4167c6c7e83bf37250a33d1027ae1ae20fff9c07902e293b57",
+  "consulta": "2026-11-17",
+  "periodicidade": "anual, posição em dezembro",
+  "metodo": "Filtrar Código IBGE 3302700, serviço exato e mês de referência dezembro (12). Não somar meses.",
+  "natureza": "observacao_oficial",
+  "serie": [
+    {
+      "ano": 2019,
+      "mes": 12,
+      "competencia": "2019-12",
+      "acessos": 10724
+    },
+    {
+      "ano": 2020,
+      "mes": 12,
+      "competencia": "2020-12",
+      "acessos": 12531
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "competencia": "2021-12",
+      "acessos": 14937
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "competencia": "2022-12",
+      "acessos": 35417
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "competencia": "2023-12",
+      "acessos": 46482
+    },
+    {
+      "ano": 2024,
+      "mes": 12,
+      "competencia": "2024-12",
+      "acessos": 47752
+    }
+  ],
+  "competencia_fora_serie": {
+    "ano": 2025,
+    "mes": 11,
+    "acessos": 27390,
+    "motivo": "Novembro de 2025 não é fechamento de dezembro. Não integrar na série anual."
+  },
+  "limites": [
+    "O salto entre 2021 e 2022 é expressivo e não comprova isoladamente aumento de domicílios conectados: pode refletir revisões cadastrais, mudança no reporte ou expansão real, a verificar.",
+    "Contagem de acessos não significa domicílios ou usuários únicos."
+  ],
+  "categoria_tematica": "Infraestrutura e Urbanismo"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "MOB-007",
+  "titulo": "Frota de ônibus e micro-ônibus registrados",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "natureza": "observacao_oficial_senatran_por_categoria",
+  "fonte": "SENATRAN/RENAVAM",
+  "fonte_inventario": "FROTA-MARICA-ANUAL.json",
+  "fonte_tipos": "MOB-004-historico.json",
+  "periodicidade": "anual (dezembro)",
+  "unidade": "veículos registrados",
+  "categorias_oficiais": [
+    "ONIBUS",
+    "MICRO-ONIBUS"
+  ],
+  "formula": "ONIBUS + MICRO-ONIBUS, categorias oficiais da SENATRAN em dezembro de cada ano.",
+  "serie": [
+    {
+      "ano": 2014,
+      "valor": 749,
+      "componentes": {
+        "ONIBUS": 404,
+        "MICRO-ONIBUS": 345
+      },
+      "frota_total": 50147,
+      "participacao_percentual": 1.4936
+    },
+    {
+      "ano": 2015,
+      "valor": 809,
+      "componentes": {
+        "ONIBUS": 437,
+        "MICRO-ONIBUS": 372
+      },
+      "frota_total": 53514,
+      "participacao_percentual": 1.5118
+    },
+    {
+      "ano": 2016,
+      "valor": 810,
+      "componentes": {
+        "ONIBUS": 420,
+        "MICRO-ONIBUS": 390
+      },
+      "frota_total": 56554,
+      "participacao_percentual": 1.4323
+    },
+    {
+      "ano": 2017,
+      "valor": 841,
+      "componentes": {
+        "ONIBUS": 415,
+        "MICRO-ONIBUS": 426
+      },
+      "frota_total": 59688,
+      "participacao_percentual": 1.409
+    },
+    {
+      "ano": 2018,
+      "valor": 884,
+      "componentes": {
+        "ONIBUS": 420,
+        "MICRO-ONIBUS": 464
+      },
+      "frota_total": 63814,
+      "participacao_percentual": 1.3853
+    },
+    {
+      "ano": 2019,
+      "valor": 920,
+      "componentes": {
+        "ONIBUS": 444,
+        "MICRO-ONIBUS": 476
+      },
+      "frota_total": 68528,
+      "participacao_percentual": 1.3425
+    },
+    {
+      "ano": 2020,
+      "valor": 890,
+      "componentes": {
+        "ONIBUS": 403,
+        "MICRO-ONIBUS": 487
+      },
+      "frota_total": 70777,
+      "participacao_percentual": 1.2575
+    },
+    {
+      "ano": 2021,
+      "valor": 899,
+      "componentes": {
+        "ONIBUS": 414,
+        "MICRO-ONIBUS": 485
+      },
+      "frota_total": 76841,
+      "participacao_percentual": 1.1699
+    },
+    {
+      "ano": 2022,
+      "valor": 886,
+      "componentes": {
+        "ONIBUS": 409,
+        "MICRO-ONIBUS": 477
+      },
+      "frota_total": 81230,
+      "participacao_percentual": 1.0907
+    },
+    {
+      "ano": 2023,
+      "valor": 961,
+      "componentes": {
+        "ONIBUS": 461,
+        "MICRO-ONIBUS": 500
+      },
+      "frota_total": 86436,
+      "participacao_percentual": 1.1118
+    },
+    {
+      "ano": 2024,
+      "valor": 971,
+      "componentes": {
+        "ONIBUS": 454,
+        "MICRO-ONIBUS": 517
+      },
+      "frota_total": 92984,
+      "participacao_percentual": 1.0443
+    },
+    {
+      "ano": 2025,
+      "valor": 1008,
+      "componentes": {
+        "ONIBUS": 472,
+        "MICRO-ONIBUS": 536
+      },
+      "frota_total": 99333,
+      "participacao_percentual": 1.0148
+    }
+  ],
+  "revisao": "2026-11-17",
+  "anos_nao_publicados": "Não interpolar nem estimar."
+}

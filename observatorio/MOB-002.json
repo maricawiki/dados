@@ -1,0 +1,95 @@
+{
+  "id": "MOB-002",
+  "titulo": "Crescimento anual da frota registrada",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "fonte_principal": "SENATRAN/RENAVAM",
+  "fonte_inventario": "FROTA-MARICA-ANUAL.json",
+  "fonte_populacao": null,
+  "natureza": "calculo_derivado",
+  "unidade": "%",
+  "formula": "((frota dezembro ano ÷ frota dezembro ano anterior) − 1) × 100",
+  "serie": [
+    {
+      "ano": 2015,
+      "frota_ano_anterior": 50147,
+      "frota_ano": 53514,
+      "variacao_absoluta": 3367,
+      "variacao_percentual": 6.7143
+    },
+    {
+      "ano": 2016,
+      "frota_ano_anterior": 53514,
+      "frota_ano": 56554,
+      "variacao_absoluta": 3040,
+      "variacao_percentual": 5.6808
+    },
+    {
+      "ano": 2017,
+      "frota_ano_anterior": 56554,
+      "frota_ano": 59688,
+      "variacao_absoluta": 3134,
+      "variacao_percentual": 5.5416
+    },
+    {
+      "ano": 2018,
+      "frota_ano_anterior": 59688,
+      "frota_ano": 63814,
+      "variacao_absoluta": 4126,
+      "variacao_percentual": 6.9126
+    },
+    {
+      "ano": 2019,
+      "frota_ano_anterior": 63814,
+      "frota_ano": 68528,
+      "variacao_absoluta": 4714,
+      "variacao_percentual": 7.3871
+    },
+    {
+      "ano": 2020,
+      "frota_ano_anterior": 68528,
+      "frota_ano": 70777,
+      "variacao_absoluta": 2249,
+      "variacao_percentual": 3.2819
+    },
+    {
+      "ano": 2021,
+      "frota_ano_anterior": 70777,
+      "frota_ano": 76841,
+      "variacao_absoluta": 6064,
+      "variacao_percentual": 8.5678
+    },
+    {
+      "ano": 2022,
+      "frota_ano_anterior": 76841,
+      "frota_ano": 81230,
+      "variacao_absoluta": 4389,
+      "variacao_percentual": 5.7118
+    },
+    {
+      "ano": 2023,
+      "frota_ano_anterior": 81230,
+      "frota_ano": 86436,
+      "variacao_absoluta": 5206,
+      "variacao_percentual": 6.409
+    },
+    {
+      "ano": 2024,
+      "frota_ano_anterior": 86436,
+      "frota_ano": 92984,
+      "variacao_absoluta": 6548,
+      "variacao_percentual": 7.5755
+    },
+    {
+      "ano": 2025,
+      "frota_ano_anterior": 92984,
+      "frota_ano": 99333,
+      "variacao_absoluta": 6349,
+      "variacao_percentual": 6.8281
+    }
+  ],
+  "anos_nao_publicados": "Não interpolar nem estimar.",
+  "conferencia": "2026-11-17"
+}
