@@ -1,3 +1,3 @@
 # Automação
 
-Workflows de coleta e validação serão adicionados após revisão. Nenhum workflow de publicação do portal pertence à fase inicial.
+`workflows/ipca.yml` valida o IPCA em PRs e atualiza a série oficial na main por cron ou acionamento manual explícito. Não publica o portal nem acessa seu repositório privado.
