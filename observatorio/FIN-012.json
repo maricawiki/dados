@@ -1,0 +1,145 @@
+{
+  "id": "FIN-012",
+  "titulo": "Royalties e participações especiais identificados",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "unidade": "R$ nominais",
+  "metodologia": "Soma de rubricas explicitamente identificadas de royalties federais, participação especial e royalties estaduais. Não equivale ao conjunto das compensações financeiras por recursos naturais.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "consulta_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43801588824",
+    "auditoria_previa": "https://github.com/viniciusmoro79/leis/actions/runs/43800146729",
+    "anexo": "DCA-Anexo I-C",
+    "coluna": "Receitas Brutas Realizadas",
+    "rotulo": "Padrão",
+    "contas": {
+      "2019–2021": {
+        "royal_uniao_lei": "RO1.7.1.8.02.3.0",
+        "royal_uniao_excedente": "RO1.7.1.8.02.4.0",
+        "participacao_especial": "RO1.7.1.8.02.5.0",
+        "royal_estado": "RO1.7.2.8.02.3.0"
+      },
+      "2022–2025": {
+        "royal_uniao_lei": "RO1.7.1.2.52.1.0",
+        "royal_uniao_excedente": "RO1.7.1.2.52.2.0",
+        "participacao_especial": "RO1.7.1.2.52.3.0",
+        "royal_estado": "RO1.7.2.2.52.0.0"
+      }
+    },
+    "denominador": null
+  },
+  "limites": "Outras compensações naturais genéricas e FEP não são atribuídos a petróleo; 2022 sem rubrica estadual. Período 2000–2018 pendente. Valores sujeitos a retificação.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "1617324047.48",
+      "royalties_uniao": "630346910.28",
+      "participacao_especial": "967528375.47",
+      "royalties_estado": "19448761.73",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": null,
+      "codigos_usados": [
+        "RO1.7.1.8.02.3.0",
+        "RO1.7.1.8.02.4.0",
+        "RO1.7.1.8.02.5.0",
+        "RO1.7.2.8.02.3.0"
+      ]
+    },
+    {
+      "ano": 2020,
+      "valor": "1635334074.34",
+      "royalties_uniao": "761168056.36",
+      "participacao_especial": "843068040.61",
+      "royalties_estado": "31097977.37",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": "1759862.91",
+      "codigos_usados": [
+        "RO1.7.1.8.02.3.0",
+        "RO1.7.1.8.02.4.0",
+        "RO1.7.1.8.02.5.0",
+        "RO1.7.2.8.02.3.0"
+      ]
+    },
+    {
+      "ano": 2021,
+      "valor": "2610278995.67",
+      "royalties_uniao": "1249706181.42",
+      "participacao_especial": "1301143186.69",
+      "royalties_estado": "59429627.56",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": "85588469.26",
+      "codigos_usados": [
+        "RO1.7.1.8.02.3.0",
+        "RO1.7.1.8.02.4.0",
+        "RO1.7.1.8.02.5.0",
+        "RO1.7.2.8.02.3.0"
+      ]
+    },
+    {
+      "ano": 2022,
+      "valor": "3436086644.17",
+      "royalties_uniao": "1635339052.09",
+      "participacao_especial": "1800747592.08",
+      "royalties_estado": null,
+      "estadual_sem_rubrica": true,
+      "outras_compensacoes_nao_incluidas": "881204381.08",
+      "codigos_usados": [
+        "RO1.7.1.2.52.1.0",
+        "RO1.7.1.2.52.2.0",
+        "RO1.7.1.2.52.3.0"
+      ]
+    },
+    {
+      "ano": 2023,
+      "valor": "3040627188.42",
+      "royalties_uniao": "1381086062.97",
+      "participacao_especial": "1574579501.85",
+      "royalties_estado": "84961623.60",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": "1027688021.10",
+      "codigos_usados": [
+        "RO1.7.1.2.52.1.0",
+        "RO1.7.1.2.52.2.0",
+        "RO1.7.1.2.52.3.0",
+        "RO1.7.2.2.52.0.0"
+      ]
+    },
+    {
+      "ano": 2024,
+      "valor": "3122514751.76",
+      "royalties_uniao": "1450376996.18",
+      "participacao_especial": "1548370382.38",
+      "royalties_estado": "123767373.20",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": "1242209109.60",
+      "codigos_usados": [
+        "RO1.7.1.2.52.1.0",
+        "RO1.7.1.2.52.2.0",
+        "RO1.7.1.2.52.3.0",
+        "RO1.7.2.2.52.0.0"
+      ]
+    },
+    {
+      "ano": 2025,
+      "valor": "4231193660.87",
+      "royalties_uniao": "2632481647.21",
+      "participacao_especial": "1426238000.97",
+      "royalties_estado": "172474012.69",
+      "estadual_sem_rubrica": false,
+      "outras_compensacoes_nao_incluidas": null,
+      "codigos_usados": [
+        "RO1.7.1.2.52.1.0",
+        "RO1.7.1.2.52.2.0",
+        "RO1.7.1.2.52.3.0",
+        "RO1.7.2.2.52.0.0"
+      ]
+    }
+  ]
+}

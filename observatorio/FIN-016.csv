@@ -1,0 +1,8 @@
+ano;valor_per_capita_reais;numerador_reais;populacao_habitantes;tipo_populacao;status;fonte_populacao
+2019;1075.46;173372268.72;161207;estimativa_oficial_ibge_01_julho;calculado_com_denominador_oficial;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf
+2020;1123.00;184737386.23;164504;estimativa_oficial_ibge_01_julho;calculado_com_denominador_oficial;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf
+2021;1399.57;234663572.03;167668;estimativa_oficial_ibge_01_julho;calculado_com_denominador_oficial;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf
+2022;1463.04;288624371.37;197277;censo_demografico_2022;calculado_com_denominador_oficial;https://www.ibge.gov.br/cidades-e-estados/rj/marica.html
+2023;;377170577.09;;sem_estimativa_municipal_ibge_para_2023;sem_denominador_anual_oficial;https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios
+2024;2307.60;489179040.09;211986;estimativa_oficial_ibge_01_julho;calculado_com_denominador_oficial;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf
+2025;2411.35;512339855.87;212470;estimativa_oficial_ibge_01_julho;calculado_com_denominador_oficial;https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf

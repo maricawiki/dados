@@ -1,0 +1,62 @@
+{
+  "id": "FIN-004",
+  "titulo": "Despesas com pessoal e encargos sociais liquidadas",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "periodo": [
+    2019,
+    2025
+  ],
+  "unidade": "R$ bilhões",
+  "tipo": "valor oficial da DCA, sem estimativa",
+  "definicao": "Despesas do grupo de natureza 1 (pessoal e encargos sociais), no estágio de liquidação do orçamento municipal. Não equivale à Despesa Total com Pessoal para fins de limite da LRF, cuja metodologia e ajustes são diferentes.",
+  "formula": "Conta DO3.1.00.00.00.00 (3.1.00.00.00 — Pessoal e Encargos Sociais) no Anexo I-D, coluna Despesas Liquidadas, rótulo Padrão.",
+  "limites": "O valor é nominal, sujeito a retificação. Não inclui por analogia obrigações extraorçamentárias nem soma os estágios de empenho, liquidação e pagamento. Não se trata da base de cálculo do limite da LRF.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — DCA",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43711568247",
+    "conferencia": "2026-11-15",
+    "ente_ibge": "3302700",
+    "cod_conta_pessoal": "DO3.1.00.00.00.00",
+    "cod_conta_investimento": "DO4.4.00.00.00.00",
+    "cod_conta_receita": "TotalReceitas",
+    "estagio": "Despesas Liquidadas",
+    "rotulo": "Padrão"
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "despesa_liquidada_reais": 540288966.07
+    },
+    {
+      "ano": 2020,
+      "despesa_liquidada_reais": 555957815.29
+    },
+    {
+      "ano": 2021,
+      "despesa_liquidada_reais": 552810396.5
+    },
+    {
+      "ano": 2022,
+      "despesa_liquidada_reais": 791281363.37
+    },
+    {
+      "ano": 2023,
+      "despesa_liquidada_reais": 1028055600.45
+    },
+    {
+      "ano": 2024,
+      "despesa_liquidada_reais": 1283788168.52
+    },
+    {
+      "ano": 2025,
+      "despesa_liquidada_reais": 1345913772.51
+    }
+  ]
+}

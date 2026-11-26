@@ -1,0 +1,2444 @@
+{
+  "id": "PREV-005",
+  "titulo": "Carteira de investimentos do RPPS",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "uf": "RJ",
+  "dimensao": "institucional",
+  "funcao_tematica": "09",
+  "fonte": "Ministério da Previdência Social — API CADPREV",
+  "tabelas": [
+    "DAIR_CARTEIRA",
+    "DAIR_IDENTIFICACAO"
+  ],
+  "moeda": "BRL",
+  "unidade": "centavos inteiros nos JSONs; reais nominais nos CSVs",
+  "primeira_competencia": "2017-01",
+  "ultima_competencia": "2026-07",
+  "quantidade_competencias": 111,
+  "competencias_da_fonte": 115,
+  "competencias_pendentes": [
+    {
+      "competencia": "2019-12",
+      "posicoes_sem_valor": 1,
+      "linhas_dair": 26
+    },
+    {
+      "competencia": "2020-01",
+      "posicoes_sem_valor": 1,
+      "linhas_dair": 26
+    },
+    {
+      "competencia": "2020-02",
+      "posicoes_sem_valor": 1,
+      "linhas_dair": 26
+    },
+    {
+      "competencia": "2020-03",
+      "posicoes_sem_valor": 1,
+      "linhas_dair": 26
+    }
+  ],
+  "conferencia_em": "2026-11-18",
+  "observacoes": [
+    "vl_total_atual de todas as posições é somado por competência; linhas para o mesmo fundo não são descartadas",
+    "Investimentos excluem Disponibilidades Financeiras; o total informado inclui ambos",
+    "A tabela DAIR_CARTEIRA não informa plano financeiro/previdenciário ou fundo segregado",
+    "Identificacao traz versões e data de envio, mas a carteira não vincula cada linha à versão",
+    "Saldos nominais não representam rentabilidade ou receita",
+    "Competências com posição sem vl_total_atual permanecem fora da série quantitativa; não atribuir valor zero nem interpolar"
+  ],
+  "serie": [
+    {
+      "competencia": "2017-01",
+      "ano": 2017,
+      "mes": 1,
+      "total_centavos": 2773028510,
+      "investimentos_centavos": 2772579990,
+      "disponibilidades_centavos": 448520,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 448520,
+        "Renda Fixa": 2772579990
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 12,
+      "identificacao": {
+        "ultimo_envio": "2017-06-02 19:31:50.967",
+        "data_posicao": "2017-01-31 02:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-02",
+      "ano": 2017,
+      "mes": 2,
+      "total_centavos": 3003801500,
+      "investimentos_centavos": 3003352980,
+      "disponibilidades_centavos": 448520,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 448520,
+        "Renda Fixa": 3003352980
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 12,
+      "identificacao": {
+        "ultimo_envio": "2017-06-19 13:53:06.357",
+        "data_posicao": "2017-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-03",
+      "ano": 2017,
+      "mes": 3,
+      "total_centavos": 3136594828,
+      "investimentos_centavos": 3136594568,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3136594568
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-06-20 16:57:00.583",
+        "data_posicao": "2017-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-04",
+      "ano": 2017,
+      "mes": 4,
+      "total_centavos": 3253567005,
+      "investimentos_centavos": 3253566745,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3253566745
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-06-23 18:44:33.610",
+        "data_posicao": "2017-04-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-05",
+      "ano": 2017,
+      "mes": 5,
+      "total_centavos": 3362494196,
+      "investimentos_centavos": 3362493936,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3362493936
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-06-27 14:41:21.517",
+        "data_posicao": "2017-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-06",
+      "ano": 2017,
+      "mes": 6,
+      "total_centavos": 3357789979,
+      "investimentos_centavos": 3357789719,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3357789719
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-07-13 17:47:24.807",
+        "data_posicao": "2017-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-07",
+      "ano": 2017,
+      "mes": 7,
+      "total_centavos": 3468863880,
+      "investimentos_centavos": 3468696380,
+      "disponibilidades_centavos": 167500,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 167500,
+        "Renda Fixa": 3468696380
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 11,
+      "identificacao": {
+        "ultimo_envio": "2017-09-01 11:38:19.610",
+        "data_posicao": "2017-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-08",
+      "ano": 2017,
+      "mes": 8,
+      "total_centavos": 3696335406,
+      "investimentos_centavos": 3696335146,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3696335146
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-10-03 15:02:26.160",
+        "data_posicao": "2017-08-31 03:00:00.000",
+        "versoes_identificacao": 3,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-09",
+      "ano": 2017,
+      "mes": 9,
+      "total_centavos": 3775114168,
+      "investimentos_centavos": 3775113908,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3775113908
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-10-27 11:28:30.140",
+        "data_posicao": "2017-09-29 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-10",
+      "ano": 2017,
+      "mes": 10,
+      "total_centavos": 3850627820,
+      "investimentos_centavos": 3850627560,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 3850627560
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-12-13 18:16:55.653",
+        "data_posicao": "2017-10-31 02:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-11",
+      "ano": 2017,
+      "mes": 11,
+      "total_centavos": 3835428663,
+      "investimentos_centavos": 3834538929,
+      "disponibilidades_centavos": 889734,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 889734,
+        "Renda Fixa": 3834538929
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2017-12-15 12:58:48.853",
+        "data_posicao": "2017-11-30 02:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2017-12",
+      "ano": 2017,
+      "mes": 12,
+      "total_centavos": 4177165769,
+      "investimentos_centavos": 4177165509,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 4177165509
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-02-05 12:55:29.223",
+        "data_posicao": "2017-12-29 02:00:00.000",
+        "versoes_identificacao": 3,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-01",
+      "ano": 2018,
+      "mes": 1,
+      "total_centavos": 4121276334,
+      "investimentos_centavos": 4121276074,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 4121276074
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-02-08 14:24:38.400",
+        "data_posicao": "2018-01-31 02:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-02",
+      "ano": 2018,
+      "mes": 2,
+      "total_centavos": 4035736204,
+      "investimentos_centavos": 4035735944,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 4035735944
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-03-21 13:46:55.820",
+        "data_posicao": "2018-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-03",
+      "ano": 2018,
+      "mes": 3,
+      "total_centavos": 4269504417,
+      "investimentos_centavos": 4269504157,
+      "disponibilidades_centavos": 260,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 260,
+        "Renda Fixa": 4269504157
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-04-27 13:22:04.437",
+        "data_posicao": "2018-03-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-04",
+      "ano": 2018,
+      "mes": 4,
+      "total_centavos": 4265979191,
+      "investimentos_centavos": 4265897653,
+      "disponibilidades_centavos": 81538,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 81538,
+        "Renda Fixa": 4265897653
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-05-30 18:02:59.897",
+        "data_posicao": "2018-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-05",
+      "ano": 2018,
+      "mes": 5,
+      "total_centavos": 4285648149,
+      "investimentos_centavos": 4285566611,
+      "disponibilidades_centavos": 81538,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 81538,
+        "Renda Fixa": 4285566611
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-06-29 17:54:27.743",
+        "data_posicao": "2018-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-06",
+      "ano": 2018,
+      "mes": 6,
+      "total_centavos": 4205681864,
+      "investimentos_centavos": 4205600326,
+      "disponibilidades_centavos": 81538,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 81538,
+        "Renda Fixa": 4205600326
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-07-31 13:55:47.857",
+        "data_posicao": "2018-06-29 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-07",
+      "ano": 2018,
+      "mes": 7,
+      "total_centavos": 4466127216,
+      "investimentos_centavos": 4466109711,
+      "disponibilidades_centavos": 17505,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 17505,
+        "Renda Fixa": 4466109711
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-08-27 12:46:02.467",
+        "data_posicao": "2018-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-08",
+      "ano": 2018,
+      "mes": 8,
+      "total_centavos": 4555603145,
+      "investimentos_centavos": 4555585640,
+      "disponibilidades_centavos": 17505,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 17505,
+        "Renda Fixa": 4555585640
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-09-25 12:43:10.787",
+        "data_posicao": "2018-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-09",
+      "ano": 2018,
+      "mes": 9,
+      "total_centavos": 4898640824,
+      "investimentos_centavos": 4897709903,
+      "disponibilidades_centavos": 930921,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 930921,
+        "Renda Fixa": 4897709903
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-10-25 14:42:53.817",
+        "data_posicao": "2018-09-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-10",
+      "ano": 2018,
+      "mes": 10,
+      "total_centavos": 5076830757,
+      "investimentos_centavos": 5075899836,
+      "disponibilidades_centavos": 930921,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 930921,
+        "Renda Fixa": 5075899836
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2018-11-14 15:52:04.327",
+        "data_posicao": "2018-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-11",
+      "ano": 2018,
+      "mes": 11,
+      "total_centavos": 4953337596,
+      "investimentos_centavos": 4943712368,
+      "disponibilidades_centavos": 9625228,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9625228,
+        "Renda Fixa": 4943712368
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 11,
+      "identificacao": {
+        "ultimo_envio": "2018-12-26 13:02:40.183",
+        "data_posicao": "2018-11-30 02:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2018-12",
+      "ano": 2018,
+      "mes": 12,
+      "total_centavos": 5617028280,
+      "investimentos_centavos": 5614793536,
+      "disponibilidades_centavos": 2234744,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 2234744,
+        "Renda Fixa": 5614793536
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 10,
+      "identificacao": {
+        "ultimo_envio": "2019-01-28 17:17:05.563",
+        "data_posicao": "2018-12-31 02:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-01",
+      "ano": 2019,
+      "mes": 1,
+      "total_centavos": 5315836654,
+      "investimentos_centavos": 5305323476,
+      "disponibilidades_centavos": 10513178,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 10513178,
+        "Renda Fixa": 5305323476
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 11,
+      "identificacao": {
+        "ultimo_envio": "2019-03-28 16:32:07.397",
+        "data_posicao": "2019-01-31 02:00:00.000",
+        "versoes_identificacao": 4,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-02",
+      "ano": 2019,
+      "mes": 2,
+      "total_centavos": 5434009299,
+      "investimentos_centavos": 5423835916,
+      "disponibilidades_centavos": 10173383,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 10173383,
+        "Renda Fixa": 5423835916
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 11,
+      "identificacao": {
+        "ultimo_envio": "2019-04-01 12:34:51.447",
+        "data_posicao": "2019-02-28 03:00:00.000",
+        "versoes_identificacao": 4,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-03",
+      "ano": 2019,
+      "mes": 3,
+      "total_centavos": 5492471485,
+      "investimentos_centavos": 5491032420,
+      "disponibilidades_centavos": 1439065,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1439065,
+        "Renda Fixa": 5491032420
+      },
+      "linhas_oficiais": 17,
+      "ativos_com_saldo": 11,
+      "identificacao": {
+        "ultimo_envio": "2019-05-13 12:40:52.107",
+        "data_posicao": "2019-03-29 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-04",
+      "ano": 2019,
+      "mes": 4,
+      "total_centavos": 5670784135,
+      "investimentos_centavos": 5669345070,
+      "disponibilidades_centavos": 1439065,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1439065,
+        "Renda Fixa": 5063915734,
+        "Renda Variável": 605429336
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-05-30 18:17:44.250",
+        "data_posicao": "2019-04-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-05",
+      "ano": 2019,
+      "mes": 5,
+      "total_centavos": 5849650574,
+      "investimentos_centavos": 5848211509,
+      "disponibilidades_centavos": 1439065,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1439065,
+        "Renda Fixa": 5235384460,
+        "Renda Variável": 612827049
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-07-08 19:07:46.853",
+        "data_posicao": "2019-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-06",
+      "ano": 2019,
+      "mes": 6,
+      "total_centavos": 5784898011,
+      "investimentos_centavos": 5783458946,
+      "disponibilidades_centavos": 1439065,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1439065,
+        "Renda Fixa": 5160418903,
+        "Renda Variável": 623040043
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-07-31 13:24:16.570",
+        "data_posicao": "2019-06-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-07",
+      "ano": 2019,
+      "mes": 7,
+      "total_centavos": 6097669818,
+      "investimentos_centavos": 6089340755,
+      "disponibilidades_centavos": 8329063,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 8329063,
+        "Renda Fixa": 5461234419,
+        "Renda Variável": 628106336
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-09-05 14:12:40.873",
+        "data_posicao": "2019-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-08",
+      "ano": 2019,
+      "mes": 8,
+      "total_centavos": 6168925129,
+      "investimentos_centavos": 6160596066,
+      "disponibilidades_centavos": 8329063,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 8329063,
+        "Renda Fixa": 5460826260,
+        "Renda Variável": 699769806
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-10-08 11:51:13.770",
+        "data_posicao": "2019-08-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-09",
+      "ano": 2019,
+      "mes": 9,
+      "total_centavos": 6347203547,
+      "investimentos_centavos": 6346496898,
+      "disponibilidades_centavos": 706649,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 706649,
+        "Renda Fixa": 5636274040,
+        "Renda Variável": 710222858
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-12-10 19:41:37.237",
+        "data_posicao": "2019-09-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-10",
+      "ano": 2019,
+      "mes": 10,
+      "total_centavos": 7186538408,
+      "investimentos_centavos": 7184033103,
+      "disponibilidades_centavos": 2505305,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 2505305,
+        "Renda Fixa": 6466800713,
+        "Renda Variável": 717232390
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 17,
+      "identificacao": {
+        "ultimo_envio": "2019-12-26 13:55:21.670",
+        "data_posicao": "2019-10-31 03:00:00.000",
+        "versoes_identificacao": 4,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2019-11",
+      "ano": 2019,
+      "mes": 11,
+      "total_centavos": 6943781471,
+      "investimentos_centavos": 6935294032,
+      "disponibilidades_centavos": 8487439,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 8487439,
+        "Renda Fixa": 6209523954,
+        "Renda Variável": 725770078
+      },
+      "linhas_oficiais": 24,
+      "ativos_com_saldo": 16,
+      "identificacao": {
+        "ultimo_envio": "2019-12-26 13:41:47.103",
+        "data_posicao": "2019-11-29 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-04",
+      "ano": 2020,
+      "mes": 4,
+      "total_centavos": 8201442118,
+      "investimentos_centavos": 8183270111,
+      "disponibilidades_centavos": 18172007,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 18172007,
+        "Renda Fixa": 7353661085,
+        "Renda Variável": 829609026
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-09-15 12:35:56.403",
+        "data_posicao": "2020-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-05",
+      "ano": 2020,
+      "mes": 5,
+      "total_centavos": 8135969374,
+      "investimentos_centavos": 8117797367,
+      "disponibilidades_centavos": 18172007,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 18172007,
+        "Renda Fixa": 7265336739,
+        "Renda Variável": 852460628
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-09-15 13:21:39.810",
+        "data_posicao": "2020-05-29 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-06",
+      "ano": 2020,
+      "mes": 6,
+      "total_centavos": 8613329285,
+      "investimentos_centavos": 8603733443,
+      "disponibilidades_centavos": 9595842,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9595842,
+        "Renda Fixa": 7721879524,
+        "Renda Variável": 881853919
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-09-15 14:35:26.283",
+        "data_posicao": "2020-06-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-07",
+      "ano": 2020,
+      "mes": 7,
+      "total_centavos": 9132850919,
+      "investimentos_centavos": 9123110736,
+      "disponibilidades_centavos": 9740183,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9740183,
+        "Renda Fixa": 8214021171,
+        "Renda Variável": 909089565
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-09-17 16:40:36.060",
+        "data_posicao": "2020-07-31 03:00:00.000",
+        "versoes_identificacao": 3,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-08",
+      "ano": 2020,
+      "mes": 8,
+      "total_centavos": 9240476719,
+      "investimentos_centavos": 9230736536,
+      "disponibilidades_centavos": 9740183,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9740183,
+        "Renda Fixa": 8328534151,
+        "Renda Variável": 902202385
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-09-21 16:39:25.283",
+        "data_posicao": "2020-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-09",
+      "ano": 2020,
+      "mes": 9,
+      "total_centavos": 9438526663,
+      "investimentos_centavos": 9428645013,
+      "disponibilidades_centavos": 9881650,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9881650,
+        "Renda Fixa": 8547740796,
+        "Renda Variável": 880904217
+      },
+      "linhas_oficiais": 26,
+      "ativos_com_saldo": 19,
+      "identificacao": {
+        "ultimo_envio": "2020-10-27 20:12:29.127",
+        "data_posicao": "2020-09-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-10",
+      "ano": 2020,
+      "mes": 10,
+      "total_centavos": 10026407770,
+      "investimentos_centavos": 9798026438,
+      "disponibilidades_centavos": 228381332,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 228381332,
+        "Renda Fixa": 8618200852,
+        "Renda Variável": 1179825586
+      },
+      "linhas_oficiais": 40,
+      "ativos_com_saldo": 20,
+      "identificacao": {
+        "ultimo_envio": "2021-01-07 18:12:32.223",
+        "data_posicao": "2020-10-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-11",
+      "ano": 2020,
+      "mes": 11,
+      "total_centavos": 10216185089,
+      "investimentos_centavos": 9979074941,
+      "disponibilidades_centavos": 237110148,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 237110148,
+        "Renda Fixa": 8735832036,
+        "Renda Variável": 1243242905
+      },
+      "linhas_oficiais": 39,
+      "ativos_com_saldo": 21,
+      "identificacao": {
+        "ultimo_envio": "2021-05-20 16:19:06.577",
+        "data_posicao": "2020-11-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2020-12",
+      "ano": 2020,
+      "mes": 12,
+      "total_centavos": 11599414236,
+      "investimentos_centavos": 11589623455,
+      "disponibilidades_centavos": 9790781,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9790781,
+        "Renda Fixa": 10306845447,
+        "Renda Variável": 1282778008
+      },
+      "linhas_oficiais": 40,
+      "ativos_com_saldo": 21,
+      "identificacao": {
+        "ultimo_envio": "2021-03-02 14:29:08.423",
+        "data_posicao": "2020-12-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-01",
+      "ano": 2021,
+      "mes": 1,
+      "total_centavos": 11124616106,
+      "investimentos_centavos": 11115029133,
+      "disponibilidades_centavos": 9586973,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9586973,
+        "Renda Fixa": 9448343044,
+        "Renda Variável": 1666686089
+      },
+      "linhas_oficiais": 44,
+      "ativos_com_saldo": 23,
+      "identificacao": {
+        "ultimo_envio": "2021-08-02 18:53:40.563",
+        "data_posicao": "2021-01-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-02",
+      "ano": 2021,
+      "mes": 2,
+      "total_centavos": 11024796222,
+      "investimentos_centavos": 11015209249,
+      "disponibilidades_centavos": 9586973,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9586973,
+        "Renda Fixa": 9754181403,
+        "Renda Variável": 1261027846
+      },
+      "linhas_oficiais": 42,
+      "ativos_com_saldo": 21,
+      "identificacao": {
+        "ultimo_envio": "2021-04-08 17:15:57.550",
+        "data_posicao": "2021-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-03",
+      "ano": 2021,
+      "mes": 3,
+      "total_centavos": 11223660445,
+      "investimentos_centavos": 11212350270,
+      "disponibilidades_centavos": 11310175,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11310175,
+        "Renda Fixa": 9925046731,
+        "Renda Variável": 1287303539
+      },
+      "linhas_oficiais": 42,
+      "ativos_com_saldo": 22,
+      "identificacao": {
+        "ultimo_envio": "2021-04-27 16:40:19.160",
+        "data_posicao": "2021-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-04",
+      "ano": 2021,
+      "mes": 4,
+      "total_centavos": 11655579513,
+      "investimentos_centavos": 11644730886,
+      "disponibilidades_centavos": 10848627,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 10848627,
+        "Renda Fixa": 10131994984,
+        "Renda Variável": 1512735902
+      },
+      "linhas_oficiais": 42,
+      "ativos_com_saldo": 22,
+      "identificacao": {
+        "ultimo_envio": "2021-05-20 16:50:24.087",
+        "data_posicao": "2021-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-05",
+      "ano": 2021,
+      "mes": 5,
+      "total_centavos": 11760599044,
+      "investimentos_centavos": 11749220409,
+      "disponibilidades_centavos": 11378635,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11378635,
+        "Renda Fixa": 10410706542,
+        "Renda Variável": 1338513867
+      },
+      "linhas_oficiais": 42,
+      "ativos_com_saldo": 22,
+      "identificacao": {
+        "ultimo_envio": "2021-07-01 14:10:12.243",
+        "data_posicao": "2021-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-06",
+      "ano": 2021,
+      "mes": 6,
+      "total_centavos": 12156745036,
+      "investimentos_centavos": 12145366401,
+      "disponibilidades_centavos": 11378635,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11378635,
+        "Renda Fixa": 10363528264,
+        "Renda Variável": 1781838137
+      },
+      "linhas_oficiais": 44,
+      "ativos_com_saldo": 24,
+      "identificacao": {
+        "ultimo_envio": "2021-08-04 18:49:41.523",
+        "data_posicao": "2021-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-07",
+      "ano": 2021,
+      "mes": 7,
+      "total_centavos": 12576235313,
+      "investimentos_centavos": 12564856678,
+      "disponibilidades_centavos": 11378635,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11378635,
+        "Renda Fixa": 10810060513,
+        "Renda Variável": 1754796165
+      },
+      "linhas_oficiais": 44,
+      "ativos_com_saldo": 24,
+      "identificacao": {
+        "ultimo_envio": "2021-09-27 14:16:13.020",
+        "data_posicao": "2021-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-08",
+      "ano": 2021,
+      "mes": 8,
+      "total_centavos": 12761813573,
+      "investimentos_centavos": 12750434938,
+      "disponibilidades_centavos": 11378635,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11378635,
+        "Renda Fixa": 11016471386,
+        "Renda Variável": 1733963552
+      },
+      "linhas_oficiais": 44,
+      "ativos_com_saldo": 24,
+      "identificacao": {
+        "ultimo_envio": "2021-11-29 19:40:30.273",
+        "data_posicao": "2021-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-09",
+      "ano": 2021,
+      "mes": 9,
+      "total_centavos": 12974615405,
+      "investimentos_centavos": 12963552012,
+      "disponibilidades_centavos": 11063393,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11063393,
+        "Investimentos no Exterior": 198984953,
+        "Renda Fixa": 10289087316,
+        "Renda Variável": 2475479743
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2022-03-21 14:44:27.390",
+        "data_posicao": "2021-09-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-10",
+      "ano": 2021,
+      "mes": 10,
+      "total_centavos": 13035161051,
+      "investimentos_centavos": 13023291285,
+      "disponibilidades_centavos": 11869766,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11869766,
+        "Investimentos no Exterior": 220731706,
+        "Renda Fixa": 10423348972,
+        "Renda Variável": 2379210607
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2022-03-24 16:26:15.013",
+        "data_posicao": "2021-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-11",
+      "ano": 2021,
+      "mes": 11,
+      "total_centavos": 13194391903,
+      "investimentos_centavos": 13182258390,
+      "disponibilidades_centavos": 12133513,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 12133513,
+        "Investimentos no Exterior": 218762639,
+        "Renda Fixa": 10603687733,
+        "Renda Variável": 2359808018
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2022-03-25 13:14:53.893",
+        "data_posicao": "2021-11-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2021-12",
+      "ano": 2021,
+      "mes": 12,
+      "total_centavos": 14677527784,
+      "investimentos_centavos": 14664167548,
+      "disponibilidades_centavos": 13360236,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13360236,
+        "Investimentos no Exterior": 222487488,
+        "Renda Fixa": 12017051747,
+        "Renda Variável": 2424628313
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2022-03-28 16:51:53.750",
+        "data_posicao": "2021-12-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-01",
+      "ano": 2022,
+      "mes": 1,
+      "total_centavos": 14167377596,
+      "investimentos_centavos": 14153970097,
+      "disponibilidades_centavos": 13407499,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13407499,
+        "Investimentos Estruturados": 1189490550,
+        "Investimentos no Exterior": 200803776,
+        "Renda Fixa": 11468994715,
+        "Renda Variável": 1294681056
+      },
+      "linhas_oficiais": 71,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2022-04-05 19:32:08.330",
+        "data_posicao": "2022-01-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-02",
+      "ano": 2022,
+      "mes": 2,
+      "total_centavos": 14690985816,
+      "investimentos_centavos": 14678778860,
+      "disponibilidades_centavos": 12206956,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 12206956,
+        "Investimentos Estruturados": 1193725736,
+        "Investimentos no Exterior": 186512925,
+        "Renda Fixa": 12027271457,
+        "Renda Variável": 1271268742
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 26,
+      "identificacao": {
+        "ultimo_envio": "2022-05-06 16:20:36.107",
+        "data_posicao": "2022-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-03",
+      "ano": 2022,
+      "mes": 3,
+      "total_centavos": 15176354649,
+      "investimentos_centavos": 15164151506,
+      "disponibilidades_centavos": 12203143,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 12203143,
+        "Investimentos Estruturados": 1222742927,
+        "Investimentos no Exterior": 178843900,
+        "Renda Fixa": 12408577212,
+        "Renda Variável": 1353987467
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 26,
+      "identificacao": {
+        "ultimo_envio": "2022-05-24 16:39:09.400",
+        "data_posicao": "2022-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-04",
+      "ano": 2022,
+      "mes": 4,
+      "total_centavos": 15423809845,
+      "investimentos_centavos": 15411388029,
+      "disponibilidades_centavos": 12421816,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 12421816,
+        "Investimentos Estruturados": 1200420442,
+        "Investimentos no Exterior": 166647353,
+        "Renda Fixa": 12789328672,
+        "Renda Variável": 1254991562
+      },
+      "linhas_oficiais": 47,
+      "ativos_com_saldo": 26,
+      "identificacao": {
+        "ultimo_envio": "2022-06-02 14:39:31.573",
+        "data_posicao": "2022-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-05",
+      "ano": 2022,
+      "mes": 5,
+      "total_centavos": 15901305030,
+      "investimentos_centavos": 15887900271,
+      "disponibilidades_centavos": 13404759,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13404759,
+        "Investimentos Estruturados": 1213646692,
+        "Investimentos no Exterior": 159253225,
+        "Renda Fixa": 12930129301,
+        "Renda Variável": 1584871053
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-07-15 14:46:06.657",
+        "data_posicao": "2022-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-06",
+      "ano": 2022,
+      "mes": 6,
+      "total_centavos": 15516820614,
+      "investimentos_centavos": 15503350263,
+      "disponibilidades_centavos": 13470351,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13470351,
+        "Investimentos Estruturados": 1189407265,
+        "Investimentos no Exterior": 160571003,
+        "Renda Fixa": 12764360079,
+        "Renda Variável": 1389011916
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-08-26 13:32:14.537",
+        "data_posicao": "2022-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-07",
+      "ano": 2022,
+      "mes": 7,
+      "total_centavos": 16864303630,
+      "investimentos_centavos": 16850909545,
+      "disponibilidades_centavos": 13394085,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13394085,
+        "Investimentos Estruturados": 1218093625,
+        "Investimentos no Exterior": 173219248,
+        "Renda Fixa": 14009300178,
+        "Renda Variável": 1450296494
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-09-30 12:28:26.733",
+        "data_posicao": "2022-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-08",
+      "ano": 2022,
+      "mes": 8,
+      "total_centavos": 17357088248,
+      "investimentos_centavos": 17343811932,
+      "disponibilidades_centavos": 13276316,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13276316,
+        "Investimentos Estruturados": 1239746724,
+        "Investimentos no Exterior": 166437519,
+        "Renda Fixa": 14395945935,
+        "Renda Variável": 1541681754
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-10-05 17:17:19.483",
+        "data_posicao": "2022-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-09",
+      "ano": 2022,
+      "mes": 9,
+      "total_centavos": 17829989815,
+      "investimentos_centavos": 17816351420,
+      "disponibilidades_centavos": 13638395,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13638395,
+        "Investimentos Estruturados": 1240654570,
+        "Investimentos no Exterior": 153588842,
+        "Renda Fixa": 14897760950,
+        "Renda Variável": 1524347058
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-11-03 15:24:40.417",
+        "data_posicao": "2022-09-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-10",
+      "ano": 2022,
+      "mes": 10,
+      "total_centavos": 18525931616,
+      "investimentos_centavos": 18511986984,
+      "disponibilidades_centavos": 13944632,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13944632,
+        "Investimentos Estruturados": 1274559071,
+        "Investimentos no Exterior": 156204468,
+        "Renda Fixa": 15472592276,
+        "Renda Variável": 1608631169
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2022-12-12 15:00:50.877",
+        "data_posicao": "2022-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-11",
+      "ano": 2022,
+      "mes": 11,
+      "total_centavos": 19516222579,
+      "investimentos_centavos": 19291180700,
+      "disponibilidades_centavos": 225041879,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 225041879,
+        "Investimentos Estruturados": 1281065075,
+        "Investimentos no Exterior": 166997213,
+        "Renda Fixa": 16328424263,
+        "Renda Variável": 1514694149
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2023-01-02 16:53:34.963",
+        "data_posicao": "2022-11-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2022-12",
+      "ano": 2022,
+      "mes": 12,
+      "total_centavos": 21713623874,
+      "investimentos_centavos": 21699651209,
+      "disponibilidades_centavos": 13972665,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 13972665,
+        "Investimentos Estruturados": 1279203029,
+        "Investimentos no Exterior": 158992174,
+        "Renda Fixa": 18773919680,
+        "Renda Variável": 1487536326
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-02-24 13:33:31.700",
+        "data_posicao": "2022-12-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-01",
+      "ano": 2023,
+      "mes": 1,
+      "total_centavos": 21364295392,
+      "investimentos_centavos": 21350068590,
+      "disponibilidades_centavos": 14226802,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 14226802,
+        "Investimentos Estruturados": 1305585857,
+        "Investimentos no Exterior": 165856508,
+        "Renda Fixa": 18335627294,
+        "Renda Variável": 1542998931
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-03-10 19:00:03.167",
+        "data_posicao": "2023-01-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-02",
+      "ano": 2023,
+      "mes": 2,
+      "total_centavos": 21973317582,
+      "investimentos_centavos": 21971019108,
+      "disponibilidades_centavos": 2298474,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 2298474,
+        "Investimentos Estruturados": 1295681582,
+        "Investimentos no Exterior": 167099971,
+        "Renda Fixa": 19082321962,
+        "Renda Variável": 1425915593
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-04-11 13:27:19.220",
+        "data_posicao": "2023-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-03",
+      "ano": 2023,
+      "mes": 3,
+      "total_centavos": 22617446164,
+      "investimentos_centavos": 22615147690,
+      "disponibilidades_centavos": 2298474,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 2298474,
+        "Investimentos Estruturados": 1313928286,
+        "Investimentos no Exterior": 172432277,
+        "Renda Fixa": 19745342557,
+        "Renda Variável": 1383444570
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-04-19 18:38:51.143",
+        "data_posicao": "2023-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-04",
+      "ano": 2023,
+      "mes": 4,
+      "total_centavos": 23294786267,
+      "investimentos_centavos": 23278986025,
+      "disponibilidades_centavos": 15800242,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 15800242,
+        "Investimentos Estruturados": 1326894036,
+        "Investimentos no Exterior": 171301380,
+        "Renda Fixa": 20174589125,
+        "Renda Variável": 1606201484
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-05-29 13:16:53.213",
+        "data_posicao": "2023-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-05",
+      "ano": 2023,
+      "mes": 5,
+      "total_centavos": 26456691261,
+      "investimentos_centavos": 26440979168,
+      "disponibilidades_centavos": 15712093,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 15712093,
+        "Investimentos Estruturados": 1348633958,
+        "Investimentos no Exterior": 181245309,
+        "Renda Fixa": 23232839544,
+        "Renda Variável": 1678260357
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-06-30 16:41:17.113",
+        "data_posicao": "2023-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-06",
+      "ano": 2023,
+      "mes": 6,
+      "total_centavos": 26933315648,
+      "investimentos_centavos": 26914244856,
+      "disponibilidades_centavos": 19070792,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 19070792,
+        "Investimentos Estruturados": 1383771072,
+        "Investimentos no Exterior": 182093701,
+        "Renda Fixa": 23529961631,
+        "Renda Variável": 1818418452
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-08-30 17:22:43.677",
+        "data_posicao": "2023-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-07",
+      "ano": 2023,
+      "mes": 7,
+      "total_centavos": 28089657846,
+      "investimentos_centavos": 28070450177,
+      "disponibilidades_centavos": 19207669,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 19207669,
+        "Investimentos Estruturados": 1408368846,
+        "Investimentos no Exterior": 185946398,
+        "Renda Fixa": 24603058358,
+        "Renda Variável": 1873076575
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-09-11 17:57:00.213",
+        "data_posicao": "2023-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-08",
+      "ano": 2023,
+      "mes": 8,
+      "total_centavos": 28661952210,
+      "investimentos_centavos": 28642182147,
+      "disponibilidades_centavos": 19770063,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 19770063,
+        "Investimentos Estruturados": 1403867672,
+        "Investimentos no Exterior": 191345742,
+        "Renda Fixa": 25278344362,
+        "Renda Variável": 1768624371
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-10-25 12:32:35.470",
+        "data_posicao": "2023-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-09",
+      "ano": 2023,
+      "mes": 9,
+      "total_centavos": 29236306500,
+      "investimentos_centavos": 29215412474,
+      "disponibilidades_centavos": 20894026,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20894026,
+        "Investimentos Estruturados": 1402442266,
+        "Investimentos no Exterior": 184505351,
+        "Renda Fixa": 25864571264,
+        "Renda Variável": 1763893593
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 27,
+      "identificacao": {
+        "ultimo_envio": "2023-11-29 14:24:13.457",
+        "data_posicao": "2023-09-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-10",
+      "ano": 2023,
+      "mes": 10,
+      "total_centavos": 30112526450,
+      "investimentos_centavos": 30090255944,
+      "disponibilidades_centavos": 22270506,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 22270506,
+        "Investimentos Estruturados": 1397124056,
+        "Investimentos no Exterior": 181923842,
+        "Renda Fixa": 26828500751,
+        "Renda Variável": 1682707295
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2023-11-30 13:47:35.947",
+        "data_posicao": "2023-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-11",
+      "ano": 2023,
+      "mes": 11,
+      "total_centavos": 30873215517,
+      "investimentos_centavos": 30850872979,
+      "disponibilidades_centavos": 22342538,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 22342538,
+        "Investimentos Estruturados": 1456750896,
+        "Investimentos no Exterior": 193604311,
+        "Renda Fixa": 27319769491,
+        "Renda Variável": 1880748281
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-01-02 18:38:44.970",
+        "data_posicao": "2023-11-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2023-12",
+      "ano": 2023,
+      "mes": 12,
+      "total_centavos": 33945891129,
+      "investimentos_centavos": 33925527687,
+      "disponibilidades_centavos": 20363442,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20363442,
+        "Investimentos Estruturados": 1488900961,
+        "Investimentos no Exterior": 198615718,
+        "Renda Fixa": 30234920888,
+        "Renda Variável": 2003090120
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 29,
+      "identificacao": {
+        "ultimo_envio": "2024-02-23 12:29:46.547",
+        "data_posicao": "2023-12-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-01",
+      "ano": 2024,
+      "mes": 1,
+      "total_centavos": 35035645659,
+      "investimentos_centavos": 33270965503,
+      "disponibilidades_centavos": 1764680156,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1764680156,
+        "Investimentos Estruturados": 1495853279,
+        "Investimentos no Exterior": 207674264,
+        "Renda Fixa": 29652637741,
+        "Renda Variável": 1914800219
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 29,
+      "identificacao": {
+        "ultimo_envio": "2024-03-11 16:39:31.873",
+        "data_posicao": "2024-01-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-02",
+      "ano": 2024,
+      "mes": 2,
+      "total_centavos": 34330966180,
+      "investimentos_centavos": 34310751348,
+      "disponibilidades_centavos": 20214832,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20214832,
+        "Investimentos Estruturados": 1516905430,
+        "Investimentos no Exterior": 220694816,
+        "Renda Fixa": 30636743432,
+        "Renda Variável": 1936407670
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 29,
+      "identificacao": {
+        "ultimo_envio": "2024-04-04 14:36:43.743",
+        "data_posicao": "2024-02-29 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-03",
+      "ano": 2024,
+      "mes": 3,
+      "total_centavos": 35128740504,
+      "investimentos_centavos": 35108129170,
+      "disponibilidades_centavos": 20611334,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20611334,
+        "Investimentos Estruturados": 1533206207,
+        "Investimentos no Exterior": 228370327,
+        "Renda Fixa": 31405831402,
+        "Renda Variável": 1940721234
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-05-08 14:16:42.553",
+        "data_posicao": "2024-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-04",
+      "ano": 2024,
+      "mes": 4,
+      "total_centavos": 35776650675,
+      "investimentos_centavos": 35755537130,
+      "disponibilidades_centavos": 21113545,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 21113545,
+        "Investimentos Estruturados": 1512335510,
+        "Investimentos no Exterior": 0,
+        "Renda Fixa": 32142466763,
+        "Renda Variável": 2100734857
+      },
+      "linhas_oficiais": 73,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-06-25 13:17:35.053",
+        "data_posicao": "2024-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-05",
+      "ano": 2024,
+      "mes": 5,
+      "total_centavos": 37188215219,
+      "investimentos_centavos": 37167845672,
+      "disponibilidades_centavos": 20369547,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20369547,
+        "Investimentos Estruturados": 1527401941,
+        "Renda Fixa": 33080984563,
+        "Renda Variável": 2559459168
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-07-04 13:22:38.410",
+        "data_posicao": "2024-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-06",
+      "ano": 2024,
+      "mes": 6,
+      "total_centavos": 37119456549,
+      "investimentos_centavos": 37099504802,
+      "disponibilidades_centavos": 19951747,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 19951747,
+        "Investimentos Estruturados": 1535914588,
+        "Renda Fixa": 32946854446,
+        "Renda Variável": 2616735768
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-09-17 12:53:30.847",
+        "data_posicao": "2024-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-07",
+      "ano": 2024,
+      "mes": 7,
+      "total_centavos": 38622203970,
+      "investimentos_centavos": 38601628065,
+      "disponibilidades_centavos": 20575905,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20575905,
+        "Investimentos Estruturados": 1556787668,
+        "Renda Fixa": 34367924949,
+        "Renda Variável": 2676915448
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-09-19 13:41:35.200",
+        "data_posicao": "2024-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-08",
+      "ano": 2024,
+      "mes": 8,
+      "total_centavos": 39856033962,
+      "investimentos_centavos": 39835092695,
+      "disponibilidades_centavos": 20941267,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 20941267,
+        "Investimentos Estruturados": 1584029253,
+        "Renda Fixa": 35433566343,
+        "Renda Variável": 2817497099
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-09-25 17:43:13.473",
+        "data_posicao": "2024-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-09",
+      "ano": 2024,
+      "mes": 9,
+      "total_centavos": 40137810793,
+      "investimentos_centavos": 40115379240,
+      "disponibilidades_centavos": 22431553,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 22431553,
+        "Investimentos Estruturados": 1588050602,
+        "Renda Fixa": 35782189301,
+        "Renda Variável": 2745139337
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-11-11 12:54:07.830",
+        "data_posicao": "2024-09-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-10",
+      "ano": 2024,
+      "mes": 10,
+      "total_centavos": 40927421906,
+      "investimentos_centavos": 40902804447,
+      "disponibilidades_centavos": 24617459,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 24617459,
+        "Investimentos Estruturados": 1587695514,
+        "Renda Fixa": 36589178520,
+        "Renda Variável": 2725930413
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-12-04 17:50:52.770",
+        "data_posicao": "2024-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-11",
+      "ano": 2024,
+      "mes": 11,
+      "total_centavos": 42683044956,
+      "investimentos_centavos": 42657180680,
+      "disponibilidades_centavos": 25864276,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 25864276,
+        "Investimentos Estruturados": 1600058714,
+        "Renda Fixa": 38354949132,
+        "Renda Variável": 2702172834
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2024-12-20 13:14:32.540",
+        "data_posicao": "2024-11-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2024-12",
+      "ano": 2024,
+      "mes": 12,
+      "total_centavos": 42454976527,
+      "investimentos_centavos": 42424799342,
+      "disponibilidades_centavos": 30177185,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 30177185,
+        "Investimentos Estruturados": 1586141791,
+        "Renda Fixa": 38249967196,
+        "Renda Variável": 2588690355
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-03-21 17:41:25.307",
+        "data_posicao": "2024-12-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-01",
+      "ano": 2025,
+      "mes": 1,
+      "total_centavos": 42650344922,
+      "investimentos_centavos": 42621679827,
+      "disponibilidades_centavos": 28665095,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 28665095,
+        "Investimentos Estruturados": 1612612818,
+        "Renda Fixa": 38360852944,
+        "Renda Variável": 2648214065
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:37:57.587",
+        "data_posicao": "2025-01-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-02",
+      "ano": 2025,
+      "mes": 2,
+      "total_centavos": 43873296693,
+      "investimentos_centavos": 43842700977,
+      "disponibilidades_centavos": 30595716,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 30595716,
+        "Investimentos Estruturados": 1616823817,
+        "Renda Fixa": 39699841153,
+        "Renda Variável": 2526036007
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:40:03.227",
+        "data_posicao": "2025-02-28 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-03",
+      "ano": 2025,
+      "mes": 3,
+      "total_centavos": 44760902459,
+      "investimentos_centavos": 44751302550,
+      "disponibilidades_centavos": 9599909,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 9599909,
+        "Investimentos Estruturados": 1613062428,
+        "Renda Fixa": 40572255067,
+        "Renda Variável": 2565985055
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:42:15.693",
+        "data_posicao": "2025-03-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-04",
+      "ano": 2025,
+      "mes": 4,
+      "total_centavos": 46201114320,
+      "investimentos_centavos": 46173218466,
+      "disponibilidades_centavos": 27895854,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 27895854,
+        "Investimentos Estruturados": 1621310779,
+        "Renda Fixa": 41826332075,
+        "Renda Variável": 2725575612
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:43:07.027",
+        "data_posicao": "2025-04-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-05",
+      "ano": 2025,
+      "mes": 5,
+      "total_centavos": 48157329026,
+      "investimentos_centavos": 48130700342,
+      "disponibilidades_centavos": 26628684,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 26628684,
+        "Investimentos Estruturados": 1662762476,
+        "Renda Fixa": 43629973595,
+        "Renda Variável": 2837964271
+      },
+      "linhas_oficiais": 45,
+      "ativos_com_saldo": 28,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:44:25.043",
+        "data_posicao": "2025-05-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-06",
+      "ano": 2025,
+      "mes": 6,
+      "total_centavos": 51324794672,
+      "investimentos_centavos": 51298165988,
+      "disponibilidades_centavos": 26628684,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 26628684,
+        "Investimentos Estruturados": 1698122298,
+        "Renda Fixa": 44459767212,
+        "Renda Variável": 5140276478
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:46:19.190",
+        "data_posicao": "2025-06-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-07",
+      "ano": 2025,
+      "mes": 7,
+      "total_centavos": 52006515431,
+      "investimentos_centavos": 51979886747,
+      "disponibilidades_centavos": 26628684,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 26628684,
+        "Investimentos Estruturados": 1716294886,
+        "Renda Fixa": 45344316837,
+        "Renda Variável": 4919275024
+      },
+      "linhas_oficiais": 48,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2025-10-10 14:35:00.073",
+        "data_posicao": "2025-07-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-08",
+      "ano": 2025,
+      "mes": 8,
+      "total_centavos": 53907251744,
+      "investimentos_centavos": 53895211662,
+      "disponibilidades_centavos": 12040082,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 12040082,
+        "Investimentos Estruturados": 1746966958,
+        "Renda Fixa": 46981476175,
+        "Renda Variável": 5166768529
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2025-10-23 12:29:40.373",
+        "data_posicao": "2025-08-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-09",
+      "ano": 2025,
+      "mes": 9,
+      "total_centavos": 55108929919,
+      "investimentos_centavos": 55078977635,
+      "disponibilidades_centavos": 29952284,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 29952284,
+        "Investimentos Estruturados": 1780318432,
+        "Renda Fixa": 47992108700,
+        "Renda Variável": 5306550503
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2025-11-24 12:17:32.387",
+        "data_posicao": "2025-09-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-10",
+      "ano": 2025,
+      "mes": 10,
+      "total_centavos": 56584475914,
+      "investimentos_centavos": 56554624852,
+      "disponibilidades_centavos": 29851062,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 29851062,
+        "Investimentos Estruturados": 1813087963,
+        "Renda Fixa": 49316313757,
+        "Renda Variável": 5425223132
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2025-12-10 12:55:09.660",
+        "data_posicao": "2025-10-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-11",
+      "ano": 2025,
+      "mes": 11,
+      "total_centavos": 58217458310,
+      "investimentos_centavos": 58206326807,
+      "disponibilidades_centavos": 11131503,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 11131503,
+        "Investimentos Estruturados": 1836583139,
+        "Renda Fixa": 50666156186,
+        "Renda Variável": 5703587482
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2026-06-25 14:05:35.020",
+        "data_posicao": "2025-11-30 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2025-12",
+      "ano": 2025,
+      "mes": 12,
+      "total_centavos": 61512593636,
+      "investimentos_centavos": 61482452387,
+      "disponibilidades_centavos": 30141249,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 30141249,
+        "Investimentos Estruturados": 1855817694,
+        "Renda Fixa": 53939411394,
+        "Renda Variável": 5687223299
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2026-06-26 11:58:35.827",
+        "data_posicao": "2025-12-31 03:00:00.000",
+        "versoes_identificacao": 2,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-01",
+      "ano": 2026,
+      "mes": 1,
+      "total_centavos": 62429348646,
+      "investimentos_centavos": 62399207397,
+      "disponibilidades_centavos": 30141249,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 30141249,
+        "Investimentos Estruturados": 1895223990,
+        "Renda Fixa": 54223305753,
+        "Renda Variável": 6280677654
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 31,
+      "identificacao": {
+        "ultimo_envio": "2026-06-30 12:02:55.397",
+        "data_posicao": "2026-01-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-02",
+      "ano": 2026,
+      "mes": 2,
+      "total_centavos": 64207180172,
+      "investimentos_centavos": 62714706884,
+      "disponibilidades_centavos": 1492473288,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1492473288,
+        "Investimentos Estruturados": 1914460383,
+        "Renda Fixa": 54310147843,
+        "Renda Variável": 6490098658
+      },
+      "linhas_oficiais": 78,
+      "ativos_com_saldo": 35,
+      "identificacao": {
+        "ultimo_envio": "2026-06-30 14:25:23.240",
+        "data_posicao": "2026-02-28 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-03",
+      "ano": 2026,
+      "mes": 3,
+      "total_centavos": 64654284257,
+      "investimentos_centavos": 63161810969,
+      "disponibilidades_centavos": 1492473288,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 1492473288,
+        "Investimentos Estruturados": 1901194820,
+        "Renda Fixa": 54856167154,
+        "Renda Variável": 6404448995
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 35,
+      "identificacao": {
+        "ultimo_envio": "2026-07-06 17:24:37.237",
+        "data_posicao": "2026-03-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-04",
+      "ano": 2026,
+      "mes": 4,
+      "total_centavos": 66793657613,
+      "investimentos_centavos": 63864944660,
+      "disponibilidades_centavos": 2928712953,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 2928712953,
+        "Investimentos Estruturados": 1966378967,
+        "Renda Fixa": 55511138653,
+        "Renda Variável": 6387427040
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 34,
+      "identificacao": {
+        "ultimo_envio": "2026-07-07 12:42:07.467",
+        "data_posicao": "2026-04-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-05",
+      "ano": 2026,
+      "mes": 5,
+      "total_centavos": 67249417876,
+      "investimentos_centavos": 64025624898,
+      "disponibilidades_centavos": 3223792978,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 3223792978,
+        "Investimentos Estruturados": 1994970714,
+        "Renda Fixa": 56022686069,
+        "Renda Variável": 6007968115
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 34,
+      "identificacao": {
+        "ultimo_envio": "2026-07-07 14:07:35.397",
+        "data_posicao": "2026-05-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-06",
+      "ano": 2026,
+      "mes": 6,
+      "total_centavos": 66962734159,
+      "investimentos_centavos": 63738941181,
+      "disponibilidades_centavos": 3223792978,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 3223792978,
+        "Investimentos Estruturados": 2001505091,
+        "Renda Fixa": 55740845091,
+        "Renda Variável": 5996590999
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 34,
+      "identificacao": {
+        "ultimo_envio": "2026-10-09 14:23:09.013",
+        "data_posicao": "2026-06-30 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    },
+    {
+      "competencia": "2026-07",
+      "ano": 2026,
+      "mes": 7,
+      "total_centavos": 71556058404,
+      "investimentos_centavos": 64531518185,
+      "disponibilidades_centavos": 7024540219,
+      "segmentos_centavos": {
+        "Disponibilidades Financeiras": 7024540219,
+        "Investimentos Estruturados": 2027180715,
+        "Renda Fixa": 56395269593,
+        "Renda Variável": 6109067877
+      },
+      "linhas_oficiais": 49,
+      "ativos_com_saldo": 35,
+      "identificacao": {
+        "ultimo_envio": "2026-10-22 18:00:13.680",
+        "data_posicao": "2026-07-31 03:00:00.000",
+        "versoes_identificacao": 1,
+        "finalidade": "ENCERRAMENTO_MES"
+      }
+    }
+  ]
+}

@@ -16,3 +16,13 @@ A cobertura registrada corresponde à versão inicial do piloto, não a uma cons
 | FROTA-MARICA-ANUAL | 2 | SENATRAN/RENAVAM, dezembro de 2014–2025 |
 
 [Inventário e ressalvas](observatorio/LOTE-01.md) · [Manifesto de integridade](observatorio/lote-01.manifest.json). Cópia fiel das séries existentes, não nova coleta. As rotinas que geram bases fiscais e taxas de segurança permanecem no site até migração conjunta.
+
+## Lote 02 — Finanças e Previdência (parcial)
+
+| Base | Arquivos | Fonte e cobertura |
+|---|---:|---|
+| FIN-001 a FIN-017 | 34 | STN/Siconfi DCA, IBGE para denominadores; 2019–2025 |
+| PREV-001 a PREV-004 | 9 | MPS/CADPREV DRAA e suplementos AEPS, 2015–2026 |
+| PREV-005 (série agregada) | 2 | MPS/CADPREV DAIR, 2017-01 a 2026-07 |
+
+[Notas de migração](observatorio/LOTE-02.md) · [Manifesto](observatorio/lote-02.manifest.json). Os dez detalhamentos anuais da carteira estão pendentes de revisão de identificadores de contas bancárias. A série agregada PREV-005 permanece um espelho até o corte conjunto. Não houve nova coleta.

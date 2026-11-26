@@ -1,0 +1,103 @@
+{
+  "id": "FIN-015",
+  "titulo": "Receita orçamentária per capita",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "unidade": "R$/habitante",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "anos_com_valor": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025
+  ],
+  "ano_sem_calculo": 2023,
+  "metodologia": "Receita orçamentária BRUTA realizada no exercício, dividida pela população oficial de referência do IBGE. Ano de 2023 não calculado por ausência de denominador anual municipal publicado pelo IBGE.",
+  "formula": "numerador fiscal do ano / habitantes do mesmo ano, quando disponíveis, arredondamento 2 casas decimais",
+  "fontes": {
+    "financeira": {
+      "origem": "STN/Siconfi DCA",
+      "indicador_base": "FIN-001",
+      "campo": "receita_bruta_realizada_reais",
+      "arquivo": "/assets/observatorio/FIN-001.json"
+    },
+    "populacional": {
+      "origem": "IBGE",
+      "serie": "/assets/observatorio/FIN-POP-IBGE-2019-2025.json",
+      "observacoes": "Estimativas anuais oficiais e Censo 2022 identificados separadamente"
+    },
+    "execucao_integracao": "https://github.com/viniciusmoro79/leis/actions/runs/43836444829"
+  },
+  "limites": "Não usar valores per capita de 2023 sem população oficial referente ao próprio exercício; série nominal (sem deflator). 2022 é Censo, não estimativa anual; comparabilidade entre as duas bases exige cautela. Período 2000–2018 pendente.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "15400.86",
+      "numerador_reais": "2482725718.53",
+      "populacao_habitantes": 161207,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_populacao": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf",
+      "status": "calculado_com_denominador_oficial"
+    },
+    {
+      "ano": 2020,
+      "valor": "16254.45",
+      "numerador_reais": "2673921221.02",
+      "populacao_habitantes": 164504,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_populacao": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf",
+      "status": "calculado_com_denominador_oficial"
+    },
+    {
+      "ano": 2021,
+      "valor": "26275.72",
+      "numerador_reais": "4405598220.04",
+      "populacao_habitantes": 167668,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_populacao": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf",
+      "status": "calculado_com_denominador_oficial"
+    },
+    {
+      "ano": 2022,
+      "valor": "33228.25",
+      "numerador_reais": "6555168822.28",
+      "populacao_habitantes": 197277,
+      "tipo_populacao": "censo_demografico_2022",
+      "fonte_populacao": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html",
+      "status": "calculado_com_denominador_oficial"
+    },
+    {
+      "ano": 2023,
+      "valor": null,
+      "numerador_reais": "6540896022.18",
+      "populacao_habitantes": null,
+      "tipo_populacao": "sem_estimativa_municipal_ibge_para_2023",
+      "fonte_populacao": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios",
+      "status": "sem_denominador_anual_oficial"
+    },
+    {
+      "ano": 2024,
+      "valor": "33524.01",
+      "numerador_reais": "7106620738.93",
+      "populacao_habitantes": 211986,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_populacao": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf",
+      "status": "calculado_com_denominador_oficial"
+    },
+    {
+      "ano": 2025,
+      "valor": "36149.65",
+      "numerador_reais": "7680715301.35",
+      "populacao_habitantes": 212470,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_populacao": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf",
+      "status": "calculado_com_denominador_oficial"
+    }
+  ]
+}

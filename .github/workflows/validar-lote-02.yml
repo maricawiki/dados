@@ -1,0 +1,21 @@
+name: Validar lote 02 do Observatório
+on:
+  pull_request:
+    paths:
+      - 'observatorio/FIN-*'
+      - 'observatorio/PREV-*'
+      - 'observatorio/lote-02.manifest.json'
+      - 'scripts/validar_lote_02.py'
+      - '.github/workflows/validar-lote-02.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 scripts/validar_lote_02.py

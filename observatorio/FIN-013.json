@@ -1,0 +1,90 @@
+{
+  "id": "FIN-013",
+  "titulo": "Participação de royalties e participações especiais na receita bruta",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "unidade": "%",
+  "metodologia": "Razão entre as rubricas de petróleo identificadas no FIN-012 e a receita orçamentária BRUTA realizada (FIN-001), multiplicada por 100.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "consulta_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43801588824",
+    "auditoria_previa": "https://github.com/viniciusmoro79/leis/actions/runs/43800146729",
+    "anexo": "DCA-Anexo I-C",
+    "coluna": "Receitas Brutas Realizadas",
+    "rotulo": "Padrão",
+    "contas": {
+      "2019–2021": {
+        "royal_uniao_lei": "RO1.7.1.8.02.3.0",
+        "royal_uniao_excedente": "RO1.7.1.8.02.4.0",
+        "participacao_especial": "RO1.7.1.8.02.5.0",
+        "royal_estado": "RO1.7.2.8.02.3.0"
+      },
+      "2022–2025": {
+        "royal_uniao_lei": "RO1.7.1.2.52.1.0",
+        "royal_uniao_excedente": "RO1.7.1.2.52.2.0",
+        "participacao_especial": "RO1.7.1.2.52.3.0",
+        "royal_estado": "RO1.7.2.2.52.0.0"
+      }
+    },
+    "denominador": "FIN-001 receita bruta realizada"
+  },
+  "limites": "Outras compensações naturais genéricas e FEP não são atribuídos a petróleo; 2022 sem rubrica estadual. Período 2000–2018 pendente. Valores sujeitos a retificação.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "65.143082",
+      "receitas_identificadas": "1617324047.48",
+      "receita_bruta": "2482725718.53",
+      "estadual_sem_rubrica": false
+    },
+    {
+      "ano": 2020,
+      "valor": "61.158648",
+      "receitas_identificadas": "1635334074.34",
+      "receita_bruta": "2673921221.02",
+      "estadual_sem_rubrica": false
+    },
+    {
+      "ano": 2021,
+      "valor": "59.249139",
+      "receitas_identificadas": "2610278995.67",
+      "receita_bruta": "4405598220.04",
+      "estadual_sem_rubrica": false
+    },
+    {
+      "ano": 2022,
+      "valor": "52.417973",
+      "receitas_identificadas": "3436086644.17",
+      "receita_bruta": "6555168822.28",
+      "estadual_sem_rubrica": true
+    },
+    {
+      "ano": 2023,
+      "valor": "46.486402",
+      "receitas_identificadas": "3040627188.42",
+      "receita_bruta": "6540896022.18",
+      "estadual_sem_rubrica": false
+    },
+    {
+      "ano": 2024,
+      "valor": "43.938109",
+      "receitas_identificadas": "3122514751.76",
+      "receita_bruta": "7106620738.93",
+      "estadual_sem_rubrica": false
+    },
+    {
+      "ano": 2025,
+      "valor": "55.088537",
+      "receitas_identificadas": "4231193660.87",
+      "receita_bruta": "7680715301.35",
+      "estadual_sem_rubrica": false
+    }
+  ]
+}

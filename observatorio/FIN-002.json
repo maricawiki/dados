@@ -1,0 +1,78 @@
+{
+  "id": "FIN-002",
+  "titulo": "Despesa orçamentária total liquidada",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "unidade": "R$ bilhões",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "metodologia": "Valor da conta 'Total Geral da Despesa', cod_conta 'TotalDespesas', no Anexo I-D da Declaração de Contas Anuais (DCA), coluna 'Despesas Liquidadas', rótulo Padrão.",
+  "criterios": "Despesa liquidada corresponde ao estágio da execução orçamentária em que é verificado o direito adquirido pelo credor. Não se confunde com despesa empenhada (compromisso orçamentário) ou paga (saída financeira). Esses estágios estão na tabela apenas como referência e não são somados.",
+  "limites": "Valores nominais da DCA em cada exercício, sujeitos a retificação posterior. Não incluir restos a pagar em conjunto com as despesas do exercício; não utilizar os valores empenhados como se fossem liquidados. A evolução nominal não corrige a inflação.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais (DCA)",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "consulta": "2026-11-15",
+    "municipio": "Maricá, Rio de Janeiro",
+    "codigo_ibge": "3302700",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43710602574",
+    "regras": "an_exercicio=ano&id_ente=3302700&no_anexo=DCA-Anexo I-C ou I-D; cod_conta=TotalReceitas ou TotalDespesas; rotulo=Padrão",
+    "anexos": [
+      "DCA-Anexo I-D"
+    ],
+    "contas": [
+      "TotalDespesas"
+    ],
+    "coluna_receita": null,
+    "coluna_despesa": "Despesas Liquidadas"
+  },
+  "serie": [
+    {
+      "ano": 2019,
+      "despesas_liquidadas_reais": 1715435070.1,
+      "despesas_empenhadas_reais": 1994018682,
+      "despesas_pagas_reais": 1704689353.82
+    },
+    {
+      "ano": 2020,
+      "despesas_liquidadas_reais": 2588754357.63,
+      "despesas_empenhadas_reais": 2825064184.26,
+      "despesas_pagas_reais": 2557492706.95
+    },
+    {
+      "ano": 2021,
+      "despesas_liquidadas_reais": 2926509346.61,
+      "despesas_empenhadas_reais": 3266186763.25,
+      "despesas_pagas_reais": 2924514048.2
+    },
+    {
+      "ano": 2022,
+      "despesas_liquidadas_reais": 4176570361.08,
+      "despesas_empenhadas_reais": 4732204444.83,
+      "despesas_pagas_reais": 4175167112.83
+    },
+    {
+      "ano": 2023,
+      "despesas_liquidadas_reais": 5439266660.74,
+      "despesas_empenhadas_reais": 6073477909.37,
+      "despesas_pagas_reais": 5437512518.49
+    },
+    {
+      "ano": 2024,
+      "despesas_liquidadas_reais": 6581343175.88,
+      "despesas_empenhadas_reais": 7359431161.94,
+      "despesas_pagas_reais": 6576222725.71
+    },
+    {
+      "ano": 2025,
+      "despesas_liquidadas_reais": 6241244858.75,
+      "despesas_empenhadas_reais": 6749943138.11,
+      "despesas_pagas_reais": 6197770037.2
+    }
+  ]
+}

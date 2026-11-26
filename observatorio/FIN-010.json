@@ -1,0 +1,77 @@
+{
+  "id": "FIN-010",
+  "titulo": "Participação das transferências correntes na receita total",
+  "dimensao_sustentavel": "institucional",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "unidade": "percentual",
+  "periodicidade": "anual",
+  "inicio": 2019,
+  "fim": 2025,
+  "metodologia": "Transferências correntes da União e dos Estados divididas pela receita orçamentária BRUTA realizada (FIN-001), multiplicadas por 100.",
+  "fonte": {
+    "instituicao": "Secretaria do Tesouro Nacional",
+    "sistema": "Siconfi — Declaração de Contas Anuais",
+    "endpoint": "https://apidatalake.tesouro.gov.br/ords/cdwhprd/siconfi/tt/dca",
+    "documentacao": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "consulta_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43796329192",
+    "anexo": "DCA-Anexo I-C",
+    "estagio": "Receitas Brutas Realizadas",
+    "codigos_conta": [
+      "RO1.7.1.0.00.0.0",
+      "RO1.7.2.0.00.0.0",
+      "TotalReceitas"
+    ],
+    "rotulo": "Padrão",
+    "conferencias": [
+      "FIN-001",
+      "FIN-002"
+    ]
+  },
+  "limites": "Fonte oficial anual consultada; valores sujeitos a retificação. Para funções, exclui-se intraorçamentárias; para transferências, somam-se apenas União e Estado e só transferências correntes.",
+  "serie": [
+    {
+      "ano": 2019,
+      "valor": "82.282328",
+      "receita_bruta": "2482725718.53",
+      "transferencias": "2042844527.39"
+    },
+    {
+      "ano": 2020,
+      "valor": "81.900275",
+      "receita_bruta": "2673921221.02",
+      "transferencias": "2189948844.89"
+    },
+    {
+      "ano": 2021,
+      "valor": "81.845279",
+      "receita_bruta": "4405598220.04",
+      "transferencias": "3605774141.91"
+    },
+    {
+      "ano": 2022,
+      "valor": "81.421380",
+      "receita_bruta": "6555168822.28",
+      "transferencias": "5337308937.60"
+    },
+    {
+      "ano": 2023,
+      "valor": "78.967243",
+      "receita_bruta": "6540896022.18",
+      "transferencias": "5165165229.77"
+    },
+    {
+      "ano": 2024,
+      "valor": "79.316864",
+      "receita_bruta": "7106620738.93",
+      "transferencias": "5636748674.04"
+    },
+    {
+      "ano": 2025,
+      "valor": "77.877011",
+      "receita_bruta": "7680715301.35",
+      "transferencias": "5981511480.60"
+    }
+  ]
+}
