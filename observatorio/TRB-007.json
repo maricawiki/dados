@@ -1,0 +1,44 @@
+{
+  "id": "TRB-007",
+  "titulo": "Taxa de variação anual do estoque de empregos formais",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2023–2025",
+  "conceito": "O indicador mede a variação relativa do número de vínculos formais existentes em 31 de dezembro de cada ano, conforme a RAIS. Uma taxa positiva indica expansão do estoque de empregos formais; não deve ser confundida com o saldo anual de movimentações do Caged.",
+  "metodologia": "[(Estoque de vínculos RAIS em 31/12 do ano corrente ÷ estoque em 31/12 do ano anterior) − 1] × 100. Calculado com os totais anuais de Maricá da TABELA 4 da RAIS 2025. A taxa de 2023 exige o estoque de 2022, ainda não incorporado, e portanto não foi calculada.",
+  "limites": "É a variação do estoque de vínculos RAIS, não taxa de desemprego ou geração líquida Caged. Só 2024 e 2025 foram calculados, ambos com anos consecutivos observados.",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego",
+    "base": "Relação Anual de Informações Sociais (RAIS), ano-base 2025",
+    "arquivo": "RAIS 2025 - Tabelas.xlsx",
+    "planilha": "TABELA 4",
+    "linha_municipal": 3231,
+    "codigo_municipal": "330270",
+    "nome_municipio": "Maricá",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "conferencia": "2026-11-15",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "criterio": "Estoque anual de vínculos formais RAIS; valores oficiais por setor, incluindo o agregado total, em 31 de dezembro de cada ano"
+  },
+  "serie": [
+    {
+      "ano_inicial": 2023,
+      "ano_final": 2024,
+      "estoque_ano_inicial": 33532,
+      "estoque_ano_final": 35384,
+      "variacao_absoluta": 1852,
+      "variacao_percentual": 5.523082
+    },
+    {
+      "ano_inicial": 2024,
+      "ano_final": 2025,
+      "estoque_ano_inicial": 35384,
+      "estoque_ano_final": 37493,
+      "variacao_absoluta": 2109,
+      "variacao_percentual": 5.960321
+    }
+  ]
+}

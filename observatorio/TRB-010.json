@@ -1,0 +1,120 @@
+{
+  "id": "TRB-010",
+  "titulo": "Variação anual do estoque de empregos formais femininos",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2015–2025",
+  "unidade": "variação percentual anual do estoque feminino",
+  "metodologia": "Variação do estoque feminino de dois anos consecutivos",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte.",
+  "serie": [
+    {
+      "ano": 2015,
+      "ano_anterior": 2014,
+      "vinculos_femininos_ano_anterior": 7737,
+      "vinculos_femininos": 7930,
+      "variacao_absoluta": 193,
+      "variacao_percentual": "2.49"
+    },
+    {
+      "ano": 2016,
+      "ano_anterior": 2015,
+      "vinculos_femininos_ano_anterior": 7930,
+      "vinculos_femininos": 6406,
+      "variacao_absoluta": -1524,
+      "variacao_percentual": "-19.22"
+    },
+    {
+      "ano": 2017,
+      "ano_anterior": 2016,
+      "vinculos_femininos_ano_anterior": 6406,
+      "vinculos_femininos": 8427,
+      "variacao_absoluta": 2021,
+      "variacao_percentual": "31.55"
+    },
+    {
+      "ano": 2018,
+      "ano_anterior": 2017,
+      "vinculos_femininos_ano_anterior": 8427,
+      "vinculos_femininos": 9171,
+      "variacao_absoluta": 744,
+      "variacao_percentual": "8.83"
+    },
+    {
+      "ano": 2019,
+      "ano_anterior": 2018,
+      "vinculos_femininos_ano_anterior": 9171,
+      "vinculos_femininos": 9698,
+      "variacao_absoluta": 527,
+      "variacao_percentual": "5.75"
+    },
+    {
+      "ano": 2020,
+      "ano_anterior": 2019,
+      "vinculos_femininos_ano_anterior": 9698,
+      "vinculos_femininos": 9243,
+      "variacao_absoluta": -455,
+      "variacao_percentual": "-4.69"
+    },
+    {
+      "ano": 2021,
+      "ano_anterior": 2020,
+      "vinculos_femininos_ano_anterior": 9243,
+      "vinculos_femininos": 10909,
+      "variacao_absoluta": 1666,
+      "variacao_percentual": "18.02"
+    },
+    {
+      "ano": 2022,
+      "ano_anterior": 2021,
+      "vinculos_femininos_ano_anterior": 10909,
+      "vinculos_femininos": 13296,
+      "variacao_absoluta": 2387,
+      "variacao_percentual": "21.88"
+    },
+    {
+      "ano": 2023,
+      "ano_anterior": 2022,
+      "vinculos_femininos_ano_anterior": 13296,
+      "vinculos_femininos": 14864,
+      "variacao_absoluta": 1568,
+      "variacao_percentual": "11.79"
+    },
+    {
+      "ano": 2024,
+      "ano_anterior": 2023,
+      "vinculos_femininos_ano_anterior": 14864,
+      "vinculos_femininos": 15800,
+      "variacao_absoluta": 936,
+      "variacao_percentual": "6.30"
+    },
+    {
+      "ano": 2025,
+      "ano_anterior": 2024,
+      "vinculos_femininos_ano_anterior": 15800,
+      "vinculos_femininos": 16969,
+      "variacao_absoluta": 1169,
+      "variacao_percentual": "7.40"
+    }
+  ]
+}

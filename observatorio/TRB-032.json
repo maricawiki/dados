@@ -1,0 +1,3093 @@
+{
+  "id": "TRB-032",
+  "titulo": "Empregos formais por subgrupo de atividade econômica",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte. Subgrupos de atividade do painel MTE não têm equivalência automaticamente certificada com os subsetores originais RAIS de 2022.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 4955
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 83
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 603
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 160
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 17
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 80
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 130
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 18
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 18
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 59
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 55
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 119
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 131
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 141
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 5082
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 277
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 72
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1012
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 93
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 49
+        },
+        {
+          "categoria": "Fabricação de Equipamentos de Informática, Produtos Eletrônicos e Ópticos",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 469
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 120
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 68
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 386
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 49
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 53
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Pesquisa e Desenvolvimento Científico",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Preparação de Couros e Fabricação de Artefatos de Couro, Artigos Para Viagem e Calçados",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Seguros, Resseguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 117
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 98
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 613
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Transporte Aquaviário",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 2074
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 5682
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 75
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 590
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 33
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 18
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 194
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 86
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 132
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 83
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 97
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 120
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 150
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 144
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 4874
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 289
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 72
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1069
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Extração de Minerais Metálicos",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 67
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 51
+        },
+        {
+          "categoria": "Fabricação de Equipamentos de Informática, Produtos Eletrônicos e Ópticos",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 464
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 112
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 46
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 353
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 26
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 41
+        },
+        {
+          "categoria": "Pesca e Aqüicultura",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Preparação de Couros e Fabricação de Artefatos de Couro, Artigos Para Viagem e Calçados",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Seguros, Resseguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 132
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 238
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 633
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 47
+        },
+        {
+          "categoria": "Transporte Aquaviário",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1530
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 2911
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 73
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 554
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 40
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 210
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 99
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 144
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 96
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 94
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 125
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 150
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 160
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 4549
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 307
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 69
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 981
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 81
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 31
+        },
+        {
+          "categoria": "Fabricação de Equipamentos de Informática, Produtos Eletrônicos e Ópticos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 501
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 93
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 48
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 304
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 18
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 50
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 43
+        },
+        {
+          "categoria": "Pesca e Aqüicultura",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Preparação de Couros e Fabricação de Artefatos de Couro, Artigos Para Viagem e Calçados",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Seguros, Resseguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 91
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 317
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 653
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 110
+        },
+        {
+          "categoria": "Transporte Aquaviário",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1743
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 6785
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 74
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 567
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 42
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 190
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 92
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 134
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 80
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 85
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 109
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 163
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 270
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 4590
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 178
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 70
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 936
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 62
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Fabricação de Equipamentos de Informática, Produtos Eletrônicos e Ópticos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 538
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 95
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 17
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 35
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 278
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 47
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 32
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Pesca e Aqüicultura",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Preparação de Couros e Fabricação de Artefatos de Couro, Artigos Para Viagem e Calçados",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Seguros, Resseguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 595
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 99
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 484
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 775
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 160
+        },
+        {
+          "categoria": "Transporte Aquaviário",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1775
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 7438
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 71
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 619
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 35
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 197
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 44
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 92
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 141
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 26
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 49
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 91
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 70
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 103
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 31
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 149
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 295
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 4858
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 111
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 70
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 995
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 57
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 524
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 90
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 39
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 271
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 50
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Seguros, Resseguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 895
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 986
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 81
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 617
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 795
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 157
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1185
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 7937
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 61
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 674
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 50
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 17
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 210
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 34
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 103
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 139
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 96
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 92
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 135
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 33
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 145
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 328
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 4829
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 32
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 1674
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 78
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1134
+        },
+        {
+          "categoria": "Eletricidade, Gás e Outras Utilidades",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 67
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 507
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 89
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 81
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 222
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 34
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 60
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 21
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 72
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 135
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 100
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 889
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 816
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 179
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 2230
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 6750
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 50
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 585
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 256
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 91
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 17
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 89
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 16
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 95
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 100
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 132
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 41
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 184
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 373
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 5224
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 2120
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 80
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 43
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1257
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 62
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 11
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 338
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 103
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 94
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 307
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 20
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 21
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 33
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 33
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 57
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 161
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 102
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 1493
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 888
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 230
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1774
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 7020
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 58
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 829
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 30
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 365
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 55
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 83
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 54
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 157
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 115
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 118
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 160
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 52
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 204
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 355
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 5999
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 2905
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 85
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1235
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 64
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 315
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 104
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 76
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 300
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 34
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 146
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 44
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 66
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 55
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 892
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 197
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 162
+        },
+        {
+          "categoria": "Serviços Domésticos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 2197
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 1095
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 247
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1206
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 8176
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 53
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 1026
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 62
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 108
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 780
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 79
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 123
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 65
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 185
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 31
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 141
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 104
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 178
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 85
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 216
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 660
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 6521
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 2784
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 87
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1468
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 99
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 365
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 107
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 91
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 398
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 42
+        },
+        {
+          "categoria": "Fabricação de Veículos Automotores, Reboques e Carrocerias",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 53
+        },
+        {
+          "categoria": "Metalurgia",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 277
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 76
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 75
+        },
+        {
+          "categoria": "Pesquisa e Desenvolvimento Científico",
+          "vinculos": 91
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 50
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 27
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 272
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 426
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 3118
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 1860
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 309
+        },
+        {
+          "categoria": "Transporte Aéreo",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1210
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 9881
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 56
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 1011
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 41
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 97
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 131
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Atividades Cinematográficas, Produção de Vídeos e de Programas de Televisão; Gravação de Som e Edição de Música",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 757
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 73
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 188
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 30
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 185
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 58
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 179
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 117
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 135
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 112
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 22
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 208
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 804
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 6678
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 3241
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 170
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1529
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 112
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 41
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 380
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 111
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 10
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 104
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 419
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 41
+        },
+        {
+          "categoria": "Fabricação de Veículos Automotores, Reboques e Carrocerias",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 29
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 49
+        },
+        {
+          "categoria": "Metalurgia",
+          "vinculos": 18
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 637
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 98
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 52
+        },
+        {
+          "categoria": "Pesquisa e Desenvolvimento Científico",
+          "vinculos": 99
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 47
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 32
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 251
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 197
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 743
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 778
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 1748
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 308
+        },
+        {
+          "categoria": "Transporte Aéreo",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1350
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 10182
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 3
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 63
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 1149
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 52
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 176
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 119
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Atividades Cinematográficas, Produção de Vídeos e de Programas de Televisão; Gravação de Som e Edição de Música",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 911
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 68
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 281
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 56
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 174
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 55
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 138
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 129
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 145
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 122
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 26
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 218
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 904
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 6658
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 4
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 3321
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 120
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1759
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 133
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 13
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 2
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 9
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 354
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 128
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 122
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 436
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 12
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 38
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 26
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 57
+        },
+        {
+          "categoria": "Metalurgia",
+          "vinculos": 23
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 766
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 104
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 88
+        },
+        {
+          "categoria": "Pesquisa e Desenvolvimento Científico",
+          "vinculos": 78
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 94
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 271
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 170
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 1015
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 957
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 1750
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 277
+        },
+        {
+          "categoria": "Transporte Aéreo",
+          "vinculos": 45
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1383
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "Administração Pública, Defesa e Seguridade Social",
+          "vinculos": 10741
+        },
+        {
+          "categoria": "Agências de Viagens, Operadores Turísticos e Serviços de Reservas",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Agricultura, Pecuária e Serviços Relacionados",
+          "vinculos": 67
+        },
+        {
+          "categoria": "Alimentação",
+          "vinculos": 1294
+        },
+        {
+          "categoria": "Alojamento",
+          "vinculos": 57
+        },
+        {
+          "categoria": "Aluguéis Não-Imobiliários e Gestão de Ativos Intangíveis Não-Financeiros",
+          "vinculos": 99
+        },
+        {
+          "categoria": "Armazenamento e Atividades Auxiliares dos Transportes",
+          "vinculos": 120
+        },
+        {
+          "categoria": "Atividades Artísticas, Criativas e de Espetáculos",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Atividades Auxiliares dos Serviços Financeiros, Seguros, Previdência Complementar e Planos de Saúde",
+          "vinculos": 25
+        },
+        {
+          "categoria": "Atividades Cinematográficas, Produção de Vídeos e de Programas de Televisão; Gravação de Som e Edição de Música",
+          "vinculos": 6
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana",
+          "vinculos": 612
+        },
+        {
+          "categoria": "Atividades de Atenção À Saúde Humana Integradas Com Assistência Social, Prestadas Em Residências Coletivas e Particulares",
+          "vinculos": 77
+        },
+        {
+          "categoria": "Atividades de Organizações Associativas",
+          "vinculos": 402
+        },
+        {
+          "categoria": "Atividades de Prestação de Serviços de Informação",
+          "vinculos": 518
+        },
+        {
+          "categoria": "Atividades de Rádio e de Televisão",
+          "vinculos": 8
+        },
+        {
+          "categoria": "Atividades de Sedes de Empresas e de Consultoria Em Gestão Empresarial",
+          "vinculos": 42
+        },
+        {
+          "categoria": "Atividades de Serviços Financeiros",
+          "vinculos": 214
+        },
+        {
+          "categoria": "Atividades de Vigilância, Segurança e Investigação",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Atividades dos Serviços de Tecnologia Da Informação",
+          "vinculos": 65
+        },
+        {
+          "categoria": "Atividades Esportivas e de Recreação e Lazer",
+          "vinculos": 270
+        },
+        {
+          "categoria": "Atividades Imobiliárias",
+          "vinculos": 148
+        },
+        {
+          "categoria": "Atividades Jurídicas, de Contabilidade e de Auditoria",
+          "vinculos": 138
+        },
+        {
+          "categoria": "Atividades Veterinárias",
+          "vinculos": 79
+        },
+        {
+          "categoria": "Captação, Tratamento e Distribuição de Água",
+          "vinculos": 31
+        },
+        {
+          "categoria": "Coleta, Tratamento e Disposição de Resíduos; Recuperação de Materiais",
+          "vinculos": 39
+        },
+        {
+          "categoria": "Comércio e Reparação de Veículos Automotores e Motocicletas",
+          "vinculos": 245
+        },
+        {
+          "categoria": "Comércio por Atacado, Exceto Veículos Automotores e Motocicletas",
+          "vinculos": 1027
+        },
+        {
+          "categoria": "Comércio Varejista",
+          "vinculos": 7036
+        },
+        {
+          "categoria": "Confecção de Artigos do Vestuário e Acessórios",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Construção de Edifícios",
+          "vinculos": 3103
+        },
+        {
+          "categoria": "Correio e Outras Atividades de Entrega",
+          "vinculos": 180
+        },
+        {
+          "categoria": "Edição e Edição Integrada À Impressão",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Educação",
+          "vinculos": 1755
+        },
+        {
+          "categoria": "Extração de Minerais Não-Metálicos",
+          "vinculos": 157
+        },
+        {
+          "categoria": "Fabricação de Celulose, Papel e Produtos de Papel",
+          "vinculos": 37
+        },
+        {
+          "categoria": "Fabricação de Máquinas e Equipamentos",
+          "vinculos": 14
+        },
+        {
+          "categoria": "Fabricação de Máquinas, Aparelhos e Materiais Elétricos",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Fabricação de Móveis",
+          "vinculos": 7
+        },
+        {
+          "categoria": "Fabricação de Outros Equipamentos de Transporte, Exceto Veículos Automotores",
+          "vinculos": 5
+        },
+        {
+          "categoria": "Fabricação de Produtos Alimentícios",
+          "vinculos": 323
+        },
+        {
+          "categoria": "Fabricação de Produtos de Borracha e de Material Plástico",
+          "vinculos": 138
+        },
+        {
+          "categoria": "Fabricação de Produtos de Madeira",
+          "vinculos": 24
+        },
+        {
+          "categoria": "Fabricação de Produtos de Metal, Exceto Máquinas e Equipamentos",
+          "vinculos": 144
+        },
+        {
+          "categoria": "Fabricação de Produtos de Minerais Não-Metálicos",
+          "vinculos": 475
+        },
+        {
+          "categoria": "Fabricação de Produtos Diversos",
+          "vinculos": 15
+        },
+        {
+          "categoria": "Fabricação de Produtos Têxteis",
+          "vinculos": 42
+        },
+        {
+          "categoria": "Impressão e Reprodução de Gravações",
+          "vinculos": 28
+        },
+        {
+          "categoria": "Manutenção, Reparação e Instalação de Máquinas e Equipamentos",
+          "vinculos": 71
+        },
+        {
+          "categoria": "Metalurgia",
+          "vinculos": 29
+        },
+        {
+          "categoria": "Obras de Infra-Estrutura",
+          "vinculos": 816
+        },
+        {
+          "categoria": "Outras Atividades de Serviços Pessoais",
+          "vinculos": 110
+        },
+        {
+          "categoria": "Outras Atividades Profissionais, Científicas e Técnicas",
+          "vinculos": 71
+        },
+        {
+          "categoria": "Pesquisa e Desenvolvimento Científico",
+          "vinculos": 111
+        },
+        {
+          "categoria": "Produção Florestal",
+          "vinculos": 1
+        },
+        {
+          "categoria": "Publicidade e Pesquisa de Mercado",
+          "vinculos": 113
+        },
+        {
+          "categoria": "Reparação e Manutenção de Equipamentos de Informática e Comunicação e de Objetos Pessoais e Domésticos",
+          "vinculos": 36
+        },
+        {
+          "categoria": "Seleção, Agenciamento e Locação de Mão-De-Obra",
+          "vinculos": 341
+        },
+        {
+          "categoria": "Serviços de Arquitetura e Engenharia; Testes e Análises Técnicas",
+          "vinculos": 157
+        },
+        {
+          "categoria": "Serviços de Assistência Social Sem Alojamento",
+          "vinculos": 19
+        },
+        {
+          "categoria": "Serviços de Escritório, de Apoio Administrativo e Outros Serviços Prestados Às Empresas",
+          "vinculos": 1266
+        },
+        {
+          "categoria": "Serviços Especializados Para Construção",
+          "vinculos": 743
+        },
+        {
+          "categoria": "Serviços Para Edifícios e Atividades Paisagísticas",
+          "vinculos": 1877
+        },
+        {
+          "categoria": "Telecomunicações",
+          "vinculos": 272
+        },
+        {
+          "categoria": "Transporte Aéreo",
+          "vinculos": 60
+        },
+        {
+          "categoria": "Transporte Terrestre",
+          "vinculos": 1528
+        }
+      ]
+    }
+  ],
+  "correspondencia_metodologica": {
+    "situacao": "parcial",
+    "motivo": "Subgrupos de atividade do painel MTE não têm equivalência automaticamente certificada com os subsetores originais RAIS de 2022.",
+    "tipo_corte_painel": "subgrupo"
+  }
+}

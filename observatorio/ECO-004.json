@@ -1,0 +1,208 @@
+{
+  "id": "ECO-004",
+  "titulo": "Variação anual do número de empresas (CEMPRE)",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá, RJ",
+  "codigo_ibge": "3302700",
+  "unidade": "percentual",
+  "periodicidade": "anual",
+  "inicio": 2007,
+  "fim": 2024,
+  "numero_observacoes_com_valor": 16,
+  "metodologia": "Variação percentual anual do número de empresas e outras organizações, calculada apenas entre exercícios da mesma série metodológica do CEMPRE.",
+  "fonte": {
+    "instituicao": "IBGE — Cadastro Central de Empresas (CEMPRE)",
+    "portal": "https://sidra.ibge.gov.br/pesquisa/cempre/tabelas",
+    "series": [
+      {
+        "tabela": "993",
+        "variavel": "2585",
+        "anos": [
+          2007,
+          2021
+        ],
+        "url": "https://apisidra.ibge.gov.br/values/t/993/n6/3302700/p/2007-2021/v/2585",
+        "status": "encerrada em 2021"
+      },
+      {
+        "tabela": "9509",
+        "variavel": "367",
+        "anos": [
+          2022,
+          2024
+        ],
+        "url": "https://apisidra.ibge.gov.br/values/t/9509/n6/3302700/p/2022-2024/v/367",
+        "status": "metodologia nova"
+      }
+    ],
+    "auditoria_execucao": "https://github.com/viniciusmoro79/leis/actions/runs/43849787968",
+    "nota_tecnica_2022": "https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102096.pdf"
+  },
+  "formula": "((empresas ano t / empresas ano t-1) - 1) * 100, somente se as duas observações usam a mesma metodologia",
+  "limites": "2000–2006 não contemplados; 2022 introduziu quebra por mudanças de eSocial/CNPJ, não calcular variação 2021–2022. A série histórica desde 2019 já incorporava gradualmente o eSocial; interpretar com cautela. Empresas e organizações não significam estabelecimentos/unidades locais. Último exercício 2024; não extrapolar 2025.",
+  "serie": [
+    {
+      "ano": 2007,
+      "valor": null,
+      "status": "sem_ano_anterior_na_serie",
+      "empresas_ano": 1753,
+      "empresas_ano_anterior": null,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2008,
+      "valor": "6.446092",
+      "status": "calculado",
+      "empresas_ano": 1866,
+      "empresas_ano_anterior": 1753,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2009,
+      "valor": "2.143623",
+      "status": "calculado",
+      "empresas_ano": 1906,
+      "empresas_ano_anterior": 1866,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2010,
+      "valor": "12.644281",
+      "status": "calculado",
+      "empresas_ano": 2147,
+      "empresas_ano_anterior": 1906,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2011,
+      "valor": "3.167210",
+      "status": "calculado",
+      "empresas_ano": 2215,
+      "empresas_ano_anterior": 2147,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2012,
+      "valor": "-6.185102",
+      "status": "calculado",
+      "empresas_ano": 2078,
+      "empresas_ano_anterior": 2215,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2013,
+      "valor": "11.357074",
+      "status": "calculado",
+      "empresas_ano": 2314,
+      "empresas_ano_anterior": 2078,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2014,
+      "valor": "-8.297321",
+      "status": "calculado",
+      "empresas_ano": 2122,
+      "empresas_ano_anterior": 2314,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2015,
+      "valor": "9.000943",
+      "status": "calculado",
+      "empresas_ano": 2313,
+      "empresas_ano_anterior": 2122,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2016,
+      "valor": "-1.686122",
+      "status": "calculado",
+      "empresas_ano": 2274,
+      "empresas_ano_anterior": 2313,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2017,
+      "valor": "-2.506596",
+      "status": "calculado",
+      "empresas_ano": 2217,
+      "empresas_ano_anterior": 2274,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2018,
+      "valor": "-1.127650",
+      "status": "calculado",
+      "empresas_ano": 2192,
+      "empresas_ano_anterior": 2217,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2019,
+      "valor": "4.790146",
+      "status": "calculado",
+      "empresas_ano": 2297,
+      "empresas_ano_anterior": 2192,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2020,
+      "valor": "10.361341",
+      "status": "calculado",
+      "empresas_ano": 2535,
+      "empresas_ano_anterior": 2297,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2021,
+      "valor": "14.003945",
+      "status": "calculado",
+      "empresas_ano": 2890,
+      "empresas_ano_anterior": 2535,
+      "regime": "historica_2007_2021",
+      "tabela_sidra": "993"
+    },
+    {
+      "ano": 2022,
+      "valor": null,
+      "status": "quebra_metodologica_cempre_2022",
+      "empresas_ano": 5179,
+      "empresas_ano_anterior": null,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9509"
+    },
+    {
+      "ano": 2023,
+      "valor": "9.036494",
+      "status": "calculado",
+      "empresas_ano": 5647,
+      "empresas_ano_anterior": 5179,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9509"
+    },
+    {
+      "ano": 2024,
+      "valor": "8.163627",
+      "status": "calculado",
+      "empresas_ano": 6108,
+      "empresas_ano_anterior": 5647,
+      "regime": "nova_2022_2024",
+      "tabela_sidra": "9509"
+    }
+  ]
+}

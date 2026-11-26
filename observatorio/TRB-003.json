@@ -1,0 +1,72 @@
+{
+  "id": "TRB-003",
+  "titulo": "Saldo mensal de empregos celetistas por setor econômico",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "periodicidade": "mensal/trimestral conforme ficha",
+  "observacoes": [
+    "Cobertura parcial: faltam admissões e desligamentos setoriais exigidos na descrição original de 5.1.3.",
+    "Junho a setembro de 2026: sem série anterior ou previsão futura.",
+    "As desagregações do painel são marginais por tema e não devem ser cruzadas entre si."
+  ],
+  "fonte": {
+    "titulo": "Painel Socioeconômico do Instituto Darcy Ribeiro — Prefeitura de Maricá",
+    "api": "https://idr.marica.rj.gov.br/api/socioeconomico/boletim",
+    "url_painel": "https://idr.marica.rj.gov.br/socioeconomico/",
+    "fonte_primaria_declarada": "Novo Caged — Ministério do Trabalho e Emprego",
+    "url_metodologia_mte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/o-pdet/o-que-e-o-novo-caged",
+    "acesso": "2026-11-15",
+    "municipio": "Maricá - RJ",
+    "codigo_ibge": "3302700",
+    "observacao": "A base é um agregado disponibilizado por instituição municipal e atribuído ao Novo Caged. A série pode ser revisada pelo MTE e pelo mantenedor do painel; não foi reprocessada dos microdados MTE."
+  },
+  "metodo": "Somar saldos das cinco categorias setoriais do painel; a soma deve corresponder ao saldo geral mensal. O painel expõe o saldo setorial, não seus componentes de admissões e desligamentos.",
+  "serie": [
+    {
+      "competencia": "2026-06",
+      "setores": {
+        "Serviços": 51,
+        "Comércio": -44,
+        "Construção civil": -49,
+        "Indústria": -16,
+        "Agropecuária": 2
+      },
+      "saldo_mensal": -56
+    },
+    {
+      "competencia": "2026-07",
+      "setores": {
+        "Serviços": 75,
+        "Comércio": -13,
+        "Construção civil": -54,
+        "Indústria": 0,
+        "Agropecuária": 0
+      },
+      "saldo_mensal": 8
+    },
+    {
+      "competencia": "2026-08",
+      "setores": {
+        "Serviços": 270,
+        "Comércio": -96,
+        "Construção civil": 59,
+        "Indústria": -1,
+        "Agropecuária": -3
+      },
+      "saldo_mensal": 229
+    },
+    {
+      "competencia": "2026-09",
+      "setores": {
+        "Serviços": 31,
+        "Comércio": 43,
+        "Construção civil": 50,
+        "Indústria": -9,
+        "Agropecuária": 2
+      },
+      "saldo_mensal": 117
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "TRB-011",
+  "titulo": "Empregos formais por escolaridade",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4281
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 1860
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 7889
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 3555
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 3988
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 1852
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 8294
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 3701
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 3367
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 1514
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 7142
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 2988
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 3680
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 1989
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 9743
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 4353
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4036
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2174
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 10755
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 4625
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4176
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2274
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 11629
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 5435
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 3825
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2310
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 12372
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 4985
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 3816
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2587
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 15385
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 5565
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4267
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2788
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 18128
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 6941
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4601
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2942
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 16949
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 9040
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4802
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2939
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 17951
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 9692
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "Fundamental completo",
+          "vinculos": 4790
+        },
+        {
+          "categoria": "Fundamental incompleto",
+          "vinculos": 2697
+        },
+        {
+          "categoria": "Médio completo",
+          "vinculos": 18650
+        },
+        {
+          "categoria": "Superior completo ou mais",
+          "vinculos": 11356
+        }
+      ]
+    }
+  ]
+}

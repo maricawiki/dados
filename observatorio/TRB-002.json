@@ -1,0 +1,313 @@
+{
+  "id": "TRB-002",
+  "titulo": "Admissões, desligamentos e saldo trimestral de empregos celetistas",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "periodicidade": "mensal/trimestral conforme ficha",
+  "observacoes": [
+    "Quatro trimestres fechados de 2024, quatro de 2025 e três de 2026; quarto trimestre de 2026 pendente.",
+    "Trimestre calculado pela soma de três competências mensais MTE, sem ajustes FOR/EXC.",
+    "Vínculos RAIS (estoque) e Caged (movimentação) medem conceitos diferentes."
+  ],
+  "fonte": {
+    "titulo": "Ministério do Trabalho e Emprego — PDET, microdados Novo Caged",
+    "url_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+    "tipo_arquivo": "CAGEDMOV",
+    "situacao_ajustes": "Não aplicados CAGEDFOR e CAGEDEXC",
+    "codigo_municipio_mte": "330270",
+    "data_extracao": "2026-11-15",
+    "auditorias": [
+      "https://github.com/viniciusmoro79/leis/actions/runs/43744469074",
+      "https://github.com/viniciusmoro79/leis/actions/runs/43743357682",
+      "https://github.com/viniciusmoro79/leis/actions/runs/43731887554"
+    ],
+    "api": "https://idr.marica.rj.gov.br/api/socioeconomico/boletim",
+    "acesso": "2026-11-15",
+    "validacao_painel": "Junho–setembro/2026 coincidem com o painel do Instituto Darcy Ribeiro/Prefeitura de Maricá",
+    "arquivos": [
+      {
+        "competencia": "2024-01",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202401/CAGEDMOV202401.7z",
+        "sha256": "563d2342a56b682fa81734bb950cd6d0202e2204866ef13d1e2dc1a00c10015a"
+      },
+      {
+        "competencia": "2024-02",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202402/CAGEDMOV202402.7z",
+        "sha256": "6e2d5e5fd8b7197f164db2c6d5cf7cede1ba96cf91721877e3164e2346197b28"
+      },
+      {
+        "competencia": "2024-03",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202403/CAGEDMOV202403.7z",
+        "sha256": "06cf4110777b2105a442d1db0874e73928835c7ff3cd04407dfb482e0da6f1e3"
+      },
+      {
+        "competencia": "2024-04",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202404/CAGEDMOV202404.7z",
+        "sha256": "704472a19fc24efe1c68a48b593e6d3d3c21f209bf0fb7ad12052e1b360f1fae"
+      },
+      {
+        "competencia": "2024-05",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202405/CAGEDMOV202405.7z",
+        "sha256": "9861a4f97f7378c9b83ddbe179d7a01bb988f044a0edbb81153e943c00d9aeae"
+      },
+      {
+        "competencia": "2024-06",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202406/CAGEDMOV202406.7z",
+        "sha256": "68a91aa91992e3a7a91f3a1a62fce719b8d40513c01f60bcfa66654c7861c024"
+      },
+      {
+        "competencia": "2024-07",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202407/CAGEDMOV202407.7z",
+        "sha256": "02e28930b5ace8f202c623fc5665c3232c8ac478b7f7ef8f65032cbd80c21514"
+      },
+      {
+        "competencia": "2024-08",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202408/CAGEDMOV202408.7z",
+        "sha256": "a1ec638266f4cf9225fbb6b7f8872717ca34d0661fe74647e4f5ba7eae78c8b9"
+      },
+      {
+        "competencia": "2024-09",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202409/CAGEDMOV202409.7z",
+        "sha256": "f7620a6b194ea4fd7788423b8b529739632ceaee344b967784a22e5e917125c1"
+      },
+      {
+        "competencia": "2024-10",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202410/CAGEDMOV202410.7z",
+        "sha256": "4eed8cb25f1993a44abfeab17bb02715f50c6def9ceaf8197e70ec7b2105e312"
+      },
+      {
+        "competencia": "2024-11",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202411/CAGEDMOV202411.7z",
+        "sha256": "b27ab71f24f67ed59461b77a26ea52ba153ff5960260c480ffc40f5de332b213"
+      },
+      {
+        "competencia": "2024-12",
+        "ftp": "/pdet/microdados/NOVO CAGED/2024/202412/CAGEDMOV202412.7z",
+        "sha256": "e09378800b1d2719cea67649c5b0a4927263bb740a07c9be233032f243ce2361"
+      },
+      {
+        "competencia": "2025-01",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202501/CAGEDMOV202501.7z",
+        "sha256": "1a1a8923df13ac4ffd93301d3ee8653719db43de3767a5bd23b11a17c4789094"
+      },
+      {
+        "competencia": "2025-02",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202502/CAGEDMOV202502.7z",
+        "sha256": "d49562ef9b0cea8e660e3baf25abe809885db20ed05c957d09bb87b34dac26b7"
+      },
+      {
+        "competencia": "2025-03",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202503/CAGEDMOV202503.7z",
+        "sha256": "f9cc175b883ce3e512c0fdf2bf8dcd9b6c51a32878fc46887e6de8c769690a5f"
+      },
+      {
+        "competencia": "2025-04",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202504/CAGEDMOV202504.7z",
+        "sha256": "7fb7b1dedaa78e8be1650af8aec61565822a6bdf0f0bd6e513cf9aaa47558a1c"
+      },
+      {
+        "competencia": "2025-05",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202505/CAGEDMOV202505.7z",
+        "sha256": "e621001898a53abc8ea13343d7753738fbb9a2c92ca43300f6e4b6a089341e67"
+      },
+      {
+        "competencia": "2025-06",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202506/CAGEDMOV202506.7z",
+        "sha256": "168f4ae452f95c13727184ed59704c82d0a7e8d6cdb862540aec3e7d4c206ecc"
+      },
+      {
+        "competencia": "2025-07",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202507/CAGEDMOV202507.7z",
+        "sha256": "fe73a80b86e958a83f28425d80ec782864d2cc0576b919a3ac1f518b3a45686a"
+      },
+      {
+        "competencia": "2025-08",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202508/CAGEDMOV202508.7z",
+        "sha256": "cd624378a53c48de4a6eb65079d20169180d58c7170a16aa01e620037bb73de6"
+      },
+      {
+        "competencia": "2025-09",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202509/CAGEDMOV202509.7z",
+        "sha256": "34ae7001305872a95214bb0598dab76bc87596fa13ed6520cd80b063671046c8"
+      },
+      {
+        "competencia": "2025-10",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202510/CAGEDMOV202510.7z",
+        "sha256": "0458f5a2073c4ceb41ee4b936ef11f07d3886304af2bc3493e7b0c13f7709ae6"
+      },
+      {
+        "competencia": "2025-11",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202511/CAGEDMOV202511.7z",
+        "sha256": "568331592cdd7a5749ebaf3d63a791ad69fe43b94ad10063f049138d6b7038a5"
+      },
+      {
+        "competencia": "2025-12",
+        "ftp": "/pdet/microdados/NOVO CAGED/2025/202512/CAGEDMOV202512.7z",
+        "sha256": "b6222e474ca881664903dc2ee3f6e6151a6a4b680e5dba08820cd9240c2036e2"
+      },
+      {
+        "competencia": "2026-01",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202601/CAGEDMOV202601.7z",
+        "sha256": "9f9bf39e7a0e2703632e4bf0f203b626e30963c9a618757840ee4a8eb552bb4a"
+      },
+      {
+        "competencia": "2026-02",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202602/CAGEDMOV202602.7z",
+        "sha256": "8e6c00142d62162271cd244ad5019482336140a00113635bb93e15a242b6b4f7"
+      },
+      {
+        "competencia": "2026-03",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202603/CAGEDMOV202603.7z",
+        "sha256": "9851c1f07b5f7b7c07d24b5146d64c6b7cfea76ba0344d8514119dba001a2d57"
+      },
+      {
+        "competencia": "2026-04",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202604/CAGEDMOV202604.7z",
+        "sha256": "2fb853d922027390ecbdc46d17063597137c688f21cfa94debad62beba16c4ae"
+      },
+      {
+        "competencia": "2026-05",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202605/CAGEDMOV202605.7z",
+        "sha256": "e3f5317074d0cf48037e82f41fbec7199c5e9273689403c75f3af1ef3fe06d91"
+      },
+      {
+        "competencia": "2026-06",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202606/CAGEDMOV202606.7z",
+        "sha256": "3e2f9294cad913f8398f6a07033f6a6fedd5150f3b2d8beb10243e3d70c2f690"
+      },
+      {
+        "competencia": "2026-07",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202607/CAGEDMOV202607.7z",
+        "sha256": "ab0d31468bc981d26196c73afc20e5b77b55de534b04b20cc9fb50d85293ad97"
+      },
+      {
+        "competencia": "2026-08",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202608/CAGEDMOV202608.7z",
+        "sha256": "18b52ae487c840afb392295660d451d27eba644fead114c257adab73e0494dcd"
+      },
+      {
+        "competencia": "2026-09",
+        "ftp": "/pdet/microdados/NOVO CAGED/2026/202609/CAGEDMOV202609.7z",
+        "sha256": "967a29800166b32ba4f9d786e95b53122eed6dbd78ca94da783290d67cd5d50d"
+      }
+    ]
+  },
+  "metodo": "Somar admissões e desligamentos dos três meses do trimestre fechado; saldo = admissões - desligamentos.",
+  "serie": [
+    {
+      "periodo": "2024-T1",
+      "ano": 2024,
+      "trimestre": 1,
+      "meses": "2024-01|2024-02|2024-03",
+      "admissoes": 3379,
+      "desligamentos": 3073,
+      "saldo": 306
+    },
+    {
+      "periodo": "2024-T2",
+      "ano": 2024,
+      "trimestre": 2,
+      "meses": "2024-04|2024-05|2024-06",
+      "admissoes": 3516,
+      "desligamentos": 2834,
+      "saldo": 682
+    },
+    {
+      "periodo": "2024-T3",
+      "ano": 2024,
+      "trimestre": 3,
+      "meses": "2024-07|2024-08|2024-09",
+      "admissoes": 3506,
+      "desligamentos": 3192,
+      "saldo": 314
+    },
+    {
+      "periodo": "2024-T4",
+      "ano": 2024,
+      "trimestre": 4,
+      "meses": "2024-10|2024-11|2024-12",
+      "admissoes": 2992,
+      "desligamentos": 2815,
+      "saldo": 177
+    },
+    {
+      "periodo": "2025-T1",
+      "ano": 2025,
+      "trimestre": 1,
+      "meses": "2025-01|2025-02|2025-03",
+      "admissoes": 3758,
+      "desligamentos": 4394,
+      "saldo": -636
+    },
+    {
+      "periodo": "2025-T2",
+      "ano": 2025,
+      "trimestre": 2,
+      "meses": "2025-04|2025-05|2025-06",
+      "admissoes": 3731,
+      "desligamentos": 3216,
+      "saldo": 515
+    },
+    {
+      "periodo": "2025-T3",
+      "ano": 2025,
+      "trimestre": 3,
+      "meses": "2025-07|2025-08|2025-09",
+      "admissoes": 3896,
+      "desligamentos": 3450,
+      "saldo": 446
+    },
+    {
+      "periodo": "2025-T4",
+      "ano": 2025,
+      "trimestre": 4,
+      "meses": "2025-10|2025-11|2025-12",
+      "admissoes": 3399,
+      "desligamentos": 2969,
+      "saldo": 430
+    },
+    {
+      "periodo": "2026-T1",
+      "ano": 2026,
+      "trimestre": 1,
+      "meses": "2026-01|2026-02|2026-03",
+      "admissoes": 4048,
+      "desligamentos": 3806,
+      "saldo": 242
+    },
+    {
+      "periodo": "2026-T2",
+      "ano": 2026,
+      "trimestre": 2,
+      "meses": "2026-04|2026-05|2026-06",
+      "admissoes": 3742,
+      "desligamentos": 3748,
+      "saldo": -6
+    },
+    {
+      "periodo": "2026-T3",
+      "ano": 2026,
+      "trimestre": 3,
+      "meses": "2026-07|2026-08|2026-09",
+      "admissoes": 3965,
+      "desligamentos": 3611,
+      "saldo": 354
+    }
+  ],
+  "explorador_periodos": {
+    "ativo": true,
+    "fonte_mensal": "/assets/observatorio/TRB-001.json",
+    "agregacoes": [
+      "mes",
+      "trimestre",
+      "ano",
+      "periodo"
+    ],
+    "regra_trimestre": "Somente trimestres completos de três competências podem ser apresentados como resultado trimestral.",
+    "regra_ano": "Soma dos meses disponíveis de um ano incompleto deve ser rotulada como parcial, sem estimativa.",
+    "primeira_competencia_confirmada": "2024-01",
+    "ultima_competencia_confirmada": "2026-09"
+  }
+}

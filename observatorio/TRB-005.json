@@ -1,0 +1,71 @@
+{
+  "id": "TRB-005",
+  "titulo": "Admissões e desligamentos por faixa salarial",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "referencia": "2026-09",
+  "periodicidade": "mensal, apenas setembro/2026 neste lote",
+  "metodologia": "As faixas foram definidas pelo Maricá Wiki a partir dos salários mensalizados informados no CAGEDMOV e do salário mínimo nacional de 2026 (R$ 1.621). Ao contrário da média TRB-004, esta tabulação de faixas inclui todos os vínculos com salário positivo, inclusive intermitentes, para manter a contagem completa das movimentações; registros sem salário positivo são exibidos separadamente. Por isso os universos de TRB-004 e TRB-005 não coincidem. Faixas de até um mínimo podem abranger jornadas parciais ou remuneração proporcional.",
+  "unidade": "movimentações",
+  "fonte": {
+    "instituicao": "Ministério do Trabalho e Emprego",
+    "sistema": "Novo Caged — microdados não identificados",
+    "ftp_arquivo": "ftp://ftp.mtps.gov.br/pdet/microdados/NOVO%20CAGED/2026/202609/CAGEDMOV202609.7z",
+    "sha256": "967a29800166b32ba4f9d786e95b53122eed6dbd78ca94da783290d67cd5d50d",
+    "arquivo_logico": "CAGEDMOV202609.7z",
+    "observacao": "Somente movimentações dentro do prazo (MOV); eventuais FOR e EXC posteriores podem revisar o período.",
+    "url_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged",
+    "metodologia_salario": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/sumario-executivo_setembro-de-2026.pdf",
+    "comprovante_extracao": "https://github.com/viniciusmoro79/leis/actions/runs/43726820275",
+    "data_extracao": "2026-11-15",
+    "codigo_municipio": "330270",
+    "referencia": "2026-09"
+  },
+  "dados": {
+    "admissoes": 1228,
+    "desligamentos": 1111,
+    "saldo": 117,
+    "faixas": [
+      {
+        "label": "Até 1 SM",
+        "key": "ate_1_sm",
+        "a": 165,
+        "d": 129
+      },
+      {
+        "label": "Mais de 1 até 2 SM",
+        "key": "mais_1_ate_2_sm",
+        "a": 935,
+        "d": 903
+      },
+      {
+        "label": "Mais de 2 até 3 SM",
+        "key": "mais_2_ate_3_sm",
+        "a": 48,
+        "d": 57
+      },
+      {
+        "label": "Mais de 3 até 5 SM",
+        "key": "mais_3_ate_5_sm",
+        "a": 52,
+        "d": 11
+      },
+      {
+        "label": "Mais de 5 SM",
+        "key": "mais_5_sm",
+        "a": 23,
+        "d": 7
+      },
+      {
+        "label": "Salário não classificado",
+        "key": "sem_salario_valido",
+        "a": 5,
+        "d": 4
+      }
+    ],
+    "salario_minimo_reais": "1621.00",
+    "unidade": "SM nacional de 2026"
+  }
+}

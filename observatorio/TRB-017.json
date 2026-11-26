@@ -1,0 +1,68 @@
+{
+  "id": "TRB-017",
+  "titulo": "Trabalhadores inscritos no SINE municipal por faixa etária",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2017 (ano único)",
+  "tipo_registro": "retrato_historico_2017",
+  "unidade": "registros de trabalhadores",
+  "etapa_sine": "inscritos",
+  "total_do_quadro": 2574,
+  "total_geral_da_etapa": 2574,
+  "fonte": {
+    "orgao": "Ministério do Trabalho (MTb)",
+    "elaboracao": "DIEESE",
+    "base": "Observatório do Trabalho do Município de Maricá",
+    "url": "https://marica.dieese.org.br/ws2/tabela/marica/numero-de-trabalhadores-inscritos-no-sine-municipal-por-faixa-etaria",
+    "ano": 2017
+  },
+  "notas_metodologicas": [
+    "Retrato exclusivamente de 2017; não é série histórica 2017–2026 nem dado atual.",
+    "Fonte: Ministério do Trabalho (MTb), elaboração DIEESE; município de Maricá.",
+    "O traço da fonte significa ausência de registro dos casos e é preservado como valor nulo, nunca zero declarado.",
+    "As desagregações da mesma etapa não devem ser somadas entre si; descrevem o mesmo conjunto."
+  ],
+  "serie": [
+    {
+      "ano": 2017,
+      "total_publicado": 2574,
+      "categorias": [
+        {
+          "categoria": "Até 17 anos",
+          "quantidade": 2
+        },
+        {
+          "categoria": "18 a 24 anos",
+          "quantidade": 651
+        },
+        {
+          "categoria": "25 a 29 anos",
+          "quantidade": 357
+        },
+        {
+          "categoria": "30 a 39 anos",
+          "quantidade": 619
+        },
+        {
+          "categoria": "40 a 49 anos",
+          "quantidade": 510
+        },
+        {
+          "categoria": "50 a 64 anos",
+          "quantidade": 343
+        },
+        {
+          "categoria": "65 anos ou mais",
+          "quantidade": 92
+        },
+        {
+          "categoria": "Ignorada",
+          "quantidade": null
+        }
+      ]
+    }
+  ]
+}

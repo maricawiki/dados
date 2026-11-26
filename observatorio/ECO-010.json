@@ -1,0 +1,194 @@
+{
+  "id": "ECO-010",
+  "titulo": "Empresas optantes pelo Simples Nacional",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "transversal",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "municipio_sinac": "5853",
+  "periodicidade": "anual",
+  "inicio": 2007,
+  "fim": 2025,
+  "unidade": "empresas optantes",
+  "data_referencia": "31 de dezembro de cada exercício",
+  "fonte": {
+    "instituicao": "Receita Federal — Estatísticas do Simples Nacional (SINAC)",
+    "portal": "https://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes/atbhe/estatisticassinac.app/default.aspx",
+    "tipo_consulta": "1",
+    "modalidade": "Optantes por UF e Município - Sinac",
+    "consulta": "RJ / MARICA / 31 de dezembro",
+    "rota": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx",
+    "municipios": "5853",
+    "metodo": "HTTPS/ASP.NET, GET e POST com __VIEWSTATE; cada exercício de modo individual",
+    "execucao_geracao": "https://github.com/viniciusmoro79/leis/actions/runs/43869457581"
+  },
+  "metodologia": "Estoque de empresas optantes pelo Simples Nacional em 31 de dezembro. O conjunto já inclui os MEIs enquadrados no SIMEI; não somar as duas séries.",
+  "validacoes": [
+    "Total municipal coincide com o total da grade no SINAC",
+    "Todos os exercícios contêm data e UF conferidos",
+    "Valores de 2010–2025 não inferiores aos optantes pelo SIMEI em cada exercício",
+    "Posição consolidada registrada por ano na série"
+  ],
+  "limitacoes": [
+    "Optantes pelo Simples Nacional não equivalem ao total de empresas atuantes do IBGE/CEMPRE.",
+    "Optantes do SIMEI já estão incluídos no Simples Nacional; não somar ECO-008 ao ECO-010.",
+    "Opção tributária não confirma atividade econômica efetiva ou faturamento no ano.",
+    "O Simples Nacional entrou em vigor em 2007; não existe série de optantes em anos anteriores ao início do regime.",
+    "A posição consolidada da Receita pode revisar dados de exercícios anteriores.",
+    "2026 em andamento não foi incluído e não há projeções."
+  ],
+  "serie": [
+    {
+      "ano": 2007,
+      "valor": 1333,
+      "data_referencia": "31/12/2007",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAwNw%3D%3D"
+    },
+    {
+      "ano": 2008,
+      "valor": 1334,
+      "data_referencia": "31/12/2008",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAwOA%3D%3D"
+    },
+    {
+      "ano": 2009,
+      "valor": 1708,
+      "data_referencia": "31/12/2009",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAwOQ%3D%3D"
+    },
+    {
+      "ano": 2010,
+      "valor": 2875,
+      "data_referencia": "31/12/2010",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxMA%3D%3D"
+    },
+    {
+      "ano": 2011,
+      "valor": 3964,
+      "data_referencia": "31/12/2011",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxMQ%3D%3D"
+    },
+    {
+      "ano": 2012,
+      "valor": 5123,
+      "data_referencia": "31/12/2012",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxMg%3D%3D"
+    },
+    {
+      "ano": 2013,
+      "valor": 6083,
+      "data_referencia": "31/12/2013",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxMw%3D%3D"
+    },
+    {
+      "ano": 2014,
+      "valor": 7431,
+      "data_referencia": "31/12/2014",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxNA%3D%3D"
+    },
+    {
+      "ano": 2015,
+      "valor": 8818,
+      "data_referencia": "31/12/2015",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxNQ%3D%3D"
+    },
+    {
+      "ano": 2016,
+      "valor": 10158,
+      "data_referencia": "31/12/2016",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxNg%3D%3D"
+    },
+    {
+      "ano": 2017,
+      "valor": 11617,
+      "data_referencia": "31/12/2017",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxNw%3D%3D"
+    },
+    {
+      "ano": 2018,
+      "valor": 11273,
+      "data_referencia": "31/12/2018",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxOA%3D%3D"
+    },
+    {
+      "ano": 2019,
+      "valor": 13217,
+      "data_referencia": "31/12/2019",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAxOQ%3D%3D"
+    },
+    {
+      "ano": 2020,
+      "valor": 17527,
+      "data_referencia": "31/12/2020",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyMA%3D%3D"
+    },
+    {
+      "ano": 2021,
+      "valor": 20979,
+      "data_referencia": "31/12/2021",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyMQ%3D%3D"
+    },
+    {
+      "ano": 2022,
+      "valor": 24604,
+      "data_referencia": "31/12/2022",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyMg%3D%3D"
+    },
+    {
+      "ano": 2023,
+      "valor": 39358,
+      "data_referencia": "31/12/2023",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyMw%3D%3D"
+    },
+    {
+      "ano": 2024,
+      "valor": 40722,
+      "data_referencia": "31/12/2024",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyNA%3D%3D"
+    },
+    {
+      "ano": 2025,
+      "valor": 38975,
+      "data_referencia": "31/12/2025",
+      "posicao_consolidada": "Posição Consolidada até 14/11/2026",
+      "municipio_sinac": "5853",
+      "fonte": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/EstatisticasOptantesPorDataMunicipio.aspx?tipoConsulta=1&anoConsulta=MjAyNQ%3D%3D"
+    }
+  ]
+}

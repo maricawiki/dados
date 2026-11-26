@@ -1,0 +1,40 @@
+{
+  "id": "ECO-001",
+  "titulo": "Produto Interno Bruto (PIB) municipal",
+  "dimensao": "Economia",
+  "dimensao_sustentavel": "economica",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "serie": {
+    "inicio": 2002,
+    "fim": 2023,
+    "observacoes": 22,
+    "periodicidade": "anual",
+    "unidade_publicada": "mil reais",
+    "unidade_grafico": "bilhões de reais",
+    "precos": "correntes",
+    "variavel": "37",
+    "tabela_sidra": "5938",
+    "agregado": "municipio"
+  },
+  "fonte": {
+    "instituicao": "IBGE",
+    "titulo": "Produto Interno Bruto dos Municípios — referência 2010",
+    "url": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html",
+    "api": "https://apisidra.ibge.gov.br/values/t/5938/n6/3302700/v/37/p/all"
+  },
+  "notas": [
+    "O PIB corresponde ao valor agregado da produção econômica municipal a preços correntes: não representa renda disponível dos residentes nem receita do governo.",
+    "Valores nominais, sem deflacionamento. As variações entre anos refletem preço e volume, portanto não devem ser apresentadas como crescimento real.",
+    "O IBGE informa política de revisão e reestimação da série. Mudanças são sinalizadas para revisão editorial, sem substituição silenciosa.",
+    "O valor 134.092.034 da API está em mil reais, equivalente a R$ 134.092.034.000 (R$ 134,092034 bilhões)."
+  ],
+  "checagem": "2026-11-14",
+  "status": "extraido_oficial_validado",
+  "valor_final_2023_mil_reais": 134092034,
+  "valor_2022_mil_reais": 158394291,
+  "atualizacao": {
+    "consulta": "anual e trimestral para detectar revisões",
+    "pratica": "verificação automática da API; publicação sujeita a validação"
+  }
+}

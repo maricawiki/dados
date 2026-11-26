@@ -1,0 +1,488 @@
+{
+  "id": "TRB-012",
+  "titulo": "Empregos formais por escolaridade e sexo",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2014–2025",
+  "unidade": "vínculos formais ativos em 31/12",
+  "metodologia": "Contagem agregada por desagregação do índice RAIS do painel MTE; categorias somam o total anual",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego — RAIS",
+    "base": "Painel Rede de Observatórios do Trabalho (MTE)",
+    "canal_extracao": "Espelho independente de dados obtidos da API pública do painel; não é canal oficial de publicação",
+    "arquivo": "rais.parquet",
+    "url_espelho": "https://github.com/jtrecenti/painel-onmt/releases/download/dados-2026-09-02/rais.parquet",
+    "sha256_espelho": "cc1d85dd8afaf5d5f650d55bfd299dd33764c08157734aa6e928748d345404d9",
+    "url_rais_oficial": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "url_tabela_controle": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "estoques_municipais_conferidos": {
+      "2023": 33532,
+      "2024": 35384,
+      "2025": 37493
+    },
+    "auditoria_mte": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "auditoria_espelho": "https://github.com/viniciusmoro79/leis/actions/runs/43773496087"
+  },
+  "ressalva": "Parcial, base observada 2014–2025; extrato reprocessado de painel oficial, sem vínculo com divulgação primária da RAIS; setores/sexo/escolaridade sujeitos a classificações da fonte.",
+  "serie": [
+    {
+      "ano": 2014,
+      "total": 17585,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1297
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 451
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 3431
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 2558
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2984
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1409
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 4458
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 997
+        }
+      ]
+    },
+    {
+      "ano": 2015,
+      "total": 17835,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1145
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 445
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 3720
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 2620
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2843
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1407
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 4574
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1081
+        }
+      ]
+    },
+    {
+      "ano": 2016,
+      "total": 15011,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 896
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 316
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 2937
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 2257
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2471
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1198
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 4205
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 731
+        }
+      ]
+    },
+    {
+      "ano": 2017,
+      "total": 19765,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 995
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 411
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 4084
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 2937
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2685
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1578
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 5659
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1416
+        }
+      ]
+    },
+    {
+      "ano": 2018,
+      "total": 21590,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1014
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 437
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 4542
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 3178
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3022
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1737
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 6213
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1447
+        }
+      ]
+    },
+    {
+      "ano": 2019,
+      "total": 23514,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1027
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 393
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 4674
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 3604
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3149
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1881
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 6955
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1831
+        }
+      ]
+    },
+    {
+      "ano": 2020,
+      "total": 23492,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 942
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 343
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 4603
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 3355
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2883
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 1967
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 7769
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1630
+        }
+      ]
+    },
+    {
+      "ano": 2021,
+      "total": 27353,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1076
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 525
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 5610
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 3698
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 2740
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 2062
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 9775
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 1867
+        }
+      ]
+    },
+    {
+      "ano": 2022,
+      "total": 32124,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1199
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 544
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 6882
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 4671
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3068
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 2244
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 11246
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 2270
+        }
+      ]
+    },
+    {
+      "ano": 2023,
+      "total": 33532,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1286
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 535
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 7237
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 5806
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3315
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 2407
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 9712
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 3234
+        }
+      ]
+    },
+    {
+      "ano": 2024,
+      "total": 35384,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1413
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 529
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 7598
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 6260
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3389
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 2410
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 10353
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 3432
+        }
+      ]
+    },
+    {
+      "ano": 2025,
+      "total": 37493,
+      "categorias": [
+        {
+          "categoria": "Feminino · Fundamental completo",
+          "vinculos": 1422
+        },
+        {
+          "categoria": "Feminino · Fundamental incompleto",
+          "vinculos": 513
+        },
+        {
+          "categoria": "Feminino · Médio completo",
+          "vinculos": 7914
+        },
+        {
+          "categoria": "Feminino · Superior completo ou mais",
+          "vinculos": 7120
+        },
+        {
+          "categoria": "Masculino · Fundamental completo",
+          "vinculos": 3368
+        },
+        {
+          "categoria": "Masculino · Fundamental incompleto",
+          "vinculos": 2184
+        },
+        {
+          "categoria": "Masculino · Médio completo",
+          "vinculos": 10736
+        },
+        {
+          "categoria": "Masculino · Superior completo ou mais",
+          "vinculos": 4236
+        }
+      ]
+    }
+  ]
+}

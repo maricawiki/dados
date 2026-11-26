@@ -1,0 +1,53 @@
+{
+  "id": "ECO-002",
+  "titulo": "Produto Interno Bruto (PIB) per capita",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge_cidades": "3302700",
+  "codigo_ibge_api": "330270",
+  "dimensao_sustentavel": "economica",
+  "ods_referencia": "ODS 8 — Trabalho decente e crescimento econômico",
+  "tipo_observacao": "indicador oficial pontual, sem série histórica completa",
+  "ano_referencia": 2023,
+  "ano_populacao_referencia": 2022,
+  "unidade": "R$ por habitante, a preços correntes",
+  "valor": 679714.48,
+  "componentes_para_conferencia": {
+    "pib_municipal_2023_reais": 134092034000,
+    "populacao_censo_2022": 197277,
+    "resultado_calculado_2_casas": 679714.48
+  },
+  "fontes": [
+    {
+      "instituicao": "IBGE",
+      "titulo": "Cidades e Estados — Maricá (RJ), PIB per capita 2023",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html",
+      "informacao": "PIB per capita 679.714,48 R$ [2023]; população residente 197.277 [Censo 2022]"
+    },
+    {
+      "instituicao": "IBGE",
+      "titulo": "Produto Interno Bruto dos Municípios — série referência 2010, ed. 2022–2023",
+      "url": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9088-produto-interno-bruto-dos-municipios.html"
+    },
+    {
+      "instituicao": "IBGE/SIDRA",
+      "titulo": "Tabela 5938 — PIB a preços correntes",
+      "url": "https://sidra.ibge.gov.br/tabela/5938"
+    },
+    {
+      "instituicao": "Fundação CEPERJ/RJ",
+      "titulo": "PIB dos Municípios do Estado do Rio de Janeiro, 2022–2023",
+      "url": "https://www.rj.gov.br/ceperj/sites/default/files/arquivos-paginas/Rel%20PIB%20Municipal%2022-23.pdf"
+    }
+  ],
+  "metodologia": [
+    "O PIB per capita é o valor do PIB produzido no território municipal dividido pela população de referência utilizada pelo IBGE na divulgação.",
+    "O valor publicado é o indicador oficial do IBGE, não uma recomputação editorial. O quociente dos valores PIB/Censo é usado apenas como controle independente de consistência.",
+    "Para as estimativas PIB dos municípios 2022 e 2023 na referência 2010, o IBGE utiliza dados da população proveniente do Censo Demográfico 2022.",
+    "PIB per capita não é renda per capita, salário médio, rendimento domiciliar ou indicador direto da distribuição de riqueza.",
+    "Preços correntes: a comparação entre anos sem deflacionar valores não representa crescimento real.",
+    "Anos não diretamente recuperados do IBGE não foram preenchidos por extrapolação, interpolação ou cálculos editoriais."
+  ],
+  "estado_serie": "2023 confirmado; série 2002–2023 pendente de extração completa da API oficial 47001 e verificação da metodologia",
+  "data_conferencia": "2026-11-15",
+  "arquivo_csv": "ECO-002.csv"
+}

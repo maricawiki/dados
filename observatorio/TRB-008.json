@@ -1,0 +1,55 @@
+{
+  "id": "TRB-008",
+  "titulo": "Empregos formais por setor de atividade econômica",
+  "dimensao_sustentavel": "economica",
+  "funcao_governo_tematica": "11 — Trabalho",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "anual",
+  "periodo_disponivel": "2023–2025",
+  "conceito": "O indicador desagrega o estoque de vínculos formais ativos na RAIS por cinco grandes setores de atividade econômica do estabelecimento. A soma dos setores em cada ano corresponde ao estoque total do município (TRB-006).",
+  "metodologia": "Consulta à TABELA 4 da planilha RAIS 2025, linha do município de Maricá (330270). Os agregados setoriais são retirados diretamente das colunas E–G, J–L, O–Q, T–V, Y–AA, sem calcular vínculos adicionais.",
+  "limites": "Os setores referem-se à classificação oficial publicada na tabela do MTE. Setores não equivalem a funções de governo e não descrevem necessariamente o local de residência dos trabalhadores. A série disponível abrange 2023 a 2025 e não inclui anos anteriores.",
+  "fonte": {
+    "orgao": "Ministério do Trabalho e Emprego",
+    "base": "Relação Anual de Informações Sociais (RAIS), ano-base 2025",
+    "arquivo": "RAIS 2025 - Tabelas.xlsx",
+    "planilha": "TABELA 4",
+    "linha_municipal": 3231,
+    "codigo_municipal": "330270",
+    "nome_municipio": "Maricá",
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025-tabelas.xlsx/@@download/file",
+    "conferencia": "2026-11-15",
+    "auditoria": "https://github.com/viniciusmoro79/leis/actions/runs/43729150009",
+    "criterio": "Estoque anual de vínculos formais RAIS; valores oficiais por setor, incluindo o agregado total, em 31 de dezembro de cada ano"
+  },
+  "serie": [
+    {
+      "ano": 2023,
+      "agro": 57,
+      "industria": 1390,
+      "construcao": 4656,
+      "comercio": 7690,
+      "servicos": 19739,
+      "total": 33532
+    },
+    {
+      "ano": 2024,
+      "agro": 64,
+      "industria": 1436,
+      "construcao": 5044,
+      "comercio": 7780,
+      "servicos": 21060,
+      "total": 35384
+    },
+    {
+      "ano": 2025,
+      "agro": 68,
+      "industria": 1585,
+      "construcao": 4662,
+      "comercio": 8308,
+      "servicos": 22870,
+      "total": 37493
+    }
+  ]
+}
