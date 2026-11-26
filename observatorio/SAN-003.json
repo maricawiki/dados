@@ -1,0 +1,59 @@
+{
+  "id": "SAN-003",
+  "titulo": "Domicílios com coleta de lixo",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "dimensao_sustentavel": "ambiental",
+  "ods_referencia": "ODS 11 — Cidades e comunidades sustentáveis",
+  "fonte_original": "IBGE — Censo Demográfico e SIDRA",
+  "anos": [
+    2000,
+    2010,
+    2022
+  ],
+  "natureza": "observacao_censitaria",
+  "unidade": "domicílios e percentual",
+  "formula": "100 × domicílios na categoria selecionada ÷ domicílios do universo da mesma tabela e ano",
+  "anos_nao_publicados": "Não interpolar, não estimar.",
+  "referencias": [
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/1439"
+    },
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/1395"
+    },
+    {
+      "url": "https://sidra.ibge.gov.br/tabela/6892"
+    }
+  ],
+  "consulta_oficial_2022": "https://apisidra.ibge.gov.br/values/t/6892/n6/3302700/v/381/p/2022/c67/all",
+  "revisao": "2026-11-14",
+  "notas": [
+    "A categoria 'Coletado' contempla coleta realizada pelo serviço de limpeza no domicílio ou descarte em caçamba desse serviço.",
+    "As referências de 2000/2010 são de domicílios particulares permanentes, e 2022 de domicílios particulares permanentes ocupados, com mudanças de classificação entre censos.",
+    "O número de domicílios de referência em 2000 nesta tabela SIDRA é 22.853; pode diferir de outros levantamentos com universos distintos. Não substituir por outra contagem.",
+    "Coleta de lixo não equivale a coleta seletiva, reciclagem ou disposição ambientalmente adequada."
+  ],
+  "identificadores_origem": [
+    {
+      "ano": 2000,
+      "valor": 16405,
+      "total": 22853,
+      "fonte": "IBGE_SIDRA_1439_v96_c67_2520"
+    },
+    {
+      "ano": 2010,
+      "valor": 39889,
+      "total": 42810,
+      "fonte": "IBGE_SIDRA_1395_v96_c67_2520"
+    },
+    {
+      "ano": 2022,
+      "valor": 72793,
+      "total": 73454,
+      "fonte": "IBGE_SIDRA_6892_v381_c67_2520"
+    }
+  ],
+  "arquivo_historico": "SAN-003.csv",
+  "detalhamento_2022": "SAN-003-categorias-2022.csv"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "MOB-009",
+  "titulo": "Frota de ônibus registrados",
+  "municipio": "Maricá/RJ",
+  "codigo_ibge": "3302700",
+  "natureza": "observacao_oficial",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "metodo": "Categoria exclusiva ONIBUS no RENAVAM em dezembro, não inclui MICRO-ONIBUS.",
+  "unidade": "ônibus registrados",
+  "fonte": "MOB-004-historico.json",
+  "serie": [
+    {
+      "ano": 2014,
+      "onibus": 404,
+      "micro_onibus_excluidos": 345,
+      "frota_total": 50147
+    },
+    {
+      "ano": 2015,
+      "onibus": 437,
+      "micro_onibus_excluidos": 372,
+      "frota_total": 53514
+    },
+    {
+      "ano": 2016,
+      "onibus": 420,
+      "micro_onibus_excluidos": 390,
+      "frota_total": 56554
+    },
+    {
+      "ano": 2017,
+      "onibus": 415,
+      "micro_onibus_excluidos": 426,
+      "frota_total": 59688
+    },
+    {
+      "ano": 2018,
+      "onibus": 420,
+      "micro_onibus_excluidos": 464,
+      "frota_total": 63814
+    },
+    {
+      "ano": 2019,
+      "onibus": 444,
+      "micro_onibus_excluidos": 476,
+      "frota_total": 68528
+    },
+    {
+      "ano": 2020,
+      "onibus": 403,
+      "micro_onibus_excluidos": 487,
+      "frota_total": 70777
+    },
+    {
+      "ano": 2021,
+      "onibus": 414,
+      "micro_onibus_excluidos": 485,
+      "frota_total": 76841
+    },
+    {
+      "ano": 2022,
+      "onibus": 409,
+      "micro_onibus_excluidos": 477,
+      "frota_total": 81230
+    },
+    {
+      "ano": 2023,
+      "onibus": 461,
+      "micro_onibus_excluidos": 500,
+      "frota_total": 86436
+    },
+    {
+      "ano": 2024,
+      "onibus": 454,
+      "micro_onibus_excluidos": 517,
+      "frota_total": 92984
+    },
+    {
+      "ano": 2025,
+      "onibus": 472,
+      "micro_onibus_excluidos": 536,
+      "frota_total": 99333
+    }
+  ],
+  "conferencia": "2026-11-17",
+  "categoria_tematica": "Infraestrutura e Urbanismo"
+}

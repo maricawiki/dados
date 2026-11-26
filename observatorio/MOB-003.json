@@ -1,0 +1,117 @@
+{
+  "id": "MOB-003",
+  "titulo": "Veículos registrados por mil habitantes",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "26",
+  "fonte_principal": "SENATRAN/RENAVAM",
+  "fonte_inventario": "FROTA-MARICA-ANUAL.json",
+  "fonte_populacao": "POP-IBGE-MARICA-2014-2025.json",
+  "natureza": "razao_derivada_fontes_oficiais",
+  "unidade": "veículos registrados por mil habitantes",
+  "formula": "(frota SENATRAN dezembro ano / população oficial IBGE ano) × 1000",
+  "serie": [
+    {
+      "ano": 2014,
+      "frota_registrada": 50147,
+      "populacao_residente_ibge": 143111,
+      "veiculos_por_mil_habitantes": 350.4063,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2015,
+      "frota_registrada": 53514,
+      "populacao_residente_ibge": 146549,
+      "veiculos_por_mil_habitantes": 365.1611,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2016,
+      "frota_registrada": 56554,
+      "populacao_residente_ibge": 149876,
+      "veiculos_por_mil_habitantes": 377.3386,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2017,
+      "frota_registrada": 59688,
+      "populacao_residente_ibge": 153008,
+      "veiculos_por_mil_habitantes": 390.0972,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2018,
+      "frota_registrada": 63814,
+      "populacao_residente_ibge": 157789,
+      "veiculos_por_mil_habitantes": 404.4262,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://apisidra.ibge.gov.br/values/t/6579/n6/3302700/v/9324/p/2014-2019?formato=json"
+    },
+    {
+      "ano": 2019,
+      "frota_registrada": 68528,
+      "populacao_residente_ibge": 161207,
+      "veiculos_por_mil_habitantes": 425.0932,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/estimativa_dou_2019.pdf"
+    },
+    {
+      "ano": 2020,
+      "frota_registrada": 70777,
+      "populacao_residente_ibge": 164504,
+      "veiculos_por_mil_habitantes": 430.2449,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2020/POP2020_20220905.pdf"
+    },
+    {
+      "ano": 2021,
+      "frota_registrada": 76841,
+      "populacao_residente_ibge": 167668,
+      "veiculos_por_mil_habitantes": 458.2926,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/POP2021_20240624.pdf"
+    },
+    {
+      "ano": 2022,
+      "frota_registrada": 81230,
+      "populacao_residente_ibge": 197277,
+      "veiculos_por_mil_habitantes": 411.7561,
+      "tipo_populacao": "censo_demografico_2022",
+      "fonte_ibge": "https://www.ibge.gov.br/cidades-e-estados/rj/marica.html"
+    },
+    {
+      "ano": 2023,
+      "frota_registrada": 86436,
+      "populacao_residente_ibge": null,
+      "veiculos_por_mil_habitantes": null,
+      "tipo_populacao": "sem_estimativa_municipal_ibge_para_2023",
+      "fonte_ibge": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/37758-ibge-divulga-relacao-da-populacao-dos-municipios"
+    },
+    {
+      "ano": 2024,
+      "frota_registrada": 92984,
+      "populacao_residente_ibge": 211986,
+      "veiculos_por_mil_habitantes": 438.6327,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2024/estimativa_dou_2024.pdf"
+    },
+    {
+      "ano": 2025,
+      "frota_registrada": 99333,
+      "populacao_residente_ibge": 212470,
+      "veiculos_por_mil_habitantes": 467.5154,
+      "tipo_populacao": "estimativa_oficial_ibge_01_julho",
+      "fonte_ibge": "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.pdf"
+    }
+  ],
+  "anos_nao_publicados": "Não produzir estimativas próprias; usar apenas IBGE/SENATRAN oficiais.",
+  "conferencia": "2026-11-17",
+  "descricao": "Frota registrada por mil habitantes: numeradores oficiais SENATRAN e censos/estimativas oficiais IBGE.",
+  "periodicidade": "anual (denominador oficial disponível)",
+  "nota_comparabilidade": "IBGE oficial: estimativas populacionais 2014–2021 e 2024–2025, Censo 2022; 2023 sem estimativa municipal. Evitar interpolações e mudanças de conceitos."
+}

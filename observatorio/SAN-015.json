@@ -1,0 +1,41 @@
+{
+  "id": "SAN-015",
+  "titulo": "Vias urbanas com rede subterrânea de águas pluviais",
+  "municipio": "Maricá",
+  "codigo_ibge": "3302700",
+  "area": "Drenagem urbana",
+  "dimensao_sustentavel": "ambiental",
+  "funcao_governo_tematica": "17",
+  "natureza": "observacao_operacional_sinisa_reproduzida_de_painel_secundario",
+  "ano_referencia": 2023,
+  "edicao_sinisa": 2024,
+  "unidade": "%",
+  "valor": 15.9,
+  "detalhe": "Parcela de vias públicas urbanas com redes subterrâneas de águas pluviais",
+  "fonte_primaria": {
+    "instituicao": "Ministério das Cidades",
+    "sistema": "SINISA",
+    "edicao": 2024,
+    "ano_base": 2023,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa"
+  },
+  "fonte_conferencia": {
+    "instituicao": "Instituto Água e Saneamento",
+    "url": "https://www.aguaesaneamento.org.br/municipios-e-saneamento/rj/marica"
+  },
+  "fonte_recente_pendente": {
+    "edicao_sinisa": 2025,
+    "ano_base": 2024,
+    "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+    "status": "pendente_conferencia_planilha_primaria"
+  },
+  "nota_metodologica": "Infraestrutura de drenagem informada pelo município. Este indicador não quantifica a área atendida nem assegura ausência de alagamentos.",
+  "serie_historica": [
+    {
+      "ano": 2023,
+      "valor": 15.9
+    }
+  ],
+  "anos_nao_publicados": "Não interpolar nem estimar anos sem planilha oficial validada.",
+  "data_conferencia": "2026-11-17"
+}
