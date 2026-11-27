@@ -1,0 +1,23 @@
+name: Sondar CNES Saúde (somente leitura)
+on:
+  pull_request:
+    paths:
+      - "scripts/observatorio_saude_leitos_extrair.py"
+      - "scripts/observatorio_saude_conferir_cobertura.py"
+      - ".github/workflows/observatorio-saude-sondagem.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sondar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Auditar cobertura de ambas APIs CNES e arquivos de referência
+        run: python scripts/observatorio_saude_conferir_cobertura.py
+      - name: Extrair série completa de dezembro CNES 2007–2025
+        run: python scripts/observatorio_saude_leitos_extrair.py
