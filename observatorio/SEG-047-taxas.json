@@ -1,0 +1,592 @@
+{
+  "id": "SEG-047",
+  "titulo": "Apreensões de drogas por posse",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "unidade": "taxa por 100 mil habitantes",
+  "variavel_isp": "posse_drogas",
+  "mensal": [
+    {
+      "competencia": "2014-01",
+      "taxa": "1.42"
+    },
+    {
+      "competencia": "2014-02",
+      "taxa": "2.82"
+    },
+    {
+      "competencia": "2014-03",
+      "taxa": "2.11"
+    },
+    {
+      "competencia": "2014-04",
+      "taxa": "1.41"
+    },
+    {
+      "competencia": "2014-05",
+      "taxa": "0.7"
+    },
+    {
+      "competencia": "2014-06",
+      "taxa": "3.5"
+    },
+    {
+      "competencia": "2014-07",
+      "taxa": "4.89"
+    },
+    {
+      "competencia": "2014-08",
+      "taxa": "2.79"
+    },
+    {
+      "competencia": "2014-09",
+      "taxa": "2.09"
+    },
+    {
+      "competencia": "2014-10",
+      "taxa": "1.39"
+    },
+    {
+      "competencia": "2014-11",
+      "taxa": "0.69"
+    },
+    {
+      "competencia": "2014-12",
+      "taxa": "1.38"
+    },
+    {
+      "competencia": "2015-01",
+      "taxa": "3.45"
+    },
+    {
+      "competencia": "2015-02",
+      "taxa": "1.38"
+    },
+    {
+      "competencia": "2015-03",
+      "taxa": "2.06"
+    },
+    {
+      "competencia": "2015-04",
+      "taxa": "1.37"
+    },
+    {
+      "competencia": "2015-05",
+      "taxa": "5.48"
+    },
+    {
+      "competencia": "2015-06",
+      "taxa": "0.68"
+    },
+    {
+      "competencia": "2015-07",
+      "taxa": "6.82"
+    },
+    {
+      "competencia": "2015-08",
+      "taxa": "4.09"
+    },
+    {
+      "competencia": "2015-09",
+      "taxa": "3.4"
+    },
+    {
+      "competencia": "2015-10",
+      "taxa": "6.11"
+    },
+    {
+      "competencia": "2015-11",
+      "taxa": "6.1"
+    },
+    {
+      "competencia": "2015-12",
+      "taxa": "3.38"
+    },
+    {
+      "competencia": "2016-01",
+      "taxa": "0.67"
+    },
+    {
+      "competencia": "2016-02",
+      "taxa": "3.37"
+    },
+    {
+      "competencia": "2016-03",
+      "taxa": "1.34"
+    },
+    {
+      "competencia": "2016-04",
+      "taxa": "2.68"
+    },
+    {
+      "competencia": "2016-05",
+      "taxa": "2.01"
+    },
+    {
+      "competencia": "2016-06",
+      "taxa": "4.68"
+    },
+    {
+      "competencia": "2016-07",
+      "taxa": "7.34"
+    },
+    {
+      "competencia": "2016-08",
+      "taxa": "2"
+    },
+    {
+      "competencia": "2016-09",
+      "taxa": "2.66"
+    },
+    {
+      "competencia": "2016-10",
+      "taxa": "3.32"
+    },
+    {
+      "competencia": "2016-11",
+      "taxa": "1.99"
+    },
+    {
+      "competencia": "2016-12",
+      "taxa": "2.65"
+    },
+    {
+      "competencia": "2017-01",
+      "taxa": "1.32"
+    },
+    {
+      "competencia": "2017-02",
+      "taxa": "2.64"
+    },
+    {
+      "competencia": "2017-03",
+      "taxa": "0.66"
+    },
+    {
+      "competencia": "2017-04",
+      "taxa": "1.97"
+    },
+    {
+      "competencia": "2017-05",
+      "taxa": "3.28"
+    },
+    {
+      "competencia": "2017-06",
+      "taxa": "2.62"
+    },
+    {
+      "competencia": "2017-07",
+      "taxa": "2.61"
+    },
+    {
+      "competencia": "2017-08",
+      "taxa": "0.65"
+    },
+    {
+      "competencia": "2017-09",
+      "taxa": "0.65"
+    },
+    {
+      "competencia": "2017-10",
+      "taxa": "3.24"
+    },
+    {
+      "competencia": "2017-11",
+      "taxa": "3.88"
+    },
+    {
+      "competencia": "2017-12",
+      "taxa": "2.58"
+    },
+    {
+      "competencia": "2018-01",
+      "taxa": "1.93"
+    },
+    {
+      "competencia": "2018-02",
+      "taxa": "2.57"
+    },
+    {
+      "competencia": "2018-03",
+      "taxa": "1.28"
+    },
+    {
+      "competencia": "2018-04",
+      "taxa": "5.11"
+    },
+    {
+      "competencia": "2018-05",
+      "taxa": "2.55"
+    },
+    {
+      "competencia": "2018-06",
+      "taxa": "3.18"
+    },
+    {
+      "competencia": "2018-07",
+      "taxa": "1.27"
+    },
+    {
+      "competencia": "2018-08",
+      "taxa": "5.69"
+    },
+    {
+      "competencia": "2018-09",
+      "taxa": "4.42"
+    },
+    {
+      "competencia": "2018-10",
+      "taxa": "3.78"
+    },
+    {
+      "competencia": "2018-11",
+      "taxa": "3.15"
+    },
+    {
+      "competencia": "2018-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-01",
+      "taxa": "4.39"
+    },
+    {
+      "competencia": "2019-02",
+      "taxa": "1.25"
+    },
+    {
+      "competencia": "2019-03",
+      "taxa": "0.62"
+    },
+    {
+      "competencia": "2019-04",
+      "taxa": "1.25"
+    },
+    {
+      "competencia": "2019-05",
+      "taxa": "2.49"
+    },
+    {
+      "competencia": "2019-06",
+      "taxa": "2.49"
+    },
+    {
+      "competencia": "2019-07",
+      "taxa": "1.24"
+    },
+    {
+      "competencia": "2019-08",
+      "taxa": "1.24"
+    },
+    {
+      "competencia": "2019-09",
+      "taxa": "1.24"
+    },
+    {
+      "competencia": "2019-10",
+      "taxa": "1.23"
+    },
+    {
+      "competencia": "2019-11",
+      "taxa": "1.23"
+    },
+    {
+      "competencia": "2019-12",
+      "taxa": "0.62"
+    },
+    {
+      "competencia": "2020-01",
+      "taxa": "1.84"
+    },
+    {
+      "competencia": "2020-02",
+      "taxa": "2.45"
+    },
+    {
+      "competencia": "2020-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-04",
+      "taxa": "0.61"
+    },
+    {
+      "competencia": "2020-05",
+      "taxa": "1.22"
+    },
+    {
+      "competencia": "2020-06",
+      "taxa": "1.83"
+    },
+    {
+      "competencia": "2020-07",
+      "taxa": "3.04"
+    },
+    {
+      "competencia": "2020-08",
+      "taxa": "1.21"
+    },
+    {
+      "competencia": "2020-09",
+      "taxa": "1.21"
+    },
+    {
+      "competencia": "2020-10",
+      "taxa": "2.42"
+    },
+    {
+      "competencia": "2020-11",
+      "taxa": "0.6"
+    },
+    {
+      "competencia": "2020-12",
+      "taxa": "1.21"
+    },
+    {
+      "competencia": "2021-01",
+      "taxa": "1.81"
+    },
+    {
+      "competencia": "2021-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-03",
+      "taxa": "0.6"
+    },
+    {
+      "competencia": "2021-04",
+      "taxa": "0.6"
+    },
+    {
+      "competencia": "2021-05",
+      "taxa": "1.79"
+    },
+    {
+      "competencia": "2021-06",
+      "taxa": "1.79"
+    },
+    {
+      "competencia": "2021-07",
+      "taxa": "1.79"
+    },
+    {
+      "competencia": "2021-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-09",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2021-10",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2021-11",
+      "taxa": "1.19"
+    },
+    {
+      "competencia": "2021-12",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2022-01",
+      "taxa": "1.18"
+    },
+    {
+      "competencia": "2022-02",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2022-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-04",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2022-05",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2022-06",
+      "taxa": "2.34"
+    },
+    {
+      "competencia": "2022-07",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2022-08",
+      "taxa": "3.51"
+    },
+    {
+      "competencia": "2022-09",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2022-10",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2022-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-12",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2023-01",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2023-02",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2023-03",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2023-04",
+      "taxa": "2.34"
+    },
+    {
+      "competencia": "2023-05",
+      "taxa": "4.1"
+    },
+    {
+      "competencia": "2023-06",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2023-07",
+      "taxa": "2.34"
+    },
+    {
+      "competencia": "2023-08",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2023-09",
+      "taxa": "3.51"
+    },
+    {
+      "competencia": "2023-10",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2023-11",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2023-12",
+      "taxa": "2.93"
+    },
+    {
+      "competencia": "2024-01",
+      "taxa": "2.34"
+    },
+    {
+      "competencia": "2024-02",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2024-03",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2024-04",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2024-05",
+      "taxa": "3.51"
+    },
+    {
+      "competencia": "2024-06",
+      "taxa": "1.17"
+    },
+    {
+      "competencia": "2024-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-08",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2024-09",
+      "taxa": "2.34"
+    },
+    {
+      "competencia": "2024-10",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2024-11",
+      "taxa": "1.76"
+    },
+    {
+      "competencia": "2024-12",
+      "taxa": "2.34"
+    }
+  ],
+  "anual": [
+    {
+      "competencia": "2014",
+      "taxa": "25.16"
+    },
+    {
+      "competencia": "2015",
+      "taxa": "44.35"
+    },
+    {
+      "competencia": "2016",
+      "taxa": "34.7"
+    },
+    {
+      "competencia": "2017",
+      "taxa": "26.14"
+    },
+    {
+      "competencia": "2018",
+      "taxa": "34.86"
+    },
+    {
+      "competencia": "2019",
+      "taxa": "19.23"
+    },
+    {
+      "competencia": "2020",
+      "taxa": "17.63"
+    }
+  ],
+  "fonte": {
+    "orgao": "Instituto de Segurança Pública do Rio de Janeiro",
+    "taxas_mensais": {
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioTaxaMes.csv",
+      "sha256": "4aa75a0378f30a441d80e5b848d68a4af146909fd93bfb11c4b244f7b9cfccb4",
+      "encoding": "cp1252",
+      "inicio": "2014-01",
+      "fim": "2024-12"
+    },
+    "taxas_anuais": {
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioTaxaAno.csv",
+      "sha256": "ca1be4d4e6c2e99b7f3df9242df55b1d4e5bdcd3e6c8869d14e134df97f131e2",
+      "encoding": "cp1252",
+      "inicio": "2014",
+      "fim": "2020"
+    },
+    "metodologia_populacao": "https://www.ispdados.rj.gov.br/metodologiaCalPopulacao.html",
+    "extracao_utc": "2026-11-15"
+  },
+  "ressalvas": [
+    "As taxas mensais não são somáveis; para taxa anual utilizar somente a base anual oficial.",
+    "A taxa mensal por 100 mil habitantes não é equivalente a taxa por frota ou efetivo policial.",
+    "A base de taxas está mais desatualizada que a de contagens municipais."
+  ]
+}

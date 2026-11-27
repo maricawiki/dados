@@ -1,0 +1,637 @@
+{
+  "id": "SEG-024",
+  "titulo": "Registros de ocorrência",
+  "dimensao_sustentavel": "social",
+  "funcao_governo_tematica": "06 — Segurança Pública",
+  "codigo_ibge": "3302700",
+  "municipio": "Maricá (RJ)",
+  "periodicidade": "mensal",
+  "periodo_disponivel": "2014-01–2026-09",
+  "unidade": "registros",
+  "variavel_isp": "registro_ocorrencias",
+  "agregado_isp": false,
+  "fonte": {
+    "orgao": "Instituto de Segurança Pública do Rio de Janeiro",
+    "arquivo": "BaseMunicipioMensal.csv",
+    "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioMensal.csv",
+    "sha256": "168185ab701253875f6be183143aac77f6d3d8227379340d647b210fcac37b06",
+    "encoding": "cp1252",
+    "extracao_utc": "2026-11-15"
+  },
+  "metodologia": "Filtro de Maricá pelo código municipal 330270, leitura dos valores publicados no campo oficial. Não há projeções, taxas calculadas ou preenchimento de meses ausentes.",
+  "limitacoes": "Os valores oficiais podem ser retificados. Períodos incompletos sinalizados. Unidades podem ser vítimas, casos ou registros. Agregados não podem ser somados às suas categorias componentes.",
+  "serie": [
+    {
+      "competencia": "2014-01",
+      "registros": 573
+    },
+    {
+      "competencia": "2014-02",
+      "registros": 580
+    },
+    {
+      "competencia": "2014-03",
+      "registros": 602
+    },
+    {
+      "competencia": "2014-04",
+      "registros": 526
+    },
+    {
+      "competencia": "2014-05",
+      "registros": 481
+    },
+    {
+      "competencia": "2014-06",
+      "registros": 440
+    },
+    {
+      "competencia": "2014-07",
+      "registros": 486
+    },
+    {
+      "competencia": "2014-08",
+      "registros": 482
+    },
+    {
+      "competencia": "2014-09",
+      "registros": 511
+    },
+    {
+      "competencia": "2014-10",
+      "registros": 530
+    },
+    {
+      "competencia": "2014-11",
+      "registros": 567
+    },
+    {
+      "competencia": "2014-12",
+      "registros": 592
+    },
+    {
+      "competencia": "2015-01",
+      "registros": 660
+    },
+    {
+      "competencia": "2015-02",
+      "registros": 627
+    },
+    {
+      "competencia": "2015-03",
+      "registros": 697
+    },
+    {
+      "competencia": "2015-04",
+      "registros": 478
+    },
+    {
+      "competencia": "2015-05",
+      "registros": 592
+    },
+    {
+      "competencia": "2015-06",
+      "registros": 560
+    },
+    {
+      "competencia": "2015-07",
+      "registros": 584
+    },
+    {
+      "competencia": "2015-08",
+      "registros": 604
+    },
+    {
+      "competencia": "2015-09",
+      "registros": 546
+    },
+    {
+      "competencia": "2015-10",
+      "registros": 522
+    },
+    {
+      "competencia": "2015-11",
+      "registros": 561
+    },
+    {
+      "competencia": "2015-12",
+      "registros": 557
+    },
+    {
+      "competencia": "2016-01",
+      "registros": 639
+    },
+    {
+      "competencia": "2016-02",
+      "registros": 638
+    },
+    {
+      "competencia": "2016-03",
+      "registros": 577
+    },
+    {
+      "competencia": "2016-04",
+      "registros": 548
+    },
+    {
+      "competencia": "2016-05",
+      "registros": 594
+    },
+    {
+      "competencia": "2016-06",
+      "registros": 556
+    },
+    {
+      "competencia": "2016-07",
+      "registros": 559
+    },
+    {
+      "competencia": "2016-08",
+      "registros": 578
+    },
+    {
+      "competencia": "2016-09",
+      "registros": 584
+    },
+    {
+      "competencia": "2016-10",
+      "registros": 702
+    },
+    {
+      "competencia": "2016-11",
+      "registros": 597
+    },
+    {
+      "competencia": "2016-12",
+      "registros": 585
+    },
+    {
+      "competencia": "2017-01",
+      "registros": 553
+    },
+    {
+      "competencia": "2017-02",
+      "registros": 408
+    },
+    {
+      "competencia": "2017-03",
+      "registros": 578
+    },
+    {
+      "competencia": "2017-04",
+      "registros": 487
+    },
+    {
+      "competencia": "2017-05",
+      "registros": 576
+    },
+    {
+      "competencia": "2017-06",
+      "registros": 492
+    },
+    {
+      "competencia": "2017-07",
+      "registros": 504
+    },
+    {
+      "competencia": "2017-08",
+      "registros": 534
+    },
+    {
+      "competencia": "2017-09",
+      "registros": 579
+    },
+    {
+      "competencia": "2017-10",
+      "registros": 591
+    },
+    {
+      "competencia": "2017-11",
+      "registros": 548
+    },
+    {
+      "competencia": "2017-12",
+      "registros": 549
+    },
+    {
+      "competencia": "2018-01",
+      "registros": 554
+    },
+    {
+      "competencia": "2018-02",
+      "registros": 571
+    },
+    {
+      "competencia": "2018-03",
+      "registros": 535
+    },
+    {
+      "competencia": "2018-04",
+      "registros": 500
+    },
+    {
+      "competencia": "2018-05",
+      "registros": 558
+    },
+    {
+      "competencia": "2018-06",
+      "registros": 473
+    },
+    {
+      "competencia": "2018-07",
+      "registros": 463
+    },
+    {
+      "competencia": "2018-08",
+      "registros": 447
+    },
+    {
+      "competencia": "2018-09",
+      "registros": 438
+    },
+    {
+      "competencia": "2018-10",
+      "registros": 523
+    },
+    {
+      "competencia": "2018-11",
+      "registros": 476
+    },
+    {
+      "competencia": "2018-12",
+      "registros": 433
+    },
+    {
+      "competencia": "2019-01",
+      "registros": 565
+    },
+    {
+      "competencia": "2019-02",
+      "registros": 484
+    },
+    {
+      "competencia": "2019-03",
+      "registros": 573
+    },
+    {
+      "competencia": "2019-04",
+      "registros": 476
+    },
+    {
+      "competencia": "2019-05",
+      "registros": 463
+    },
+    {
+      "competencia": "2019-06",
+      "registros": 416
+    },
+    {
+      "competencia": "2019-07",
+      "registros": 449
+    },
+    {
+      "competencia": "2019-08",
+      "registros": 500
+    },
+    {
+      "competencia": "2019-09",
+      "registros": 485
+    },
+    {
+      "competencia": "2019-10",
+      "registros": 494
+    },
+    {
+      "competencia": "2019-11",
+      "registros": 524
+    },
+    {
+      "competencia": "2019-12",
+      "registros": 506
+    },
+    {
+      "competencia": "2020-01",
+      "registros": 568
+    },
+    {
+      "competencia": "2020-02",
+      "registros": 525
+    },
+    {
+      "competencia": "2020-03",
+      "registros": 408
+    },
+    {
+      "competencia": "2020-04",
+      "registros": 392
+    },
+    {
+      "competencia": "2020-05",
+      "registros": 364
+    },
+    {
+      "competencia": "2020-06",
+      "registros": 412
+    },
+    {
+      "competencia": "2020-07",
+      "registros": 542
+    },
+    {
+      "competencia": "2020-08",
+      "registros": 484
+    },
+    {
+      "competencia": "2020-09",
+      "registros": 519
+    },
+    {
+      "competencia": "2020-10",
+      "registros": 493
+    },
+    {
+      "competencia": "2020-11",
+      "registros": 475
+    },
+    {
+      "competencia": "2020-12",
+      "registros": 537
+    },
+    {
+      "competencia": "2021-01",
+      "registros": 593
+    },
+    {
+      "competencia": "2021-02",
+      "registros": 557
+    },
+    {
+      "competencia": "2021-03",
+      "registros": 606
+    },
+    {
+      "competencia": "2021-04",
+      "registros": 553
+    },
+    {
+      "competencia": "2021-05",
+      "registros": 440
+    },
+    {
+      "competencia": "2021-06",
+      "registros": 414
+    },
+    {
+      "competencia": "2021-07",
+      "registros": 391
+    },
+    {
+      "competencia": "2021-08",
+      "registros": 385
+    },
+    {
+      "competencia": "2021-09",
+      "registros": 400
+    },
+    {
+      "competencia": "2021-10",
+      "registros": 453
+    },
+    {
+      "competencia": "2021-11",
+      "registros": 470
+    },
+    {
+      "competencia": "2021-12",
+      "registros": 597
+    },
+    {
+      "competencia": "2022-01",
+      "registros": 647
+    },
+    {
+      "competencia": "2022-02",
+      "registros": 663
+    },
+    {
+      "competencia": "2022-03",
+      "registros": 803
+    },
+    {
+      "competencia": "2022-04",
+      "registros": 621
+    },
+    {
+      "competencia": "2022-05",
+      "registros": 730
+    },
+    {
+      "competencia": "2022-06",
+      "registros": 706
+    },
+    {
+      "competencia": "2022-07",
+      "registros": 659
+    },
+    {
+      "competencia": "2022-08",
+      "registros": 707
+    },
+    {
+      "competencia": "2022-09",
+      "registros": 661
+    },
+    {
+      "competencia": "2022-10",
+      "registros": 684
+    },
+    {
+      "competencia": "2022-11",
+      "registros": 705
+    },
+    {
+      "competencia": "2022-12",
+      "registros": 668
+    },
+    {
+      "competencia": "2023-01",
+      "registros": 727
+    },
+    {
+      "competencia": "2023-02",
+      "registros": 801
+    },
+    {
+      "competencia": "2023-03",
+      "registros": 803
+    },
+    {
+      "competencia": "2023-04",
+      "registros": 734
+    },
+    {
+      "competencia": "2023-05",
+      "registros": 902
+    },
+    {
+      "competencia": "2023-06",
+      "registros": 704
+    },
+    {
+      "competencia": "2023-07",
+      "registros": 831
+    },
+    {
+      "competencia": "2023-08",
+      "registros": 785
+    },
+    {
+      "competencia": "2023-09",
+      "registros": 749
+    },
+    {
+      "competencia": "2023-10",
+      "registros": 819
+    },
+    {
+      "competencia": "2023-11",
+      "registros": 779
+    },
+    {
+      "competencia": "2023-12",
+      "registros": 712
+    },
+    {
+      "competencia": "2024-01",
+      "registros": 871
+    },
+    {
+      "competencia": "2024-02",
+      "registros": 892
+    },
+    {
+      "competencia": "2024-03",
+      "registros": 963
+    },
+    {
+      "competencia": "2024-04",
+      "registros": 1017
+    },
+    {
+      "competencia": "2024-05",
+      "registros": 1051
+    },
+    {
+      "competencia": "2024-06",
+      "registros": 968
+    },
+    {
+      "competencia": "2024-07",
+      "registros": 961
+    },
+    {
+      "competencia": "2024-08",
+      "registros": 946
+    },
+    {
+      "competencia": "2024-09",
+      "registros": 976
+    },
+    {
+      "competencia": "2024-10",
+      "registros": 1054
+    },
+    {
+      "competencia": "2024-11",
+      "registros": 940
+    },
+    {
+      "competencia": "2024-12",
+      "registros": 1076
+    },
+    {
+      "competencia": "2025-01",
+      "registros": 921
+    },
+    {
+      "competencia": "2025-02",
+      "registros": 1048
+    },
+    {
+      "competencia": "2025-03",
+      "registros": 1080
+    },
+    {
+      "competencia": "2025-04",
+      "registros": 1000
+    },
+    {
+      "competencia": "2025-05",
+      "registros": 1135
+    },
+    {
+      "competencia": "2025-06",
+      "registros": 1170
+    },
+    {
+      "competencia": "2025-07",
+      "registros": 1185
+    },
+    {
+      "competencia": "2025-08",
+      "registros": 1202
+    },
+    {
+      "competencia": "2025-09",
+      "registros": 1108
+    },
+    {
+      "competencia": "2025-10",
+      "registros": 981
+    },
+    {
+      "competencia": "2025-11",
+      "registros": 973
+    },
+    {
+      "competencia": "2025-12",
+      "registros": 967
+    },
+    {
+      "competencia": "2026-01",
+      "registros": 1171
+    },
+    {
+      "competencia": "2026-02",
+      "registros": 992
+    },
+    {
+      "competencia": "2026-03",
+      "registros": 1236
+    },
+    {
+      "competencia": "2026-04",
+      "registros": 1013
+    },
+    {
+      "competencia": "2026-05",
+      "registros": 1171
+    },
+    {
+      "competencia": "2026-06",
+      "registros": 988
+    },
+    {
+      "competencia": "2026-07",
+      "registros": 1130
+    },
+    {
+      "competencia": "2026-08",
+      "registros": 1262
+    },
+    {
+      "competencia": "2026-09",
+      "registros": 1224
+    }
+  ]
+}

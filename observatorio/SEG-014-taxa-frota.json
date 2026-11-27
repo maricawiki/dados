@@ -1,0 +1,155 @@
+{
+  "id": "SEG-014",
+  "titulo": "Taxa por frota — furto de veículos",
+  "municipio": "Maricá (RJ)",
+  "ibge": "3302700",
+  "unidade": "registros por 100 mil veículos registrados",
+  "periodicidade": "anual",
+  "metodologia": "Soma dos 12 meses oficiais do ISP / frota municipal SENATRAN de dezembro * 100.000.",
+  "status": "taxa_derivada_nao_certificada_equivalente",
+  "frota_abrangencia": "todos os tipos registrados no RENAVAM com placa",
+  "fonte_registros_isp": {
+    "orgao": "Instituto de Segurança Pública do Rio de Janeiro",
+    "arquivo": "BaseMunicipioMensal.csv",
+    "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioMensal.csv",
+    "sha256": "168185ab701253875f6be183143aac77f6d3d8227379340d647b210fcac37b06",
+    "encoding": "cp1252",
+    "extracao_utc": "2026-11-15"
+  },
+  "fonte_frota_senatran": [
+    {
+      "ano": "2014",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2014/dezembro/frota_por_municipio_e_tipo_dez_2014.xlsx/@@download/file",
+      "sha256": "20a1320dab57875ee13623883beeaca941458d4d595e5903ea9d6f0f09a3dd78"
+    },
+    {
+      "ano": "2015",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2015/dezembro/frota_por_municipio_e_tipo-dez_15.rar/@@download/file",
+      "sha256": "5857df2e38c692fe5ad6c4ba2408af5933d3ebe39167b04c6a6f8e49e0e90494"
+    },
+    {
+      "ano": "2016",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2016/dezembro/frota_por_municipio_e_tipo-dez_16.xlsx/@@download/file",
+      "sha256": "dd5e42e54a01ae59dcc132e91a02506d52d26d6eed67b33c4470df37f3a44257"
+    },
+    {
+      "ano": "2017",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2017/dezembro/frota_munic_dezembro_2017.xls/@@download/file",
+      "sha256": "58ffef3b7e162d7f2e0559565bac54ea64471b537d5e5bcc8bfeafccb70c3040"
+    },
+    {
+      "ano": "2018",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2018/dezembro/frota_munic_dezembro_2018.xls/@@download/file",
+      "sha256": "a52bf3284ccd0a02385bd0902a361fbf885310d3e044e7cc7ea0af577d31090c"
+    },
+    {
+      "ano": "2019",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2019/dezembro/frota_munic_modelo_dezembro_2019.xls/@@download/file",
+      "sha256": "991db90d5b9450a543fda604c4ae59e6c3bc2ac5d8f47af16f837a496733936d"
+    },
+    {
+      "ano": "2020",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2020/dezembro/frota-reg-munic-tipo-modelo-07-dezembro2020.xls/@@download/file",
+      "sha256": "084fcf71e7814fdd708645da751f11e041c7c91605b57ad2b59f8c2822bca33c"
+    },
+    {
+      "ano": "2021",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2021/dezembro/frota-munic-modelo-dezembro-2021.xls/@@download/file",
+      "sha256": "b3ea420172aee4a42847b97f7a6ef8a8d10370602b9fb47512a27d0aa5296879"
+    },
+    {
+      "ano": "2022",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2022/dezembro/frota_munic_modelo_dezembro_2022.xls/@@download/file",
+      "sha256": "e1cd2bcaefc448dcf490f3a8e00442fa643d5ebbd2e20f1f52b9126eca50a1f1"
+    },
+    {
+      "ano": "2023",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/arquivos-senatran/estatisticas/renavam/2023/Dezembro/frota_munic_modelo_dezembro_2023.xls/@@download/file",
+      "sha256": "cc1b15439ad1871ef26e72454ae4407104022a5d2790b3b22648d4d9032c96a4"
+    },
+    {
+      "ano": "2024",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/FrotapormunicipioetipoDezembro2024.xlsx/@@download/file",
+      "sha256": "7c3029ca0eb3ce481942e35eedfc02b5fb7690c1b906c492165d6abf85259137"
+    },
+    {
+      "ano": "2025",
+      "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/arquivos-renavam-2025/FrotaporMunicipioetipoDEZEMBRO2025.xlsx/@@download/file",
+      "sha256": "bc2a01160c9f730d26a6fd37140c41d4bba399e53698d44db8a825ee12463468"
+    }
+  ],
+  "serie": [
+    {
+      "ano": "2014",
+      "casos": 180,
+      "frota": 50147,
+      "taxa_por_100_mil_veiculos": "358.94"
+    },
+    {
+      "ano": "2015",
+      "casos": 223,
+      "frota": 53514,
+      "taxa_por_100_mil_veiculos": "416.71"
+    },
+    {
+      "ano": "2016",
+      "casos": 262,
+      "frota": 56554,
+      "taxa_por_100_mil_veiculos": "463.27"
+    },
+    {
+      "ano": "2017",
+      "casos": 192,
+      "frota": 59688,
+      "taxa_por_100_mil_veiculos": "321.67"
+    },
+    {
+      "ano": "2018",
+      "casos": 142,
+      "frota": 63814,
+      "taxa_por_100_mil_veiculos": "222.52"
+    },
+    {
+      "ano": "2019",
+      "casos": 176,
+      "frota": 68528,
+      "taxa_por_100_mil_veiculos": "256.83"
+    },
+    {
+      "ano": "2020",
+      "casos": 137,
+      "frota": 70777,
+      "taxa_por_100_mil_veiculos": "193.57"
+    },
+    {
+      "ano": "2021",
+      "casos": 187,
+      "frota": 76841,
+      "taxa_por_100_mil_veiculos": "243.36"
+    },
+    {
+      "ano": "2022",
+      "casos": 267,
+      "frota": 81230,
+      "taxa_por_100_mil_veiculos": "328.70"
+    },
+    {
+      "ano": "2023",
+      "casos": 231,
+      "frota": 86436,
+      "taxa_por_100_mil_veiculos": "267.25"
+    },
+    {
+      "ano": "2024",
+      "casos": 160,
+      "frota": 92984,
+      "taxa_por_100_mil_veiculos": "172.07"
+    },
+    {
+      "ano": "2025",
+      "casos": 135,
+      "frota": 99333,
+      "taxa_por_100_mil_veiculos": "135.91"
+    }
+  ]
+}

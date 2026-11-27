@@ -55,3 +55,13 @@ A cobertura registrada corresponde à versão inicial do piloto, não a uma cons
 | TER-001 | 2 | IBGE |
 
 [Notas e ressalvas](observatorio/LOTE-05.md) · [Manifesto](observatorio/lote-05.manifest.json). Agregados municipais, sem nova coleta. TER-001 é o indicador de área territorial, não a migração das camadas cartográficas do Mapa de Maricá.
+
+## Lote 06 — Segurança Pública
+
+| Base | Arquivos | Fonte |
+|---|---:|---|
+| Registros absolutos SEG-001–051 | 102 | ISP-RJ, BaseMunicipioMensal |
+| Taxas populacionais oficiais | 138 | ISP-RJ, bases de taxas mensal e anual |
+| Taxas anuais por frota | 6 | ISP-RJ e SENATRAN/RENAVAM |
+
+[Notas e ressalvas](observatorio/LOTE-06.md) · [Manifesto](observatorio/lote-06.manifest.json). Os dois arquivos FROTA-MARICA-ANUAL do lote 01 são dependências verificadas, não novos arquivos. Sondagens ISP separadas, sem publicação automática.

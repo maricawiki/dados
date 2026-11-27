@@ -1,0 +1,40 @@
+name: Monitorar fontes ISP-RJ (sem publicar)
+on:
+  pull_request:
+    paths:
+      - 'scripts/isp_registros_fonte.py'
+      - 'scripts/isp_taxas_fonte.py'
+      - 'scripts/observatorio_isp_download.py'
+      - 'scripts/monitorar_isp.py'
+      - '.github/workflows/monitorar-isp.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '37 11 8 * *'
+permissions:
+  contents: read
+concurrency:
+  group: monitorar-isp-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+jobs:
+  registros:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -u scripts/monitorar_isp.py registros
+  taxas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -u scripts/monitorar_isp.py taxas
