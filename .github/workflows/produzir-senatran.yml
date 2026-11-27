@@ -1,17 +1,12 @@
-name: Validar produtor SENATRAN e taxas ISP (sem publicar)
+name: Validar produtor SENATRAN offline (sem publicar)
 on:
   pull_request:
     paths:
       - "scripts/produzir_senatran.py"
+      - "scripts/test_produzir_senatran.py"
       - ".github/workflows/produzir-senatran.yml"
+      - ".github/workflows/monitorar-senatran.yml"
   workflow_dispatch:
-    inputs:
-      auditoria_completa:
-        description: "Reconsultar todos os exercícios históricos"
-        type: boolean
-        default: false
-  schedule:
-    - cron: "19 11 12 2,3 *"
 permissions:
   contents: read
 jobs:
@@ -20,32 +15,14 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: |
           python -m py_compile scripts/produzir_senatran.py
+          python scripts/test_produzir_senatran.py
           python scripts/produzir_senatran.py --usar-cache
+          python scripts/validar_lote_06.py
           git diff --exit-code -- observatorio/
-  oficial:
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: |
-          command -v 7z || (sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full)
-          python -m pip install --disable-pip-version-check xlrd==2.0.2
-          args=()
-          if [ "${{ inputs.auditoria_completa }}" = "true" ]; then args+=(--auditoria-completa); fi
-          python -u scripts/produzir_senatran.py "${args[@]}" --propor "$RUNNER_TEMP/senatran"
-          git diff --exit-code -- observatorio/
-      - uses: actions/upload-artifact@v4
-        if: always() && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule')
-        with:
-          name: senatran-proposta
-          path: ${{ runner.temp }}/senatran/
-          if-no-files-found: ignore
-          retention-days: 7
