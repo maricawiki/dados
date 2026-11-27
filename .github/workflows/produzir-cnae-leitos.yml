@@ -1,0 +1,62 @@
+name: Validar produtores CEMPRE CNAE e leitos CNES (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/produzir_cempre_cnae_fonte.py"
+      - "scripts/produzir_cnae_leitos.py"
+      - ".github/workflows/produzir-cnae-leitos.yml"
+  workflow_dispatch:
+    inputs:
+      auditoria_completa:
+        description: "Reconsultar todos os anos de leitos (2007–2025)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "31 12 17 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  cnae:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_03.py
+          python -u scripts/produzir_cnae_leitos.py cnae --propor "$RUNNER_TEMP/cnae"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: cnae-proposta
+          path: ${{ runner.temp }}/cnae/
+          if-no-files-found: ignore
+          retention-days: 7
+  leitos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_04.py
+          args=()
+          if [ "${{ inputs.auditoria_completa }}" = "true" ]; then args+=(--auditoria-completa); fi
+          python -u scripts/produzir_cnae_leitos.py leitos "${args[@]}" --propor "$RUNNER_TEMP/leitos"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: leitos-proposta
+          path: ${{ runner.temp }}/leitos/
+          if-no-files-found: ignore
+          retention-days: 7
