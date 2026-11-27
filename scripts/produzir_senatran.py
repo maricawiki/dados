@@ -73,12 +73,14 @@ class Links(HTMLParser):
             self.text=[]
 
 def download(url,limit,accepted):
-    if urllib.parse.urlsplit(url).hostname!="www.gov.br":
+    if urllib.parse.urlsplit(url).scheme!="https" or urllib.parse.urlsplit(url).hostname!="www.gov.br":
         raise ValueError("Fonte externa não é o portal oficial gov.br")
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 MaricaWiki-Observatorio/1.0","Accept":accepted})
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req,timeout=45) as res:
+                final=urllib.parse.urlsplit(res.geturl())
+                if final.scheme!="https" or final.hostname!="www.gov.br":raise ValueError("Redirecionamento não oficial")
                 blob=res.read(limit+1)
             break
         except urllib.error.HTTPError as exc:
@@ -105,6 +107,9 @@ def official_december(year):
     url=urllib.parse.urljoin(page_url,href)
     if urllib.parse.urlsplit(url).hostname!="www.gov.br":
         raise ValueError(f"Planilha externa ao portal oficial: {year}")
+    return read_official_file(year,page_url,url)
+
+def read_official_file(year,page_url,url):
     blob=download(url,15_000_000,"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,*/*")
     original_sha=sha256(blob).hexdigest()
     if zipfile.is_zipfile(io.BytesIO(blob)):
@@ -113,11 +118,11 @@ def official_december(year):
         if blob.startswith(b"Rar!"):
             blob=extract_rar(blob,year)
         if not blob.startswith(bytes.fromhex("d0cf11e0a1b11ae1")):
-            raise ValueError(f"Formato de planilha ainda não suportado: {year}: {blob[:12]!r}")
+            raise ValueError(f"Formato oficial não suportado: {year}")
         total,header=parse_xls(blob,year)
-    return {"ano":str(year),"frota":total,
-            "pagina":page_url,"arquivo":url,"sha256":original_sha,
-            "cabecalho_planilha":header}
+    return {"ano":str(year),"frota":total,"pagina":page_url,"arquivo":url,
+            "sha256":original_sha,"cabecalho_planilha":header}
+
 
 def extract_rar(blob,year):
     """Descompacta exclusivamente um XLS/XLSX presente em RAR de fonte gov.br."""
@@ -222,18 +227,38 @@ def parse_xlsx(blob,year):
             raise ValueError(f"Inconsistência nos veículos por tipo em Maricá/{year}: {total} vs {sum(categories)}")
         return total,valid_headers[0]
 
-def fetch_fleet(cache=False):
-    if cache and FROTA.exists():
-        raw=json.loads(FROTA.read_text(encoding="utf-8"))
-        values=raw["serie"]
-        if [int(x["ano"]) for x in values]!=list(range(2014,int(values[-1]["ano"])+1)) or int(values[-1]["ano"])>LAST_FULL_YEAR:
-            raise ValueError("Cache de frota descontínuo ou com ano futuro")
-        if any(not re.fullmatch(r"[a-f0-9]{64}",x["sha256"]) for x in values):
-            raise ValueError("Cache não rastreável")
-        return values
-    series=[official_december(y) for y in range(2014,LAST_FULL_YEAR+1)]
-    print("SENATRAN MARICÁ",[(r["ano"],r["frota"]) for r in series],flush=True)
-    return series
+def load_validated_fleet():
+    raw=json.loads(FROTA.read_text(encoding="utf-8"))
+    values=raw["serie"]
+    years=[int(x["ano"]) for x in values]
+    if not years or years!=list(range(2014,years[-1]+1)) or years[-1]>LAST_FULL_YEAR:
+        raise ValueError("Cache de frota descontínuo ou futuro")
+    for x in values:
+        if not re.fullmatch(r"[a-f0-9]{64}",x["sha256"]) or not 5000<x["frota"]<500000:
+            raise ValueError("Cache inválido")
+        for key in ("pagina","arquivo"):
+            url=urllib.parse.urlsplit(x[key])
+            if url.scheme!="https" or url.hostname!="www.gov.br":
+                raise ValueError("Cache sem fonte oficial")
+        if str(x["ano"]) not in x["cabecalho_planilha"] or "dez" not in normalize(x["cabecalho_planilha"]):
+            raise ValueError("Cache sem dezembro confirmado")
+    return values
+
+def fetch_fleet(cache=False,full=False):
+    values=load_validated_fleet()
+    if cache:return values
+    if full:
+        return [official_december(y) for y in range(2014,LAST_FULL_YEAR+1)]
+    # Revalidar apenas o último exercício publicado e obter exercícios novos.
+    # O histórico auditado não precisa ser baixado a cada execução.
+    last=values[-1]
+    year=int(last["ano"])
+    print("SENATRAN_REVALIDAR",year,last["arquivo"],flush=True)
+    latest=read_official_file(year,last["pagina"],last["arquivo"])
+    result=values[:-1]+[latest]
+    for y in range(year+1,LAST_FULL_YEAR+1):
+        result.append(official_december(y))
+    return result
 
 def years_for_indicator(code,last_year):
     info=json.loads((DATA/(code+".json")).read_text(encoding="utf-8"))
@@ -256,9 +281,11 @@ def years_for_indicator(code,last_year):
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--usar-cache",action="store_true")
+    p.add_argument("--auditoria-completa",action="store_true",help="Reconsultar todos os exercícios históricos")
     p.add_argument("--propor",type=Path)
     args=p.parse_args()
-    fleet=fetch_fleet(cache=args.usar_cache)
+    if args.usar_cache and args.auditoria_completa:p.error("Modos incompatíveis")
+    fleet=fetch_fleet(cache=args.usar_cache,full=args.auditoria_completa)
     years=[int(r["ano"]) for r in fleet]
     if years!=list(range(2014,years[-1]+1)) or years[-1]>LAST_FULL_YEAR:
         raise ValueError("Frota incompleta ou fora do período")
