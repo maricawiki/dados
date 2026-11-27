@@ -1,0 +1,28 @@
+name: Monitorar agregados DAIR/CADPREV (somente leitura)
+on:
+  pull_request:
+    paths:
+      - "scripts/monitorar_dair_agregados.py"
+      - ".github/workflows/monitorar-dair-agregados.yml"
+      - "observatorio/PREV-005.csv"
+      - "observatorio/PREV-005.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dair-agregados-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir agregados oficiais sem gravar dados detalhados
+        run: |
+          python -m py_compile scripts/monitorar_dair_agregados.py
+          python -u scripts/monitorar_dair_agregados.py
+          git diff --exit-code -- observatorio/
