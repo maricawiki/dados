@@ -1,0 +1,29 @@
+name: Monitorar DRAA/CADPREV de Maricá (sem alteração automática)
+on:
+  schedule:
+    # Consultas semanais; duas atualizações mensais previstas no calendário do MPS.
+    - cron: "37 12 * * 2"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "scripts/observatorio_previdencia_cadprev_api_monitorar.py"
+      - "scripts/observatorio_previdencia_cadprev_api_auditar.py"
+      - ".github/workflows/monitorar-draa.yml"
+      - "observatorio/PREV-*.csv"
+      - "observatorio/PREV-*.json"
+permissions:
+  contents: read
+concurrency:
+  group: cadprev-marica-auditoria
+  cancel-in-progress: false
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Detectar novos DRAA e retificações sem sobrescrever dados publicados
+        run: python -u scripts/observatorio_previdencia_cadprev_api_monitorar.py
