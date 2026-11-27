@@ -28,16 +28,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: |
-        python scripts/validar_lote_06.py
-        python -u scripts/produzir_isp.py registros --propor "$RUNNER_TEMP/isp-registros"
-        git diff --exit-code -- observatorio/
-    - uses: actions/upload-artifact@v4
-      if: github.event_name != 'pull_request'
-      with:
-        name: isp-registros-proposta
-        path: ${{ runner.temp }}/isp-registros/
-        if-no-files-found: ignore
-        retention-days: 7
+          python scripts/validar_lote_06.py
+          python -u scripts/produzir_isp.py registros --propor "$RUNNER_TEMP/isp-registros"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: isp-registros-proposta
+          path: ${{ runner.temp }}/isp-registros/
+          if-no-files-found: ignore
+          retention-days: 7
   taxas:
     runs-on: ubuntu-latest
     timeout-minutes: 12
@@ -49,13 +49,13 @@ jobs:
         with:
           python-version: '3.12'
       - run: |
-        python scripts/validar_lote_06.py
-        python -u scripts/produzir_isp.py taxas --propor "$RUNNER_TEMP/isp-taxas"
-        git diff --exit-code -- observatorio/
-    - uses: actions/upload-artifact@v4
-      if: github.event_name != 'pull_request'
-      with:
-        name: isp-taxas-proposta
-        path: ${{ runner.temp }}/isp-taxas/
-        if-no-files-found: ignore
-        retention-days: 7
+          python scripts/validar_lote_06.py
+          python -u scripts/produzir_isp.py taxas --propor "$RUNNER_TEMP/isp-taxas"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: isp-taxas-proposta
+          path: ${{ runner.temp }}/isp-taxas/
+          if-no-files-found: ignore
+          retention-days: 7
