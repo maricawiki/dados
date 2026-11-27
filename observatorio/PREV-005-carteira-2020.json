@@ -1,0 +1,1461 @@
+{
+  "id": "PREV-005",
+  "ano": 2020,
+  "fonte": "MPS / DAIR_CARTEIRA",
+  "url_fonte": "https://apicadprev.trabalho.gov.br/DAIR_CARTEIRA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_ano=2020&limit=5000",
+  "competencias": [
+    {
+      "competencia": "2020-04",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 2056728291,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1045482059,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 918528478,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 910433702,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 799865838,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 795098036,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 546449606,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 213709952,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 199651958,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 186905042,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 148868638,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 142790093,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 86551981,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 54977466,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 53515743,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 23713228,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 17529131,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 425614,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 217262,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-05",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 1613645659,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1209767405,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1059896389,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 928647857,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 811858039,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 803009438,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 552308333,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 214931208,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 202507341,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 191551940,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 152002708,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 150442476,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 93027663,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 55802876,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 54318813,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 24079222,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 17529131,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 425614,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 217262,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-06",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 1617788008,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 1269252037,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1158355982,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1067841487,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 939912474,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 820591788,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 557548037,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 215925910,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 205044819,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 196532252,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 164403603,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 153672636,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 99947335,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 56929842,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 55418875,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 24568358,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 8736954,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 433274,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-07",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 1621556174,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1600377173,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 1272311586,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1078277516,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 947494267,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 828528753,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 567404197,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 216724439,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 207927668,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 201320994,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 176795493,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 155168778,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 106320971,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 59413380,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 57843458,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 25645889,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 8773639,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 540930,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-08",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1715754400,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 1622987587,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 1273539040,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1072269808,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 953995255,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 831567252,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 562361392,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 215807344,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 207643602,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 199760115,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 176448816,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 155776730,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 102542508,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 58312061,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 56784697,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 25185929,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 8773639,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 540930,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-09",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1646375878,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INV",
+          "valor_centavos": 1623681444,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS RENDA FIXA",
+          "valor_centavos": 1275237043,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB IDKA 2 Titulos públicos Fi Renda Fixa Previdenciária",
+          "valor_centavos": 1253513940,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "Caixa BrasilGestão estratégica Fi renda Fixa",
+          "valor_centavos": 1066874589,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 830289602,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "25078994000190",
+          "nome_ativo": "BB Alocação Ativa Fic Renda Fixa Previdenciário",
+          "valor_centavos": 558129343,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB Fi multimercado PrevidenciárioLP",
+          "valor_centavos": 214146604,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa Alocação Macro Fic Multimercado LP",
+          "valor_centavos": 205755355,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa RV 30 Fi Multimercado LP",
+          "valor_centavos": 195656685,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "Itau Dunamis Fic Acoes",
+          "valor_centavos": 167694791,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 155528592,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB Ações valor Fic Ações previdenciária",
+          "valor_centavos": 97650782,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 57405049,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 55914008,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa \"Referenciado\" - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 24791308,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 8676694,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 779342,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-10",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE. INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1781249103,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FIC DE FI",
+          "valor_centavos": 1568751301,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "CAIXA BRASIL GESTÃO ESTRATEGICA FI RENDA FIXA",
+          "valor_centavos": 1466541978,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS",
+          "valor_centavos": 1257632819,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B 5 LONGO PRAZO FIC DE FI",
+          "valor_centavos": 831156114,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS FI RENDA FIXA",
+          "valor_centavos": 575757861,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB Alocação Ativa Retorno Total",
+          "valor_centavos": 542046950,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS FI RENDA FIXA LP",
+          "valor_centavos": 456822787,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "CAIXA FIC BRASIL ESTRATEGIA LIVRE MU",
+          "valor_centavos": 297788621,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 227176376,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVID MULTIMERC",
+          "valor_centavos": 213705989,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "Caixa FIC Alocação Macro Multimerc",
+          "valor_centavos": 205057501,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa Multimercado RV30",
+          "valor_centavos": 194921100,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FIC",
+          "valor_centavos": 168529772,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 99822603,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 57517452,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "CAIXA BRASIL IMA-B TÍTULOS PUBLICOS FI RENDA FIXA LP",
+          "valor_centavos": 55888643,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 24835844,
+          "linhas": 2
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 779342,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-11",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA FLUXO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 1840665744,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FIC DE FI",
+          "valor_centavos": 1571849421,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "CAIXA BRASIL GESTÃO ESTRATEGICA FI RENDA FIXA",
+          "valor_centavos": 1478567355,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1274485686,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 842065284,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS FI RENDA FIXA",
+          "valor_centavos": 576999288,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCAÇÃO ATIVA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 547509571,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS FI RENDA FIXA LP",
+          "valor_centavos": 462705967,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVEST EM COTAS DE FUNDO DE INVEST CAIXA BRASIL ESTRATÉGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 307754664,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 227176376,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVID MULTIMERC",
+          "valor_centavos": 215867961,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 210880482,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 202750375,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 189221723,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 116767700,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 58663858,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TÍTULOS PÚBLI",
+          "valor_centavos": 56999981,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 25319881,
+          "linhas": 2
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 8607710,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 900448,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2020-12",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA FLUXO FUNDO DE. INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 3090991883,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IRF-M1 TÍTULOS PÚBLICOS FIC DE FI",
+          "valor_centavos": 1576768430,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "CAIXA BRASIL GESTÃO ESTRATEGICA FI RENDA FIXA",
+          "valor_centavos": 1498094248,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1293929596,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTI",
+          "valor_centavos": 857280466,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "CAIXA BRASIL IRF-M 1 TÍTULOS PÚBLICOS FI RENDA FIXA",
+          "valor_centavos": 578642196,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCAÇÃO ATIVA FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 562273157,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "CAIXA BRASIL IMA-B 5 TÍTULOS PÚBLICOS FI RENDA FIXA LP",
+          "valor_centavos": 471126269,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "CAIXA FIC BRASIL ESTRATEGIA LIVRE MU",
+          "valor_centavos": 311708914,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10577519000190",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1+ TITULOS PÚBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 229942431,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVID MULTIMERC",
+          "valor_centavos": 218242468,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 214466690,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI Multimercado - Aberto - Art. 8º  III",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "Caixa Multimercado RV30",
+          "valor_centavos": 207942146,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 201133872,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "FI de Ações - Geral - Art. 8º  II  a",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 129283918,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B TÍTULOS PÚBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 61500744,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI 100% títulos TN - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "CAIXA ECONOMICA FEDERAL",
+          "valor_centavos": 59759035,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "FI Renda Fixa - Geral - Art. 7º  IV  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIÁRIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 26536992,
+          "linhas": 2
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 8577275,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 787892,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 425614,
+          "linhas": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2924 @@
+{
+  "id": "PREV-005",
+  "ano": 2025,
+  "fonte": "MPS / DAIR_CARTEIRA",
+  "url_fonte": "https://apicadprev.trabalho.gov.br/DAIR_CARTEIRA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_ano=2025&limit=5000",
+  "competencias": [
+    {
+      "competencia": "2025-01",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 7939288474,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6258676631,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5249807516,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4564281146,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2658024600,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2444460862,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2418044603,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2239383643,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1332797191,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1155564981,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1012185454,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 814559073,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 802542958,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 651062563,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 437275280,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 411201637,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 336505182,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 319931298,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 306369164,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 291923961,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 280660629,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 266612874,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 229361250,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 201158857,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 20973476,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 6277733,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 966041,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 447845,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-02",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 9039635300,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6296258802,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5302285827,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4593570344,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2684324241,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2463337853,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2441015012,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2260902390,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1339394455,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1167094570,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1017406967,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 773997894,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 762364037,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 655204281,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 439411111,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 413478258,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 333490292,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 311303083,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 309187949,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 294165125,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 269100472,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 266502193,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 215479952,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 193790569,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21079156,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 8102674,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 781814,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 632072,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-03",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 9667113494,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6318712600,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5354045286,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4617616258,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2710409007,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2480344539,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2465783208,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2273955504,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1363897478,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1178403929,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1035822871,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 790098752,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 789753174,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 658696544,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 447454349,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 416371806,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 316326128,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 311497567,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 296573314,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 281358238,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 273276666,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 272293613,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 226128505,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 205369720,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 6634654,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 1555636,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 781814,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 627805,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-04",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 10450172961,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6428249082,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5409474551,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4698192216,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2743562789,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2520996902,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2492534010,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2313851506,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1392084707,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1193075878,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1057194217,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 875924402,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 827665391,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 670197489,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 456745767,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 418587069,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 314337367,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 312668961,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 298742595,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 285705046,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 282692029,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 276974787,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 232692931,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 220895813,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21108142,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 5366283,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 793624,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 627805,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-05",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 11962113972,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6462465053,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5471661956,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4728453925,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2772460251,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2541316532,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2521190395,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2334971597,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1415932245,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1205768529,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1074966896,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 925268664,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 850936820,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 674287701,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 464384543,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 425671945,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 336020795,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 317523894,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 303712790,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 303041814,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 291175753,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 280504028,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 234340537,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 232529707,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21103164,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 4104091,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 793624,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 627805,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-06",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 7900355079,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6481718997,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5532014532,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4513618389,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4450188164,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4074335432,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2801091984,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2567334045,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2357879018,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2293197178,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1218258814,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1088551107,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 926095160,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 851327359,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 677187559,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 470329027,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 430647497,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 355237953,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 322044447,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 308192545,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 306742095,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 289463152,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 283450306,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 236810490,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 235190594,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 169762649,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 157142416,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21103164,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 4104091,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 793624,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 627805,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-07",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 7922489649,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6519817713,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5603529245,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5107778786,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4478308084,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4125504237,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2834545371,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2587982467,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2375939332,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2207035509,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1232956637,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1079995594,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 857599778,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 816988424,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 679069973,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 466512920,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 434990296,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 366148444,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 326772399,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 322152120,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 310283640,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 282720386,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 271812502,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 221095681,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 217970731,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 171312913,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 158573916,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21103164,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 4104091,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 793624,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 627805,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-08",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8015133634,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6597449188,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 6303821315,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5667793908,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4515624844,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4169313706,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2868957460,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2628291742,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2392612862,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2338807932,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1247980031,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1088879120,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 891636501,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 858477911,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 686980894,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 470329127,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 440156968,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 375614986,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 326947263,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 324780736,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 314124221,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 290123520,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 285458418,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 234454536,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 233152495,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 168017752,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 160290592,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 7613615,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 3747792,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 447845,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 230830,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-09",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8066806295,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 6967950516,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6640627186,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5738025946,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4539313633,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4217517362,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2902395700,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2656564344,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2410410091,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2397706342,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1262604855,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1094516668,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 909671503,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 877355168,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 691366869,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 472769126,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 445437574,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 391815535,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 337524326,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 329793188,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 318135787,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 295136348,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 291084856,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 253180439,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 240027869,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 169796877,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 161443232,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 21603860,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 6887538,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 827141,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 633745,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-10",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8148014660,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 7844802593,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6709388396,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5811174749,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4585636106,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4268894304,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2938960773,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2694606617,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2439290357,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2419907327,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1278644696,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1105571367,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 921698437,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 897115104,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 698347600,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 477641867,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 451960381,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 404019648,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 356715977,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 334449746,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 322678800,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 299979388,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 297215800,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 271934537,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 241252920,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 171487665,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 163235037,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 22241224,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 6138474,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 827141,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 644223,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-11",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8700410673,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8234029662,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6774770434,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5872697154,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4677508119,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4313204921,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 2969852579,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2736360913,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2573651123,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2441653091,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1292218575,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1127673819,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 980705234,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 948352998,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 705741847,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 487335860,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 456799887,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 405315972,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 348541444,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 340843102,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 326306518,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 314908676,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 307317660,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 282363520,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 255064487,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 172823201,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 159875338,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 5802033,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 3858071,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 827130,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 644269,
+          "linhas": 1
+        }
+      ]
+    },
+    {
+      "competencia": "2025-12",
+      "posicoes": [
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077415000105",
+          "nome_ativo": "BB PREVIDENCIARIO FLUXO RENDA FIXA SIMPLES FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 11605011787,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "03543447000103",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B 5 LONGO PRAZO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 8310923661,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "13322205000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IDKA 2 TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 6844614476,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "13077418000149",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA REFERENCIADO DI LONGO PRAZO PERFIL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 5944621401,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "07442078000105",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B TITULOS PUBLICOS FUNDO DE INVESTIMENTO",
+          "valor_centavos": 4691340703,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "35292588000189",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA ALOCACAO ATIVA RETORNO TOTAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 4365368311,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11328882000135",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IRF-M1 TITULOS PUBLICOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO",
+          "valor_centavos": 3003370281,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "23215097000155",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL GESTAO ESTRATEGICA RENDA FIXA",
+          "valor_centavos": 2743560998,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "05100191000187",
+          "nome_ativo": "BB ACOES DIVIDENDOS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 2558442831,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Ativos de Renda Fixa Emitidos por Instituições Financeiras - Art. 7º  IV",
+          "id_ativo": "ATIVO-001",
+          "nome_ativo": "Ativo de investimento 001",
+          "valor_centavos": 2455644432,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740670000106",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IRF-M 1 TITULOS PUBLICOS RENDA FIXA",
+          "valor_centavos": 1306927795,
+          "linhas": 2
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento em Renda Fixa - Geral - Art. 7º  III  a",
+          "id_ativo": "07861554000122",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA IMA-B FUNDO DE INVESTIMENTO",
+          "valor_centavos": 1130837492,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "14213331000114",
+          "nome_ativo": "BB DIVIDENDOS MIDCAPS FIC ACOES",
+          "valor_centavos": 964596880,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "29258294000138",
+          "nome_ativo": "BB ACOES VALOR FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO EM ACOES",
+          "valor_centavos": 957094717,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "11060913000110",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B 5 TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 712312419,
+          "linhas": 3
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "10740658000193",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BRASIL IMA-B TITULOS PUBLICOS RENDA FIXA LONGO PRAZO",
+          "valor_centavos": 488755705,
+          "linhas": 3
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "34660276000118",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO CAIXA BRASIL ESTRATEGIA LIVRE MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 460712196,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "30036235000102",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA BOLSA AMERICANA MULTIMERCADO LONGO PRAZO",
+          "valor_centavos": 413141691,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em BDR-Ações - art. 8º  III",
+          "id_ativo": "17502937000168",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA INSTITUCIONAL BDR NIVEL I",
+          "valor_centavos": 359426487,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "10418362000150",
+          "nome_ativo": "BB PREVIDENCIARIO MULTIMERCADO FUNDO DE INVESTIMENTO LONGO PRAZO",
+          "valor_centavos": 341901088,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "08070841000187",
+          "nome_ativo": "CAIXA ALOCAÇÃO MACRO FIC MULTIMERCADO LP",
+          "valor_centavos": 329605506,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "07882792000114",
+          "nome_ativo": "BB ACOES SELECAO FATORIAL FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 317242791,
+          "linhas": 1
+        },
+        {
+          "segmento": "Investimentos Estruturados",
+          "tipo_ativo": "Fundo/Classe de Investimento Multimercado FIM - Art. 10  I",
+          "id_ativo": "03737188000143",
+          "nome_ativo": "FUNDO DE INVESTIMENTO CAIXA MULTIMERCADO RV 30 LONGO PRAZO",
+          "valor_centavos": 310457213,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "24571992000175",
+          "nome_ativo": "ITAU ACOES DUNAMIS FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+          "valor_centavos": 285688978,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Variável",
+          "tipo_ativo": "Fundo/Classe de Investimento em Ações - Art. 8º  I",
+          "id_ativo": "15154220000147",
+          "nome_ativo": "FUNDO DE INVESTIMENTO EM ACOES CAIXA SMALL CAPS ATIVO",
+          "valor_centavos": 244730615,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "39255739000180",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2026 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 174501196,
+          "linhas": 1
+        },
+        {
+          "segmento": "Renda Fixa",
+          "tipo_ativo": "Fundo/Classe de Investimento - 100% Títulos Públicos SELIC - Art. 7º  I  b",
+          "id_ativo": "49964637000197",
+          "nome_ativo": "BB PREVIDENCIARIO RENDA FIXA TITULOS PUBLICOS VERTICE ESPECIAL 2027 FIF RESPONSABILIDADE LIMITADA",
+          "valor_centavos": 161620737,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-001",
+          "nome_ativo": "Disponibilidade financeira 001",
+          "valor_centavos": 22102802,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-002",
+          "nome_ativo": "Disponibilidade financeira 002",
+          "valor_centavos": 6568553,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-003",
+          "nome_ativo": "Disponibilidade financeira 003",
+          "valor_centavos": 825625,
+          "linhas": 1
+        },
+        {
+          "segmento": "Disponibilidades Financeiras",
+          "tipo_ativo": "Não informado pelo MPS",
+          "id_ativo": "DISP-004",
+          "nome_ativo": "Disponibilidade financeira 004",
+          "valor_centavos": 644269,
+          "linhas": 1
+        }
+      ]
+    }
+  ]
+}
