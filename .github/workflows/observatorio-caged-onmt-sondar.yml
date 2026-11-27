@@ -1,0 +1,24 @@
+name: Sondar série Novo Caged 2020–2023 no painel ONMT
+on:
+  pull_request:
+    paths:
+      - "scripts/observatorio_caged_onmt_2020_sondar.py"
+      - ".github/workflows/observatorio-caged-onmt-sondar.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Preparar analisador de agregados Caged
+        run: |
+          python -m pip install --disable-pip-version-check duckdb==1.4.2
+          python -m py_compile scripts/observatorio_caged_onmt_2020_sondar.py
+      - name: Auditar granularidade mensal, variáveis e diferenças de regime
+        run: python -u scripts/observatorio_caged_onmt_2020_sondar.py
