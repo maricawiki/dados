@@ -1,0 +1,53 @@
+name: Validar produtores fiscais complementares (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/financas_royalties_divida.py"
+      - "scripts/financas_percapita.py"
+      - "scripts/produzir_financas_complementares.py"
+      - ".github/workflows/produzir-financas-complementares.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  percapita:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_02.py
+          python -u scripts/produzir_financas_complementares.py percapita --propor "$RUNNER_TEMP/percapita"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          name: percapita-proposta
+          path: ${{ runner.temp }}/percapita/
+          if-no-files-found: ignore
+          retention-days: 7
+  royalties-divida:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python -u scripts/produzir_financas_complementares.py royalties-divida --propor "$RUNNER_TEMP/royalties-divida"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          name: royalties-divida-proposta
+          path: ${{ runner.temp }}/royalties-divida/
+          if-no-files-found: ignore
+          retention-days: 7
