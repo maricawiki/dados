@@ -18,7 +18,7 @@ class MovTests(unittest.TestCase):
         n=len(self.q["serie"])
         data=build(self.m,self.q,[({"competencia":nxt,"admissoes":1200,"desligamentos":1100,"saldo":100},
           {"competencia":nxt,"ftp":remote_path(nxt),"sha256":"a"*64})])
-        self.assertEqual(len(self.q["serie"]),n)
+        self.assertEqual(len(self.q["serie"]),len(self.m["serie"])//3)
         self.assertEqual(set(data),{"TRB-001.csv","TRB-001.json","TRB-002.csv","TRB-002.json"})
         self.assertEqual(json.loads(data["TRB-001.json"])["serie"][-1]["competencia"],nxt)
     def test_virada(self):self.assertEqual(month_after("2026-12"),"2027-01")
