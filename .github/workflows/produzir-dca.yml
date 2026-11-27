@@ -1,0 +1,31 @@
+name: Validar produtor DCA SICONFI (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/produzir_dca.py"
+      - "scripts/observatorio_financas_siconfi_sondar.py"
+      - ".github/workflows/produzir-dca.yml"
+      - "observatorio/FIN-0*"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python -m py_compile scripts/produzir_dca.py
+          python -u scripts/produzir_dca.py --propor "$RUNNER_TEMP/dca"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: always() && github.event_name == 'workflow_dispatch'
+        with:
+          name: dca-proposta
+          path: ${{ runner.temp }}/dca/
+          if-no-files-found: ignore
+          retention-days: 7
