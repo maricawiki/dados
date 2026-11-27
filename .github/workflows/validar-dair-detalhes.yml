@@ -8,6 +8,9 @@ on:
       - "observatorio/PREV-005*"
       - ".github/workflows/validar-dair-detalhes.yml"
   workflow_dispatch:
+  schedule:
+    # Mesmo horário do monitor privado original; retirar o cron privado após o corte.
+    - cron: '17 13 * * 3'
 permissions:
   contents: read
 jobs:
