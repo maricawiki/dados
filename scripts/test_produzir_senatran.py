@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Regressões determinísticas sem acesso externo; não certificam disponibilidade gov.br."""
 import io
+import json
+import sys
+import tempfile
+from pathlib import Path
 import unittest
 import zipfile
 from unittest.mock import patch
@@ -41,6 +45,19 @@ class SenatranTests(unittest.TestCase):
         self.assertEqual(s.parse_xlsx(self.make_xlsx(2025,50000),2025)[0],50000)
         with self.assertRaises(ValueError):s.parse_xlsx(self.make_xlsx(2024,50000),2025)
         with self.assertRaises(ValueError):s.parse_xlsx(self.make_xlsx(2025,49999),2025)
+    def test_proposta_revisao_com_manifestos(self):
+        rows=s.load_validated_fleet()
+        revised=rows[:-1]+[{**rows[-1],"frota":rows[-1]["frota"]+1,"sha256":"a"*64}]
+        before=s.FROTA.read_bytes()
+        with tempfile.TemporaryDirectory() as temp:
+            out=Path(temp)/"proposta"
+            with patch.object(s,"fetch_fleet",return_value=revised), patch.object(sys,"argv",["produzir_senatran.py","--propor",str(out)]):
+                s.main()
+            for name in ("lote-01.manifest.json","lote-06.manifest.json"):
+                self.assertTrue((out/name).is_file())
+            data=json.loads((out/"FROTA-MARICA-ANUAL.json").read_text())
+            self.assertEqual(data["serie"][-1]["frota"],revised[-1]["frota"])
+        self.assertEqual(s.FROTA.read_bytes(),before)
     def test_fonte_nao_oficial_bloqueada(self):
         with self.assertRaises(ValueError):s.download("http://www.gov.br/arquivo",10000,"*/*")
         with self.assertRaises(ValueError):s.download("https://example.com/arquivo",10000,"*/*")
