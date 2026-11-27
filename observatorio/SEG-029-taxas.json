@@ -1,0 +1,592 @@
+{
+  "id": "SEG-029",
+  "titulo": "Encontros de ossada",
+  "municipio": "Maricá (RJ)",
+  "codigo_ibge": "3302700",
+  "unidade": "taxa por 100 mil habitantes",
+  "variavel_isp": "encontro_ossada",
+  "mensal": [
+    {
+      "competencia": "2014-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2014-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-01",
+      "taxa": "0.67"
+    },
+    {
+      "competencia": "2016-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-05",
+      "taxa": "0.67"
+    },
+    {
+      "competencia": "2016-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2017-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-01",
+      "taxa": "0.64"
+    },
+    {
+      "competencia": "2018-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-05",
+      "taxa": "0.64"
+    },
+    {
+      "competencia": "2018-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-04",
+      "taxa": "0.62"
+    },
+    {
+      "competencia": "2019-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2019-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-08",
+      "taxa": "0.61"
+    },
+    {
+      "competencia": "2020-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2020-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2021-11",
+      "taxa": "0.59"
+    },
+    {
+      "competencia": "2021-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2022-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2023-12",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-01",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-02",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-03",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-04",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-05",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-06",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-07",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-08",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-09",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-10",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-11",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2024-12",
+      "taxa": "0"
+    }
+  ],
+  "anual": [
+    {
+      "competencia": "2014",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2015",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2016",
+      "taxa": "1.33"
+    },
+    {
+      "competencia": "2017",
+      "taxa": "0"
+    },
+    {
+      "competencia": "2018",
+      "taxa": "1.27"
+    },
+    {
+      "competencia": "2019",
+      "taxa": "0.62"
+    },
+    {
+      "competencia": "2020",
+      "taxa": "0.61"
+    }
+  ],
+  "fonte": {
+    "orgao": "Instituto de Segurança Pública do Rio de Janeiro",
+    "taxas_mensais": {
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioTaxaMes.csv",
+      "sha256": "4aa75a0378f30a441d80e5b848d68a4af146909fd93bfb11c4b244f7b9cfccb4",
+      "encoding": "cp1252",
+      "inicio": "2014-01",
+      "fim": "2024-12"
+    },
+    "taxas_anuais": {
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioTaxaAno.csv",
+      "sha256": "ca1be4d4e6c2e99b7f3df9242df55b1d4e5bdcd3e6c8869d14e134df97f131e2",
+      "encoding": "cp1252",
+      "inicio": "2014",
+      "fim": "2020"
+    },
+    "metodologia_populacao": "https://www.ispdados.rj.gov.br/metodologiaCalPopulacao.html",
+    "extracao_utc": "2026-11-15"
+  },
+  "ressalvas": [
+    "As taxas mensais não são somáveis; para taxa anual utilizar somente a base anual oficial.",
+    "A taxa mensal por 100 mil habitantes não é equivalente a taxa por frota ou efetivo policial.",
+    "A base de taxas está mais desatualizada que a de contagens municipais."
+  ]
+}
