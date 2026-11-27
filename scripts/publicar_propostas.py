@@ -18,12 +18,14 @@ DATA=ROOT/"observatorio"
 MANIFEST=re.compile(r"lote-0[1-6]\.manifest\.json")
 MAX_FILE=5_000_000
 SOURCES={
+ "Propor Novo Caged MOV municipal (sem publicar)":("caged-mov-proposta",),
  "Validar e propor DCA integral (sem publicar)":("dca-integral-proposta",),
  "Monitorar fontes ISP-RJ (sem publicar)":("isp-registros-proposta","isp-taxas-proposta"),
  "Conferir fonte oficial SENATRAN (sem publicar)":("senatran-proposta",),
  "Validar produtores CEMPRE CNAE e leitos CNES (sem publicar)":("cnae-proposta","leitos-proposta"),
 }
 RULES={
+ "caged-mov-proposta":(r"TRB-00[12]\.(?:csv|json)",("03",)),
  "dca-integral-proposta":(r"FIN-0(?:0[1-9]|1[0-7])\.(?:csv|json)",("02",)),
  "isp-registros-proposta":(r"SEG-0(?:0[1-9]|[1-4][0-9]|5[01])(?:-taxa-frota)?\.(?:csv|json)",("06",)),
  "isp-taxas-proposta":(r"SEG-0(?:0[1-9]|[1-4][0-9]|5[01])-(?:taxas\.json|taxa-(?:anual|mensal)\.csv)",("06",)),

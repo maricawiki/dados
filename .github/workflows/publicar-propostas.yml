@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
+      - "Propor Novo Caged MOV municipal (sem publicar)"
       - "Validar e propor DCA integral (sem publicar)"
       - "Monitorar fontes ISP-RJ (sem publicar)"
       - "Conferir fonte oficial SENATRAN (sem publicar)"
