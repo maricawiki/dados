@@ -1,0 +1,46 @@
+name: Homologar criação de PR pelo Actions (teste isolado)
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+    paths:
+      - ".github/workflows/homologar-permissao-actions.yml"
+permissions:
+  contents: read
+jobs:
+  testar:
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.head.ref == 'homologacao/permissao-actions-20261127' &&
+      github.actor == 'viniciusmoro79' &&
+      github.event.pull_request.user.login == 'viniciusmoro79'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Criar proposta de teste sem dados e despachar validação
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          branch="homologacao/bot-$GITHUB_RUN_ID"
+          git checkout -b "$branch"
+          mkdir -p planejamento
+          printf '%s\n' 'Teste de permissão Actions. Não incorporar à main. Nenhum dado alterado.' > planejamento/homologacao-actions-teste.md
+          git add planejamento/homologacao-actions-teste.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Teste isolado de permissão para proposta automática'
+          git push origin "$branch"
+          url="$(gh pr create --draft --base main --head "$branch" --title 'TESTE: permissão de PR automático — não integrar' --body 'Homologação isolada. Apenas nota técnica temporária; nenhum dado, script ou site alterado. Nunca integrar.')"
+          echo "HOMOLOGACAO_PR_CRIADO $url"
+          gh workflow run publicar-propostas.yml --ref "$branch"
+          echo "HOMOLOGACAO_VALIDACAO_DESPACHADA $branch"
+          gh pr close "$url" --comment 'Teste de criação concluído. Encerrado sem merge; branch preservada.'
+          echo 'HOMOLOGACAO_OK: criação, despacho e fechamento sem merge.'
