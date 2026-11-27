@@ -1,0 +1,35 @@
+name: Propor PIB municipal SIDRA (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/produzir_pib.py"
+      - "scripts/test_produzir_pib.py"
+      - ".github/workflows/produzir-pib.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "37 12 18 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  pib:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/test_produzir_pib.py
+          python scripts/validar_lote_03.py
+          python -u scripts/produzir_pib.py --propor "$RUNNER_TEMP/pib"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: pib-proposta
+          path: ${{ runner.temp }}/pib/
+          if-no-files-found: ignore
+          retention-days: 7
