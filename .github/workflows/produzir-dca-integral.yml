@@ -1,0 +1,38 @@
+name: Validar e propor DCA integral (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/produzir_dca_integral.py"
+      - "scripts/validar_financas_conciliacao.py"
+      - ".github/workflows/produzir-dca-integral.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "23 12 15 6,9,12 *"
+permissions:
+  contents: read
+concurrency:
+  group: dca-integral-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+jobs:
+  fiscal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_02.py
+          python scripts/validar_financas_conciliacao.py
+          python -u scripts/produzir_dca_integral.py --propor "$RUNNER_TEMP/dca-integral"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: dca-integral-proposta
+          path: ${{ runner.temp }}/dca-integral/
+          if-no-files-found: ignore
+          retention-days: 7
