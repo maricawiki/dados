@@ -1,0 +1,33 @@
+name: Validar produtor de agregados CEMPRE (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/produzir_cempre.py"
+      - ".github/workflows/produzir-cempre.yml"
+      - "observatorio/ECO-003.*"
+      - "observatorio/ECO-004.*"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir as séries oficiais e gerar proposta fora da árvore
+        run: |
+          python -m py_compile scripts/produzir_cempre.py
+          python -u scripts/produzir_cempre.py --propor "$RUNNER_TEMP/cempre"
+          git diff --exit-code -- observatorio/
+      - name: Preservar quatro agregados para revisão
+        if: always() && github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cempre-proposta
+          path: ${{ runner.temp }}/cempre/
+          if-no-files-found: ignore
+          retention-days: 7
