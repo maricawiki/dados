@@ -18,6 +18,8 @@ import re
 import shutil
 import subprocess
 import tempfile
+import time
+import urllib.error
 import unicodedata
 import urllib.parse
 import urllib.request
@@ -74,8 +76,18 @@ def download(url,limit,accepted):
     if urllib.parse.urlsplit(url).hostname!="www.gov.br":
         raise ValueError("Fonte externa não é o portal oficial gov.br")
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 MaricaWiki-Observatorio/1.0","Accept":accepted})
-    with urllib.request.urlopen(req,timeout=90) as res:
-        blob=res.read(limit+1)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=45) as res:
+                blob=res.read(limit+1)
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (408,429,500,502,503,504) or attempt==2:raise
+            print("SENATRAN_RETRY",attempt+1,"HTTP",exc.code,flush=True)
+        except (urllib.error.URLError,TimeoutError,ConnectionError) as exc:
+            if attempt==2:raise
+            print("SENATRAN_RETRY",attempt+1,type(exc).__name__,flush=True)
+        time.sleep(3*(attempt+1))
     if not 1_000<len(blob)<=limit:
         raise ValueError(f"Arquivo sem tamanho válido: {url} ({len(blob)})")
     return blob
