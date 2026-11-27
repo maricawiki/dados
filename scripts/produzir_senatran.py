@@ -17,6 +17,7 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 import urllib.error
@@ -278,6 +279,35 @@ def years_for_indicator(code,last_year):
         count[str(year)]=sum(v for _,v in items)
     return count,info["fonte"]
 
+def validate_proposal(files,changed):
+    # Inclui manifestos dos dois lotes que consomem a frota.
+    result={name:files[name].encode("utf-8") for name in changed}
+    for filename in ("lote-01.manifest.json","lote-06.manifest.json"):
+        manifest=json.loads((DATA/filename).read_text(encoding="utf-8"))
+        touched=False
+        for group in (manifest["files"],manifest.get("dependencias",{})):
+            for name,raw in result.copy().items():
+                if name in group:
+                    group[name]=git_blob(raw)
+                    touched=True
+        if touched:result[filename]=(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n").encode("utf-8")
+    with tempfile.TemporaryDirectory(prefix="senatran_proposta_") as temp:
+        root=Path(temp)
+        shutil.copytree(DATA,root/"observatorio")
+        (root/"scripts").mkdir()
+        for name,raw in result.items():
+            (root/"observatorio"/name).write_bytes(raw)
+        for filename in ("validar_lote_01.py","validar_lote_06.py"):
+            dest=root/"scripts"/filename
+            shutil.copy2(ROOT/"scripts"/filename,dest)
+            subprocess.run([sys.executable,str(dest)],check=True)
+    return result
+
+def git_blob(data):
+    # Os manifestos usam o SHA-1 de blobs Git; o SHA-256 da fonte permanece separado.
+    import hashlib
+    return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\0"+data).hexdigest()
+
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--usar-cache",action="store_true")
@@ -317,12 +347,16 @@ def main():
     for name,raw in files.items():
         if name.endswith(".csv") and raw!=(DATA/name).read_bytes().decode("utf-8"):
             changed.append(name)
-    if args.propor:
-        out=args.propor.resolve()
-        if out==ROOT or ROOT in out.parents:raise ValueError("Proposta fora do repositório")
-        out.mkdir(parents=True,exist_ok=False)
-        for name,raw in files.items():(out/name).write_text(raw,encoding="utf-8")
-    if changed:raise SystemExit("SENATRAN_REVISAR: "+", ".join(changed))
+    if changed:
+        if args.usar_cache:raise SystemExit("SENATRAN_REVISAR: divergência na base offline")
+        proposal=validate_proposal(files,changed)
+        if args.propor:
+            out=args.propor.resolve()
+            if out==ROOT or ROOT in out.parents:raise ValueError("Proposta fora do repositório")
+            out.mkdir(parents=True,exist_ok=False)
+            for name,raw in proposal.items():(out/name).write_bytes(raw)
+        print("SENATRAN_PROPOSTA: revisão necessária;",len(proposal),"arquivos, sem publicar",flush=True)
+        return
     print("SENATRAN_OK:",len(years),"anos; três taxas conciliadas; sem dados de efetivo policial")
 
 if __name__=="__main__":
