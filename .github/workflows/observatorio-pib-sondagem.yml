@@ -1,0 +1,20 @@
+name: Sondar PIB municipal (IBGE SIDRA 5938)
+on:
+  pull_request:
+    paths:
+      - scripts/observatorio_pib_sondar.py
+      - .github/workflows/observatorio-pib-sondagem.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sondagem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consultar série PIB Maricá 2002–2023 do IBGE
+        run: python scripts/observatorio_pib_sondar.py

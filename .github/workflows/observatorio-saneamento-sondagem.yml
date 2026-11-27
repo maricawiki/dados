@@ -1,0 +1,20 @@
+name: Sondar saneamento censitário IBGE (leitura)
+on:
+  pull_request:
+    paths:
+      - "scripts/observatorio_saneamento_sondar.py"
+      - ".github/workflows/observatorio-saneamento-sondagem.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  consultar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consultar tabulações oficiais do IBGE para Maricá
+        run: python scripts/observatorio_saneamento_sondar.py
