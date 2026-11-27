@@ -1,0 +1,110 @@
+name: Preparar PR de dados revisados (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/publicar_propostas.py"
+      - "scripts/test_publicar_propostas.py"
+      - ".github/workflows/publicar-propostas.yml"
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Validar e propor DCA integral (sem publicar)"
+      - "Monitorar fontes ISP-RJ (sem publicar)"
+      - "Conferir fonte oficial SENATRAN (sem publicar)"
+      - "Validar produtores CEMPRE CNAE e leitos CNES (sem publicar)"
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validar:
+    if: github.event_name != 'workflow_run'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/test_publicar_propostas.py
+          python scripts/validar_lote_01.py
+          python scripts/validar_lote_02.py
+          python scripts/validar_financas_conciliacao.py
+          python scripts/validar_lote_03.py
+          python scripts/validar_lote_04.py
+          python scripts/validar_lote_05.py
+          python scripts/validar_lote_06.py
+          python scripts/validar_dair_detalhes.py
+  propor:
+    if: >-
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main' &&
+      (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    concurrency:
+      group: propostas-publicas-main
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir origem, SHA e artefatos disponíveis
+        id: origem
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_SHA: ${{ github.event.workflow_run.head_sha }}
+          SOURCE_RUN: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [ "$(git rev-parse HEAD)" != "$SOURCE_SHA" ]; then
+            echo "::notice::Main avançou; proposta antiga exige nova coleta."
+            echo 'propor=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          count="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$SOURCE_RUN/artifacts" --jq '.total_count')"
+          if [ "$count" = 0 ]; then echo 'propor=false' >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo 'propor=true' >> "$GITHUB_OUTPUT"
+      - uses: actions/download-artifact@v4
+        if: steps.origem.outputs.propor == 'true'
+        with:
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+          path: ${{ runner.temp }}/propostas
+      - name: Verificar artefatos e abrir rascunho de proposta
+        if: steps.origem.outputs.propor == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN: ${{ github.event.workflow_run.id }}
+          SOURCE_NAME: ${{ github.event.workflow_run.name }}
+          SOURCE_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+          python scripts/publicar_propostas.py --artefatos "$RUNNER_TEMP/propostas" --fonte "$SOURCE_NAME" --aplicar
+          git add observatorio/
+          if git diff --cached --quiet; then echo "Sem diferenças"; exit 0; fi
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$SOURCE_SHA" ]; then
+            echo "::error::Main mudou durante validação. Não criar proposta obsoleta."
+            exit 1
+          fi
+          branch="propostas/dados-$SOURCE_RUN"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout -b "$branch"
+          git commit -m "Dados: proposta revisável da execução $SOURCE_RUN"
+          git push origin "$branch"
+          gh workflow run publicar-propostas.yml --ref "$branch"
+          gh pr create --draft --base main --head "$branch" --title "Dados: revisar proposta da execução $SOURCE_RUN" --body "Fonte: $SOURCE_NAME. Origem: execução $SOURCE_RUN na main. Manifestos, arquivos permitidos e validadores offline conferidos. Revisar valores, proveniência e cobertura antes de integrar. Não há merge automático."
