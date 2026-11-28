@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
+      - "Propor SIMEI e SINAC Receita Federal (sem publicar)"
       - "Propor estatísticas vitais SES-RJ (sem publicar)"
       - "Propor PIB municipal SIDRA (sem publicar)"
       - "Propor Novo Caged MOV municipal (sem publicar)"
