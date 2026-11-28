@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows:
+      - "Propor estatísticas vitais SES-RJ (sem publicar)"
       - "Propor PIB municipal SIDRA (sem publicar)"
       - "Propor Novo Caged MOV municipal (sem publicar)"
       - "Validar e propor DCA integral (sem publicar)"
