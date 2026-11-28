@@ -1,0 +1,28 @@
+name: Monitorar denominadores populacionais IBGE (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/monitorar_populacao.py"
+      - "scripts/test_monitorar_populacao.py"
+      - ".github/workflows/monitorar-populacao.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "29 12 5 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  populacao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_01.py
+          python scripts/test_monitorar_populacao.py
+          python -u scripts/monitorar_populacao.py
+          git diff --exit-code -- observatorio/
