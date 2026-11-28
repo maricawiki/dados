@@ -1,0 +1,43 @@
+name: Propor estatísticas vitais SES-RJ (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/estatisticas_vitais_fonte.py"
+      - "scripts/produzir_vitais.py"
+      - "scripts/test_produzir_vitais.py"
+      - ".github/workflows/produzir-vitais.yml"
+  workflow_dispatch:
+    inputs:
+      auditoria_completa:
+        type: boolean
+        default: false
+        description: Revalidar 2010–2024 integralmente
+  schedule:
+    - cron: "41 12 19 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  vitais:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/test_produzir_vitais.py
+          python scripts/validar_lote_04.py
+          args=()
+          if [ "${{ inputs.auditoria_completa }}" = "true" ]; then args+=(--auditoria-completa); fi
+          python -u scripts/produzir_vitais.py "${args[@]}" --propor "$RUNNER_TEMP/vitais"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: vitais-proposta
+          path: ${{ runner.temp }}/vitais/
+          if-no-files-found: ignore
+          retention-days: 7

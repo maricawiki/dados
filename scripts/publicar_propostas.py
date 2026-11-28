@@ -18,6 +18,7 @@ DATA=ROOT/"observatorio"
 MANIFEST=re.compile(r"lote-0[1-6]\.manifest\.json")
 MAX_FILE=5_000_000
 SOURCES={
+ "Propor estatísticas vitais SES-RJ (sem publicar)":("vitais-proposta",),
  "Propor PIB municipal SIDRA (sem publicar)":("pib-proposta",),
  "Propor Novo Caged MOV municipal (sem publicar)":("caged-mov-proposta",),
  "Validar e propor DCA integral (sem publicar)":("dca-integral-proposta",),
@@ -26,6 +27,7 @@ SOURCES={
  "Validar produtores CEMPRE CNAE e leitos CNES (sem publicar)":("cnae-proposta","leitos-proposta"),
 }
 RULES={
+ "vitais-proposta":(r"SAU-00[45]\.(?:csv|json)",("04",)),
  "pib-proposta":(r"ECO-001\.(?:csv|json)",("03",)),
  "caged-mov-proposta":(r"TRB-00[12]\.(?:csv|json)",("03",)),
  "dca-integral-proposta":(r"FIN-0(?:0[1-9]|1[0-7])\.(?:csv|json)",("02",)),
