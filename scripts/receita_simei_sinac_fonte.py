@@ -68,6 +68,20 @@ def open_text(opener,url,form=None):
    time.sleep(attempt+1)
  raise AssertionError("Inalcançável")
 
+def post_reference(opener,url,form,year):
+ # O formulário oficial anuncia dd/mm/aaaa, mas a cultura ASP.NET pode
+ # rejeitar a data de dezembro. Só aceitar resultado com data/UF/município
+ # explícitos verificados pelo extrator, nunca inferir uma data da resposta.
+ body=open_text(opener,url,form)
+ if "O campo 'Data' deve ser preenchido corretamente." in html.unescape(body):
+  tokens=form_inputs(body)
+  if not {"__VIEWSTATE","__EVENTVALIDATION","__VIEWSTATEGENERATOR"}.issubset(tokens):
+   raise ValueError("Receita rejeitou data e não retornou estado válido")
+  retry={**form,**tokens,"__EVENTTARGET":"","__EVENTARGUMENT":"",
+         FIELDS["date"]:f"12/31/{year}"}
+  body=open_text(opener,url,retry)
+ return body
+
 def city_id(opener):
  req=urllib.request.Request(MUNICIPIOS,
    data=urllib.parse.urlencode({"uf":"RJ"}).encode(),
@@ -103,17 +117,13 @@ def fetch_year(opener,year,code):
         FIELDS["uf"]:"RJ",FIELDS["hfUF"]:"RJ",
         FIELDS["hfMunicipios"]:"'"+code+"'",FIELDS["hfCheck"]:"false",
         FIELDS["submit"]:"Exibir Dados"}
- body=open_text(opener,url,final)
+ body=post_reference(opener,url,final,year)
  subtitle=f"Total de Empresas Optantes em 31/12/{year}, no estado RJ, por Município e Data"
  if subtitle not in html.unescape(re.sub("<[^>]*>"," ",body)):
   # Espaços e quebras HTML variam, mas não se aceita consulta de data ou UF erradas.
   clean=re.sub(r"\s+"," ",html.unescape(re.sub("<[^>]*>"," ",body)))
   if subtitle not in clean:
-   print("MEI_DIAGNOSTICO_ANO",json.dumps({"ano":year,
-      "texto_relevante":clean[clean.find("ANO "+str(year)):clean.find("ANO "+str(year))+1100],
-      "tem_tabela":"gridDados" in body,
-      "mensagem":re.findall(r'<span[^>]+lblMensagem[^>]*>(.*?)</span>',body,re.I|re.S)},
-      ensure_ascii=False),flush=True)
+   print("MEI_DIAGNOSTICO_ANO",year,"tabela presente:", "gridDados" in body,flush=True)
    raise ValueError(f"Subtítulo/datas divergentes em {year}")
  table=re.search(r'<table[^>]+id="[^"]*gridDados"[^>]*>(.*?)</table>',body,re.I|re.S)
  if not table:raise ValueError(f"Faltou tabela oficial em {year}")
@@ -161,7 +171,7 @@ def extract_year(opener,year,municipio):
              FIELDS["uf"]:"RJ",FIELDS["hfUF"]:"RJ",
              FIELDS["hfMunicipios"]:"'"+municipio+"'",
              FIELDS["hfCheck"]:"false",FIELDS["submit"]:"Exibir Dados"}
-    body=open_text(opener,url,request)
+    body=post_reference(opener,url,request,year)
     stripped=re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",body)))
     expected=f"Total de Empresas Optantes em 31/12/{year}, no estado RJ, por Município e Data"
     if expected not in stripped:
