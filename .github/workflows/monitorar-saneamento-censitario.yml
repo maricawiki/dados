@@ -1,0 +1,28 @@
+name: Monitorar saneamento censitário IBGE (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/monitorar_saneamento_censitario.py"
+      - "scripts/test_monitorar_saneamento_censitario.py"
+      - ".github/workflows/monitorar-saneamento-censitario.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 9 3,9 *"
+permissions:
+  contents: read
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/validar_lote_05.py
+          python scripts/test_monitorar_saneamento_censitario.py
+          python -u scripts/monitorar_saneamento_censitario.py
+          git diff --exit-code -- observatorio/
