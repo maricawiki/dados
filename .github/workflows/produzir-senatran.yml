@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - "scripts/produzir_senatran.py"
+      - "scripts/senatran_mobilidade.py"
+      - "scripts/test_senatran_mobilidade.py"
       - "scripts/test_produzir_senatran.py"
       - ".github/workflows/produzir-senatran.yml"
       - ".github/workflows/monitorar-senatran.yml"
@@ -23,6 +25,7 @@ jobs:
       - run: |
           python -m py_compile scripts/produzir_senatran.py
           python scripts/test_produzir_senatran.py
+          python scripts/test_senatran_mobilidade.py
           python scripts/produzir_senatran.py --usar-cache
           python scripts/validar_lote_06.py
           git diff --exit-code -- observatorio/

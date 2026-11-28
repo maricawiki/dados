@@ -27,6 +27,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
 from pathlib import Path
+from senatran_mobilidade import reconcile,validate_local
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"observatorio"
@@ -121,6 +122,7 @@ def read_official_file(year,page_url,url):
         if not blob.startswith(bytes.fromhex("d0cf11e0a1b11ae1")):
             raise ValueError(f"Formato oficial não suportado: {year}")
         total,header=parse_xls(blob,year)
+    reconcile(DATA,year,total,original_sha,blob)
     return {"ano":str(year),"frota":total,"pagina":page_url,"arquivo":url,
             "sha256":original_sha,"cabecalho_planilha":header}
 
@@ -315,6 +317,7 @@ def main():
     p.add_argument("--propor",type=Path)
     args=p.parse_args()
     if args.usar_cache and args.auditoria_completa:p.error("Modos incompatíveis")
+    validate_local(DATA)
     fleet=fetch_fleet(cache=args.usar_cache,full=args.auditoria_completa)
     years=[int(r["ano"]) for r in fleet]
     if years!=list(range(2014,years[-1]+1)) or years[-1]>LAST_FULL_YEAR:
