@@ -8,6 +8,8 @@ import hashlib
 import io
 import json
 import zipfile
+import unicodedata
+import re
 from pathlib import Path
 from urllib.request import Request,urlopen
 from urllib.parse import urlsplit
@@ -38,8 +40,9 @@ def parse(raw):
             if not required.issubset(reader.fieldnames or []):raise ValueError("Schema ANATEL mudou")
             for row in reader:
                 if row["Código IBGE"]!="3302700" or row["Serviço"] not in result:continue
-                if row["UF"]!="RJ" or row["Município"].strip().casefold()!="maricá":
-                    raise ValueError("Município divergente")
+                name="".join(c for c in unicodedata.normalize("NFD",row["Município"].strip().casefold()) if unicodedata.category(c)!="Mn")
+                if row["UF"].strip().upper()!="RJ" or not re.fullmatch(r"marica(?:\s*(?:[-/]\s*rj|\(rj\)))?",name):
+                    raise ValueError(f"Município divergente: {row['Município']!r}, UF {row['UF']!r}")
                 y,m,n=int(row["Ano"]),int(row["Mês"]),int(row["Acessos"])
                 if not 1900<=y<=2100 or not 1<=m<=12 or n<0:raise ValueError("Competência ou valor inválido")
                 series=result[row["Serviço"]]
