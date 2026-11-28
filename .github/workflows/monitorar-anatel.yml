@@ -1,0 +1,27 @@
+name: Monitorar acessos municipais Anatel (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/monitorar_anatel.py"
+      - "scripts/test_monitorar_anatel.py"
+      - ".github/workflows/monitorar-anatel.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 3 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  anatel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/test_monitorar_anatel.py
+          python -u scripts/monitorar_anatel.py
+          git diff --exit-code -- observatorio/
