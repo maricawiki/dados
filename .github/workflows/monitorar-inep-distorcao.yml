@@ -1,0 +1,52 @@
+name: Monitorar distorção idade-série INEP (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/inep_distorcao_fonte.py"
+      - "scripts/monitorar_inep_distorcao.py"
+      - "scripts/test_monitorar_inep_distorcao.py"
+      - ".github/workflows/monitorar-inep-distorcao.yml"
+  workflow_dispatch:
+    inputs:
+      auditoria_completa:
+        type: boolean
+        default: false
+        description: Conferir todos os ZIPs 2016–2025
+  schedule:
+    - cron: "47 12 21 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  inep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install openpyxl==3.1.5
+      - run: |
+          python scripts/validar_lote_04.py
+          python scripts/test_monitorar_inep_distorcao.py
+          args=()
+          if [ "${{ inputs.auditoria_completa }}" = "true" ]; then args+=(--auditoria-completa); fi
+          python -u scripts/monitorar_inep_distorcao.py "${args[@]}"
+          git diff --exit-code -- observatorio/
+  catalogo:
+    # A consulta da série publicada é independente da descoberta de novas edições.
+    # Se o portal institucional falhar, esta etapa sinaliza explicitamente o bloqueio.
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install openpyxl==3.1.5
+      - run: python -u scripts/monitorar_inep_distorcao.py --somente-catalogo
