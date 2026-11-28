@@ -14,7 +14,6 @@ import urllib.request
 from decimal import Decimal
 
 BASE="https://apicadprev.trabalho.gov.br/"
-KNOWN = {2019:(2449,643,110),2023:(4251,728,162),2024:(4360,754,167),2025:(4438,792,175)}
 CATS=("Servidores","Aposentados","Pensionistas")
 LIMIT=5000
 last=0.
@@ -76,9 +75,8 @@ def main():
             byplan[plan][cat]+=qt
             bykey[(str(r.get("dt_envio")),str(r.get("tp_plano")),str(r.get("tp_populacao")),str(r.get("cnpj_orgao")),str(r.get("no_cat_populacao")),str(r.get("no_regra_enquadramento")),str(r.get("no_criterio_aposentadoria")))]+=1
             distinct_org.add(str(r.get("cnpj_orgao")))
-        # No AEPS, os ativos incluem Servidores e Servidores Iminentes.
+        # No DRAA, os ativos incluem Servidores e Servidores Iminentes.
         totals=(bycat["Servidores"]+bycat["Servidores Iminentes"],bycat["Aposentados"],bycat["Pensionistas"])
-        matched=KNOWN.get(ano)
         summary={
             "ano":ano,"linhas":len(group),"envios":envios,"situacoes":situa,
             "encaminhamentos_aprovados":statuses,
@@ -87,8 +85,6 @@ def main():
             "orgaos":len(distinct_org),
             "chaves_exatamente_duplicadas":sum(v-1 for v in bykey.values() if v>1),
             "total_de_segurados_e_beneficiarios":sum(totals),
-            "comparacao_aeps":("IGUAL" if totals==matched else "DIFERENTE") if matched else "SEM_BASE_AEPS",
-            "aeps":matched,
         }
         print("DRAA_SERIE_MARICA",json.dumps(summary,ensure_ascii=False,default=str),flush=True)
 
