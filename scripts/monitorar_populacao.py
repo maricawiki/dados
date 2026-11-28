@@ -77,7 +77,9 @@ def main():
     rows=refs()
     result=compare(parse(fetch(EST),"9324"),parse(fetch(CENSO),"93"),rows)
     print("POP_IBGE_MONITOR",json.dumps(result,ensure_ascii=False),flush=True)
-    if any(result.values()):
+    if any(result[k] for k in ("revisoes","estimativas_ausentes_na_consulta","ano_2023_revisar_produto")):
         raise SystemExit("Revisão coordenada de denominadores e indicadores dependentes necessária; sem publicação")
+    if result["novos_anos"]:
+        print("::warning::Nova estimativa oficial disponível; revisar indicadores dependentes antes de publicar.",flush=True)
     print("POP_IBGE_OK: estimativas publicadas e Censo 2022 conferem; 2023 permanece nulo")
 if __name__=="__main__":main()
