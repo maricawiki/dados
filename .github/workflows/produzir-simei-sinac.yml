@@ -1,0 +1,43 @@
+name: Propor SIMEI e SINAC Receita Federal (sem publicar)
+on:
+  pull_request:
+    paths:
+      - "scripts/receita_simei_sinac_fonte.py"
+      - "scripts/produzir_simei_sinac.py"
+      - "scripts/test_produzir_simei_sinac.py"
+      - ".github/workflows/produzir-simei-sinac.yml"
+  workflow_dispatch:
+    inputs:
+      auditoria_completa:
+        type: boolean
+        default: false
+        description: Revalidar todas as referências encerradas
+  schedule:
+    - cron: "53 12 22 3,6,9,12 *"
+permissions:
+  contents: read
+jobs:
+  receita:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/test_produzir_simei_sinac.py
+          python scripts/validar_lote_03.py
+          args=()
+          if [ "${{ inputs.auditoria_completa }}" = "true" ]; then args+=(--auditoria-completa); fi
+          python -u scripts/produzir_simei_sinac.py "${args[@]}" --propor "$RUNNER_TEMP/receita"
+          git diff --exit-code -- observatorio/
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: receita-proposta
+          path: ${{ runner.temp }}/receita/
+          if-no-files-found: ignore
+          retention-days: 7
