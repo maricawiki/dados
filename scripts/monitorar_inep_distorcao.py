@@ -7,6 +7,7 @@ import argparse
 import csv
 import json
 import re
+import time
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request,urlopen
@@ -39,7 +40,7 @@ def baseline():
 
 def compare(actual,expected):
     if any(actual[k]!=expected[k] for k in ("fonte","sha256_zip","redes")):raise ValueError("Taxas ou origem divergentes: revisão editorial necessária")
-def discover():
+def discover_once():
     with urlopen(Request(PAGE,headers={"User-Agent":"MaricaWiki/1.0"}),timeout=45) as r:
         loc=urlsplit(r.geturl())
         if loc.scheme!="https" or loc.hostname!="www.gov.br":raise ValueError("Catálogo INEP divergente")
@@ -48,15 +49,26 @@ def discover():
     html=raw.decode("utf-8")
     # Só URLs do padrão oficial municipal, não qualquer número no HTML.
     return sorted(set(int(y) for y in re.findall(r"TDI_(20\d{2})_MUNICIPIOS\.zip",html,re.I)))
+def discover():
+    for attempt in range(3):
+        try:return discover_once()
+        except OSError:
+            if attempt==2:raise
+            time.sleep(2*(attempt+1))
+
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--auditoria-completa",action="store_true")
+    p.add_argument("--somente-catalogo",action="store_true")
     a=p.parse_args()
     values=baseline()
-    selected=sorted(values) if a.auditoria_completa else [max(values)]
+    selected=[] if a.somente_catalogo else sorted(values) if a.auditoria_completa else [max(values)]
     for y in selected:
         compare(year_data(y,values[y]["sha256_zip"]),values[y])
         print("INEP_TDI_OK",y,"12 indicadores; 5 redes; hash confirmado",flush=True)
+    if not a.somente_catalogo:
+        print("INEP_TDI_REVALIDACAO",selected,"sem alteração",flush=True)
+        return
     catalog=discover()
     if not catalog:raise ValueError("Catálogo sem links municipais reconhecíveis; revisar fonte")
     new=[y for y in catalog if y>max(values)]
