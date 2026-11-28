@@ -67,7 +67,13 @@ def parse(data,year,var,clas):
         return matches[0]
     city,variable,yr=field("município"),field("variável"),field("ano")
     cat=[k for k in hdr if re.fullmatch(r"D\d+C",k) and k not in (city,variable,yr)]
-    if len(cat)!=1:raise ValueError("Classificação inesperada")
+    # SIDRA pode incluir dimensões fixas de outras classificações.
+    # Identificar a dimensão solicitada pela posição D4, já auditada no extrator anterior;
+    # as demais dimensões devem ser constantes na resposta, nunca agregadas.
+    if "D4C" not in cat:raise ValueError("Classificação esperada D4 ausente")
+    for dim in cat:
+        if dim!="D4C" and len({r[dim] for r in data[1:]})!=1:raise ValueError("Classificação adicional não constante")
+    cat=["D4C"]
     out={}
     for row in data[1:]:
         if row[city]!="3302700" or row[variable]!=var or row[yr]!=str(year) or row.get("NC")!="6" or "domicílio" not in row.get("MN","").casefold():raise ValueError("Município, ano, variável ou unidade divergentes")
