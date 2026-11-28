@@ -4,6 +4,7 @@ on:
     paths:
       - "scripts/rais_vinculos_*.py"
       - "scripts/produzir_rais_vinculos.py"
+      - "scripts/rais_estabelecimentos.py"
       - ".github/workflows/produzir-rais-vinculos.yml"
   workflow_dispatch:
 permissions:
@@ -19,7 +20,8 @@ jobs:
           python-version: "3.12"
       - run: |
           python -m pip install --disable-pip-version-check duckdb==1.4.2
-          python -m py_compile scripts/rais_vinculos_*.py scripts/produzir_rais_vinculos.py
+          python -m py_compile scripts/rais_vinculos_*.py scripts/rais_estabelecimentos.py scripts/produzir_rais_vinculos.py
+          python scripts/validar_lote_03.py
           python -u scripts/produzir_rais_vinculos.py --propor "$RUNNER_TEMP/rais"
           git diff --exit-code -- observatorio/
       - uses: actions/upload-artifact@v4
