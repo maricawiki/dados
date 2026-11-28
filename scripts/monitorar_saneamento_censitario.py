@@ -76,7 +76,7 @@ def parse(data,year,var,clas):
     cat=["D4C"]
     out={}
     for row in data[1:]:
-        if row[city]!="3302700" or row[variable]!=var or row[yr]!=str(year) or row.get("NC")!="6" or "domicílio" not in row.get("MN","").casefold():raise ValueError("Município, ano, variável ou unidade divergentes")
+        if row[city]!="3302700" or row[variable]!=var or row[yr]!=str(year) or row.get("NC")!="6" or "domicílio" not in row.get("MN","").casefold():raise ValueError("Dimensões divergentes: "+json.dumps({"municipio":row[city],"variavel":row[variable],"ano":row[yr],"NC":row.get("NC"),"unidade":row.get("MN"),"esperado":[year,var,clas],"header":hdr},ensure_ascii=False))
         k=row[cat[0]]
         if k in out:raise ValueError("Categoria duplicada")
         value=row.get("V","")
