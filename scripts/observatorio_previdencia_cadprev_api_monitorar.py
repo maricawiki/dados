@@ -108,7 +108,7 @@ def main():
         for issue in issues:
             print("CADPREV_REVISAR",issue,flush=True)
         raise SystemExit(f"{len(issues)} mudança(s) no CADPREV exigem revisão e atualização auditada")
-    print(f"OK: {len(published)} referências do MPS sem divergência nem novo DRAA.",flush=True)
+    print(f"OK: {len(published)} referências do CADPREV sem divergência nem novo DRAA.",flush=True)
 
 if __name__=="__main__":
     main()

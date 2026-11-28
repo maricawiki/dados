@@ -3,7 +3,7 @@
   "titulo": "Pensionistas do RPPS",
   "municipio": "Maricá",
   "codigo_ibge": "3302700",
-  "fonte": "Ministério da Previdência Social — API CADPREV/DRAA e suplementos AEPS",
+  "fonte": "Ministério da Previdência Social — API CADPREV/DRAA",
   "dimensao": "institucional",
   "funcao_tematica": "09",
   "unidade": "pessoas",
@@ -23,7 +23,7 @@
   ],
   "anos_nao_verificados": [],
   "conferencia": "2026-11-18",
-  "nota": "Série anual 2019–2026. Ativos = Servidores + Servidores Iminentes, confirmado nos AEPS 2019/2023/2024/2025; categorias somadas por sexo, plano e órgão. Ano = exercício do DRAA, não necessariamente 31/12. Não indica situação cadastral atual. Série ampliada com dados de DRAA 2015–2018; anos 2000–2014 ainda não confirmados para Maricá pelo MPS. Nos DRAA2015/2016 não há registros separados de Servidores Iminentes; as duas linhas de pensionistas em 2017 são distintas, não cópias idênticas.",
+  "nota": "Série anual 2015–2026, exclusivamente CADPREV/DRAA. Ativos = Servidores + Servidores Iminentes, conforme categorias do DRAA; categorias somadas por sexo, plano e órgão. Ano = exercício do DRAA, não necessariamente 31/12. Não indica situação cadastral atual. Série ampliada com dados de DRAA 2015–2018; anos 2000–2014 ainda não confirmados para Maricá no CADPREV. Nos DRAA2015/2016 não há registros separados de Servidores Iminentes; as duas linhas de pensionistas em 2017 são distintas, não cópias idênticas.",
   "serie": [
     {
       "ano": 2015,
@@ -81,8 +81,8 @@
       "pensionistas": 110,
       "total": 3202,
       "valor": 110,
-      "status": "não informado",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2020_Aeps/1-estados-e-municipios.zip",
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2019&limit=5000",
       "dt_envio": "2019-05-09 18:21:16.967"
     },
     {
@@ -129,8 +129,8 @@
       "pensionistas": 162,
       "total": 5141,
       "valor": 162,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/copy_of_1.ESTADOSEMUNICPIOS.zip",
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2023&limit=5000",
       "dt_envio": "2023-04-27 19:12:11.347"
     },
     {
@@ -141,8 +141,8 @@
       "pensionistas": 167,
       "total": 5281,
       "valor": 167,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2024/1.ESTADOSEMUNICPIOS.zip",
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2024&limit=5000",
       "dt_envio": "2024-05-02 00:11:33.987"
     },
     {
@@ -153,8 +153,8 @@
       "pensionistas": 175,
       "total": 5405,
       "valor": 175,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2026/1estadosemunicipios.zip",
+      "status": "Documentos Digitalizados",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2025&limit=5000",
       "dt_envio": "2025-03-28 23:07:21.793"
     },
     {
@@ -172,36 +172,88 @@
   ],
   "proveniencia": [
     {
+      "referencia": "DRAA2015",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2015&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2016-09-01 17:03:59.280"
+    },
+    {
+      "referencia": "DRAA2016",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2016&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2016-09-01 16:23:06.400"
+    },
+    {
+      "referencia": "DRAA2017",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2017&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2018-01-12 16:38:26.783"
+    },
+    {
+      "referencia": "DRAA2018",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2018&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2018-07-19 15:21:32.060"
+    },
+    {
       "referencia": "DRAA2019",
-      "arquivo": "AEPS 2018 (suplemento 2019/20)",
-      "aba": "Segurados Civis",
-      "linha": 1155,
-      "status": "não informado",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2020_Aeps/1-estados-e-municipios.zip"
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2019&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2019-05-09 18:21:16.967"
+    },
+    {
+      "referencia": "DRAA2020",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2020&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2020-07-31 20:40:10.337"
+    },
+    {
+      "referencia": "DRAA2021",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2021&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2021-06-09 16:41:21.437"
+    },
+    {
+      "referencia": "DRAA2022",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2022&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2022-04-05 12:58:52.137"
     },
     {
       "referencia": "DRAA2023",
-      "arquivo": "AEPS 2022–2023",
-      "aba": "Segurados Civis",
-      "linha": 1160,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/copy_of_1.ESTADOSEMUNICPIOS.zip"
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2023&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2023-04-27 19:12:11.347"
     },
     {
       "referencia": "DRAA2024",
-      "arquivo": "AEPS 2023–2024",
-      "aba": "Segurados Civis",
-      "linha": 1159,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2024/1.ESTADOSEMUNICPIOS.zip"
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2024&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2024-05-02 00:11:33.987"
     },
     {
       "referencia": "DRAA2025",
-      "arquivo": "AEPS 2024–2025",
-      "aba": "Segurados Civis",
-      "linha": 1157,
-      "status": "OK",
-      "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/estatisticas-e-informacoes-dos-rpps-1/arquivos/2026/1estadosemunicipios.zip"
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2025&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2025-03-28 23:07:21.793"
+    },
+    {
+      "referencia": "DRAA2026",
+      "tabela": "DRAA_ESTATISTICA",
+      "url": "https://apicadprev.trabalho.gov.br/DRAA_ESTATISTICA?no_ente=Maric%C3%A1&sg_uf=RJ&dt_exercicio=2026&limit=5000",
+      "status": "Documentos Digitalizados",
+      "dt_envio": "2026-03-12 22:08:06.160"
     }
   ],
   "proveniencia_api": [

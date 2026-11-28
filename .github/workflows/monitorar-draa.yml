@@ -9,6 +9,7 @@ on:
       - "scripts/observatorio_previdencia_cadprev_api_monitorar.py"
       - "scripts/observatorio_previdencia_cadprev_api_auditar.py"
       - ".github/workflows/monitorar-draa.yml"
+      - "scripts/validar_previdencia_cadprev.py"
       - "observatorio/PREV-*.csv"
       - "observatorio/PREV-*.json"
 permissions:
@@ -26,4 +27,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Detectar novos DRAA e retificações sem sobrescrever dados publicados
-        run: python -u scripts/observatorio_previdencia_cadprev_api_monitorar.py
+        run: |
+          python scripts/validar_lote_02.py
+          python scripts/validar_previdencia_cadprev.py
+          python -u scripts/observatorio_previdencia_cadprev_api_monitorar.py
